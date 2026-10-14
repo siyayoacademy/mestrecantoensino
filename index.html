@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RIS · Mestre Canto Ensino — Palco das Seis Camadas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--blue-deep:#020918;--blue:#061b3d;--blue-light:#0b3b78;--gold:#d7b35a;--gold-light:#f2d88a;--gold-dark:#8f6a1e;--green:#003800;--navy:#08072f;--border:rgba(242,216,138,.42)}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top,#0b2f62,#030a18 52%,#000);color:#fff;font-family:"Nunito Sans","Segoe UI",Arial,sans-serif;min-height:100dvh}
+header{display:flex;align-items:center;justify-content:space-between;padding:15px clamp(12px,3vw,36px);border-bottom:1px solid var(--border);gap:12px;flex-wrap:wrap;background:rgba(2,9,24,.8)}h1,h2{font-family:Quicksand,"Trebuchet MS",sans-serif}h1{font-size:clamp(17px,2.4vw,26px);color:var(--gold-light);margin:0}small{color:#c6d3e0}
+main{max-width:1510px;margin:22px auto;padding:0 16px;display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:20px}
+.panel{background:rgba(2,9,24,.7);border:1px solid var(--border);border-radius:18px;padding:14px;box-shadow:0 15px 45px #0008}
+.stage{width:100%;aspect-ratio:1672/941;position:relative;overflow:hidden;background:#fff;border:3px solid var(--gold);border-radius:3px}
+.layer{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;pointer-events:none}
+.stage-bg{position:absolute;inset:0}
+.banner{position:absolute;left:0;right:0;bottom:4%;text-align:center;color:#f2d88a;font:600 clamp(12px,2vw,28px) Quicksand;letter-spacing:.09em;text-shadow:0 2px 7px #000c}
+.art{object-fit:cover;opacity:.75}
+.controls{display:flex;gap:10px;align-items:center;justify-content:space-between;margin-top:14px;flex-wrap:wrap}
+button,select,input[type=file]{font:inherit}button,select{background:#081d40;color:#f2d88a;border:1px solid var(--gold);border-radius:9px;padding:8px 12px;cursor:pointer}
+button:hover{background:#123465}button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #fff;outline-offset:2px}
+h2{color:var(--gold-light);font-size:18px;margin:0 0 12px}
+.layer-control{border:1px solid #304867;border-radius:12px;padding:10px;margin:9px 0;background:#071329}
+.layer-control label{color:#fff;font-size:14px} .line{display:flex;justify-content:space-between;align-items:center;gap:8px}
+input[type=range]{width:100%;accent-color:#d7b35a} input[type=checkbox]{accent-color:#1c8e3e}
+select{width:100%;margin:8px 0 0}input[type=file]{width:100%;color:#c6d3e0;font-size:12px;margin-top:9px}
+.hint{color:#c5d1e3;font-size:12px;line-height:1.4}.count{color:var(--gold-light)}.status{font-size:13px;color:#c5d1e3}
+@media(max-width:900px){main{grid-template-columns:1fr}.panel{padding:12px}}
+</style></head>
+<body>
+<header><div><h1>✦ MESTRE CANTO ENSINO</h1><small>SIYAYO · Palco Modular · Seis Camadas</small></div><small>RIS · Canto · Floresta · Piano</small></header>
+<main><section class="panel">
+<div id="stage" class="stage" aria-label="Palco visual com seis camadas">
+<div class="stage-bg" id="bg"></div>
+<img id="emblem" class="layer" src="eagle-white.png" alt="">
+<img id="ris" class="layer" src="ris-green.png" alt="">
+<img id="forest" class="layer art" alt="">
+<img id="master" class="layer art" alt="">
+<img id="piano" class="layer art" alt="">
+<div id="caption" class="banner"></div>
+</div>
+<div class="controls"><button id="prev">◀ PREV</button><span class="count" id="counter">01 / 04</span><button id="next">NEXT ▶</button></div>
+<p class="status" id="status" aria-live="polite">Palco inicial: bandeira azul marinho.</p>
+<p class="hint">Use as setas ← → para navegar. Ative as camadas e ajuste a opacidade. Para Floresta, Mestre e Piano, selecione imagens do seu dispositivo; o arquivo permanece somente nesta sessão do navegador.</p>
+</section><aside class="panel"><h2>CAMADAS · MIXER</h2>
+<div id="controls"></div>
+<button id="reset">RESTAURAR SLIDE</button>
+<p class="hint">As imagens RIS e Águia Lua utilizam PNGs transparentes de 1672 × 941 px. O palco mantém a proporção 1672:941. A versão branca original do emblema com contorno azul está disponível no pacote.</p>
+</aside></main>
+<script>
+const defs=[
+ {id:'bg',name:'01 · FUNDO',enabled:true,opacity:100},
+ {id:'emblem',name:'02 · ÁGUIA LUA',enabled:true,opacity:100},
+ {id:'ris',name:'03 · RIS',enabled:true,opacity:100},
+ {id:'forest',name:'04 · FLORESTA',enabled:false,opacity:80},
+ {id:'master',name:'05 · MESTRE',enabled:false,opacity:85},
+ {id:'piano',name:'06 · PIANO',enabled:false,opacity:85},
+];
+const scenes=[
+ {name:'Noite · RIS',bg:'#08072f',ris:'ris-green.png',emblem:'eagle-white.png',caption:''},
+ {name:'Floresta · RIS',bg:'#003800',ris:'ris-blue.png',emblem:'eagle-white.png',caption:''},
+ {name:'Bandeira Branca',bg:'#ffffff',ris:'ris-green.png',emblem:'eagle-blue-white.png',caption:''},
+ {name:'Mestre Canto Ensino',bg:'#08072f',ris:'ris-green.png',emblem:'eagle-white.png',caption:'MESTRE CANTO ENSINO'},
+];
+let ix=0;const state={};for(const d of defs)state[d.id]={enabled:d.enabled,opacity:d.opacity};
+const $=id=>document.getElementById(id);
+const controller=$('controls');
+for(const d of defs){
+ const wrap=document.createElement('div');wrap.className='layer-control';
+ wrap.innerHTML=`<div class="line"><label><input type="checkbox" id="${d.id}-toggle"> ${d.name}</label><output id="${d.id}-value"></output></div><input id="${d.id}-opacity" type="range" min="0" max="100" value="${d.opacity}" aria-label="Opacidade ${d.name}">`;
+ if(d.id==='bg')wrap.insertAdjacentHTML('beforeend','<select id="bg-choice" aria-label="Selecionar fundo"><option value="#08072f">Azul escuro</option><option value="#003800">Verde escuro</option><option value="#ffffff">Branco</option></select>');
+ if(d.id==='ris')wrap.insertAdjacentHTML('beforeend','<select id="ris-choice" aria-label="Cor RIS"><option value="ris-green.png">RIS verde</option><option value="ris-blue.png">RIS azul</option></select>');
+ if(d.id==='emblem')wrap.insertAdjacentHTML('beforeend','<select id="emblem-choice" aria-label="Emblema"><option value="eagle-white.png">Águia Lua branca</option><option value="eagle-blue-white.png">Águia Lua azul e branca</option></select>');
+ if(['forest','master','piano'].includes(d.id))wrap.insertAdjacentHTML('beforeend',`<input type="file" id="${d.id}-file" accept="image/png,image/jpeg,image/webp" aria-label="Imagem de ${d.name}">`);
+ controller.append(wrap);
+ $(d.id+'-toggle').addEventListener('change',e=>{state[d.id].enabled=e.target.checked;renderLayers()});
+ $(d.id+'-opacity').addEventListener('input',e=>{state[d.id].opacity=Number(e.target.value);renderLayers()});
+ if(['forest','master','piano'].includes(d.id))$(d.id+'-file').addEventListener('change',e=>{const f=e.target.files[0];if(!f)return;if(state[d.id].url)URL.revokeObjectURL(state[d.id].url);state[d.id].url=URL.createObjectURL(f);$(d.id).src=state[d.id].url;state[d.id].enabled=true;renderLayers()});
+}
+function renderLayers(){for(const d of defs){const s=state[d.id];$(d.id+'-toggle').checked=s.enabled;$(d.id+'-opacity').value=s.opacity;$(d.id+'-value').textContent=s.opacity+'%';if(d.id==='bg')$('bg').style.cssText=`background:${s.enabled?($('bg-choice').value):'transparent'};opacity:${s.opacity/100}`;else{const el=$(d.id);el.style.opacity=s.enabled?s.opacity/100:0;el.style.display=s.enabled?'block':'none'}}}
+function loadSlide(){const s=scenes[ix];$('bg-choice').value=s.bg;$('ris-choice').value=s.ris;$('emblem-choice').value=s.emblem;$('ris').src=s.ris;$('emblem').src=s.emblem;$('caption').textContent=s.caption;$('counter').textContent=String(ix+1).padStart(2,'0')+' / '+String(scenes.length).padStart(2,'0');$('status').textContent=s.name;for(const d of defs){state[d.id].opacity=d.opacity;state[d.id].enabled=d.enabled}renderLayers()}
+$('bg-choice').onchange=renderLayers;$('ris-choice').onchange=e=>{$('ris').src=e.target.value};$('emblem-choice').onchange=e=>{$('emblem').src=e.target.value};
+$('prev').onclick=()=>{ix=(ix+scenes.length-1)%scenes.length;loadSlide()};
+$('next').onclick=()=>{ix=(ix+1)%scenes.length;loadSlide()};
+$('reset').onclick=loadSlide;
+document.addEventListener('keydown',e=>{if(['INPUT','SELECT','TEXTAREA'].includes(document.activeElement?.tagName))return;if(e.key==='ArrowRight')$('next').click();if(e.key==='ArrowLeft')$('prev').click()});
+loadSlide();
+</script></body></html>

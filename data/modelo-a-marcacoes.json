@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "status": "visual_model_approved_not_applied_to_hymn_text",
+  "mark_type": "left_vertical_bar_with_slash_before_selected_verses",
+  "reference_hymns": [
+    {
+      "number": 28,
+      "page": 143,
+      "text_status": "not_transcribed",
+      "bar_segments_status": "pending_per_stanza"
+    },
+    {
+      "number": 42,
+      "page": 173,
+      "text_status": "not_transcribed",
+      "bar_segments_status": "pending_per_stanza"
+    },
+    {
+      "number": 50,
+      "page": 193,
+      "text_status": "not_transcribed",
+      "bar_segments_status": "pending_per_stanza"
+    },
+    {
+      "number": 92,
+      "page": 295,
+      "text_status": "not_transcribed",
+      "bar_segments_status": "pending_per_stanza"
+    }
+  ],
+  "constraints": [
+    "no_hymn_index",
+    "no_next_between_hymns",
+    "separator_sun_moon_six_pointed_star_only",
+    "no_score_in_choir_reader"
+  ]
+}

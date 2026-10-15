@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>JAGUAR 1Y — Deslocamento integral do Modelo B</title>
+<style>
+:root{--gold:#deb969;--paper:#f8f8fb;--navy:#020918}
+*{box-sizing:border-box}body{margin:0;color:var(--paper);background:linear-gradient(140deg,#020918,#071d3a);font-family:Arial,sans-serif}
+main{max-width:920px;padding:24px 15px 60px;margin:auto}h1,h2{color:var(--gold);font-family:Georgia,serif}p{line-height:1.5}.study{border:1px solid #94763a;border-radius:16px;padding:clamp(18px,4vw,28px);margin:18px 0;background:#031127}
+.hymn-title{text-align:center;color:#f3d999;font:700 clamp(1.45rem,4vw,2rem) Georgia,serif;margin:0 0 10px}.rhythm{text-align:center;color:var(--gold);font-size:.85rem;margin:0 0 28px}
+/* MODELO B: colunas estreitas para marcas, espaço sutil antes do texto */
+.hymn-stanza{display:grid;grid-template-columns:32px minmax(0,1fr);column-gap:21px;width:100%;max-width:none;margin:0 0 26px;transform:none}
+.functional-group{width:min(590px, calc(100% - 24px));margin-inline:auto;transform:translateX(48px)}
+.functional-group .tag{margin:0}
+.repeat-markers{position:relative;grid-column:1;grid-row:1;pointer-events:none}
+.repeat-bar{position:absolute;width:1.25px;background:var(--gold);border-radius:2px;top:0;left:0;height:0}
+.repeat-bar[data-column="0"]{left:7px}.repeat-bar[data-column="1"]{left:11px}.repeat-bar[data-column="2"]{left:15px}
+.hymn-verses{grid-column:2;grid-row:1;min-width:0}
+.hymn-line{font-size:clamp(1.05rem,2.55vw,1.4rem);line-height:1.3;margin:0 0 4px;padding:0;overflow-wrap:break-word}
+.hymn-line:last-child{margin-bottom:0}
+.description{color:#bed0e6;font-size:.9rem}.tag{color:#f2d88a;font-size:.78rem;letter-spacing:.05em}
+.controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center}.controls button{background:#142e54;color:#ffe6a0;border:1px solid var(--gold);padding:10px 14px;border-radius:9px;cursor:pointer}.controls button:focus-visible{outline:3px solid white;outline-offset:3px}
+@media(max-width:460px){.hymn-stanza{grid-template-columns:32px minmax(0,1fr);column-gap:15px;max-width:none;transform:none}.functional-group{width:calc(100% - 28px);transform:translateX(12px)}.study{padding:17px 12px}.hymn-line{font-size:1.06rem}}
+</style></head><body><main>
+<h1>JAGUAR · ELO 1Y — Modelo B</h1>
+<p class="description">Laboratório de calibração visual. Barras afinadas (1,25 px), intervalo lateral entre barras (4 px), deslocamento integral das barras, versos e legenda à direita e limites calculados pela altura efetiva de cada verso. Os versos ilustram a estrutura; as barras são uma interpretação funcional, não cópia literal da partitura.</p>
+<section class="study"><h2 class="hymn-title">28 · Cantar Ir</h2><p class="rhythm">Ritmo a conferir</p>
+<div class="functional-group"><div class="hymn-stanza" data-bars='[{"from":1,"to":4},{"from":3,"to":4}]'>
+  <div class="repeat-markers" aria-hidden="true"></div>
+  <div class="hymn-verses"><p class="hymn-line">Eu quero cantar ir</p><p class="hymn-line">Que me ensina eu seguir</p><p class="hymn-line">Sou eu, sou eu, sou eu</p><p class="hymn-line">Sou eu, sou bem feliz</p></div>
+</div>
+<p class="tag">EXEMPLO FUNCIONAL · DUAS BARRAS (1–4 e 3–4)</p></div></section>
+<section class="study"><h2 class="hymn-title">Exemplo técnico — uma barra</h2><p class="rhythm">MARCHA · demonstração, sem atribuição a hino real</p><div class="hymn-stanza" data-bars='[{"from":1,"to":4}]'><div class="repeat-markers" aria-hidden="true"></div><div class="hymn-verses"><p class="hymn-line">Verso de demonstração um</p><p class="hymn-line">Verso de demonstração dois</p><p class="hymn-line">Verso de demonstração três</p><p class="hymn-line">Verso de demonstração quatro</p></div></div></section>
+<section class="study"><h2 class="hymn-title">Exemplo técnico — três barras</h2><p class="rhythm">MISTO · demonstração, sem atribuição a hino real</p><div class="hymn-stanza" data-bars='[{"from":1,"to":4},{"from":2,"to":4},{"from":3,"to":4}]'><div class="repeat-markers" aria-hidden="true"></div><div class="hymn-verses"><p class="hymn-line">Primeiro verso de demonstração mais longo para testar a quebra no celular</p><p class="hymn-line">Segundo verso demonstrativo</p><p class="hymn-line">Terceiro verso demonstrativo</p><p class="hymn-line">Quarto verso demonstrativo</p></div></div></section>
+<p class="description">Para integrar: coloque os versos na ordem natural e defina <code>data-bars</code> como intervalos de versos, contados a partir de 1. Se a fonte não confirmar os intervalos, use <code>[]</code>. O desenho é sempre ajustado à altura renderizada, incluindo quebras de linha.</p>
+</main><script>
+function positionRepeatBars(stanza){
+  const lines=[...stanza.querySelectorAll('.hymn-line')];
+  const rail=stanza.querySelector('.repeat-markers');
+  const config=JSON.parse(stanza.dataset.bars||'[]');
+  rail.replaceChildren();
+  const railBox=rail.getBoundingClientRect();
+  config.slice(0,3).forEach((span,column)=>{
+    const first=lines[span.from-1],last=lines[span.to-1];
+    if(!first||!last||span.from>span.to)return;
+    // Margens óticas a partir da área real das letras; não usar % fixos.
+    const a=first.getBoundingClientRect(),b=last.getBoundingClientRect();
+    const styleA=getComputedStyle(first),styleB=getComputedStyle(last);
+    const fsA=parseFloat(styleA.fontSize),fsB=parseFloat(styleB.fontSize);
+    const top=a.top-railBox.top+Math.max(2,(a.height-fsA)*.5)+2;
+    const bottom=b.bottom-railBox.top-Math.max(2,(b.height-fsB)*.5)-2;
+    const bar=document.createElement('span');bar.className='repeat-bar';
+    bar.dataset.column=String(column);bar.style.top=`${top}px`;
+    bar.style.height=`${Math.max(0,bottom-top)}px`;rail.append(bar);
+  });
+}
+function calibrate(){document.querySelectorAll('.hymn-stanza').forEach(positionRepeatBars)}
+addEventListener('resize',calibrate);document.fonts?.ready.then(calibrate);calibrate();
+</script></body></html>

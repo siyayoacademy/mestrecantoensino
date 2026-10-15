@@ -1,0 +1,62 @@
+{
+  "schema": "jaguar.modelo-b.v1",
+  "status": "visual-reference-approved; musical-range-per-hymn-unverified",
+  "rhythms": [
+    "MARCHA",
+    "VALSA",
+    "MAZURCA",
+    "MISTO"
+  ],
+  "bar_unit": "verse",
+  "max_bars": 3,
+  "gap_px": 8,
+  "examples_fictitious": [
+    {
+      "rhythm": "VALSA",
+      "bars": [
+        {
+          "slot": 1,
+          "start": 1,
+          "end": 4
+        },
+        {
+          "slot": 2,
+          "start": 3,
+          "end": 4
+        }
+      ]
+    },
+    {
+      "rhythm": "MISTO",
+      "sections": [
+        {
+          "rhythm": "VALSA",
+          "verses": [
+            1,
+            2
+          ]
+        },
+        {
+          "rhythm": "MARCHA",
+          "verses": [
+            3,
+            4
+          ]
+        }
+      ],
+      "bars": [
+        {
+          "slot": 1,
+          "start": 1,
+          "end": 4
+        }
+      ]
+    }
+  ],
+  "integration": {
+    "version": "1U",
+    "main_reader": "integrated but disabled for unverified bars",
+    "activation": "data-bar-status=verified with data-bars=0:4:0,2:4:1",
+    "accessibility": "actual verses remain native selectable text; bars decorative"
+  }
+}

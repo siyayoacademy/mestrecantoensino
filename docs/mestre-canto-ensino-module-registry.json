@@ -554,5 +554,32 @@
       "MCE-LINKS-12"
     ]
   },
-  "rule": "Project owns adapted copies; SIYAYO Academy registry is reference only; no transfer of assessment authorities, states or canonical evidence"
+  "rule": "Project owns adapted copies; SIYAYO Academy registry is reference only; no transfer of assessment authorities, states or canonical evidence",
+  "audit_snapshot": {
+    "source_branch": "jaguar/portal-preview-v25",
+    "source_commit": "be95888dbf9709df00ee8a9969381536c0df4dd7",
+    "registry_branch": "jaguar/mce-modular-governance-reg123-20261025",
+    "reference_branch": "jaguar/module-governance-reg03-impact-20261025",
+    "reference_repository": "siyayoacademy/siyayo-academy",
+    "verified_files_in_source_tree": 40
+  },
+  "related_registries": {
+    "REG01": {
+      "human": "docs/MESTRE-CANTO-ENSINO-MODULE-GOVERNANCE-REGISTRY.md",
+      "json": "docs/mestre-canto-ensino-module-registry.json"
+    },
+    "REG02": {
+      "human": "docs/MCE-BACKSTAGE-FLOW-REGISTRY.md",
+      "json": "docs/mce-backstage-flow-registry.json"
+    },
+    "REG03": {
+      "human": "docs/MCE-IMPACT-INTEGRATION-MAP.md",
+      "json": "docs/mce-impact-integration-map.json"
+    }
+  },
+  "verified_clarifications": [
+    "The source preview tree includes data/santo-cruzeiro-universal.json; index.html embeds the visible hymn verses and does not fetch JSON automatically.",
+    "RS-01 adapted runtime names differ from SIYAYO source. Preserve actual RIS runtime API.",
+    "Aliases do not imply physically extracted modules or completed hymn corpus."
+  ]
 }

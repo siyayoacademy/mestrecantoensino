@@ -1,0 +1,259 @@
+{
+  "id": "MCE-REG-03",
+  "status": "DOCUMENTATION_ONLY_STATIC_GRAPH",
+  "source": {
+    "repo": "siyayoacademy/mestrecantoensino",
+    "branch": "jaguar/portal-preview-v25",
+    "commit": "be95888dbf9709df00ee8a9969381536c0df4dd7"
+  },
+  "target_branch": "jaguar/mce-modular-governance-reg123-20261025",
+  "edges": [
+    {
+      "from": "data/santo-cruzeiro-universal.json",
+      "to": [
+        "MCE-HYM-A",
+        "MCE-STANZA-B"
+      ],
+      "certainty": "documentary_only_not_fetched_by_index"
+    },
+    {
+      "from": "data/modelo-a-marcacoes.json",
+      "to": [
+        "MCE-STANZA-B"
+      ],
+      "certainty": "research_not_runtime"
+    },
+    {
+      "from": "data/modelo-b-componente.json",
+      "to": [
+        "MCE-STANZA-B"
+      ],
+      "certainty": "research_not_runtime"
+    },
+    {
+      "from": "index.html#leitura-continua",
+      "to": [
+        "MCE-HYM-A",
+        "MCE-STANZA-B",
+        "MCE-SEP-04"
+      ],
+      "certainty": "verified_markup"
+    },
+    {
+      "from": "index.html#layoutStanzaBars",
+      "to": [
+        "MCE-STANZA-B"
+      ],
+      "certainty": "verified_inline_controller"
+    },
+    {
+      "from": "index.html#scenes",
+      "to": [
+        "MCE-STAGE-06"
+      ],
+      "certainty": "verified_inline_controller"
+    },
+    {
+      "from": "index.html#site-share",
+      "to": [
+        "MCE-HEAD-01"
+      ],
+      "certainty": "verified_inline_controller"
+    },
+    {
+      "from": "index.html (inline CSS)",
+      "to": [
+        "MCE-HYM-A",
+        "MCE-HYM-B",
+        "MCE-HYM-C",
+        "MCE-FLAG-05",
+        "MCE-STAGE-06"
+      ],
+      "certainty": "verified_style"
+    },
+    {
+      "from": "js/ris-responsive-preview.js",
+      "to": [
+        "MCE-RS-01"
+      ],
+      "certainty": "verified_controller"
+    },
+    {
+      "from": "css/ris-responsive-stage.css",
+      "to": [
+        "MCE-RS-01",
+        "MCE-HYM-A",
+        "MCE-NAV-02"
+      ],
+      "certainty": "verified_style"
+    },
+    {
+      "from": "css/ris-internal-responsive.css",
+      "to": [
+        "MCE-RS-01",
+        "MCE-TRIBUTE-09",
+        "MCE-DOC-08",
+        "MCE-BIO-10",
+        "MCE-CAL-11",
+        "MCE-HYM-HUB-13",
+        "MCE-LINKS-12"
+      ],
+      "certainty": "verified_style"
+    },
+    {
+      "from": "ris-green.png",
+      "to": [
+        "MCE-FLAG-05",
+        "MCE-STAGE-06"
+      ],
+      "certainty": "verified_asset"
+    },
+    {
+      "from": "ris-blue.png",
+      "to": [
+        "MCE-FLAG-05",
+        "MCE-STAGE-06"
+      ],
+      "certainty": "verified_asset"
+    },
+    {
+      "from": "eagle-white.png",
+      "to": [
+        "MCE-FLAG-05",
+        "MCE-STAGE-06"
+      ],
+      "certainty": "verified_asset"
+    },
+    {
+      "from": "eagle-blue-white.png",
+      "to": [
+        "MCE-FLAG-05",
+        "MCE-STAGE-06"
+      ],
+      "certainty": "verified_asset"
+    },
+    {
+      "from": "assets/images/arte-50-anos-original.jpg",
+      "to": [
+        "MCE-TRIBUTE-09"
+      ],
+      "certainty": "verified_asset"
+    },
+    {
+      "from": "assets/images/retrato-corpo-inteiro.jpg",
+      "to": [
+        "MCE-TRIBUTE-09"
+      ],
+      "certainty": "verified_asset"
+    },
+    {
+      "from": "assets/images/primeiros-discipulos.jpg",
+      "to": [
+        "MCE-TRIBUTE-09"
+      ],
+      "certainty": "verified_asset"
+    },
+    {
+      "from": "assets/images/retrato-decreto.jpg",
+      "to": [
+        "MCE-DOC-08"
+      ],
+      "certainty": "verified_asset"
+    }
+  ],
+  "scenarios": [
+    {
+      "change": "hymn JSON change",
+      "affected": [
+        "MCE-HYM-A",
+        "MCE-STANZA-B"
+      ],
+      "checks": "check provenance, schema and embedded HTML difference; no auto-render presumed",
+      "decision": "NO_GO until targeted checks pass"
+    },
+    {
+      "change": "stanza bars",
+      "affected": [
+        "MCE-STANZA-B",
+        "MCE-HYM-A"
+      ],
+      "checks": "verify musical documentary bar ranges and visual portrait/landscape; fail closed",
+      "decision": "NO_GO until targeted checks pass"
+    },
+    {
+      "change": "RS-01 CSS or JS",
+      "affected": [
+        "MCE-RS-01",
+        "all internal pages",
+        "MCE-STAGE-06"
+      ],
+      "checks": "check 430/844/AUTO, touch-first, keyboard, viewport, event names",
+      "decision": "NO_GO until targeted checks pass"
+    },
+    {
+      "change": "original RIS asset",
+      "affected": [
+        "MCE-FLAG-05",
+        "MCE-STAGE-06"
+      ],
+      "checks": "retain exact image, alpha and aspect ratio",
+      "decision": "NO_GO until targeted checks pass"
+    },
+    {
+      "change": "historic photograph",
+      "affected": [
+        "MCE-TRIBUTE-09",
+        "MCE-DOC-08"
+      ],
+      "checks": "verify license/provenance; preserve 50-year historical original",
+      "decision": "NO_GO until targeted checks pass"
+    },
+    {
+      "change": "move module",
+      "affected": [
+        "MCE-NAV-02",
+        "MCE-PAGES-07",
+        "MCE-RS-01"
+      ],
+      "checks": "trace inline JS, CSS, images, href, state and consumers before extraction",
+      "decision": "NO_GO until targeted checks pass"
+    },
+    {
+      "change": "audio or sheet music",
+      "affected": [
+        "MCE-HYM-A",
+        "MCE-HYM-B",
+        "MCE-HYM-C"
+      ],
+      "checks": "planned only: rights, formats, separate score reader, accessibility",
+      "decision": "NO_GO until targeted checks pass"
+    }
+  ],
+  "workflow": [
+    "pin current source HEAD and target HEAD",
+    "identify changed paths",
+    "expand provider→consumer edges",
+    "check five HOW TO and ownership",
+    "verify source/provenance",
+    "test AUTO/PORTRAIT/LANDSCAPE and target behavior",
+    "record GO/NO-GO",
+    "adopt selectively"
+  ],
+  "protected": [
+    "main",
+    "SIYAYO Academy",
+    "production",
+    "documentary hymn text and bar fidelity",
+    "RIS original visual assets",
+    "no hymn index"
+  ],
+  "states": [
+    "EXISTING_VERIFIED",
+    "PROPOSED",
+    "IN_DEVELOPMENT",
+    "TESTED",
+    "HOMOLOGATED",
+    "INTEGRATED"
+  ],
+  "not_live_monitor": true
+}

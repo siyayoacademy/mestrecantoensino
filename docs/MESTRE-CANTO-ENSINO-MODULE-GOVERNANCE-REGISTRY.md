@@ -344,3 +344,13 @@ Os campos técnicos completos estão em `docs/mestre-canto-ensino-module-registr
 O Registry da SIYAYO é uma **fonte de contratos e arquitetura**, não uma permissão para copiar controle de avaliação. HOW TO DO / HOW TO RECORD / HOW TO SHOW / HOW TO CHECK / HOW TO SPEAK são responsabilidades transferíveis como padrão metodológico. Cada implementação no Mestre Canto Ensino tem dados, proprietários, seletores e regras próprias.
 
 **Importante:** a base `data/corpus-3-hinarios.json` não está presente nesta branch verificada; portanto o registro não a declara instalada. Repertórios completos, áudio, Fine Art e compartilhamento especializado permanecem futuras integrações.
+
+## REG-01/02/03 — snapshot de auditoria (2026-10-25)
+
+- **Repositório de destino:** `siyayoacademy/mestrecantoensino`; fonte inspecionada `jaguar/portal-preview-v25` @ `be95888dbf9709df00ee8a9969381536c0df4dd7` (40 arquivos); branch documental `jaguar/mce-modular-governance-reg123-20261025`.
+- **Referência metodológica:** `siyayoacademy/siyayo-academy` @ `jaguar/module-governance-reg03-impact-20261025`. Não é importação do Verb Explorer.
+- **REG-02:** [Backstage & Flow Registry](MCE-BACKSTAGE-FLOW-REGISTRY.md) · [JSON](mce-backstage-flow-registry.json).
+- **REG-03:** [Impact & Integration Map](MCE-IMPACT-INTEGRATION-MAP.md) · [JSON](mce-impact-integration-map.json).
+- **Correção de proveniência:** `data/santo-cruzeiro-universal.json` existe nesta branch. O Index ainda apresenta trechos escritos diretamente no HTML; não existe consumo automático confirmado deste JSON.
+- **RS-01:** a adaptação usa `RISResponsivePreview` e evento `ris:responsive-preview-changed`; não atribuir nomes SIYAYO ao controlador do portal.
+- **Limites:** nomes MCE são aliases documentais; nenhum runtime, CSS, produção, `main`, ou avaliador pedagógico foi alterado.

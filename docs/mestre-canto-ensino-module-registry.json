@@ -1,0 +1,558 @@
+{
+  "registry_version": "1.0.0-doc",
+  "project": "Mestre Canto Ensino — Raimundo Irineu Serra",
+  "repository": "siyayoacademy/mestrecantoensino",
+  "branch": "jaguar/portal-preview-v25",
+  "reference_registry": {
+    "repository": "siyayoacademy/siyayo-academy",
+    "branch": "jaguar/module-governance-registry-20261024",
+    "paths": [
+      "docs/siyayo-module-registry.json",
+      "docs/SIYAYO-MODULE-GOVERNANCE-REGISTRY.md"
+    ],
+    "rule": "read-only reference; no runtime, code, or ownership dependency"
+  },
+  "publication": "documentation-only, no change to HTML/CSS/JS or production",
+  "semantics": {
+    "existing": "found in target branch",
+    "alias": "documentation ID, not runtime identifier",
+    "planned": "proposed, not implemented"
+  },
+  "module_count": 21,
+  "modules": [
+    {
+      "code": "MCE-RS-01",
+      "name": "Responsive Stage",
+      "status": "existing",
+      "kind": "shared presentation",
+      "locations": [
+        "index.html",
+        "homenagem/index.html",
+        "decreto-1970/index.html",
+        "vida-e-obra/index.html",
+        "calendario/index.html",
+        "hinarios/index.html",
+        "nossa-irmandade/index.html"
+      ],
+      "selectors": [
+        "[data-siyayo-responsive-toolbar]",
+        "[data-siyayo-responsive-viewport]"
+      ],
+      "sources": [
+        "js/ris-responsive-preview.js",
+        "css/ris-responsive-stage.css",
+        "css/ris-internal-responsive.css"
+      ],
+      "description": "Local mode auto/portrait/landscape; no content or evidence changes",
+      "movement_rule": "Remove wrapper/toolbar plus CSS/JS references together; keep page content intact",
+      "how_to_do": "Invoke only the explicitly documented behavior",
+      "how_to_record": "No SIYAYO learner evidence or assessment credits",
+      "how_to_show": "Local mode auto/portrait/landscape; no content or evidence changes",
+      "how_to_check": "Confirm source, selectors, assets, responsive layout and accessibility before moving",
+      "how_to_speak": "No dedicated voice contract verified",
+      "portability": "requires dependency audit; registry alias alone does not make module independently movable"
+    },
+    {
+      "code": "MCE-HEAD-01",
+      "name": "Portal header / RIS identity",
+      "status": "existing",
+      "kind": "presentation",
+      "locations": [
+        "index.html"
+      ],
+      "selectors": [
+        "header",
+        ".ris-home",
+        "#site-share"
+      ],
+      "sources": [
+        "index.html (inline CSS and JavaScript)"
+      ],
+      "description": "Site title, RIS home and share affordance",
+      "movement_rule": "Extract CSS + share event before moving",
+      "how_to_do": "Invoke only the explicitly documented behavior",
+      "how_to_record": "No SIYAYO learner evidence or assessment credits",
+      "how_to_show": "Site title, RIS home and share affordance",
+      "how_to_check": "Confirm source, selectors, assets, responsive layout and accessibility before moving",
+      "how_to_speak": "No dedicated voice contract verified",
+      "portability": "requires dependency audit; registry alias alone does not make module independently movable"
+    },
+    {
+      "code": "MCE-NAV-02",
+      "name": "Acesso rápido",
+      "status": "existing",
+      "kind": "navigation",
+      "locations": [
+        "index.html"
+      ],
+      "selectors": [
+        ".portal-shortcuts"
+      ],
+      "sources": [
+        "index.html (anchors)"
+      ],
+      "description": "Anchor links into index sections; no hymn index",
+      "movement_rule": "Retarget href/id pairs upon relocation",
+      "how_to_do": "Invoke only the explicitly documented behavior",
+      "how_to_record": "No SIYAYO learner evidence or assessment credits",
+      "how_to_show": "Anchor links into index sections; no hymn index",
+      "how_to_check": "Confirm source, selectors, assets, responsive layout and accessibility before moving",
+      "how_to_speak": "No dedicated voice contract verified",
+      "portability": "requires dependency audit; registry alias alone does not make module independently movable"
+    },
+    {
+      "code": "MCE-HOME-03",
+      "name": "Homenagem de abertura",
+      "status": "existing",
+      "kind": "content presentation",
+      "locations": [
+        "index.html"
+      ],
+      "selectors": [
+        ".portal-hero"
+      ],
+      "sources": [
+        "index.html (authored copy)"
+      ],
+      "description": "Commemorative text; independent of documentary hymn data",
+      "movement_rule": "Can move markup after extracting CSS",
+      "how_to_do": "Invoke only the explicitly documented behavior",
+      "how_to_record": "No SIYAYO learner evidence or assessment credits",
+      "how_to_show": "Commemorative text; independent of documentary hymn data",
+      "how_to_check": "Confirm source, selectors, assets, responsive layout and accessibility before moving",
+      "how_to_speak": "No dedicated voice contract verified",
+      "portability": "requires dependency audit; registry alias alone does not make module independently movable"
+    },
+    {
+      "code": "MCE-HYM-A",
+      "name": "O Santo Cruzeiro Universal / leitura contínua",
+      "status": "existing",
+      "kind": "documentary presentation",
+      "locations": [
+        "index.html"
+      ],
+      "selectors": [
+        "#cruzeiro",
+        "#leitura-continua",
+        ".hymn-entry"
+      ],
+      "sources": [
+        "index.html (authored partial hymn content)"
+      ],
+      "description": "Sequential reading; only documented verses shown, no index",
+      "movement_rule": "Keep documented text provenance and separator; do not assume full corpus",
+      "how_to_do": "Invoke only the explicitly documented behavior",
+      "how_to_record": "No SIYAYO learner evidence or assessment credits",
+      "how_to_show": "Sequential reading; only documented verses shown, no index",
+      "how_to_check": "Confirm source, selectors, assets, responsive layout and accessibility before moving",
+      "how_to_speak": "No dedicated voice contract verified",
+      "portability": "requires dependency audit; registry alias alone does not make module independently movable"
+    },
+    {
+      "code": "MCE-STANZA-B",
+      "name": "Estrofe e linhas verticais — Modelo B",
+      "status": "existing",
+      "kind": "layout controller",
+      "locations": [
+        "index.html"
+      ],
+      "selectors": [
+        ".hymn-stanza",
+        ".stanza-tracks",
+        ".stanza-words"
+      ],
+      "sources": [
+        "index.html: layoutStanzaBars(); data-bars; data-bar-status"
+      ],
+      "description": "Draw verified bars only, geometry from stanza line boxes",
+      "movement_rule": "Move render function, CSS and data contract as one unit; verified status gate is mandatory",
+      "how_to_do": "Invoke only the explicitly documented behavior",
+      "how_to_record": "No SIYAYO learner evidence or assessment credits",
+      "how_to_show": "Draw verified bars only, geometry from stanza line boxes",
+      "how_to_check": "Confirm source, selectors, assets, responsive layout and accessibility before moving",
+      "how_to_speak": "No dedicated voice contract verified",
+      "portability": "requires dependency audit; registry alias alone does not make module independently movable"
+    },
+    {
+      "code": "MCE-SEP-04",
+      "name": "Sol · Lua · Estrela",
+      "status": "existing",
+      "kind": "visual separator",
+      "locations": [
+        "index.html"
+      ],
+      "selectors": [
+        ".hymn-separator"
+      ],
+      "sources": [
+        "index.html (inline SVG and CSS)"
+      ],
+      "description": "All gold; six-pointed star; no gold horizontal rule",
+      "movement_rule": "Move SVG + CSS without hymn indexing",
+      "how_to_do": "Invoke only the explicitly documented behavior",
+      "how_to_record": "No SIYAYO learner evidence or assessment credits",
+      "how_to_show": "All gold; six-pointed star; no gold horizontal rule",
+      "how_to_check": "Confirm source, selectors, assets, responsive layout and accessibility before moving",
+      "how_to_speak": "No dedicated voice contract verified",
+      "portability": "requires dependency audit; registry alias alone does not make module independently movable"
+    },
+    {
+      "code": "MCE-HYM-B",
+      "name": "Diversões do Mestre",
+      "status": "existing",
+      "kind": "expandable hymn container",
+      "locations": [
+        "index.html"
+      ],
+      "selectors": [
+        "#diversoes-do-mestre",
+        ".gold-hymn-module"
+      ],
+      "sources": [
+        "index.html (placeholder; no verified full transcription)"
+      ],
+      "description": "Gold expandable reader, currently documentary placeholder",
+      "movement_rule": "Preserve details/summary keyboard semantics; corpus pending",
+      "how_to_do": "Invoke only the explicitly documented behavior",
+      "how_to_record": "No SIYAYO learner evidence or assessment credits",
+      "how_to_show": "Gold expandable reader, currently documentary placeholder",
+      "how_to_check": "Confirm source, selectors, assets, responsive layout and accessibility before moving",
+      "how_to_speak": "No dedicated voice contract verified",
+      "portability": "requires dependency audit; registry alias alone does not make module independently movable"
+    },
+    {
+      "code": "MCE-HYM-C",
+      "name": "Santa Missa",
+      "status": "existing",
+      "kind": "expandable hymn container",
+      "locations": [
+        "index.html"
+      ],
+      "selectors": [
+        "#santa-missa",
+        ".gold-hymn-module"
+      ],
+      "sources": [
+        "index.html (placeholder; no verified full transcription)"
+      ],
+      "description": "Gold expandable reader, currently documentary placeholder",
+      "movement_rule": "Preserve details/summary; corpus pending",
+      "how_to_do": "Invoke only the explicitly documented behavior",
+      "how_to_record": "No SIYAYO learner evidence or assessment credits",
+      "how_to_show": "Gold expandable reader, currently documentary placeholder",
+      "how_to_check": "Confirm source, selectors, assets, responsive layout and accessibility before moving",
+      "how_to_speak": "No dedicated voice contract verified",
+      "portability": "requires dependency audit; registry alias alone does not make module independently movable"
+    },
+    {
+      "code": "MCE-FLAG-05",
+      "name": "RIS flag gallery",
+      "status": "existing",
+      "kind": "visual assets",
+      "locations": [
+        "index.html"
+      ],
+      "selectors": [
+        "#bandeiras",
+        ".flag-gallery",
+        ".flag-canvas"
+      ],
+      "sources": [
+        "ris-green.png",
+        "ris-blue.png",
+        "eagle-white.png",
+        "eagle-blue-white.png"
+      ],
+      "description": "Three variations with independent visual layers",
+      "movement_rule": "Keep image paths and proportions when moving",
+      "how_to_do": "Invoke only the explicitly documented behavior",
+      "how_to_record": "No SIYAYO learner evidence or assessment credits",
+      "how_to_show": "Three variations with independent visual layers",
+      "how_to_check": "Confirm source, selectors, assets, responsive layout and accessibility before moving",
+      "how_to_speak": "No dedicated voice contract verified",
+      "portability": "requires dependency audit; registry alias alone does not make module independently movable"
+    },
+    {
+      "code": "MCE-STAGE-06",
+      "name": "Palco RIS seis camadas",
+      "status": "existing",
+      "kind": "media mixer",
+      "locations": [
+        "index.html"
+      ],
+      "selectors": [
+        "#stage",
+        "#controls",
+        "#reset"
+      ],
+      "sources": [
+        "index.html (scene/layer definitions and inline JS)",
+        "ris-green.png",
+        "ris-blue.png",
+        "eagle-white.png",
+        "eagle-blue-white.png"
+      ],
+      "description": "Six layers and scenes; local file selectors for artwork",
+      "movement_rule": "Move stage+controls+events+image URLs together; do not reset other page state",
+      "how_to_do": "Invoke only the explicitly documented behavior",
+      "how_to_record": "No SIYAYO learner evidence or assessment credits",
+      "how_to_show": "Six layers and scenes; local file selectors for artwork",
+      "how_to_check": "Confirm source, selectors, assets, responsive layout and accessibility before moving",
+      "how_to_speak": "No dedicated voice contract verified",
+      "portability": "requires dependency audit; registry alias alone does not make module independently movable"
+    },
+    {
+      "code": "MCE-PAGES-07",
+      "name": "Navegação de páginas internas",
+      "status": "existing",
+      "kind": "navigation",
+      "locations": [
+        "index.html"
+      ],
+      "selectors": [
+        "#paginas-internas",
+        ".portal-nav"
+      ],
+      "sources": [
+        "index.html (relative links)"
+      ],
+      "description": "Links to six internal pages",
+      "movement_rule": "Update relative URLs when moved",
+      "how_to_do": "Invoke only the explicitly documented behavior",
+      "how_to_record": "No SIYAYO learner evidence or assessment credits",
+      "how_to_show": "Links to six internal pages",
+      "how_to_check": "Confirm source, selectors, assets, responsive layout and accessibility before moving",
+      "how_to_speak": "No dedicated voice contract verified",
+      "portability": "requires dependency audit; registry alias alone does not make module independently movable"
+    },
+    {
+      "code": "MCE-DOC-08",
+      "name": "Decreto 1970",
+      "status": "existing",
+      "kind": "documentary page",
+      "locations": [
+        "decreto-1970/index.html"
+      ],
+      "selectors": [
+        "main",
+        ".two-col"
+      ],
+      "sources": [
+        "decreto-1970/index.html",
+        "assets/images/retrato-decreto.jpg"
+      ],
+      "description": "Documentary shell with preserved portrait; decree text pending source",
+      "movement_rule": "Do not replace with reconstructed decree",
+      "how_to_do": "Invoke only the explicitly documented behavior",
+      "how_to_record": "No SIYAYO learner evidence or assessment credits",
+      "how_to_show": "Documentary shell with preserved portrait; decree text pending source",
+      "how_to_check": "Confirm source, selectors, assets, responsive layout and accessibility before moving",
+      "how_to_speak": "No dedicated voice contract verified",
+      "portability": "requires dependency audit; registry alias alone does not make module independently movable"
+    },
+    {
+      "code": "MCE-TRIBUTE-09",
+      "name": "Homenagem visual",
+      "status": "existing",
+      "kind": "gallery page",
+      "locations": [
+        "homenagem/index.html"
+      ],
+      "selectors": [
+        "main",
+        ".gallery",
+        ".gold-frame"
+      ],
+      "sources": [
+        "homenagem/index.html",
+        "assets/images/*"
+      ],
+      "description": "Historic gallery and 50 anos original artifact",
+      "movement_rule": "55-year creative art separate from historical original",
+      "how_to_do": "Invoke only the explicitly documented behavior",
+      "how_to_record": "No SIYAYO learner evidence or assessment credits",
+      "how_to_show": "Historic gallery and 50 anos original artifact",
+      "how_to_check": "Confirm source, selectors, assets, responsive layout and accessibility before moving",
+      "how_to_speak": "No dedicated voice contract verified",
+      "portability": "requires dependency audit; registry alias alone does not make module independently movable"
+    },
+    {
+      "code": "MCE-BIO-10",
+      "name": "Vida e Obra",
+      "status": "existing",
+      "kind": "documentary page",
+      "locations": [
+        "vida-e-obra/index.html"
+      ],
+      "selectors": [
+        "main"
+      ],
+      "sources": [
+        "vida-e-obra/index.html"
+      ],
+      "description": "Source-separated historical content",
+      "movement_rule": "Keep historical provenance",
+      "how_to_do": "Invoke only the explicitly documented behavior",
+      "how_to_record": "No SIYAYO learner evidence or assessment credits",
+      "how_to_show": "Source-separated historical content",
+      "how_to_check": "Confirm source, selectors, assets, responsive layout and accessibility before moving",
+      "how_to_speak": "No dedicated voice contract verified",
+      "portability": "requires dependency audit; registry alias alone does not make module independently movable"
+    },
+    {
+      "code": "MCE-CAL-11",
+      "name": "Calendário dos Trabalhos",
+      "status": "existing",
+      "kind": "page placeholder",
+      "locations": [
+        "calendario/index.html"
+      ],
+      "selectors": [
+        "main",
+        "article"
+      ],
+      "sources": [
+        "calendario/index.html"
+      ],
+      "description": "Page shell; dates/organizations not yet populated",
+      "movement_rule": "Never invent dates; source each calendar",
+      "how_to_do": "Invoke only the explicitly documented behavior",
+      "how_to_record": "No SIYAYO learner evidence or assessment credits",
+      "how_to_show": "Page shell; dates/organizations not yet populated",
+      "how_to_check": "Confirm source, selectors, assets, responsive layout and accessibility before moving",
+      "how_to_speak": "No dedicated voice contract verified",
+      "portability": "requires dependency audit; registry alias alone does not make module independently movable"
+    },
+    {
+      "code": "MCE-LINKS-12",
+      "name": "Nossa Irmandade — Links",
+      "status": "existing",
+      "kind": "page placeholder",
+      "locations": [
+        "nossa-irmandade/index.html"
+      ],
+      "selectors": [
+        "main",
+        "article"
+      ],
+      "sources": [
+        "nossa-irmandade/index.html"
+      ],
+      "description": "Directory shell; verified links not yet populated",
+      "movement_rule": "Verify destination and attribution",
+      "how_to_do": "Invoke only the explicitly documented behavior",
+      "how_to_record": "No SIYAYO learner evidence or assessment credits",
+      "how_to_show": "Directory shell; verified links not yet populated",
+      "how_to_check": "Confirm source, selectors, assets, responsive layout and accessibility before moving",
+      "how_to_speak": "No dedicated voice contract verified",
+      "portability": "requires dependency audit; registry alias alone does not make module independently movable"
+    },
+    {
+      "code": "MCE-HYM-HUB-13",
+      "name": "Página de Hinários",
+      "status": "existing",
+      "kind": "page placeholder",
+      "locations": [
+        "hinarios/index.html"
+      ],
+      "selectors": [
+        "main",
+        "article"
+      ],
+      "sources": [
+        "hinarios/index.html"
+      ],
+      "description": "Navigation shell; do not add searchable hymn index to continuous reader",
+      "movement_rule": "Keep hymn page distinct from index-free reading",
+      "how_to_do": "Invoke only the explicitly documented behavior",
+      "how_to_record": "No SIYAYO learner evidence or assessment credits",
+      "how_to_show": "Navigation shell; do not add searchable hymn index to continuous reader",
+      "how_to_check": "Confirm source, selectors, assets, responsive layout and accessibility before moving",
+      "how_to_speak": "No dedicated voice contract verified",
+      "portability": "requires dependency audit; registry alias alone does not make module independently movable"
+    },
+    {
+      "code": "MCE-FINEART-20",
+      "name": "Fine Art & homenagem 55 anos",
+      "status": "planned",
+      "kind": "future creative media",
+      "locations": [],
+      "selectors": [],
+      "sources": [],
+      "description": "Image library, portrait/landscape/square, not installed",
+      "movement_rule": "Require provenance and rights review",
+      "how_to_do": "Invoke only the explicitly documented behavior",
+      "how_to_record": "No SIYAYO learner evidence or assessment credits",
+      "how_to_show": "Image library, portrait/landscape/square, not installed",
+      "how_to_check": "Confirm source, selectors, assets, responsive layout and accessibility before moving",
+      "how_to_speak": "No dedicated voice contract verified",
+      "portability": "not available yet"
+    },
+    {
+      "code": "MCE-SPEECH-21",
+      "name": "Speech / audio player",
+      "status": "planned",
+      "kind": "future media",
+      "locations": [],
+      "selectors": [],
+      "sources": [],
+      "description": "Optional hymn playback and captions; no assessment semantics",
+      "movement_rule": "Independent speech from SIYAYO pedagogical speech",
+      "how_to_do": "Invoke only the explicitly documented behavior",
+      "how_to_record": "No SIYAYO learner evidence or assessment credits",
+      "how_to_show": "Optional hymn playback and captions; no assessment semantics",
+      "how_to_check": "Confirm source, selectors, assets, responsive layout and accessibility before moving",
+      "how_to_speak": "Planned, not implemented",
+      "portability": "not available yet"
+    },
+    {
+      "code": "MCE-SHARE-22",
+      "name": "Share por hino/estrofe",
+      "status": "planned",
+      "kind": "future export",
+      "locations": [],
+      "selectors": [],
+      "sources": [],
+      "description": "Sol Lua Estrela could trigger social share slides",
+      "movement_rule": "Respect text rights and page size",
+      "how_to_do": "Invoke only the explicitly documented behavior",
+      "how_to_record": "No SIYAYO learner evidence or assessment credits",
+      "how_to_show": "Sol Lua Estrela could trigger social share slides",
+      "how_to_check": "Confirm source, selectors, assets, responsive layout and accessibility before moving",
+      "how_to_speak": "No dedicated voice contract verified",
+      "portability": "not available yet"
+    }
+  ],
+  "placement": {
+    "index": [
+      "MCE-RS-01",
+      "MCE-HEAD-01",
+      "MCE-NAV-02",
+      "MCE-HOME-03",
+      "MCE-HYM-A",
+      "MCE-HYM-B",
+      "MCE-HYM-C",
+      "MCE-FLAG-05",
+      "MCE-STAGE-06",
+      "MCE-PAGES-07"
+    ],
+    "hymn_reading": [
+      "MCE-HYM-A",
+      [
+        "MCE-STANZA-B",
+        "MCE-SEP-04"
+      ],
+      "MCE-HYM-B",
+      "MCE-HYM-C"
+    ],
+    "internal": [
+      "MCE-DOC-08",
+      "MCE-TRIBUTE-09",
+      "MCE-BIO-10",
+      "MCE-CAL-11",
+      "MCE-HYM-HUB-13",
+      "MCE-LINKS-12"
+    ]
+  },
+  "rule": "Project owns adapted copies; SIYAYO Academy registry is reference only; no transfer of assessment authorities, states or canonical evidence"
+}

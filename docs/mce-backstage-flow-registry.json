@@ -1,0 +1,225 @@
+{
+  "id": "MCE-REG-02",
+  "status": "DOCUMENTARY_ONLY",
+  "source": {
+    "repo": "siyayoacademy/mestrecantoensino",
+    "branch": "jaguar/portal-preview-v25",
+    "commit": "be95888dbf9709df00ee8a9969381536c0df4dd7"
+  },
+  "reference": {
+    "repo": "siyayoacademy/siyayo-academy",
+    "branch": "jaguar/module-governance-reg03-impact-20261025",
+    "type": "methodology_only"
+  },
+  "five_how": {
+    "DO": "Native links, details and inline stage/bar/share scripts plus dedicated preview controller",
+    "RECORD": "RS-01 localStorage mode only; no database, learner evidence or durable hymn state verified",
+    "SHOW": "Page HTML, inline and shared CSS, RIS images, SVG",
+    "CHECK": "Documentary provenance and verified bar flag; manual checks; no automated global registry enforcement",
+    "SPEAK": "No verified TTS or audio subsystem in the Index"
+  },
+  "edges": [
+    {
+      "from": "data/santo-cruzeiro-universal.json",
+      "to": [
+        "MCE-HYM-A",
+        "MCE-STANZA-B"
+      ],
+      "certainty": "documentary_only_not_fetched_by_index"
+    },
+    {
+      "from": "data/modelo-a-marcacoes.json",
+      "to": [
+        "MCE-STANZA-B"
+      ],
+      "certainty": "research_not_runtime"
+    },
+    {
+      "from": "data/modelo-b-componente.json",
+      "to": [
+        "MCE-STANZA-B"
+      ],
+      "certainty": "research_not_runtime"
+    },
+    {
+      "from": "index.html#leitura-continua",
+      "to": [
+        "MCE-HYM-A",
+        "MCE-STANZA-B",
+        "MCE-SEP-04"
+      ],
+      "certainty": "verified_markup"
+    },
+    {
+      "from": "index.html#layoutStanzaBars",
+      "to": [
+        "MCE-STANZA-B"
+      ],
+      "certainty": "verified_inline_controller"
+    },
+    {
+      "from": "index.html#scenes",
+      "to": [
+        "MCE-STAGE-06"
+      ],
+      "certainty": "verified_inline_controller"
+    },
+    {
+      "from": "index.html#site-share",
+      "to": [
+        "MCE-HEAD-01"
+      ],
+      "certainty": "verified_inline_controller"
+    },
+    {
+      "from": "index.html (inline CSS)",
+      "to": [
+        "MCE-HYM-A",
+        "MCE-HYM-B",
+        "MCE-HYM-C",
+        "MCE-FLAG-05",
+        "MCE-STAGE-06"
+      ],
+      "certainty": "verified_style"
+    },
+    {
+      "from": "js/ris-responsive-preview.js",
+      "to": [
+        "MCE-RS-01"
+      ],
+      "certainty": "verified_controller"
+    },
+    {
+      "from": "css/ris-responsive-stage.css",
+      "to": [
+        "MCE-RS-01",
+        "MCE-HYM-A",
+        "MCE-NAV-02"
+      ],
+      "certainty": "verified_style"
+    },
+    {
+      "from": "css/ris-internal-responsive.css",
+      "to": [
+        "MCE-RS-01",
+        "MCE-TRIBUTE-09",
+        "MCE-DOC-08",
+        "MCE-BIO-10",
+        "MCE-CAL-11",
+        "MCE-HYM-HUB-13",
+        "MCE-LINKS-12"
+      ],
+      "certainty": "verified_style"
+    },
+    {
+      "from": "ris-green.png",
+      "to": [
+        "MCE-FLAG-05",
+        "MCE-STAGE-06"
+      ],
+      "certainty": "verified_asset"
+    },
+    {
+      "from": "ris-blue.png",
+      "to": [
+        "MCE-FLAG-05",
+        "MCE-STAGE-06"
+      ],
+      "certainty": "verified_asset"
+    },
+    {
+      "from": "eagle-white.png",
+      "to": [
+        "MCE-FLAG-05",
+        "MCE-STAGE-06"
+      ],
+      "certainty": "verified_asset"
+    },
+    {
+      "from": "eagle-blue-white.png",
+      "to": [
+        "MCE-FLAG-05",
+        "MCE-STAGE-06"
+      ],
+      "certainty": "verified_asset"
+    },
+    {
+      "from": "assets/images/arte-50-anos-original.jpg",
+      "to": [
+        "MCE-TRIBUTE-09"
+      ],
+      "certainty": "verified_asset"
+    },
+    {
+      "from": "assets/images/retrato-corpo-inteiro.jpg",
+      "to": [
+        "MCE-TRIBUTE-09"
+      ],
+      "certainty": "verified_asset"
+    },
+    {
+      "from": "assets/images/primeiros-discipulos.jpg",
+      "to": [
+        "MCE-TRIBUTE-09"
+      ],
+      "certainty": "verified_asset"
+    },
+    {
+      "from": "assets/images/retrato-decreto.jpg",
+      "to": [
+        "MCE-DOC-08"
+      ],
+      "certainty": "verified_asset"
+    }
+  ],
+  "events": [
+    {
+      "owner": "RS-01",
+      "input": "click [data-preview]",
+      "controller": "js/ris-responsive-preview.js",
+      "output": "data-preview, aria-pressed, localStorage ris-responsive-preview-mode, ris:responsive-preview-changed"
+    },
+    {
+      "owner": "MCE-NAV-02",
+      "input": "click shortcut href",
+      "controller": "native anchor navigation",
+      "output": "scroll to named module"
+    },
+    {
+      "owner": "MCE-HYM-B/C",
+      "input": "summary click",
+      "controller": "native details HTML",
+      "output": "toggle section without app store"
+    },
+    {
+      "owner": "MCE-STANZA-B",
+      "input": "resize and initial rendering",
+      "controller": "layoutStanzaBars() inline",
+      "output": "decorative bars only when data-bar-status verified"
+    },
+    {
+      "owner": "MCE-STAGE-06",
+      "input": "prev/next keyboard, scene select and layer controls",
+      "controller": "index.html inline script",
+      "output": "selected composition in browser session"
+    },
+    {
+      "owner": "MCE-HEAD-01",
+      "input": "share click",
+      "controller": "index.html inline script",
+      "output": "navigator.share or fallback"
+    }
+  ],
+  "source_of_truth_gap": "data/santo-cruzeiro-universal.json exists but index.html embeds displayed hymn text and does not fetch it; avoid claiming JSON is live canonical renderer",
+  "model_b_gap": "data/modelo-b-componente.json indicates 8px gap; any actual CSS gap must be compared in context",
+  "non_existent_or_future": [
+    "data/corpus-3-hinarios.json",
+    "full 149 hymn transcriptions",
+    "audio playback",
+    "score player",
+    "cross-page share-per-stanza",
+    "server persistence/auth",
+    "automated module impact analyzer"
+  ],
+  "limits": "No SIYAYO assessment, NICK, PATITA, Evidence, Green, V30 or D1 imported"
+}

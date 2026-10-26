@@ -41,9 +41,9 @@ body{background:linear-gradient(#020918eb,#020918f6),url('../background-ris.png'
 <body>
 <div class="dev-preview-toolbar" data-siyayo-responsive-toolbar role="group" aria-label="Formato da prévia"><button class="preview-button" data-preview="auto" aria-pressed="true">AUTO</button><button class="preview-button" data-preview="portrait" aria-pressed="false">PORTRAIT</button><button class="preview-button" data-preview="landscape" aria-pressed="false">LANDSCAPE</button></div>
 <div class="stage-viewport" data-siyayo-responsive-viewport data-preview="auto"><div class="experience-box ris-responsive-shell">
-<header class="ris-art-header"><a href="../" aria-label="Voltar ao portal">← Portal RIS</a><h1>Estúdio Fine Art<br><small>Mestre Canto Ensino RIS</small></h1><span style="color:#f2d88a;font-size:12px">JAGUAR · ELO 1C</span></header>
-<div class="art-intro"><strong>Prévia experimental · núcleo preservado.</strong> As seis camadas, o mixer e os quatro cenários podem ser testados aqui. Os controles de perspectiva foram acrescentados abaixo do palco; geração de imagens e compartilhamento ficam para o próximo elo.</div>
-<div class="fineart-format-options" role="group" aria-label="Formato da arte"><strong>FORMATO DA ARTE</strong><button type="button" id="fine-art-landscape" aria-pressed="true">PAISAGEM</button><button type="button" id="fine-art-portrait" aria-pressed="false">PORTRAIT</button><span class="hint">Prévia de composição; exportação de imagem ainda não disponível</span></div><h2 class="stage-title" id="palco">Palco RIS · Seis camadas</h2><main><section class="panel">
+<header class="ris-art-header"><a href="../" aria-label="Voltar ao portal">← Portal RIS</a><h1>Estúdio Fine Art<br><small>Mestre Canto Ensino RIS</small></h1><span style="color:#f2d88a;font-size:12px">JAGUAR · ELO 1D</span></header>
+<div class="art-intro"><strong>Prévia experimental · núcleo preservado.</strong> As seis camadas, o mixer e os quatro cenários podem ser testados aqui. Os controles de perspectiva foram acrescentados abaixo do palco; download PNG e compartilhamento estão em fase experimental nesta página.</div>
+<div class="fineart-format-options" role="group" aria-label="Formato da arte"><strong>FORMATO DA ARTE</strong><button type="button" id="fine-art-landscape" aria-pressed="true">PAISAGEM</button><button type="button" id="fine-art-portrait" aria-pressed="false">PORTRAIT</button><span class="hint">Prévia de composição · PNG experimental</span></div><h2 class="stage-title" id="palco">Palco RIS · Seis camadas</h2><main><section class="panel">
 <div id="stage" class="stage" aria-label="Palco visual com seis camadas">
 <div class="stage-bg" id="bg"></div>
 <img id="emblem" class="layer" src="../eagle-white.png" alt="">
@@ -70,7 +70,7 @@ body{background:linear-gradient(#020918eb,#020918f6),url('../background-ris.png'
 <div class="fineart-perspective-field"><label for="fine-art-horizontal"><span>Horizontal</span><output id="fine-art-horizontal-value"></output></label><input type="range" id="fine-art-horizontal" min="-50" max="50" value="0" step="1"></div><div class="fineart-perspective-field"><label for="fine-art-vertical"><span>Vertical</span><output id="fine-art-vertical-value"></output></label><input type="range" id="fine-art-vertical" min="-50" max="50" value="0" step="1"></div><div class="fineart-perspective-field"><label for="fine-art-focal"><span>Profundidade / focal</span><output id="fine-art-focal-value"></output></label><input type="range" id="fine-art-focal" min="450" max="2400" value="1100" step="1"></div><div class="fineart-perspective-field"><label for="fine-art-inout"><span>Inward / outward</span><output id="fine-art-inout-value"></output></label><input type="range" id="fine-art-inout" min="-45" max="100" value="0" step="1"></div>
 </div>
 <div class="fineart-perspective-actions"><button type="button" id="fine-art-perspective-reset">RESTAURAR PERSPECTIVA DA CAMADA</button><span class="status" id="fine-art-perspective-status" aria-live="polite"></span></div>
-</section><footer class="ris-art-footer">Estúdio Fine Art RIS · palcos independentes · branch experimental</footer>
+</section><section id="fine-art-export" class="panel" style="max-width:1510px;margin:20px auto;text-align:center"><h2>GERAR IMAGEM · SHARE</h2><p class="hint">Exportação experimental local: Paisagem (1672 × 941) ou Portrait (1080 × 1920). Confira a composição antes de compartilhar. Nenhuma imagem é enviada ao servidor.</p><div class="controls" style="justify-content:center"><button id="fine-art-download" type="button">BAIXAR PNG</button><button id="fine-art-share" type="button">COMPARTILHAR IMAGEM</button></div><p id="fine-art-export-status" aria-live="polite" class="status">Pronto para preparar a imagem.</p></section><footer class="ris-art-footer">Estúdio Fine Art RIS · palcos independentes · branch experimental</footer>
 </div></div><script>
 const defs=[
  {id:'bg',name:'01 · FUNDO',enabled:true,opacity:100},
@@ -109,4 +109,6 @@ $('next').onclick=()=>{ix=(ix+1)%scenes.length;loadSlide()};
 $('reset').onclick=loadSlide;
 document.addEventListener('keydown',e=>{if(['INPUT','SELECT','TEXTAREA'].includes(document.activeElement?.tagName))return;if(e.key==='ArrowRight')$('next').click();if(e.key==='ArrowLeft')$('prev').click()});
 
-loadSlide();</script><script src="../js/ris-responsive-preview.js"></script><script src="perspective.js"></script><script src="format.js"></script></body></html>
+loadSlide();
+window.getRISFineArtStageState=()=>({bg:{enabled:state.bg.enabled,opacity:state.bg.opacity,color:$('bg-choice').value},caption:$('caption').textContent,...Object.fromEntries(defs.filter(d=>d.id!=='bg').map(d=>[d.id,{enabled:state[d.id].enabled,opacity:state[d.id].opacity}]))});
+</script><script src="../js/ris-responsive-preview.js"></script><script src="perspective.js"></script><script src="format.js"></script><script src="export.js"></script></body></html>

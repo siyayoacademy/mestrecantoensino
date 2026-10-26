@@ -71,7 +71,7 @@
     {
       "code": "MCE-FINEART-20E",
       "name": "Format & Share / Export",
-      "status": "partial_format_switch_export_pending",
+      "status": "experimental_implemented_unhomologated",
       "path": "fine-art/index.html",
       "selector": "not created",
       "role": "output composition",
@@ -154,6 +154,17 @@
       "4-corner mesh warp",
       "saved presets"
     ],
-    "validation": "GitHub structural audit only; visual/browser still pending"
+    "validation": "GitHub structural audit only; visual/browser still pending",
+    "export": "Experimental browser Canvas renderer in fine-art/export.js; share via Web Share files when supported, fallback PNG download",
+    "export_status": "IMPLEMENTED_UNVERIFIED_IN_BROWSER",
+    "canvas_projection": "Piecewise affine mesh approximation of CSS rotateX/rotateY; visual match not yet homologated",
+    "security": "No uploads; only client-side image and object URLs",
+    "known_limitations": [
+      "Perspective canvas is approximate, not pixel-identical CSS projection",
+      "Local user images supported only while browser tab lives",
+      "Fonts and upload photos require browser verification",
+      "Export may be blocked by CORS-tainted canvas",
+      "No live Cloudflare preview verification yet"
+    ]
   }
 }

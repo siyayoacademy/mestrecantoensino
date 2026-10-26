@@ -63,3 +63,6 @@
 Não copiar runtime pedagógico da SIYAYO Academy. Não alterar a `main`, não fazer merge, não publicar produção, não remover texto autorado, não editar fotografias originais nem assumir direitos de letras/partituras. O Santo Cruzeiro permanece com leitura consecutiva **sem índice**, barras apenas verificadas e separador Sol · Lua · Estrela. O 50 anos original histórico permanece distinto da imagem criativa de 55 anos.
 
 **Importante:** os registros são aliases documentais; não transformam HTML inline em componentes portáteis. O mapa é reavaliado ao atualizar o HEAD e ao movimentar qualquer módulo. JSON: `docs/mce-impact-integration-map.json`.
+## Fine Art RIS — ELO 1A (REG-03)
+
+**Estado: PROPOSTO / REGISTRADO, NÃO IMPLEMENTADO.** O módulo `MCE-FINEART-20`, contêiner de acesso “Estúdio Fine Art / Mestre Canto Ensino RIS”, palco e mixer preservados, controles horizontal, vertical, focal e inward/outward, formatos paisagem e portrait e saída share/download estão especificados em [Arquitetura Fine Art](MCE-FINEART-20-ARCHITECTURE.md) e [JSON de contrato](mce-fineart-20-spec.json). A página `/fine-art/` ainda não existe; nenhuma alteração visual ou runtime foi executada.

@@ -1,0 +1,33 @@
+/* RS-01 · Mestre Canto Ensino · presentation only */
+.stage-viewport{--siyayo-preview-portrait-width:430px;--siyayo-preview-landscape-width:844px;width:100%;display:flex;justify-content:center;transition:max-width .22s ease}
+.experience-box{width:100%;min-width:0}
+.stage-viewport[data-preview="portrait"]{max-width:var(--siyayo-preview-portrait-width);margin-inline:auto}
+.stage-viewport[data-preview="landscape"]{max-width:var(--siyayo-preview-landscape-width);margin-inline:auto}
+.stage-viewport[data-siyayo-responsive-viewport]{container-type:inline-size;container-name:ris-responsive}
+.stage-viewport>.ris-responsive-shell{width:100%;min-width:0;overflow-x:clip}
+.dev-preview-toolbar{position:fixed;right:14px;top:14px;z-index:2000;display:flex;gap:6px;padding:6px;border:1px solid #d7b35a66;border-radius:99px;background:#020918e8;backdrop-filter:blur(10px)}
+.preview-button{min-height:34px;padding:0 11px;border:1px solid #f2d88a3d;border-radius:99px;background:#061b3db8;color:white;font:inherit;font-size:.72rem;cursor:pointer}
+.preview-button.is-active{background:#d7b35a;border-color:#f2d88a;color:#171006;font-weight:700}
+body:has(.dev-preview-toolbar){padding-top:58px}
+@media(hover:none) and (pointer:coarse){.dev-preview-toolbar{display:none!important}body:has(.dev-preview-toolbar){padding-top:0}}
+@container ris-responsive (max-width:700px){
+.ris-responsive-shell header{padding-inline:10px}
+.ris-responsive-shell header h1{font-size:clamp(18px,4.8cqw,25px)}
+.ris-responsive-shell .portal-nav,.ris-responsive-shell .flag-gallery{grid-template-columns:1fr}
+.ris-responsive-shell main{grid-template-columns:1fr}
+.ris-responsive-shell .portal-shortcuts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+.ris-responsive-shell .portal-shortcuts-label{grid-column:1/-1}
+.ris-responsive-shell .portal-shortcuts a{font-size:12px;padding:8px 5px}
+.ris-responsive-shell #cruzeiro .hymn-stanza{width:min(100%,510px)}
+.ris-responsive-shell #cruzeiro{padding:19px 13px}
+.ris-responsive-shell .hymn-separator{gap:18px}
+.ris-responsive-shell .gold-hymn-module summary{gap:6px}
+}
+@container ris-responsive (max-width:460px){
+.ris-responsive-shell .portal{padding-inline:10px}
+.ris-responsive-shell .portal-card{padding:16px 12px}
+.ris-responsive-shell #cruzeiro .stanza-words{font-size:clamp(17px,4.4cqw,21px)}
+.ris-responsive-shell #cruzeiro .hymn-stanza{grid-template-columns:30px minmax(0,1fr);column-gap:6px}
+.ris-responsive-shell #cruzeiro .stanza-tracks{min-width:30px}
+.ris-responsive-shell .portal-shortcuts{padding:0 8px}
+}

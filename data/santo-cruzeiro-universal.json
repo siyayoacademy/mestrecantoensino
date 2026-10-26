@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.3",
+  "collection": "O Santo Cruzeiro Universal",
+  "reading_mode": "continuous_no_index",
+  "separator": "sun_moon_six_pointed_star",
+  "source_note": "Edições em cotejamento: PDF de partituras do usuário reservado ao leitor musical; Nossa Irmandade para texto; caderno Flor do Céu/CICLUMIG para indicações; diferenças entre tradições respeitadas.",
+  "hymns": [
+    {
+      "number": 1,
+      "title": "Lua Branca",
+      "rhythm": "VALSA",
+      "rhythm_status": "observed_in_uploaded_pdf",
+      "transcription_status": "first_stanza_verified",
+      "stanzas": [
+        {
+          "verses": [
+            "Deus te salve, oh! Lua Branca",
+            "Da luz tão prateada",
+            "Tu sois minha Protetora",
+            "De Deus tu sois estimada"
+          ],
+          "source": "O SANTO CRUZEIRO Partituras.pdf",
+          "page": 85,
+          "repetition_bars": [],
+          "status": "first_stanza_verified",
+          "bar_verification_status": "pending_documentary_verification",
+          "bar_intervals": []
+        }
+      ],
+      "repetition_bars": [],
+      "note": "Página 85: pauta de música e seta visíveis; não inferir barras verticais de repetição dos símbolos da partitura.",
+      "pdf_portuguese_page": 85,
+      "execution_repeats": null,
+      "stanza_repeat_marks_status": "pending_visual_verification"
+    },
+    {
+      "number": 2,
+      "title": "Tuperci",
+      "source_annotation": "(3x)",
+      "rhythm": "MARCHA",
+      "transcription_status": "pending",
+      "stanzas": [],
+      "repetition_bars": [],
+      "pdf_portuguese_page": 89,
+      "rhythm_status": "cross_reference_hinarios_online_pending_reference_edition",
+      "execution_repeats": 3,
+      "execution_repeats_status": "uploaded_pdf_and_ritual_article",
+      "stanza_repeat_marks_status": "pending_visual_verification",
+      "note": "3x é repetição global da execução; não presumir três barras verticais."
+    },
+    {
+      "number": 3,
+      "title": "Ripi",
+      "source_annotation": "(3x)",
+      "rhythm": "MARCHA",
+      "transcription_status": "pending",
+      "stanzas": [],
+      "repetition_bars": [],
+      "pdf_portuguese_page": 91,
+      "rhythm_status": "cross_reference_hinarios_online_pending_reference_edition",
+      "execution_repeats": 3,
+      "execution_repeats_status": "uploaded_pdf_and_ritual_article",
+      "stanza_repeat_marks_status": "pending_visual_verification",
+      "note": "3x é repetição global da execução; não presumir três barras verticais."
+    }
+  ],
+  "documentary_reference": {
+    "file": "O SANTO CRUZEIRO Partituras.pdf",
+    "internal_title": "O CRUZEIRO",
+    "note": "Source furnished for research; not republished in package. Edition comparison pending."
+  },
+  "version_comparison": {
+    "sources": [
+      {
+        "label": "Nossa Irmandade",
+        "url": "https://nossairmandade.com/hinarios/individual",
+        "role": "sequencia e texto para cotejo"
+      },
+      {
+        "label": "O Cruzeiro, Flor do Céu",
+        "url": "https://www.mestreirineu.org/FDC/cadernos_de_hinarios_impressao/O%20Cruzeiro%20-%20Raimundo%20Irineu%20Serra%20A5%20-%20MIOLO.pdf",
+        "role": "conferir barras impressas e ritmos"
+      },
+      {
+        "label": "O Cruzeiro — Uma abordagem do rito",
+        "url": "https://www.mestreirineu.org/FDC/artigo1",
+        "role": "descricoes das repeticoes por hino, variacoes entre tradições"
+      },
+      {
+        "label": "O Santo Cruzeiro Partituras.pdf",
+        "role": "reservado para futuro leitor musical; nao utilizar pauta no leitor de canto"
+      }
+    ],
+    "bar_verification_queue": [
+      28,
+      42,
+      50,
+      92
+    ],
+    "separate_fields": [
+      "execution_repeats",
+      "stanza_repeat_bars"
+    ],
+    "approved_reader_rule": "somente titulo, ritmo, versos, barras verificadas e separador Sol Lua Estrela, leitura em sequencia sem indice"
+  },
+  "ritual_repetition_study": {
+    "source": "https://www.mestreirineu.org/FDC/artigo1",
+    "edition": "CICLU Flor do Céu — artigo ritual (2012)",
+    "note": "Descrição verbal da execução, não comprovação do traçado gráfico original. Não aplicado aos hinos visíveis até homologação.",
+    "cases": [
+      {
+        "number": 28,
+        "repeat_segments": [
+          {
+            "from_verse": 3,
+            "to_verse": 4,
+            "kind": "partial",
+            "status": "documented_verbal_rule"
+          },
+          {
+            "from_verse": 1,
+            "to_verse": 4,
+            "kind": "whole_stanza",
+            "status": "documented_verbal_rule"
+          }
+        ],
+        "graphic_shape_status": "pending_original_print_comparison",
+        "lyrics_status": "not_ingested"
+      },
+      {
+        "number": 42,
+        "repeat_segments": [
+          {
+            "from_verse": 3,
+            "to_verse": 4,
+            "kind": "partial",
+            "status": "documented_verbal_rule"
+          },
+          {
+            "from_verse": 1,
+            "to_verse": 4,
+            "kind": "whole_stanza",
+            "status": "documented_verbal_rule"
+          }
+        ],
+        "graphic_shape_status": "pending_original_print_comparison",
+        "lyrics_status": "not_ingested"
+      },
+      {
+        "number": 50,
+        "repeat_segments": [
+          {
+            "from_verse": 3,
+            "to_verse": 4,
+            "kind": "partial",
+            "status": "documented_verbal_rule"
+          },
+          {
+            "from_verse": 1,
+            "to_verse": 4,
+            "kind": "whole_stanza",
+            "status": "documented_verbal_rule"
+          }
+        ],
+        "graphic_shape_status": "pending_original_print_comparison",
+        "lyrics_status": "not_ingested"
+      },
+      {
+        "number": 92,
+        "repeat_segments": [
+          {
+            "from_verse": 3,
+            "to_verse": 4,
+            "kind": "partial",
+            "status": "documented_verbal_rule"
+          },
+          {
+            "from_verse": 1,
+            "to_verse": 4,
+            "kind": "whole_stanza",
+            "status": "documented_verbal_rule"
+          }
+        ],
+        "graphic_shape_status": "pending_original_print_comparison",
+        "lyrics_status": "not_ingested"
+      }
+    ]
+  },
+  "model_b_integration": {
+    "version": "1U",
+    "status": "wired_to_main_reader; no_unverified_bars",
+    "rule": "Only verified stanza data may draw bars",
+    "range_format": "zero-based from:to:slot, to exclusive, slots 0..2",
+    "notes": "Marcha, Valsa, Mazurca e trechos mistos compatíveis; não presumir tipos ou mudanças de ritmo."
+  }
+}

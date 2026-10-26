@@ -26,10 +26,180 @@ input[type=range]{width:100%;accent-color:#d7b35a} input[type=checkbox]{accent-c
 select{width:100%;margin:8px 0 0}input[type=file]{width:100%;color:#c6d3e0;font-size:12px;margin-top:9px}
 .hint{color:#c5d1e3;font-size:12px;line-height:1.4}.count{color:var(--gold-light)}.status{font-size:13px;color:#c5d1e3}
 @media(max-width:900px){main{grid-template-columns:1fr}.panel{padding:12px}}
-</style></head>
-<body>
-<header><div><h1>✦ MESTRE CANTO ENSINO</h1><small>SIYAYO · Palco Modular · Seis Camadas</small></div><small>RIS · Canto · Floresta · Piano</small></header>
-<main><section class="panel">
+
+/* JAGUAR ELO 1A — portal, no original mixer code removed */
+body{background:linear-gradient(rgba(2,5,19,.91),rgba(2,5,19,.95)),url("background-ris.png") center top / min(100%,1100px) auto no-repeat fixed,#020617}
+header{position:relative;z-index:2;display:grid;grid-template-columns:70px 1fr 70px;gap:10px;align-items:center;text-align:center}
+header h1{font-size:clamp(20px,3vw,34px)}header small{display:block;font-size:clamp(12px,1.5vw,17px);color:#fff;letter-spacing:.13em}
+.ris-home,.share-link{display:grid;place-items:center;min-height:54px;text-decoration:none;border:1px solid var(--gold);background:#08072f;border-radius:14px;color:var(--gold-light);font-size:18px;cursor:pointer}
+.ris-home{font-family:Georgia,serif;font-size:22px}.share-link{font-size:22px}
+.portal{max-width:1450px;margin:26px auto;padding:0 16px}.portal-card{border:1px solid var(--gold);background:rgba(2,7,26,.92);border-radius:18px;padding:clamp(18px,4vw,36px);margin:18px 0;box-shadow:0 18px 45px #0008}
+.portal-card h2{font-size:clamp(20px,3vw,30px)}.portal-card p{line-height:1.75;font-size:clamp(16px,1.6vw,19px)}
+.portal-hero{text-align:center}.portal-hero .kicker{color:var(--gold);letter-spacing:.15em;text-transform:uppercase;font-size:13px}.portal-hero h2{font-size:clamp(22px,4vw,42px);line-height:1.2}.portal-hero p{max-width:850px;margin:12px auto}
+.hymn-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}.rhythm{border:1px solid var(--gold);border-radius:999px;color:var(--gold-light);padding:7px 18px;letter-spacing:.1em}
+/* Leitor v0.4: coluna reservada com tres barras proximas e alturas independentes. */
+.hymn-demo{max-width:740px;margin:auto}
+.verse{display:grid;grid-template-columns:42px minmax(0,1fr);column-gap:12px;margin:22px 0;align-items:stretch}
+.repeat-space{position:relative;width:42px;min-height:1px}
+.repeat-bar{position:absolute;top:calc(var(--from) * 25%);height:calc((var(--to) - var(--from)) * 25%);width:2px;background:var(--gold-light);left:calc(9px + var(--slot) * 8px);border-radius:2px}
+.verse-lines{display:grid;grid-template-rows:repeat(4,minmax(0,auto));font-size:clamp(16px,1.8vw,21px);line-height:1.55}
+.verse-line{padding:2px 0;min-width:0}
+/* A altura de cada barra e recalculada pelo JS a partir dos limites dos versos,
+   inclusive quando a linha quebra em duas ou mais linhas no smartphone. */
+.hymn-separator{display:flex;align-items:center;justify-content:center;gap:26px;margin:35px auto;width:fit-content}.hymn-separator svg{width:34px;height:34px;fill:none;stroke:var(--gold);stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}.hymn-separator .star6{fill:rgba(215,179,90,.16)}
+.stage-title{text-align:center;margin:20px auto 0;color:var(--gold-light)}.portal-nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.portal-nav a{display:flex;align-items:center;justify-content:center;text-align:center;padding:16px 10px;min-height:78px;color:var(--gold-light);text-decoration:none;border:1px solid var(--gold);border-radius:10px;background:#081933}
+.portal-nav a:hover,.portal-nav a:focus-visible{background:#163862}.portal-footer{text-align:center;padding:25px 10px;color:#d8dce7}.portal-footer img{width:100px;max-width:100%;height:auto;display:block;margin:10px auto}
+@media(max-width:700px){header{grid-template-columns:54px 1fr 54px;padding:12px 8px}.ris-home,.share-link{min-height:44px}.portal-nav{grid-template-columns:1fr}.hymn-separator{gap:18px}.hymn-separator svg{width:29px;height:29px}}
+@media(max-width:900px){body{background-attachment:scroll;background-size:auto,auto,100% auto}}
+
+/* JAGUAR ELO 1B — módulos dourados expansíveis, sem alterar o mixer */
+.gold-hymn-module{margin:22px auto;border:1px solid var(--gold);border-radius:18px;
+ background:linear-gradient(145deg,rgba(6,19,44,.97),rgba(2,7,26,.97));
+ box-shadow:inset 0 0 0 1px rgba(242,216,138,.16),0 16px 36px #0007;
+ overflow:hidden;max-width:1450px}
+.gold-hymn-module summary{list-style:none;cursor:pointer;display:flex;align-items:center;
+ justify-content:center;gap:clamp(12px,3vw,24px);padding:clamp(20px,4vw,34px) 15px;
+ color:var(--gold-light);text-align:center}
+.gold-hymn-module summary::-webkit-details-marker{display:none}
+.gold-hymn-module summary::before,.gold-hymn-module summary::after{
+ content:"";height:1px;max-width:100px;flex:1;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.gold-hymn-module summary:focus-visible{outline:3px solid #fff;outline-offset:-4px}
+.gold-hymn-name{font-family:Georgia,"Times New Roman",serif;text-transform:uppercase;
+ font-size:clamp(21px,4vw,39px);font-weight:400;line-height:1.2;letter-spacing:.065em;
+ text-shadow:0 1px 0 #5f4212,0 0 20px rgba(215,179,90,.2)}
+.gold-hymn-marker{font-size:20px;display:inline-block;transition:transform .2s}
+.gold-hymn-module[open] .gold-hymn-marker{transform:rotate(180deg)}
+.gold-hymn-content{border-top:1px solid var(--border);padding:clamp(18px,3vw,30px);
+ color:#fff;line-height:1.7}
+.gold-hymn-content p{max-width:780px;margin:0 auto 15px}
+.gold-source{font-size:13px;color:#d1d8e4;max-width:780px;margin:auto}
+@media(max-width:500px){.gold-hymn-module summary{gap:6px}
+.gold-hymn-module summary::before,.gold-hymn-module summary::after{max-width:18px}}
+
+
+/* ELO 1C: bandeiras em quadros 1672:941 usando as camadas RIS originais */
+.flag-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.flag-figure{margin:0;min-width:0}
+.flag-figure figcaption{text-align:center;color:var(--gold-light);padding:10px;font-size:14px}
+.flag-canvas{position:relative;width:100%;aspect-ratio:1672/941;border:2px solid var(--gold);
+background:var(--flag-color);overflow:hidden}
+.flag-canvas img{position:absolute;inset:0;width:100%;height:100%;object-fit:fill}
+.flag-canvas img{pointer-events:none}
+@media(max-width:750px){.flag-gallery{grid-template-columns:1fr}.flag-figure{max-width:600px;width:100%;margin:auto}}
+
+
+/* Jaguar v0.9: orientação e acesso rápido sem alterar os componentes homologados */
+.skip-link{position:absolute;top:-100px;left:12px;z-index:100;background:#f2d88a;color:#020918;padding:12px;border-radius:6px}.skip-link:focus{top:8px}
+.version-tag{display:inline-block;margin-top:6px;color:#d7b35a;font:600 11px 'Nunito Sans',sans-serif;letter-spacing:.1em}
+.portal-shortcuts{max-width:1450px;margin:18px auto 6px;padding:0 16px;display:flex;gap:9px;flex-wrap:wrap;justify-content:center;text-align:center}
+.portal-shortcuts a{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:8px 13px;color:#f2d88a;text-decoration:none;border:1px solid rgba(215,179,90,.65);border-radius:10px;background:#07162e;font-size:14px}
+.portal-shortcuts a:hover,.portal-shortcuts a:focus-visible{background:#143258;outline:2px solid #f2d88a;outline-offset:2px}
+.portal-shortcuts-label{flex:0 0 100%;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#c8d3e5;text-align:center}
+@media(max-width:600px){.portal-shortcuts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));justify-content:center}.portal-shortcuts-label{grid-column:1/-1}.portal-shortcuts a{font-size:12px;padding:8px}}
+
+/* ELO 1I — leitura corrida sem índice */
+.hymn-continuous{max-width:850px;margin:auto}.hymn-lines{white-space:pre-line;line-height:1.9;padding-left:46px;font-size:clamp(17px,2.3vw,21px)}
+
+.hymn-entry{border-top:none;padding:23px 0;max-width:850px;margin:auto;scroll-margin-top:24px}
+.hymn-entry h3{font:400 clamp(22px,3vw,30px) Georgia,serif;color:var(--gold-light);margin:0 0 12px}
+.hymn-entry .doc-meta{font-size:13px;color:#c8d4df;margin-bottom:12px}
+.hymn-entry blockquote{margin:14px 0 16px;border-left:3px solid var(--gold);padding-left:24px;line-height:1.85;white-space:pre-line}
+.hymn-entry .source-link{color:var(--gold-light)}
+@media(max-width:700px){.hymn-lines{padding-left:35px}}
+
+/* JAGUAR ELO 1K v1.4 — somente refinamento da leitura continua no smartphone.
+   Nenhuma lista ou indice; nenhum botao entre os hinos. */
+#cruzeiro .hymn-continuous{width:100%;max-width:760px}
+#cruzeiro .hymn-entry{padding:24px 0 18px;min-width:0}
+#cruzeiro .hymn-entry h3{text-align:center;line-height:1.32;overflow-wrap:break-word;margin-bottom:8px}
+#cruzeiro .hymn-entry .doc-meta{text-align:center;line-height:1.55;letter-spacing:.035em}
+#cruzeiro .hymn-lines{padding-left:54px;padding-right:12px;line-height:1.9;overflow-wrap:break-word;hyphens:none}
+#cruzeiro .hymn-separator{margin:19px auto 16px;gap:22px}
+#cruzeiro .hymn-separator svg{flex:none}
+#cruzeiro .hymn-entry .hint{max-width:690px}
+#cruzeiro .hymn-entry:focus-visible{outline:2px solid var(--gold-light);outline-offset:4px}
+@media(max-width:600px){
+ #cruzeiro{padding:19px 13px}
+ #cruzeiro .hymn-head h2{text-align:center;font-size:clamp(22px,6vw,27px)}
+ #cruzeiro .hymn-head{justify-content:center;text-align:center}
+ #cruzeiro .hymn-head p{text-align:center}
+ #cruzeiro .hymn-entry{padding:17px 0 12px}
+ #cruzeiro .hymn-entry h3{font-size:clamp(23px,6.1vw,28px)}
+ #cruzeiro .hymn-entry .doc-meta{font-size:12px}
+ #cruzeiro .hymn-lines{font-size:clamp(18px,4.9vw,22px);line-height:1.75;padding-left:36px;padding-right:2px}
+ #cruzeiro .hymn-separator{margin:17px auto 14px;gap:19px}
+ .verse{grid-template-columns:38px minmax(0,1fr);column-gap:7px}
+ .repeat-space{width:38px}
+ .verse-lines{font-size:clamp(17px,4.5vw,21px);line-height:1.6}
+}
+@media(max-width:360px){#cruzeiro .hymn-lines{padding-left:27px;font-size:18px}}
+
+/* JAGUAR 1U: Modelo B integrado — até três trilhos independentes, documentados por estrofe. */
+#cruzeiro .hymn-stanza{display:grid;grid-template-columns:36px minmax(0,1fr);column-gap:10px;max-width:720px;margin:15px auto 18px;align-items:stretch}
+#cruzeiro .stanza-tracks{position:relative;min-width:36px;align-self:stretch}
+#cruzeiro .stanza-words{display:flex;flex-direction:column;min-width:0;font-size:clamp(18px,4.9vw,22px);line-height:1.75}
+#cruzeiro .stanza-line{min-height:1.75em;overflow-wrap:break-word}
+#cruzeiro .stanza-repeat-bar{position:absolute;top:0;width:2px;background:var(--gold-light);border-radius:2px;display:none}
+#cruzeiro .stanza-repeat-bar[data-slot="0"]{left:4px}
+#cruzeiro .stanza-repeat-bar[data-slot="1"]{left:12px}
+#cruzeiro .stanza-repeat-bar[data-slot="2"]{left:20px}
+@media(max-width:360px){#cruzeiro .hymn-stanza{grid-template-columns:30px minmax(0,1fr);column-gap:5px}#cruzeiro .stanza-tracks{min-width:30px}}
+</style><link rel="stylesheet" href="css/ris-responsive-stage.css"></head>
+<body><div class="dev-preview-toolbar" id="devPreviewToolbar" data-siyayo-responsive-toolbar role="group" aria-label="Simular formato de tela"><button type="button" class="preview-button" data-preview="auto" aria-pressed="true">AUTO</button><button type="button" class="preview-button" data-preview="portrait" aria-pressed="false">PORTRAIT</button><button type="button" class="preview-button" data-preview="landscape" aria-pressed="false">LANDSCAPE</button></div><div class="stage-viewport" id="stageViewport" data-siyayo-responsive-viewport data-preview="auto"><div class="experience-box ris-responsive-shell"><a class="skip-link" href="#cruzeiro">Ir para o leitor de hinários</a>
+<header><a class="ris-home" href="#top" aria-label="Voltar ao início">RIS</a><div><h1>✦ MESTRE CANTO ENSINO</h1><small>RAIMUNDO IRINEU SERRA</small><span class="version-tag" aria-label="Versão local de desenvolvimento">JAGUAR v2.9 · RS-01 PRÉVIA</span></div><button class="share-link" id="site-share" aria-label="Compartilhar este portal" title="Compartilhar">↗</button></header>
+<nav class="portal-shortcuts" aria-label="Acesso rápido às seções do Index">
+<span class="portal-shortcuts-label">Acesso rápido</span>
+<a href="#cruzeiro">O Santo Cruzeiro Universal</a><a href="#diversoes-do-mestre">Diversões do Mestre</a><a href="#santa-missa">Santa Missa</a><a href="#bandeiras">Bandeiras RIS</a><a href="#palco">Palco modular</a><a href="#paginas-internas">Páginas internas</a> <a href="fine-art/">Estúdio Fine Art RIS</a>
+</nav><div id="top" class="portal"><section class="portal-card portal-hero"><p class="kicker">15 de outubro · Dia dos Professores</p><h2>Um aniversário entre mestres, música e ensinamentos</h2><p>Celebramos a vida, o canto e o ensino. Nossa homenagem ao Mestre Raimundo Irineu Serra e a todos os mestres e professores que compartilham conhecimento, dedicação e sabedoria.</p><p>O Mestre canta. A música ensina. O coração aprende.</p></section><section class="portal-card" id="cruzeiro"><div class="hymn-head"><div><h2>O Santo Cruzeiro Universal</h2><p>Leitura contínua · prévia parcial do hinário em preparação.</p></div></div><div class="hymn-continuous" id="leitura-continua" aria-label="Leitura sequencial do Santo Cruzeiro Universal">
+
+<article class="hymn-entry" id="hino-001"><h3>01 · Lua Branca</h3>
+<p class="doc-meta">VALSA</p>
+<div class="hymn-stanza" data-source-page="85" data-bars="" data-bar-status="pending_documentary_verification" data-rhythm="VALSA" aria-label="Primeira estrofe de Lua Branca; três trilhos de repetição reservados, sem marcação confirmada">
+  <div class="stanza-tracks" aria-hidden="true"><span class="stanza-repeat-bar" data-slot="0"></span><span class="stanza-repeat-bar" data-slot="1"></span><span class="stanza-repeat-bar" data-slot="2"></span></div>
+  <div class="stanza-words"><span class="stanza-line">Deus te salve, oh! Lua Branca</span><span class="stanza-line">Da luz tão prateada</span><span class="stanza-line">Tu sois minha Protetora</span><span class="stanza-line">De Deus tu sois estimada</span></div>
+</div>
+</article>
+<div class="hymn-separator" role="img" aria-label="Sol, Lua e Estrela de seis pontas, todos dourados"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="9"/><path d="M24 2v9M24 37v9M2 24h9M37 24h9M8 8l7 7M33 33l7 7M40 8l-7 7M15 33l-7 7"/></svg><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M36 34A19 19 0 0 1 17 8 19 19 0 1 0 36 34Z"/></svg><svg viewBox="0 0 48 48" aria-hidden="true"><path class="star6" d="M24 4 41 34H7Z M24 44 7 14h34Z"/></svg></div>
+<article class="hymn-entry" id="hino-002"><h3>02 · Tuperci</h3>
+<p class="doc-meta">MARCHA</p>
+</article>
+<div class="hymn-separator" role="img" aria-label="Sol, Lua e Estrela de seis pontas, todos dourados"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="9"/><path d="M24 2v9M24 37v9M2 24h9M37 24h9M8 8l7 7M33 33l7 7M40 8l-7 7M15 33l-7 7"/></svg><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M36 34A19 19 0 0 1 17 8 19 19 0 1 0 36 34Z"/></svg><svg viewBox="0 0 48 48" aria-hidden="true"><path class="star6" d="M24 4 41 34H7Z M24 44 7 14h34Z"/></svg></div>
+<article class="hymn-entry" id="hino-003"><h3>03 · Ripi</h3>
+<p class="doc-meta">MARCHA</p>
+</article>
+
+</div></section><!-- JAGUAR ELO 1B: posição canônica imediatamente após O Santo Cruzeiro Universal -->
+<section aria-label="Hinários complementares" id="hinarios-complementares">
+<details class="gold-hymn-module" id="diversoes-do-mestre">
+  <summary><span class="gold-hymn-name">Diversões do Mestre</span><span class="gold-hymn-marker" aria-hidden="true">⌄</span></summary>
+  <div class="gold-hymn-content">
+    <p><strong>Diversões do Mestre</strong> — área de leitura expansível preparada para o hinário por extenso, com numeração, ritmo e barras de repetição.</p>
+    <p>O texto integral será inserido após a conferência das fontes e da organização musical. Não apresentamos versos provisórios como se fossem a versão oficial.</p>
+    <p class="gold-source">Status: estrutura homologável; transcrição documental pendente.</p>
+  </div>
+</details>
+<details class="gold-hymn-module" id="santa-missa">
+  <summary><span class="gold-hymn-name">Santa Missa</span><span class="gold-hymn-marker" aria-hidden="true">⌄</span></summary>
+  <div class="gold-hymn-content">
+    <p><strong>A Santa Missa</strong> — segundo módulo dourado expansível, com a mesma estrutura do leitor de hinários.</p>
+    <p>Conteúdo integral reservado para inserção após cotejo de fontes, preservando estrofes, tipo musical e marcações de repetição.</p>
+    <p class="gold-source">Status: estrutura homologável; transcrição documental pendente.</p>
+  </div>
+</details>
+</section>
+
+<section class="portal-card" id="bandeiras" aria-labelledby="bandeiras-title">
+<h2 id="bandeiras-title">Bandeiras RIS</h2>
+<p>Três versões da identidade RIS, montadas por camadas independentes sem deformar as proporções.</p>
+<div class="flag-gallery">
+<figure class="flag-figure"><div class="flag-canvas" style="--flag-color:#ffffff">
+<img src="eagle-blue-white.png" alt=""><img src="ris-green.png" alt="Bandeira RIS com fundo branco, letras verdes e Águia Lua azul e branca"></div><figcaption>Branco · RIS verde</figcaption></figure>
+<figure class="flag-figure"><div class="flag-canvas" style="--flag-color:#08072f">
+<img src="eagle-white.png" alt=""><img src="ris-green.png" alt="Bandeira RIS com fundo azul-marinho, letras verdes e Águia Lua branca"></div><figcaption>Azul-marinho · RIS verde</figcaption></figure>
+<figure class="flag-figure"><div class="flag-canvas" style="--flag-color:#003800">
+<img src="eagle-white.png" alt=""><img src="ris-blue.png" alt="Bandeira RIS com fundo verde, letras azul-marinho e Águia Lua branca"></div><figcaption>Verde · RIS azul-marinho</figcaption></figure>
+</div></section>
+</div><h2 class="stage-title" id="palco">Palco RIS · Seis camadas</h2><main><section class="panel">
 <div id="stage" class="stage" aria-label="Palco visual com seis camadas">
 <div class="stage-bg" id="bg"></div>
 <img id="emblem" class="layer" src="eagle-white.png" alt="">
@@ -46,7 +216,7 @@ select{width:100%;margin:8px 0 0}input[type=file]{width:100%;color:#c6d3e0;font-
 <div id="controls"></div>
 <button id="reset">RESTAURAR SLIDE</button>
 <p class="hint">As imagens RIS e Águia Lua utilizam PNGs transparentes de 1672 × 941 px. O palco mantém a proporção 1672:941. A versão branca original do emblema com contorno azul está disponível no pacote.</p>
-</aside></main>
+</aside></main><div class="portal"><section class="portal-card" id="estudio-fine-art-ris" aria-labelledby="fine-art-title"><h2 id="fine-art-title" style="text-align:center">Estúdio Fine Art<br>Mestre Canto Ensino RIS</h2><p style="text-align:center">Palco especializado de composição visual com seis camadas e mixer preservado. Perspectiva e exportação de imagens: próximas etapas experimentais.</p><p style="text-align:center"><a href="fine-art/" style="display:inline-block;color:#f2d88a;border:1px solid #d7b35a;border-radius:10px;background:#081933;padding:13px 21px;text-decoration:none">ACESSAR ESTÚDIO FINE ART</a></p></section></div><div class="portal"><section class="portal-card" id="paginas-internas"><h2>Próximas páginas</h2><nav class="portal-nav" aria-label="Páginas do portal"><a href="decreto-1970/">Decreto do Mestre em Serviço — 1970</a><a href="homenagem/">Homenagem ao Mestre</a><a href="vida-e-obra/">Vida e Obra</a><a href="calendario/">Calendário dos Trabalhos</a><a href="hinarios/">Hinários</a><a href="nossa-irmandade/">Nossa Irmandade · Links</a></nav><p class="hint">As páginas internas já estão navegáveis; seus conteúdos documentais serão ampliados após conferência das fontes.</p></section><footer class="portal-footer"><img src="bandeira-brasil.jpg" alt="Bandeira do Brasil"><p>MESTRE CANTO ENSINO · RAIMUNDO IRINEU SERRA</p></footer></div>
 <script>
 const defs=[
  {id:'bg',name:'01 · FUNDO',enabled:true,opacity:100},
@@ -84,5 +254,57 @@ $('prev').onclick=()=>{ix=(ix+scenes.length-1)%scenes.length;loadSlide()};
 $('next').onclick=()=>{ix=(ix+1)%scenes.length;loadSlide()};
 $('reset').onclick=loadSlide;
 document.addEventListener('keydown',e=>{if(['INPUT','SELECT','TEXTAREA'].includes(document.activeElement?.tagName))return;if(e.key==='ArrowRight')$('next').click();if(e.key==='ArrowLeft')$('prev').click()});
+$('site-share').onclick=async()=>{const url=location.href;if(navigator.share){try{await navigator.share({title:'Mestre Canto Ensino',url})}catch(e){}}else if(navigator.clipboard){await navigator.clipboard.writeText(url);$('site-share').title='Link copiado';}};
 loadSlide();
-</script></body></html>
+function layoutRepeatBars(){
+ document.querySelectorAll('.verse').forEach(verse=>{
+  const column=verse.querySelector('.repeat-space');
+  const lines=[...verse.querySelectorAll('.verse-line')];
+  column.replaceChildren();
+  const ranges=(verse.dataset.repeats||'').split(',').filter(Boolean);
+  ranges.forEach(raw=>{
+   const [start,end,slot]=raw.split(':').map(Number);
+   if(!Number.isInteger(slot)||slot<0||slot>2||!lines[start]||!lines[end-1])return;
+   const columnTop=column.getBoundingClientRect().top;
+   const first=lines[start].getBoundingClientRect();
+   const last=lines[end-1].getBoundingClientRect();
+   const bar=document.createElement('span');bar.className='repeat-bar';
+   bar.style.left=(9+slot*8)+'px';
+   bar.style.top=(first.top-columnTop)+'px';
+   bar.style.height=(last.bottom-first.top)+'px';
+   column.appendChild(bar);
+  });
+ });
+}
+layoutRepeatBars();
+if('ResizeObserver' in window){const observer=new ResizeObserver(layoutRepeatBars);document.querySelectorAll('.verse-lines').forEach(el=>observer.observe(el));}
+window.addEventListener('resize',layoutRepeatBars);
+
+/* JAGUAR 1U · Modelo B funcional: intervalos validados por estrofe, sem barras presumidas.
+   As barras são independentes e podem ter comprimento diferente.
+   O leitor permanece contínuo e sem índice.
+   Barra de repetição por versos: configurações futuras somente após cotejo documental.
+   data-bars="0:4:0,2:4:1" => início (inclusivo), fim (exclusivo), trilho 0..2.
+   Medição real mantém as extremidades corretas mesmo com quebra de linha. */
+function layoutStanzaBars(){
+ document.querySelectorAll('#cruzeiro .hymn-stanza').forEach(stanza=>{
+  const lines=[...stanza.querySelectorAll('.stanza-line')];
+  const track=stanza.querySelector('.stanza-tracks');
+  const values=stanza.dataset.barStatus==='verified' ? (stanza.dataset.bars||'').split(',').filter(Boolean) : []; // Falha segura: sem comprovação documental, nenhuma barra
+  stanza.querySelectorAll('.stanza-repeat-bar').forEach(bar=>{bar.style.display='none';bar.style.height='';});
+  values.slice(0,3).forEach(value=>{
+   const bits=value.split(':').map(Number);
+   if(bits.length!==3)return;
+   const [from,to,slot]=bits;
+   if(!Number.isInteger(from)||!Number.isInteger(to)||!Number.isInteger(slot)||from<0||to>lines.length||from>=to||slot<0||slot>2)return;
+   const bar=stanza.querySelector('.stanza-repeat-bar[data-slot="'+slot+'"]');
+   if(!bar)return;
+   const top=lines[from].getBoundingClientRect().top-track.getBoundingClientRect().top;
+   const bottom=lines[to-1].getBoundingClientRect().bottom-track.getBoundingClientRect().top;
+   bar.style.top=top+'px';bar.style.height=Math.max(0,bottom-top)+'px';bar.style.display='block';
+  });
+ });
+}
+window.addEventListener('load',layoutStanzaBars);
+window.addEventListener('resize',layoutStanzaBars);
+</script></div></div><script src="js/ris-responsive-preview.js"></script></body></html>

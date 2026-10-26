@@ -1,0 +1,170 @@
+{
+  "schema_version": "0.1.0",
+  "status": "EXPERIMENTAL_IMPLEMENTATION_PENDING_VISUAL_HOMOLOGATION",
+  "repository": "siyayoacademy/mestrecantoensino",
+  "branch": "jaguar/mce-fineart-share-stage-20261026",
+  "reference_sha": "aaa118507e760ea670b9d608fb83e732d91d0a99",
+  "module": "MCE-FINEART-20",
+  "display_title_lines": [
+    "Estúdio Fine Art",
+    "Mestre Canto Ensino RIS"
+  ],
+  "future_route": "/fine-art/",
+  "original_stage_preservation": [
+    "Palco RIS · Seis camadas",
+    "CAMADAS · MIXER"
+  ],
+  "submodules": [
+    {
+      "code": "MCE-FINEART-20A",
+      "name": "Estúdio Fine Art RIS — cartão de acesso",
+      "status": "proposed",
+      "path": "index.html",
+      "selector": "not created",
+      "role": "link container",
+      "show": "Estúdio Fine Art\\nMestre Canto Ensino RIS",
+      "depends": [
+        "MCE-NAV-02"
+      ],
+      "event": "navigate to /fine-art/"
+    },
+    {
+      "code": "MCE-FINEART-20B",
+      "name": "Palco RIS · Seis camadas — workspace especializado",
+      "status": "experimental_implemented_unhomologated",
+      "path": "fine-art/index.html",
+      "selector": "not created",
+      "role": "visual stage",
+      "show": "landscape/portrait internal artwork, distinct from RS-01 viewport",
+      "depends": [
+        "MCE-STAGE-06"
+      ],
+      "event": "scene/render"
+    },
+    {
+      "code": "MCE-FINEART-20C",
+      "name": "CAMADAS · MIXER — adaptado",
+      "status": "experimental_implemented_unhomologated",
+      "path": "fine-art/index.html",
+      "selector": "not created",
+      "role": "layer controller",
+      "show": "preserve stage’s six layers and selectors after source-preserving adaptation",
+      "depends": [
+        "MCE-STAGE-06"
+      ],
+      "event": "layer toggle/opacity/source"
+    },
+    {
+      "code": "MCE-FINEART-20D",
+      "name": "Perspective Controls",
+      "status": "experimental_implemented_unhomologated",
+      "path": "fine-art/index.html",
+      "selector": "not created",
+      "role": "image transform",
+      "show": "horizontal, vertical, depth/focal, inward/outward",
+      "depends": [
+        "MCE-FINEART-20B",
+        "MCE-FINEART-20C"
+      ],
+      "event": "parameter change redraw"
+    },
+    {
+      "code": "MCE-FINEART-20E",
+      "name": "Format & Share / Export",
+      "status": "experimental_implemented_unhomologated",
+      "path": "fine-art/index.html",
+      "selector": "not created",
+      "role": "output composition",
+      "show": "landscape 16:9 and portrait 9:16 share/download; use canvas-based rendering only after cross-origin asset verification",
+      "depends": [
+        "MCE-FINEART-20B",
+        "MCE-FINEART-20D"
+      ],
+      "event": "format preset / export / share"
+    },
+    {
+      "code": "MCE-FINEART-20F",
+      "name": "Preset Registry",
+      "status": "proposed",
+      "path": "fine-art/data/presets.json",
+      "selector": "not created",
+      "role": "structured config",
+      "show": "save and restore parameterized layer arrangements without mutating original images",
+      "depends": [
+        "MCE-FINEART-20B",
+        "MCE-FINEART-20C",
+        "MCE-FINEART-20D"
+      ],
+      "event": "preset select/save"
+    }
+  ],
+  "perspective_controls": [
+    {
+      "key": "horizontal",
+      "status": "planned"
+    },
+    {
+      "key": "vertical",
+      "status": "planned"
+    },
+    {
+      "key": "focal_depth",
+      "status": "planned"
+    },
+    {
+      "key": "inward_outward",
+      "status": "planned"
+    }
+  ],
+  "output_formats": [
+    {
+      "name": "Landscape",
+      "aspect_ratio": "16:9",
+      "status": "planned"
+    },
+    {
+      "name": "Portrait",
+      "aspect_ratio": "9:16",
+      "status": "planned"
+    }
+  ],
+  "responsiveness": "Separate RS-01 viewport simulation from artwork export dimensions",
+  "permissions": {
+    "main": false,
+    "production": false,
+    "preview_branch": false,
+    "reference_repo": false
+  },
+  "evidence": "Documentation-only; no rendered stage or export engine is deployed.",
+  "implementation": {
+    "branch": "jaguar/mce-fineart-share-stage-20261026",
+    "route": "fine-art/index.html",
+    "committed_files": [
+      "fine-art/index.html",
+      "fine-art/perspective.css",
+      "fine-art/perspective.js",
+      "fine-art/format.js"
+    ],
+    "perspective": "CSS 3D transform on selected image layer; focal, horizontal, vertical and scale equivalent for inward/outward",
+    "format": "artboard aspect ratio switch: landscape 1672:941 / portrait 9:16, assets contain in portrait",
+    "preserved": "same six layer controls and scene data copied into dedicated page, Index original untouched outside experimental branch access card",
+    "not_implemented": [
+      "image download",
+      "social share image",
+      "4-corner mesh warp",
+      "saved presets"
+    ],
+    "validation": "GitHub structural audit only; visual/browser still pending",
+    "export": "Experimental browser Canvas renderer in fine-art/export.js; share via Web Share files when supported, fallback PNG download",
+    "export_status": "IMPLEMENTED_UNVERIFIED_IN_BROWSER",
+    "canvas_projection": "Piecewise affine mesh approximation of CSS rotateX/rotateY; visual match not yet homologated",
+    "security": "No uploads; only client-side image and object URLs",
+    "known_limitations": [
+      "Perspective canvas is approximate, not pixel-identical CSS projection",
+      "Local user images supported only while browser tab lives",
+      "Fonts and upload photos require browser verification",
+      "Export may be blocked by CORS-tainted canvas",
+      "No live Cloudflare preview verification yet"
+    ]
+  }
+}

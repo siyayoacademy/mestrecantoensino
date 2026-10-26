@@ -1,0 +1,23 @@
+/* JAGUAR RS-01 · second-level pages; presentation only */
+.ris-internal-page .ris-responsive-shell{max-width:100%;min-width:0;padding-bottom:24px}
+.ris-internal-page .ris-responsive-shell :is(header,main,footer){width:100%;box-sizing:border-box}
+.ris-internal-page .ris-responsive-shell :is(article,.panel,figure,img){max-width:100%;min-width:0}
+.ris-internal-page .ris-responsive-shell img{height:auto}
+.ris-internal-page .ris-responsive-shell a{overflow-wrap:anywhere}
+.ris-internal-page .ris-responsive-shell :is(h1,h2,p){overflow-wrap:break-word}
+@container ris-responsive (max-width:700px){
+.ris-internal-shell header,.ris-internal-shell main,.ris-internal-shell footer{padding-inline:14px}
+.ris-internal-shell .two-col,.ris-internal-shell .gallery{grid-template-columns:minmax(0,1fr)}
+.ris-internal-shell .two-col figure,.ris-internal-shell .gallery figure{width:100%;margin-inline:auto}
+.ris-internal-shell .two-col figure{max-width:min(100%,340px)}
+.ris-internal-shell .gallery figure{max-width:100%}
+.ris-internal-shell article,.ris-internal-shell .panel{padding:clamp(16px,4cqw,24px)}
+.ris-internal-shell h1{font-size:clamp(25px,6cqw,38px)}
+}
+@container ris-responsive (max-width:460px){
+.ris-internal-shell header,.ris-internal-shell main,.ris-internal-shell footer{padding-inline:10px}
+.ris-internal-shell article,.ris-internal-shell .panel{margin-block:12px;padding:16px 12px}
+.ris-internal-shell .gold-frame{padding:5px}
+.ris-internal-shell .gold-frame img{border-width:2px}
+.ris-internal-shell .gold-frame figcaption{font-size:12px}
+}

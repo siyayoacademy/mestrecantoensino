@@ -1,0 +1,13 @@
+/* MCE-FINEART-20D · scoped perspective controls; does not replace layer mixer */
+#fine-art-perspective{max-width:1510px;margin:18px auto;padding:18px;border:1px solid #d7b35a;border-radius:17px;background:rgba(2,9,24,.86)}
+#fine-art-perspective h2{font-size:20px;margin-bottom:8px}
+.fineart-help{color:#c5d1e3;font-size:13px;margin:0 0 14px}
+.fineart-perspective-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.fineart-perspective-field{display:grid;gap:6px;background:#071329;border:1px solid #304867;border-radius:10px;padding:10px}
+.fineart-perspective-field label{display:flex;justify-content:space-between;color:#fff;font-size:13px}
+.fineart-perspective-field output{color:#f2d88a;font-variant-numeric:tabular-nums}
+.fineart-perspective-actions{display:flex;gap:9px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-top:12px}
+.fineart-perspective-actions select{max-width:270px;margin:0}
+#fine-art-perspective .status{min-height:1.4em}
+#stage .layer{transform-origin:50% 50%;backface-visibility:visible;will-change:transform}
+@media(max-width:640px){.fineart-perspective-grid{grid-template-columns:1fr}#fine-art-perspective{margin:12px;padding:12px}}

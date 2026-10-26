@@ -354,3 +354,7 @@ O Registry da SIYAYO é uma **fonte de contratos e arquitetura**, não uma permi
 - **Correção de proveniência:** `data/santo-cruzeiro-universal.json` existe nesta branch. O Index ainda apresenta trechos escritos diretamente no HTML; não existe consumo automático confirmado deste JSON.
 - **RS-01:** a adaptação usa `RISResponsivePreview` e evento `ris:responsive-preview-changed`; não atribuir nomes SIYAYO ao controlador do portal.
 - **Limites:** nomes MCE são aliases documentais; nenhum runtime, CSS, produção, `main`, ou avaliador pedagógico foi alterado.
+
+## Fine Art RIS — ELO 1A (REG-01)
+
+**Estado: PROPOSTO / REGISTRADO, NÃO IMPLEMENTADO.** O módulo `MCE-FINEART-20`, contêiner de acesso “Estúdio Fine Art / Mestre Canto Ensino RIS”, palco e mixer preservados, controles horizontal, vertical, focal e inward/outward, formatos paisagem e portrait e saída share/download estão especificados em [Arquitetura Fine Art](MCE-FINEART-20-ARCHITECTURE.md) e [JSON de contrato](mce-fineart-20-spec.json). A página `/fine-art/` ainda não existe; nenhuma alteração visual ou runtime foi executada.

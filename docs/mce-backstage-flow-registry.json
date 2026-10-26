@@ -221,5 +221,30 @@
     "server persistence/auth",
     "automated module impact analyzer"
   ],
-  "limits": "No SIYAYO assessment, NICK, PATITA, Evidence, Green, V30 or D1 imported"
+  "limits": "No SIYAYO assessment, NICK, PATITA, Evidence, Green, V30 or D1 imported",
+  "fineart_20": {
+    "status": "PROPOSED_NOT_LIVE",
+    "architecture": "docs/MCE-FINEART-20-ARCHITECTURE.md",
+    "spec": "docs/mce-fineart-20-spec.json",
+    "suppliers": [
+      "MCE-STAGE-06",
+      "MCE-RS-01"
+    ],
+    "consumers": [
+      "MCE-FINEART-20A",
+      "MCE-FINEART-20B",
+      "MCE-FINEART-20C",
+      "MCE-FINEART-20D",
+      "MCE-FINEART-20E",
+      "MCE-FINEART-20F"
+    ],
+    "important_boundary": "Do not conflate page responsive viewport with output artwork format; do not alter existing Index mixer",
+    "checks": [
+      "stage and six layer preservation",
+      "landscape and portrait geometry",
+      "perspective and restore",
+      "PNG fidelity and rights",
+      "safe sharing and download"
+    ]
+  }
 }

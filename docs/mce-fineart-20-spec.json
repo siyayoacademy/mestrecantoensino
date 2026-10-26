@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "status": "PROPOSED_DOCUMENTED_NOT_IMPLEMENTED",
+  "status": "EXPERIMENTAL_IMPLEMENTATION_PENDING_VISUAL_HOMOLOGATION",
   "repository": "siyayoacademy/mestrecantoensino",
   "branch": "jaguar/mce-fineart-share-stage-20261026",
   "reference_sha": "aaa118507e760ea670b9d608fb83e732d91d0a99",
@@ -31,7 +31,7 @@
     {
       "code": "MCE-FINEART-20B",
       "name": "Palco RIS · Seis camadas — workspace especializado",
-      "status": "proposed",
+      "status": "experimental_implemented_unhomologated",
       "path": "fine-art/index.html",
       "selector": "not created",
       "role": "visual stage",
@@ -44,7 +44,7 @@
     {
       "code": "MCE-FINEART-20C",
       "name": "CAMADAS · MIXER — adaptado",
-      "status": "proposed",
+      "status": "experimental_implemented_unhomologated",
       "path": "fine-art/index.html",
       "selector": "not created",
       "role": "layer controller",
@@ -57,7 +57,7 @@
     {
       "code": "MCE-FINEART-20D",
       "name": "Perspective Controls",
-      "status": "proposed",
+      "status": "experimental_implemented_unhomologated",
       "path": "fine-art/index.html",
       "selector": "not created",
       "role": "image transform",
@@ -71,7 +71,7 @@
     {
       "code": "MCE-FINEART-20E",
       "name": "Format & Share / Export",
-      "status": "proposed",
+      "status": "partial_format_switch_export_pending",
       "path": "fine-art/index.html",
       "selector": "not created",
       "role": "output composition",
@@ -135,5 +135,25 @@
     "preview_branch": false,
     "reference_repo": false
   },
-  "evidence": "Documentation-only; no rendered stage or export engine is deployed."
+  "evidence": "Documentation-only; no rendered stage or export engine is deployed.",
+  "implementation": {
+    "branch": "jaguar/mce-fineart-share-stage-20261026",
+    "route": "fine-art/index.html",
+    "committed_files": [
+      "fine-art/index.html",
+      "fine-art/perspective.css",
+      "fine-art/perspective.js",
+      "fine-art/format.js"
+    ],
+    "perspective": "CSS 3D transform on selected image layer; focal, horizontal, vertical and scale equivalent for inward/outward",
+    "format": "artboard aspect ratio switch: landscape 1672:941 / portrait 9:16, assets contain in portrait",
+    "preserved": "same six layer controls and scene data copied into dedicated page, Index original untouched outside experimental branch access card",
+    "not_implemented": [
+      "image download",
+      "social share image",
+      "4-corner mesh warp",
+      "saved presets"
+    ],
+    "validation": "GitHub structural audit only; visual/browser still pending"
+  }
 }

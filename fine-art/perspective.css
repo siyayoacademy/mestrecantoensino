@@ -11,3 +11,12 @@
 #fine-art-perspective .status{min-height:1.4em}
 #stage .layer{transform-origin:50% 50%;backface-visibility:visible;will-change:transform}
 @media(max-width:640px){.fineart-perspective-grid{grid-template-columns:1fr}#fine-art-perspective{margin:12px;padding:12px}}
+
+/* Output format is independent of RS-01 page preview. Portrait avoids stretching logo assets. */
+#stage[data-art-format="portrait"]{aspect-ratio:9/16;max-width:min(100%,540px);margin-inline:auto}
+#stage[data-art-format="portrait"] .layer{object-fit:contain}
+#stage[data-art-format="landscape"]{aspect-ratio:1672/941;max-width:100%}
+#stage[data-art-format="landscape"] .layer{object-fit:fill}
+#stage[data-art-format="portrait"] .art{object-fit:contain}
+.fineart-format-options{display:flex;align-items:center;flex-wrap:wrap;justify-content:center;gap:10px;margin:10px 0}
+.fineart-format-options button[aria-pressed="true"]{background:#d7b35a;color:#020918;font-weight:800}

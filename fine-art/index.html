@@ -2,7 +2,7 @@
 <html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Estúdio Fine Art · Mestre Canto Ensino RIS</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../css/ris-responsive-stage.css">
+<link rel="stylesheet" href="../css/ris-responsive-stage.css"><link rel="stylesheet" href="perspective.css">
 <style>
 :root{--blue-deep:#020918;--blue:#061b3d;--blue-light:#0b3b78;--gold:#d7b35a;--gold-light:#f2d88a;--gold-dark:#8f6a1e;--green:#003800;--navy:#08072f;--border:rgba(242,216,138,.42)}
 *{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top,#0b2f62,#030a18 52%,#000);color:#fff;font-family:"Nunito Sans","Segoe UI",Arial,sans-serif;min-height:100dvh}
@@ -41,8 +41,8 @@ body{background:linear-gradient(#020918eb,#020918f6),url('../background-ris.png'
 <body>
 <div class="dev-preview-toolbar" data-siyayo-responsive-toolbar role="group" aria-label="Formato da prévia"><button class="preview-button" data-preview="auto" aria-pressed="true">AUTO</button><button class="preview-button" data-preview="portrait" aria-pressed="false">PORTRAIT</button><button class="preview-button" data-preview="landscape" aria-pressed="false">LANDSCAPE</button></div>
 <div class="stage-viewport" data-siyayo-responsive-viewport data-preview="auto"><div class="experience-box ris-responsive-shell">
-<header class="ris-art-header"><a href="../" aria-label="Voltar ao portal">← Portal RIS</a><h1>Estúdio Fine Art<br><small>Mestre Canto Ensino RIS</small></h1><span style="color:#f2d88a;font-size:12px">JAGUAR · ELO 1B</span></header>
-<div class="art-intro"><strong>Prévia experimental · núcleo preservado.</strong> As seis camadas, o mixer e os quatro cenários podem ser testados aqui. Os controles de perspectiva e a geração de imagens serão acrescentados após a homologação deste palco.</div>
+<header class="ris-art-header"><a href="../" aria-label="Voltar ao portal">← Portal RIS</a><h1>Estúdio Fine Art<br><small>Mestre Canto Ensino RIS</small></h1><span style="color:#f2d88a;font-size:12px">JAGUAR · ELO 1C</span></header>
+<div class="art-intro"><strong>Prévia experimental · núcleo preservado.</strong> As seis camadas, o mixer e os quatro cenários podem ser testados aqui. Os controles de perspectiva foram acrescentados abaixo do palco; geração de imagens e compartilhamento ficam para o próximo elo.</div>
 <h2 class="stage-title" id="palco">Palco RIS · Seis camadas</h2><main><section class="panel">
 <div id="stage" class="stage" aria-label="Palco visual com seis camadas">
 <div class="stage-bg" id="bg"></div>
@@ -61,7 +61,16 @@ body{background:linear-gradient(#020918eb,#020918f6),url('../background-ris.png'
 <button id="reset">RESTAURAR SLIDE</button>
 <p class="hint">As imagens RIS e Águia Lua utilizam PNGs transparentes de 1672 × 941 px. O palco mantém a proporção 1672:941. A versão branca original do emblema com contorno azul está disponível no pacote.</p>
 </aside></main>
-<footer class="ris-art-footer">Estúdio Fine Art RIS · palcos independentes · branch experimental</footer>
+<section id="fine-art-perspective" aria-labelledby="fineart-perspective-heading">
+<h2 id="fineart-perspective-heading">PERSPECTIVA · Estúdio Fine Art</h2>
+<p class="fineart-help">Ajuste a geometria de uma camada por vez; a composição original e os controles do mixer permanecem preservados. A saída PNG/share será adicionada após os testes deste módulo.</p>
+<div class="fineart-perspective-actions"><label for="fine-art-layer">Camada para transformar</label><select id="fine-art-layer" aria-label="Selecionar camada para perspectiva">
+<option value="emblem">02 · ÁGUIA LUA</option><option value="ris" selected>03 · RIS</option><option value="forest">04 · FLORESTA</option><option value="master">05 · MESTRE</option><option value="piano">06 · PIANO</option></select></div>
+<div class="fineart-perspective-grid">
+<div class="fineart-perspective-field"><label for="fine-art-horizontal"><span>Horizontal</span><output id="fine-art-horizontal-value"></output></label><input type="range" id="fine-art-horizontal" min="-50" max="50" value="0" step="1"></div><div class="fineart-perspective-field"><label for="fine-art-vertical"><span>Vertical</span><output id="fine-art-vertical-value"></output></label><input type="range" id="fine-art-vertical" min="-50" max="50" value="0" step="1"></div><div class="fineart-perspective-field"><label for="fine-art-focal"><span>Profundidade / focal</span><output id="fine-art-focal-value"></output></label><input type="range" id="fine-art-focal" min="450" max="2400" value="1100" step="1"></div><div class="fineart-perspective-field"><label for="fine-art-inout"><span>Inward / outward</span><output id="fine-art-inout-value"></output></label><input type="range" id="fine-art-inout" min="-45" max="100" value="0" step="1"></div>
+</div>
+<div class="fineart-perspective-actions"><button type="button" id="fine-art-perspective-reset">RESTAURAR PERSPECTIVA DA CAMADA</button><span class="status" id="fine-art-perspective-status" aria-live="polite"></span></div>
+</section><footer class="ris-art-footer">Estúdio Fine Art RIS · palcos independentes · branch experimental</footer>
 </div></div><script>
 const defs=[
  {id:'bg',name:'01 · FUNDO',enabled:true,opacity:100},
@@ -100,4 +109,4 @@ $('next').onclick=()=>{ix=(ix+1)%scenes.length;loadSlide()};
 $('reset').onclick=loadSlide;
 document.addEventListener('keydown',e=>{if(['INPUT','SELECT','TEXTAREA'].includes(document.activeElement?.tagName))return;if(e.key==='ArrowRight')$('next').click();if(e.key==='ArrowLeft')$('prev').click()});
 
-loadSlide();</script><script src="../js/ris-responsive-preview.js"></script></body></html>
+loadSlide();</script><script src="../js/ris-responsive-preview.js"></script><script src="perspective.js"></script></body></html>

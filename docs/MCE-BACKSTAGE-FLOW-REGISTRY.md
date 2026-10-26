@@ -53,3 +53,6 @@
 - RS-01 adaptado utiliza `window.RISResponsivePreview`, evento `ris:responsive-preview-changed` e a chave `ris-responsive-preview-mode`; estes diferem dos nomes canônicos de origem SIYAYO.
 
 Mapa estruturado: `docs/mce-backstage-flow-registry.json`.
+## Fine Art RIS — ELO 1A (REG-02)
+
+**Estado: PROPOSTO / REGISTRADO, NÃO IMPLEMENTADO.** O módulo `MCE-FINEART-20`, contêiner de acesso “Estúdio Fine Art / Mestre Canto Ensino RIS”, palco e mixer preservados, controles horizontal, vertical, focal e inward/outward, formatos paisagem e portrait e saída share/download estão especificados em [Arquitetura Fine Art](MCE-FINEART-20-ARCHITECTURE.md) e [JSON de contrato](mce-fineart-20-spec.json). A página `/fine-art/` ainda não existe; nenhuma alteração visual ou runtime foi executada.

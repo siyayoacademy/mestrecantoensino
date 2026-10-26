@@ -473,20 +473,26 @@
     },
     {
       "code": "MCE-FINEART-20",
-      "name": "Fine Art & homenagem 55 anos",
-      "status": "planned",
+      "name": "Estúdio Fine Art Mestre Canto Ensino RIS",
+      "status": "planned_documented",
       "kind": "future creative media",
-      "locations": [],
+      "locations": [
+        "index.html (future access card)",
+        "fine-art/index.html (future second-level studio)"
+      ],
       "selectors": [],
-      "sources": [],
-      "description": "Image library, portrait/landscape/square, not installed",
+      "sources": [
+        "docs/MCE-FINEART-20-ARCHITECTURE.md",
+        "docs/mce-fineart-20-spec.json"
+      ],
+      "description": "Preserve original RIS six-layer stage/mixer, add perspective, landscape/portrait output and PNG share/download",
       "movement_rule": "Require provenance and rights review",
-      "how_to_do": "Invoke only the explicitly documented behavior",
-      "how_to_record": "No SIYAYO learner evidence or assessment credits",
-      "how_to_show": "Image library, portrait/landscape/square, not installed",
-      "how_to_check": "Confirm source, selectors, assets, responsive layout and accessibility before moving",
-      "how_to_speak": "No dedicated voice contract verified",
-      "portability": "not available yet"
+      "how_to_do": "Planned per-layer perspective and layer orchestration",
+      "how_to_record": "Planned presets only; no active persistence",
+      "how_to_show": "Landscape/portrait artwork output, distinct from RS-01 page preview",
+      "how_to_check": "Planned geometry/CORS/export/visual integration gates",
+      "how_to_speak": "Not applicable",
+      "portability": "Planned; no runtime or access-card yet"
     },
     {
       "code": "MCE-SPEECH-21",
@@ -581,5 +587,18 @@
     "The source preview tree includes data/santo-cruzeiro-universal.json; index.html embeds the visible hymn verses and does not fetch JSON automatically.",
     "RS-01 adapted runtime names differ from SIYAYO source. Preserve actual RIS runtime API.",
     "Aliases do not imply physically extracted modules or completed hymn corpus."
-  ]
+  ],
+  "fineart_expansion": {
+    "parent": "MCE-FINEART-20",
+    "submodules": [
+      "MCE-FINEART-20A",
+      "MCE-FINEART-20B",
+      "MCE-FINEART-20C",
+      "MCE-FINEART-20D",
+      "MCE-FINEART-20E",
+      "MCE-FINEART-20F"
+    ],
+    "spec": "docs/mce-fineart-20-spec.json",
+    "status": "documented_only"
+  }
 }

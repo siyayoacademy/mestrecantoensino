@@ -1,0 +1,210 @@
+{
+  "schema_version": "1.0",
+  "registry_id": "MCE-HIN-IMPLEMENTATION-CHECKLIST",
+  "state": "DOCUMENTARY_IMPLEMENTATION_GUIDE",
+  "source": {
+    "repo": "siyayoacademy/mestrecantoensino",
+    "branch": "jaguar/mce-hymn-publishing-audit-20261026",
+    "base_commit": "dd5e1f62c0de5cb227f37ddc95daf777998ad919"
+  },
+  "append_only_policy": "Future chats should append revision notes instead of silently replacing approvals.",
+  "references": [
+    "data/modelo-a-marcacoes.json",
+    "data/modelo-b-componente.json",
+    "estudo-repeticoes/modelo-b-responsivo.html",
+    "docs/MCE-HYMN-PUBLISHING-ROADMAP.md",
+    "docs/mce-hymn-publishing-plan.json"
+  ],
+  "frames": {
+    "portrait": {
+      "ratio": "9:16",
+      "export_resolution_reference": "1080x1920",
+      "status": "planned"
+    },
+    "print": {
+      "master": "A4 ISO 210x297mm",
+      "scale_options": [
+        "A5 148x210mm",
+        "A3 297x420mm"
+      ],
+      "note": "Same ISO aspect family, but margins and text readability require per-size checks",
+      "status": "planned"
+    }
+  },
+  "zones": {
+    "1": "hymn_number_and_title",
+    "2": "rhythm_if_verified",
+    "3": "documented_repeat_vertical_bars",
+    "4": "sol_lua_six_point_star_separator",
+    "5": "offscreen_export_frame"
+  },
+  "checks": [
+    {
+      "id": "HIN-01",
+      "name": "Inventário e proteção",
+      "procedure": "Conferir três âncoras, código e arquivo de origem, fixar HEAD, separar leitor corrente de frame exportável",
+      "how": "REG-01/02/03",
+      "acceptance": [
+        "Index sem alteração",
+        "documento fonte identificado"
+      ],
+      "status": "DOCUMENTED"
+    },
+    {
+      "id": "HIN-02",
+      "name": "Fonte única verificada",
+      "procedure": "Comparar versos autorados no Index com JSON documental, resolver divergências mediante revisão humana",
+      "how": "HOW TO RECORD / CHECK",
+      "acceptance": [
+        "Nenhum verso inventado",
+        "proveniência explícita"
+      ],
+      "status": "PENDING"
+    },
+    {
+      "id": "HIN-03",
+      "name": "Unidade de hinário",
+      "procedure": "Um hinário inteiro por contêiner; hinos consecutivos sem índice ou páginas individuais",
+      "how": "HOW TO DO / SHOW",
+      "acceptance": [
+        "Ordem mantida",
+        "sem navegação NEXT entre hinos"
+      ],
+      "status": "DOCUMENTED"
+    },
+    {
+      "id": "HIN-04",
+      "name": "Frame invisível 9:16",
+      "procedure": "Renderizar offscreen/isoladamente no compositor, não ocultar com display:none durante medição; centralizar no estágio AUTO/PORTRAIT/LANDSCAPE",
+      "how": "HOW TO SHOW",
+      "acceptance": [
+        "9:16 validado",
+        "sem moldura laranja no leitor",
+        "sem clipping"
+      ],
+      "status": "PLANNED"
+    },
+    {
+      "id": "HIN-05",
+      "name": "Zonas de composição 1–5",
+      "procedure": "1 número+título; 2 ritmo; 3 barras; 4 Sol Lua Estrela; 5 frame técnico de composição",
+      "how": "HOW TO DO / SHOW",
+      "acceptance": [
+        "áreas distintas e editáveis",
+        "coerência da leitura"
+      ],
+      "status": "DOCUMENTED"
+    },
+    {
+      "id": "HIN-06",
+      "name": "Ritmo editorial",
+      "procedure": "MARCHA omitida por padrão quando padrão confirmado; VALSA/MAZURCA/MISTO explícitos conforme edição verificada",
+      "how": "HOW TO CHECK / SHOW",
+      "acceptance": [
+        "não atribuir ritmo sem fonte"
+      ],
+      "status": "DOCUMENTED"
+    },
+    {
+      "id": "HIN-07",
+      "name": "Barras verticais Modelo B",
+      "procedure": "Reaproveitar linhas finas até 3, gap 8px como referência, alcance por versos, desenhar só com data-bar-status=verified",
+      "how": "HOW TO DO / CHECK / SHOW",
+      "acceptance": [
+        "0–3 linhas",
+        "sem bis indevido",
+        "legível com verso quebrado"
+      ],
+      "status": "DOCUMENTED"
+    },
+    {
+      "id": "HIN-08",
+      "name": "Distribuição das estrofes",
+      "procedure": "Medir altura de cabeçalho, blocos e rodapé no frame real; respeitar 1–8 estrofes em sequência, dividir páginas sem cortar estrofes",
+      "how": "HOW TO DO / CHECK",
+      "acceptance": [
+        "nenhum trecho truncado",
+        "tamanho mínimo homologado",
+        "paginação reproduzível"
+      ],
+      "status": "PLANNED"
+    },
+    {
+      "id": "HIN-09",
+      "name": "Master A4 de impressão",
+      "procedure": "Compor A4 (210×297mm) e permitir escala ISO A5/A3, considerar margens não imprimíveis e legibilidade da escala",
+      "how": "HOW TO SHOW / CHECK",
+      "acceptance": [
+        "print CSS page size",
+        "margens seguras",
+        "teste A5 legibilidade"
+      ],
+      "status": "PLANNED"
+    },
+    {
+      "id": "HIN-10",
+      "name": "Capas retrato",
+      "procedure": "Separar capa editorial de páginas de letra, com zonas para título, imagem aprovada, moldura, proveniência",
+      "how": "HOW TO SHOW / RECORD",
+      "acceptance": [
+        "direitos e atribuição",
+        "resolução de impressão"
+      ],
+      "status": "PLANNED"
+    },
+    {
+      "id": "HIN-11",
+      "name": "Ações Sol Lua Estrela",
+      "procedure": "Separador do leitor permanece não interativo; compartilhar pela ação associada no compositor acessível por teclado sem transformar símbolo decorativo em controle implícito",
+      "how": "HOW TO DO / SHOW",
+      "acceptance": [
+        "sem quebra de semântica",
+        "ação nomeada e acessível"
+      ],
+      "status": "PLANNED"
+    },
+    {
+      "id": "HIN-12",
+      "name": "Exportar e imprimir",
+      "procedure": "PNG social 9:16 e impressão mestre A4; conferir fidelidade visual e permissões, evitar publicar automaticamente",
+      "how": "HOW TO DO / CHECK",
+      "acceptance": [
+        "PNG sem corte",
+        "folhas A4/A5/A3 legíveis",
+        "share opcional"
+      ],
+      "status": "PLANNED"
+    },
+    {
+      "id": "HIN-13",
+      "name": "Registros e homologação",
+      "procedure": "Guardar presets/versionamento/estado de revisão sem confundir com runtime do usuário",
+      "how": "HOW TO RECORD",
+      "acceptance": [
+        "status e commit verificáveis",
+        "rollback"
+      ],
+      "status": "PLANNED"
+    },
+    {
+      "id": "HIN-14",
+      "name": "Som e audiovisual",
+      "procedure": "Áudio, vídeo, execução e partituras ficam fora do primeiro compositor até fonte e direitos confirmados",
+      "how": "HOW TO SPEAK",
+      "acceptance": [
+        "não instalado",
+        "sem claim de reprodução"
+      ],
+      "status": "DEFERRED"
+    }
+  ],
+  "go_gate": "All relevant acceptance clauses verified, source/rights confirmed, visual comparison and user homologation",
+  "no_go": [
+    "unverified repetition marks",
+    "invented verses/attribution",
+    "hidden frame can't be measured",
+    "clipped stanzas",
+    "loss of existing Index/mixer",
+    "printing A5 unreadable"
+  ]
+}

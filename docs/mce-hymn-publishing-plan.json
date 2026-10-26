@@ -1,0 +1,106 @@
+{
+  "id": "MCE-HYMN-PUBLISHING",
+  "status": "DESIGN_RECORDED_NOT_RUNTIME",
+  "source": {
+    "branch": "main",
+    "commit": "dd5e1f62c0de5cb227f37ddc95daf777998ad919"
+  },
+  "anchors": [
+    {
+      "code": "MCE-HYM-A",
+      "title": "O Santo Cruzeiro Universal",
+      "source": "index.html#cruzeiro",
+      "state": "partial_visible",
+      "reader": "continuous_no_index",
+      "data": "data/santo-cruzeiro-universal.json",
+      "data_live_binding": false
+    },
+    {
+      "code": "MCE-HYM-B",
+      "title": "Diversões do Mestre",
+      "source": "index.html#diversoes-do-mestre",
+      "state": "expandable_placeholder",
+      "data_live_binding": false
+    },
+    {
+      "code": "MCE-HYM-C",
+      "title": "Santa Missa",
+      "source": "index.html#santa-missa",
+      "state": "expandable_placeholder",
+      "data_live_binding": false
+    }
+  ],
+  "layout_contract": {
+    "unit": "one_complete_hymn_collection_per_module",
+    "not_one_page_per_hymn": true,
+    "parts": [
+      "identity",
+      "attribution_and_provenance",
+      "hymn_number_title",
+      "rhythm_when_verified",
+      "stanzas",
+      "verified_vertical_repeat_marks",
+      "gold_sol_lua_estrela_separator",
+      "optional_historical_media"
+    ],
+    "mobile": "RS-01 is viewport presentation only",
+    "publication_frames": "separate hidden or isolated export-only composition, no orange outline in reading site"
+  },
+  "future_export": {
+    "formats": [
+      "portrait_story_9_16",
+      "landscape_16_9",
+      "print_A4",
+      "print_A3"
+    ],
+    "stanzas_per_frame": "dynamic measured layout; 1-8 possible, do not assume fixed 2 or 3",
+    "readability": [
+      "measure rendered text",
+      "keep stanza intact",
+      "fallback to more frames",
+      "respect visible safe margins",
+      "never invent text or repeated verses"
+    ]
+  },
+  "five_how": {
+    "DO": "Sequence from verified corpus, render hymn modules and split export panels without changing hymn reading order",
+    "RECORD": "Store provenance, published revisions, export presets and approvals only when implemented",
+    "SHOW": "Gold/navy layout, typography, symbols, bar geometry, adaptive portrait/landscape/print",
+    "CHECK": "Completeness, provenance, responsive bounds, repetition verification, no truncation",
+    "SPEAK": "Not implemented; later source-verified audio per hymn"
+  },
+  "internal_pages": [
+    {
+      "path": "decreto-1970/index.html",
+      "status": "existing_documentary_page_transcription_pending"
+    },
+    {
+      "path": "homenagem/index.html",
+      "status": "existing_gallery",
+      "future": "approved slide carousel"
+    },
+    {
+      "path": "vida-e-obra/index.html",
+      "status": "existing_historical_page",
+      "future": "approved slide carousel"
+    },
+    {
+      "path": "calendario/index.html",
+      "status": "existing_placeholder",
+      "future": "A3 mural layout"
+    },
+    {
+      "path": "hinarios/index.html",
+      "status": "existing_hub_placeholder",
+      "future": "catalogue by provenance, author, institution, decade, egrégora without inferred ranking"
+    }
+  ],
+  "additional_future": [
+    "portrait hymnbook covers",
+    "calendar A3 print mural",
+    "modular image gallery carousel",
+    "author/egrégora classification with reviewed attribution",
+    "print preview PDF/PNG",
+    "social share"
+  ]
+}

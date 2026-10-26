@@ -29,7 +29,7 @@ function loadImage(img){if(img.complete&&img.naturalWidth)return Promise.resolve
 return new Promise((resolve,reject)=>{img.addEventListener('load',()=>resolve(img),{once:true});img.addEventListener('error',()=>reject(Error('Falha ao carregar '+(img.currentSrc||img.src))),{once:true})})}
 async function render(){
 const format=window.RISFineArtFormat?.getFormat?.()||'landscape';const W=format==='portrait'?1080:1672,H=format==='portrait'?1920:941;
-canvas.width=W;canvas.height=H;ctx.clearRect(0,0,W,H);const state=window.getRISFineArtStageState?.();
+canvas.width=W;canvas.height=H;ctx.clearRect(0,0,W,H);ctx.fillStyle='#ffffff';ctx.fillRect(0,0,W,H);const state=window.getRISFineArtStageState?.();
 if(!state)throw Error('Estado do mixer não está acessível; exportação interrompida para preservar fidelidade.');
 const bg=state.bg;if(bg?.enabled){ctx.globalAlpha=bg.opacity/100;ctx.fillStyle=bg.color;ctx.fillRect(0,0,W,H);ctx.globalAlpha=1}
 for(const id of layerIds){const layer=state[id],el=$(id);if(!layer?.enabled||!el?.src)continue;

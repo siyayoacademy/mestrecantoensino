@@ -43,7 +43,7 @@ body{background:linear-gradient(#020918eb,#020918f6),url('../background-ris.png'
 <div class="stage-viewport" data-siyayo-responsive-viewport data-preview="auto"><div class="experience-box ris-responsive-shell">
 <header class="ris-art-header"><a href="../" aria-label="Voltar ao portal">← Portal RIS</a><h1>Estúdio Fine Art<br><small>Mestre Canto Ensino RIS</small></h1><span style="color:#f2d88a;font-size:12px">JAGUAR · ELO 1C</span></header>
 <div class="art-intro"><strong>Prévia experimental · núcleo preservado.</strong> As seis camadas, o mixer e os quatro cenários podem ser testados aqui. Os controles de perspectiva foram acrescentados abaixo do palco; geração de imagens e compartilhamento ficam para o próximo elo.</div>
-<h2 class="stage-title" id="palco">Palco RIS · Seis camadas</h2><main><section class="panel">
+<div class="fineart-format-options" role="group" aria-label="Formato da arte"><strong>FORMATO DA ARTE</strong><button type="button" id="fine-art-landscape" aria-pressed="true">PAISAGEM</button><button type="button" id="fine-art-portrait" aria-pressed="false">PORTRAIT</button><span class="hint">Prévia de composição; exportação de imagem ainda não disponível</span></div><h2 class="stage-title" id="palco">Palco RIS · Seis camadas</h2><main><section class="panel">
 <div id="stage" class="stage" aria-label="Palco visual com seis camadas">
 <div class="stage-bg" id="bg"></div>
 <img id="emblem" class="layer" src="../eagle-white.png" alt="">
@@ -109,4 +109,4 @@ $('next').onclick=()=>{ix=(ix+1)%scenes.length;loadSlide()};
 $('reset').onclick=loadSlide;
 document.addEventListener('keydown',e=>{if(['INPUT','SELECT','TEXTAREA'].includes(document.activeElement?.tagName))return;if(e.key==='ArrowRight')$('next').click();if(e.key==='ArrowLeft')$('prev').click()});
 
-loadSlide();</script><script src="../js/ris-responsive-preview.js"></script><script src="perspective.js"></script></body></html>
+loadSlide();</script><script src="../js/ris-responsive-preview.js"></script><script src="perspective.js"></script><script src="format.js"></script></body></html>

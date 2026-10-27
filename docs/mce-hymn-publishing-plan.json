@@ -136,5 +136,21 @@
     "iso_scaling": "A4 same ISO aspect ratio and optionally scaled after legibility verification",
     "a3_scope": "murals, portraits, calendars only",
     "portrait_social": "9:16 independent from ISO print ratio"
+  },
+  "last_development": {
+    "status": "IMPLEMENTED_IN_BRANCH_NOT_PRODUCTION",
+    "changes": [
+      "9:16 continuing frames omit repeated title, rhythm and attribution",
+      "main continuous reader has eight supplied stanzas of Lua Branca",
+      "data/santo-cruzeiro-universal.json synchronized for hymn 1",
+      "repeat bars remain deactivated until musical verification"
+    ],
+    "blockers": [
+      "full source for remaining Santo Cruzeiro hymns",
+      "complete Diversões do Mestre corpus",
+      "complete Santa Missa corpus",
+      "browser visual verification of portrait and reader",
+      "review rights and edition differences"
+    ]
   }
 }

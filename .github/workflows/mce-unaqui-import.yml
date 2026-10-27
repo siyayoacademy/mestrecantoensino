@@ -1,0 +1,30 @@
+name: MCE · UNAQUI source ingestion (experimental)
+on:
+  push:
+    branches: [jaguar/mce-hymn-publishing-audit-20261026]
+    paths:
+      - 'scripts/import_unaqui.py'
+      - '.github/workflows/mce-unaqui-import.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: jaguar/mce-hymn-publishing-audit-20261026
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install beautifulsoup4==4.12.3
+      - name: Parse UNAQUI text and enforce source guards
+        run: python scripts/import_unaqui.py
+      - name: Commit to experimental branch only
+        run: |
+          git config user.name "mce-source-auditor[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/cruzeiro-unaqui-import.json
+          git diff --cached --quiet || (git commit -m "data(mce): import UNAQUI Cruzeiro for editorial review" && git push origin HEAD:jaguar/mce-hymn-publishing-audit-20261026)

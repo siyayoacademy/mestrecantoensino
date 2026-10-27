@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "status": "USER_SUPPLIED_LABORATORY_TRANSCRIPTION_NOT_REPLACING_CANONICAL_SOURCE",
+  "collection": "O Santo Cruzeiro Universal",
+  "hymn_number": 1,
+  "title": "Lua Branca",
+  "rhythm": "VALSA",
+  "attribution": null,
+  "attribution_status": "not_supplied",
+  "stanzas": [
+    {
+      "number": 1,
+      "verses": [
+        "Deus te Salve oh! Lua Branca",
+        "Da luz tão prateada",
+        "Tu sois minha protetora",
+        "De Deus tu sois estimada"
+      ],
+      "repeat_bars": [],
+      "bar_status": "pending_documentary_verification"
+    },
+    {
+      "number": 2,
+      "verses": [
+        "Oh Mãe Divina do coração",
+        "Lá nas alturas onde estás",
+        "Minha Mãe, lá no céu",
+        "Dai-me o perdão"
+      ],
+      "repeat_bars": [],
+      "bar_status": "pending_documentary_verification"
+    },
+    {
+      "number": 3,
+      "verses": [
+        "Das flores do meu país",
+        "Tu sois a mais delicada",
+        "De todo meu coração",
+        "Tu sois de Deus estimada"
+      ],
+      "repeat_bars": [],
+      "bar_status": "pending_documentary_verification"
+    },
+    {
+      "number": 4,
+      "verses": [
+        "Oh Mãe Divina do coração",
+        "Lá nas alturas onde estás",
+        "Minha Mãe, lá no céu",
+        "Dai-me o perdão"
+      ],
+      "repeat_bars": [],
+      "bar_status": "pending_documentary_verification"
+    },
+    {
+      "number": 5,
+      "verses": [
+        "Tu sois a flor mais bela",
+        "Aonde Deus pôs a mão",
+        "Tu sois minha advogada",
+        "Oh! Virgem da Conceição"
+      ],
+      "repeat_bars": [],
+      "bar_status": "pending_documentary_verification"
+    },
+    {
+      "number": 6,
+      "verses": [
+        "Oh Mãe Divina do coração",
+        "Lá nas alturas onde estás",
+        "Minha Mãe, lá no céu",
+        "Dai-me o perdão"
+      ],
+      "repeat_bars": [],
+      "bar_status": "pending_documentary_verification"
+    },
+    {
+      "number": 7,
+      "verses": [
+        "Estrela do Universo",
+        "Que me parece um jardim",
+        "Assim como sois brilhante",
+        "Quero que brilhes a mim"
+      ],
+      "repeat_bars": [],
+      "bar_status": "pending_documentary_verification"
+    },
+    {
+      "number": 8,
+      "verses": [
+        "Oh Mãe Divina do coração",
+        "Lá nas alturas onde estás",
+        "Minha Mãe, lá no céu",
+        "Dai-me o perdão"
+      ],
+      "repeat_bars": [],
+      "bar_status": "pending_documentary_verification"
+    }
+  ],
+  "source_reference": "https://nossairmandade.com/hymn/191/LuaBranca",
+  "pagination_reference": {
+    "mode": "portrait_9_16",
+    "preferred_stanzas_per_frame": 4,
+    "expected_frames": 2,
+    "require_measurement": true,
+    "separator": "last_frame_only"
+  },
+  "notes": [
+    "User supplied complete 8-stanza text; preserved separate from partial production JSON until reconciliation",
+    "Print master eventually A5, A4 scaled family, A3 for murals only",
+    "Do not invent recipient / receiver attribution"
+  ]
+}

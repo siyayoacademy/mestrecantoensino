@@ -10,28 +10,119 @@
       "title": "Lua Branca",
       "rhythm": "VALSA",
       "rhythm_status": "observed_in_uploaded_pdf",
-      "transcription_status": "first_stanza_verified",
+      "transcription_status": "eight_stanzas_user_supplied_pending_editorial_collation",
       "stanzas": [
         {
           "verses": [
-            "Deus te salve, oh! Lua Branca",
+            "Deus te Salve oh! Lua Branca",
             "Da luz tão prateada",
-            "Tu sois minha Protetora",
+            "Tu sois minha protetora",
             "De Deus tu sois estimada"
           ],
-          "source": "O SANTO CRUZEIRO Partituras.pdf",
-          "page": 85,
+          "source": "Transcrição integral fornecida pelo usuário em 2026-10-27; cotejamento com edições pendente",
           "repetition_bars": [],
-          "status": "first_stanza_verified",
           "bar_verification_status": "pending_documentary_verification",
-          "bar_intervals": []
+          "bar_intervals": [],
+          "status": "user_supplied_text"
+        },
+        {
+          "verses": [
+            "Oh Mãe Divina do coração",
+            "Lá nas alturas onde estás",
+            "Minha Mãe, lá no céu",
+            "Dai-me o perdão"
+          ],
+          "source": "Transcrição integral fornecida pelo usuário em 2026-10-27; cotejamento com edições pendente",
+          "repetition_bars": [],
+          "bar_verification_status": "pending_documentary_verification",
+          "bar_intervals": [],
+          "status": "user_supplied_text"
+        },
+        {
+          "verses": [
+            "Das flores do meu país",
+            "Tu sois a mais delicada",
+            "De todo meu coração",
+            "Tu sois de Deus estimada"
+          ],
+          "source": "Transcrição integral fornecida pelo usuário em 2026-10-27; cotejamento com edições pendente",
+          "repetition_bars": [],
+          "bar_verification_status": "pending_documentary_verification",
+          "bar_intervals": [],
+          "status": "user_supplied_text"
+        },
+        {
+          "verses": [
+            "Oh Mãe Divina do coração",
+            "Lá nas alturas onde estás",
+            "Minha Mãe, lá no céu",
+            "Dai-me o perdão"
+          ],
+          "source": "Transcrição integral fornecida pelo usuário em 2026-10-27; cotejamento com edições pendente",
+          "repetition_bars": [],
+          "bar_verification_status": "pending_documentary_verification",
+          "bar_intervals": [],
+          "status": "user_supplied_text"
+        },
+        {
+          "verses": [
+            "Tu sois a flor mais bela",
+            "Aonde Deus pôs a mão",
+            "Tu sois minha advogada",
+            "Oh! Virgem da Conceição"
+          ],
+          "source": "Transcrição integral fornecida pelo usuário em 2026-10-27; cotejamento com edições pendente",
+          "repetition_bars": [],
+          "bar_verification_status": "pending_documentary_verification",
+          "bar_intervals": [],
+          "status": "user_supplied_text"
+        },
+        {
+          "verses": [
+            "Oh Mãe Divina do coração",
+            "Lá nas alturas onde estás",
+            "Minha Mãe, lá no céu",
+            "Dai-me o perdão"
+          ],
+          "source": "Transcrição integral fornecida pelo usuário em 2026-10-27; cotejamento com edições pendente",
+          "repetition_bars": [],
+          "bar_verification_status": "pending_documentary_verification",
+          "bar_intervals": [],
+          "status": "user_supplied_text"
+        },
+        {
+          "verses": [
+            "Estrela do Universo",
+            "Que me parece um jardim",
+            "Assim como sois brilhante",
+            "Quero que brilhes a mim"
+          ],
+          "source": "Transcrição integral fornecida pelo usuário em 2026-10-27; cotejamento com edições pendente",
+          "repetition_bars": [],
+          "bar_verification_status": "pending_documentary_verification",
+          "bar_intervals": [],
+          "status": "user_supplied_text"
+        },
+        {
+          "verses": [
+            "Oh Mãe Divina do coração",
+            "Lá nas alturas onde estás",
+            "Minha Mãe, lá no céu",
+            "Dai-me o perdão"
+          ],
+          "source": "Transcrição integral fornecida pelo usuário em 2026-10-27; cotejamento com edições pendente",
+          "repetition_bars": [],
+          "bar_verification_status": "pending_documentary_verification",
+          "bar_intervals": [],
+          "status": "user_supplied_text"
         }
       ],
       "repetition_bars": [],
-      "note": "Página 85: pauta de música e seta visíveis; não inferir barras verticais de repetição dos símbolos da partitura.",
+      "note": "8 estrofes registradas; barras não atribuídas; divergências de capitalização com primeira estrofe anterior exigem cotejamento",
       "pdf_portuguese_page": 85,
       "execution_repeats": null,
-      "stanza_repeat_marks_status": "pending_visual_verification"
+      "stanza_repeat_marks_status": "pending_visual_verification",
+      "source_additional": "https://nossairmandade.com/hymn/191/LuaBranca"
     },
     {
       "number": 2,
@@ -192,5 +283,6 @@
     "rule": "Only verified stanza data may draw bars",
     "range_format": "zero-based from:to:slot, to exclusive, slots 0..2",
     "notes": "Marcha, Valsa, Mazurca e trechos mistos compatíveis; não presumir tipos ou mudanças de ritmo."
-  }
+  },
+  "content_status": "partial_corpus_only_hymn_1_has_eight_stanzas_hymns_2_3_untranscribed"
 }

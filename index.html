@@ -144,6 +144,15 @@ background:var(--flag-color);overflow:hidden}
 #cruzeiro .stanza-repeat-bar[data-slot="1"]{left:12px}
 #cruzeiro .stanza-repeat-bar[data-slot="2"]{left:20px}
 @media(max-width:360px){#cruzeiro .hymn-stanza{grid-template-columns:30px minmax(0,1fr);column-gap:5px}#cruzeiro .stanza-tracks{min-width:30px}}
+/* MCE HIN-08 · apresentação PT no próprio módulo, sem linhas horizontais entre hinos */
+.mce-hymn-entry{max-width:750px;margin:0 auto;padding:30px 0 26px;text-align:center}
+.mce-hymn-entry h3{color:var(--gold-light);font:400 clamp(24px,3vw,36px)/1.25 Georgia,serif;margin:0 0 9px}
+.mce-hymn-entry .mce-hymn-rhythm{font-size:13px;letter-spacing:.07em;font-style:italic;color:#d1d8e4;margin:0 0 15px}
+.mce-hymn-stanza{display:flex;flex-direction:column;align-items:flex-start;max-width:max-content;text-align:left;margin:22px auto;line-height:1.65;font-size:clamp(15px,2vw,20px);padding-left:18px}
+.mce-hymn-line{display:block;overflow-wrap:anywhere}
+.mce-hymn-symbols{color:var(--gold-light);font-size:27px;letter-spacing:.36em;text-align:center;padding:18px 0 12px}
+.mce-hymn-notice,.mce-hymn-source{font-size:13px;color:#c8d2e2;text-align:center}
+.mce-hymn-repeat-note{font-size:12px;color:#d1d8e4;text-align:center}
 </style><link rel="stylesheet" href="css/ris-responsive-stage.css"></head>
 <body><div class="dev-preview-toolbar" id="devPreviewToolbar" data-siyayo-responsive-toolbar role="group" aria-label="Simular formato de tela"><button type="button" class="preview-button" data-preview="auto" aria-pressed="true">AUTO</button><button type="button" class="preview-button" data-preview="portrait" aria-pressed="false">PORTRAIT</button><button type="button" class="preview-button" data-preview="landscape" aria-pressed="false">LANDSCAPE</button></div><div class="stage-viewport" id="stageViewport" data-siyayo-responsive-viewport data-preview="auto"><div class="experience-box ris-responsive-shell"><a class="skip-link" href="#cruzeiro">Ir para o leitor de hinários</a>
 <header><a class="ris-home" href="#top" aria-label="Voltar ao início">RIS</a><div><h1>✦ MESTRE CANTO ENSINO</h1><small>RAIMUNDO IRINEU SERRA</small><span class="version-tag" aria-label="Versão local de desenvolvimento">JAGUAR v2.9 · RS-01 PRÉVIA</span></div><button class="share-link" id="site-share" aria-label="Compartilhar este portal" title="Compartilhar">↗</button></header>
@@ -174,17 +183,13 @@ background:var(--flag-color);overflow:hidden}
 <details class="gold-hymn-module" id="diversoes-do-mestre">
   <summary><span class="gold-hymn-name">Diversões do Mestre</span><span class="gold-hymn-marker" aria-hidden="true">⌄</span></summary>
   <div class="gold-hymn-content">
-    <p><strong>Diversões do Mestre</strong> — área de leitura expansível preparada para o hinário por extenso, com numeração, ritmo e barras de repetição.</p>
-    <p>O texto integral será inserido após a conferência das fontes e da organização musical. Não apresentamos versos provisórios como se fossem a versão oficial.</p>
-    <p class="gold-source">Status: estrutura homologável; transcrição documental pendente.</p>
+    <div data-mce-pt-reader="diversoes" role="region" aria-label="Leitura contínua de Diversões do Mestre em português"><p>Abra o módulo para ler os 10 hinos em português.</p></div>
   </div>
 </details>
 <details class="gold-hymn-module" id="santa-missa">
   <summary><span class="gold-hymn-name">Santa Missa</span><span class="gold-hymn-marker" aria-hidden="true">⌄</span></summary>
   <div class="gold-hymn-content">
-    <p><strong>A Santa Missa</strong> — segundo módulo dourado expansível, com a mesma estrutura do leitor de hinários.</p>
-    <p>Conteúdo integral reservado para inserção após cotejo de fontes, preservando estrofes, tipo musical e marcações de repetição.</p>
-    <p class="gold-source">Status: estrutura homologável; transcrição documental pendente.</p>
+    <div data-mce-pt-reader="santa-missa" role="region" aria-label="Leitura contínua de Santa Missa em português"><p>Abra o módulo para ler os 10 hinos em português.</p></div>
   </div>
 </details>
 </section>
@@ -308,4 +313,4 @@ function layoutStanzaBars(){
 }
 window.addEventListener('load',layoutStanzaBars);
 window.addEventListener('resize',layoutStanzaBars);
-</script></div></div><script src="js/ris-responsive-preview.js"></script></body></html>
+</script></div></div><script src="js/ris-responsive-preview.js"></script><script src="js/mce-hymn-pt-reader.js" defer></script></body></html>

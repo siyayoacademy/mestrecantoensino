@@ -102,5 +102,24 @@
     "author/egrégora classification with reviewed attribution",
     "print preview PDF/PNG",
     "social share"
-  ]
+  ],
+  "prototype": {
+    "route": "hymn-lab/index.html",
+    "status": "EXPERIMENTAL_CODE_COMMITTED_NOT_VISUALLY_HOMOLOGATED",
+    "commit": "3b3de592bd0e2ed67385059ad5c12fcb695bfcf3",
+    "source": "data/santo-cruzeiro-universal.json hymn 1 stanza 1 / PDF page 85",
+    "verified_bars": false,
+    "features": [
+      "9:16 portrait display",
+      "5 composition zones",
+      "responsive frame dimension inspection",
+      "experimental print A4"
+    ],
+    "not_yet": [
+      "PNG export",
+      "actual hidden compositor integration",
+      "stanza adaptive pagination",
+      "print A4 master layout"
+    ]
+  }
 }

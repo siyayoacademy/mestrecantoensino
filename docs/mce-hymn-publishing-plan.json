@@ -105,7 +105,7 @@
   ],
   "prototype": {
     "route": "hymn-lab/index.html",
-    "status": "EXPERIMENTAL_CODE_COMMITTED_NOT_VISUALLY_HOMOLOGATED",
+    "status": "EXPERIMENTAL_TWO_FRAMES_NOT_VISUALLY_HOMOLOGATED",
     "commit": "3b3de592bd0e2ed67385059ad5c12fcb695bfcf3",
     "source": "data/santo-cruzeiro-universal.json hymn 1 stanza 1 / PDF page 85",
     "verified_bars": false,
@@ -120,6 +120,21 @@
       "actual hidden compositor integration",
       "stanza adaptive pagination",
       "print A4 master layout"
-    ]
+    ],
+    "stanzas": 8,
+    "frames": 2,
+    "stanzas_per_frame": 4,
+    "new_source": "hymn-lab/lua-branca-8-stanzas.json",
+    "html": "hymn-lab/index.html",
+    "attribution": "reserved_empty_slot",
+    "separator": "last_frame_only",
+    "print_proof": "A5",
+    "note": "User supplied 8 full stanzas; no bar indications are verified and original partial production data remains unchanged"
+  },
+  "print_policy": {
+    "standard_hymnbook": "A5",
+    "iso_scaling": "A4 same ISO aspect ratio and optionally scaled after legibility verification",
+    "a3_scope": "murals, portraits, calendars only",
+    "portrait_social": "9:16 independent from ISO print ratio"
   }
 }

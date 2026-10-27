@@ -1,0 +1,1595 @@
+{
+  "schema_version": "1.0",
+  "source_pdf": "DIVERSÕES DO MESTRE.pdf",
+  "collection": "div",
+  "language_default_for_site": "pt",
+  "preserve_english_separately": true,
+  "status": "source_extracted_pending_visual_collation",
+  "hymns_portuguese": [
+    {
+      "number": 1,
+      "title": "PRA PILAR",
+      "language": "pt",
+      "section": "hinario",
+      "source_pages": [
+        3
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Dessa estrada de onde eu venho, pra pilar",
+            "Venho das terras do cigano, pra pilar",
+            "A Rainha me mandou, pra pilar",
+            "Eu passar aqui cantando, pra pilar"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "É pra pilar",
+            "Estou pilando",
+            "Estou pilando",
+            "É pra pilar"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Passando por entre as flores, pra pilar",
+            "Vejo um retrato ornado, pra pilar",
+            "Me parece ser um rei, pra pilar",
+            "Que estará ali encantado, pra pilar"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "É pra pilar",
+            "Estou pilando",
+            "Estou pilando",
+            "É pra pilar"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 3,
+          "vertical_segments": [
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 143.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 157.9,
+              "y_end": 215.1,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 229.4,
+              "y_end": 286.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 300.9,
+              "y_end": 358.1,
+              "length": 57.2
+            }
+          ]
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 2,
+      "title": "CACHIADO",
+      "language": "pt",
+      "section": "hinario",
+      "source_pages": [
+        5
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": "3x",
+      "stanzas": [
+        {
+          "verses": [
+            "Cachiado venha cá",
+            "Carracá carra cá cá",
+            "Carracá carra cá cá",
+            "Carracá carra cá cá"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 5,
+          "vertical_segments": [
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 143.6,
+              "length": 57.2
+            }
+          ]
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 3,
+      "title": "CANTAR ME APARECEU",
+      "language": "pt",
+      "section": "hinario",
+      "source_pages": [
+        7
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": "2x",
+      "stanzas": [
+        {
+          "verses": [
+            "Cantar me apareceu",
+            "E tu não me conheceu",
+            "Feliz feliz, feliz adeus",
+            "Feliz, feliz, feliz adeus"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Depois tornamos a se encontrar",
+            "E começamos a conversar",
+            "Eu não te disse quem era",
+            "Para ti me perguntar"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 7,
+          "vertical_segments": [
+            {
+              "x": 47.8,
+              "y_start": 86.4,
+              "y_end": 115,
+              "length": 28.6
+            },
+            {
+              "x": 47.8,
+              "y_start": 115,
+              "y_end": 143.6,
+              "length": 28.6
+            },
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 143.6,
+              "length": 57.2
+            },
+            {
+              "x": 47.8,
+              "y_start": 157.9,
+              "y_end": 215.1,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 157.9,
+              "y_end": 215.1,
+              "length": 57.2
+            }
+          ]
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 4,
+      "title": "DEVO ACOCHAR O NÓ",
+      "language": "pt",
+      "section": "hinario",
+      "source_pages": [
+        9
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Devo acochar o nó",
+            "De quem quer se desatar",
+            "Viver eternamente",
+            "Só Deus pode separar"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Os pensamentos se conversam",
+            "Nos corações têm amor",
+            "Viver eternamente",
+            "Filhos e Deus Criador"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "A Rainha nos ensina",
+            "E manda nós cantar",
+            "Porque Ela é nossa Mãe",
+            "E não quer ver nós separar"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 9,
+          "vertical_segments": [
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 115,
+              "length": 28.6
+            },
+            {
+              "x": 43.3,
+              "y_start": 120,
+              "y_end": 148.5,
+              "length": 28.6
+            },
+            {
+              "x": 43.3,
+              "y_start": 162.9,
+              "y_end": 220.1,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 234.4,
+              "y_end": 291.6,
+              "length": 57.2
+            }
+          ]
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 5,
+      "title": "SINOS QUE TANGEM",
+      "language": "pt",
+      "section": "hinario",
+      "source_pages": [
+        11,
+        13
+      ],
+      "rhythm": "valsa",
+      "repeat_text_from_pdf": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Se eu soubesse, eu não tinha nascido",
+            "Para hoje eu andar sofrendo",
+            "A piedade me disse",
+            "O que que tu andas fazendo"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Sinos que tangem com mágoas doridas",
+            "Recordando o sonho da aurora da vida",
+            "Mil aventura é suave alegria",
+            "Em minh’alma o som da Ave Maria"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Me sentei, recostei sobre as mãos",
+            "Logo me pus a pensar",
+            "Abandonei meus direitos",
+            "Joguei nas ondas do mar"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Sinos que tangem com mágoas doridas",
+            "Recordando o sonho da aurora da vida",
+            "Mil aventura é suave alegria",
+            "Em minh’alma o som da Ave Maria"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Banhando-me em águas brancas",
+            "Por não ouvir o que disseram",
+            "Não foi falta de conselho",
+            "Que meus amigos me deram"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Sinos que tangem com mágoas doridas",
+            "Recordando o sonho da aurora da vida",
+            "Mil aventura é suave alegria",
+            "Em minh’alma o som da Ave Maria"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Meu Deus perdoai-me",
+            "O que que eu vou fazer?",
+            "Vivo cumprindo esta sina",
+            "Só deixo quando eu morrer"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Sinos que tangem com mágoas doridas",
+            "Recordando o sonho da aurora da vida",
+            "Mil aventura é suave alegria",
+            "Em minh’alma o som da Ave Maria"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 11,
+          "vertical_segments": [
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 143.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 157.9,
+              "y_end": 215.1,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 229.4,
+              "y_end": 286.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 300.9,
+              "y_end": 358.1,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 372.4,
+              "y_end": 429.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 443.9,
+              "y_end": 501.1,
+              "length": 57.2
+            }
+          ]
+        },
+        {
+          "page": 13,
+          "vertical_segments": [
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 143.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 157.9,
+              "y_end": 215.1,
+              "length": 57.2
+            }
+          ]
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 6,
+      "title": "BOM TABALHADOR",
+      "language": "pt",
+      "section": "hinario",
+      "source_pages": [
+        15
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": "3x",
+      "stanzas": [
+        {
+          "verses": [
+            "Quem quiser ser bem querido",
+            "Seja bom trabalhador",
+            "Para viver neste mundo",
+            "É preciso ter amor"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Trá, lá, lá, lá, lá, lá, lá...",
+            "Trá, lá, lá, lá, lá, lá, lá..."
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 15,
+          "vertical_segments": [
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 143.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 157.9,
+              "y_end": 186.5,
+              "length": 28.6
+            }
+          ]
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 7,
+      "title": "A CASA É ESTA",
+      "language": "pt",
+      "section": "hinario",
+      "source_pages": [
+        17
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": "2x",
+      "stanzas": [
+        {
+          "verses": [
+            "A casa é esta",
+            "A casa é esta",
+            "Esta é a casa",
+            "Da nossa festa"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Quem quiser ver",
+            "Venha pra cá",
+            "Mas venha pronto",
+            "Para dançar"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Aqui se canta",
+            "E aqui se dança",
+            "Mas é preciso",
+            "Se trabalhar"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 17,
+          "vertical_segments": [
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 143.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 157.9,
+              "y_end": 215.1,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 229.4,
+              "y_end": 286.6,
+              "length": 57.2
+            }
+          ]
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 8,
+      "title": "CHEGUEI NO SALÃO",
+      "language": "pt",
+      "section": "hinario",
+      "source_pages": [
+        19
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Cheguei no salão",
+            "Do nosso Pai Criador",
+            "Tava uma grande festa",
+            "Dando viva e louvor"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Casou Francisco",
+            "Casou João, casou Maria",
+            "Todos dentro do reinado",
+            "Da Sempre Virgem Maria"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Com tudo isso",
+            "A festa continuou",
+            "Todos dentro do salão",
+            "Do nosso Pai Criador"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Dançava pai, dançava mãe",
+            "Dançava filho",
+            "Todos dentro do salão",
+            "Da Sempre Virgem Maria"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Com tudo isso",
+            "A festa continuou",
+            "Todos dentro do salão",
+            "Do nosso Pai Criador"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 19,
+          "vertical_segments": [
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 143.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 157.9,
+              "y_end": 215.1,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 229.4,
+              "y_end": 286.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 300.9,
+              "y_end": 358.1,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 372.4,
+              "y_end": 429.6,
+              "length": 57.2
+            }
+          ]
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 9,
+      "title": "SÃO JOÃO",
+      "language": "pt",
+      "section": "hinario",
+      "source_pages": [
+        21,
+        23
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": "2x",
+      "stanzas": [
+        {
+          "verses": [
+            "Eu cheguei na fogueira",
+            "São João se aproximou",
+            "Mandou eu pisar na brasa",
+            "A brasa não me queimou"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Peguei na sua mão",
+            "Sua mão me esquentou",
+            "Perguntei o que é isso",
+            "É o fogo do amor"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Eu estou aqui, estou ali",
+            "Estou acolá",
+            "São as festa juninas",
+            "Que vêm para alegrar"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Estindo lê lê",
+            "Estindo lá lá",
+            "São as festa juninas",
+            "Que vêm para alegrar"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Botou a mão no meu ombro",
+            "E depois me abraçou",
+            "Estou muito satisfeito",
+            "Junto com os meus irmãos"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Eu estou aqui, estou ali",
+            "Estou acolá",
+            "São as festa juninas",
+            "Que vêm para alegrar"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Estindo lê lê",
+            "Estindo lá lá",
+            "São as festa juninas",
+            "Que vêm para alegrar"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 21,
+          "vertical_segments": []
+        },
+        {
+          "page": 23,
+          "vertical_segments": []
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 10,
+      "title": "ZIGUE-ZAGUE",
+      "language": "pt",
+      "section": "hinario",
+      "source_pages": [
+        25
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": "2x",
+      "stanzas": [
+        {
+          "verses": [
+            "Num rio de águas verdes",
+            "Bem juntinho da floresta",
+            "Eu entrei me divertindo",
+            "Tudo em uma hora certa"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "O que coisa perfeitíssima",
+            "Um passo lá e outro cá",
+            "No balanço, eu balanceio",
+            "O zigue-zague zagueá"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Ai eu saí dançando",
+            "Dentro daquela festinha",
+            "Com todos cantarolando",
+            "Em louvor á nossa Rainha"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "O que coisa perfeitíssima",
+            "Um passo lá e outro cá",
+            "No balanço, eu balanceio",
+            "O zigue-zague zagueá"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 25,
+          "vertical_segments": [
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 115,
+              "length": 28.6
+            },
+            {
+              "x": 43.3,
+              "y_start": 120,
+              "y_end": 148.5,
+              "length": 28.6
+            },
+            {
+              "x": 43.3,
+              "y_start": 162.9,
+              "y_end": 220.1,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 234.4,
+              "y_end": 291.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 305.9,
+              "y_end": 363.1,
+              "length": 57.2
+            }
+          ]
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    }
+  ],
+  "hymns_english": [
+    {
+      "number": 1,
+      "title": "TO PONDER",
+      "language": "en",
+      "section": "hinario",
+      "source_pages": [
+        2
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": null,
+      "stanzas": [
+        {
+          "verses": [
+            "This path from where I come, to ponder",
+            "I come from the lands of the gypsies, to ponder",
+            "The Queen ordered me, to ponder",
+            "For me to pass here singing, to ponder"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "It is to ponder",
+            "I am pondering",
+            "I am pondering",
+            "It is to ponder"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Passing between the flowers, to ponder",
+            "I see a ornate portrait, to ponder",
+            "I look like I am a king, to ponder",
+            "That will be enchanted, to ponder"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "It is to ponder",
+            "I am pondering",
+            "I am pondering",
+            "It is to ponder"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 2,
+          "vertical_segments": [
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 143.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 157.9,
+              "y_end": 215.1,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 229.4,
+              "y_end": 286.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 300.9,
+              "y_end": 358.1,
+              "length": 57.2
+            }
+          ]
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 2,
+      "title": "CACHIADO",
+      "language": "en",
+      "section": "hinario",
+      "source_pages": [
+        4
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": "3x",
+      "stanzas": [
+        {
+          "verses": [
+            "Cachiado come here",
+            "Carracá carra cá cá",
+            "Carracá carra cá cá",
+            "Carracá carra cá cá"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 4,
+          "vertical_segments": [
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 143.6,
+              "length": 57.2
+            }
+          ]
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 3,
+      "title": "SINGING YOU APPEARED TO ME",
+      "language": "en",
+      "section": "hinario",
+      "source_pages": [
+        6
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": "2x",
+      "stanzas": [
+        {
+          "verses": [
+            "Singing you appeared to me",
+            "And you did not know me",
+            "Happy, happy, happy goodbye",
+            "Happy, happy, happy goodbye"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Later we saw each other again",
+            "And we started to talk",
+            "I did not say who I was",
+            "So you would ask me"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 6,
+          "vertical_segments": [
+            {
+              "x": 47.8,
+              "y_start": 86.4,
+              "y_end": 115,
+              "length": 28.6
+            },
+            {
+              "x": 47.8,
+              "y_start": 115,
+              "y_end": 143.6,
+              "length": 28.6
+            },
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 143.6,
+              "length": 57.2
+            },
+            {
+              "x": 47.8,
+              "y_start": 157.9,
+              "y_end": 215.1,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 157.9,
+              "y_end": 215.1,
+              "length": 57.2
+            }
+          ]
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 4,
+      "title": "I MUST TIGHTEN THE KNOT",
+      "language": "en",
+      "section": "hinario",
+      "source_pages": [
+        8
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": null,
+      "stanzas": [
+        {
+          "verses": [
+            "I must tighten the knot",
+            "Of who wants to unravel it",
+            "To love eternally",
+            "Only God can separate"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "The thoughts speak to each other",
+            "Our hearts have love",
+            "To live eternally",
+            "Sons and daughters and God Creator"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "The Queen teaches us",
+            "And orders us to sing",
+            "Because She is our Mother",
+            "And she does not want us to separate"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 8,
+          "vertical_segments": [
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 115,
+              "length": 28.6
+            },
+            {
+              "x": 43.3,
+              "y_start": 120,
+              "y_end": 148.5,
+              "length": 28.6
+            },
+            {
+              "x": 43.3,
+              "y_start": 162.9,
+              "y_end": 220.1,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 234.4,
+              "y_end": 291.6,
+              "length": 57.2
+            }
+          ]
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 5,
+      "title": "BELLS THAT RING",
+      "language": "en",
+      "section": "hinario",
+      "source_pages": [
+        10,
+        12
+      ],
+      "rhythm": "waltz",
+      "repeat_text_from_pdf": null,
+      "stanzas": [
+        {
+          "verses": [
+            "If I had known, I was not born",
+            "For today I walk suffering",
+            "To pity I said",
+            "What are you doing"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Bells that ring with painful wounds",
+            "Remembering the dream of the dawn of life",
+            "A thousand adventures are gentle joy",
+            "In my soul the dream of Holy Mary"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "I sat, leaning back upon hands",
+            "Soon I began to think",
+            "I abandoned my orders",
+            "I tossed in the waves of the sea"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Bells that ring with painful wounds",
+            "Remembering the dream of the dawn of life",
+            "A thousand adventures are gentle joy",
+            "In my soul the dream of Holy Mary"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Bathing me in white waters",
+            "For I did not hear what they said",
+            "It was not for the lack of advice",
+            "That my friends gave me"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Bells that ring with painful wounds",
+            "Remembering the dream of the dawn of life",
+            "A thousand adventures are gentle joy",
+            "In my soul the dream of Holy Mary"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "My God forgive me",
+            "What will I do?",
+            "I live fulfilling this destiny",
+            "Only leaving when I die"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Bells that ring with painful wounds",
+            "Remembering the dream of the dawn of life",
+            "A thousand adventures are gentle joy",
+            "In my soul the dream of Holy Mary"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 10,
+          "vertical_segments": [
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 143.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 157.9,
+              "y_end": 215.1,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 229.4,
+              "y_end": 286.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 300.9,
+              "y_end": 358.1,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 372.4,
+              "y_end": 429.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 443.9,
+              "y_end": 501.1,
+              "length": 57.2
+            }
+          ]
+        },
+        {
+          "page": 12,
+          "vertical_segments": [
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 143.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 157.9,
+              "y_end": 215.1,
+              "length": 57.2
+            }
+          ]
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 6,
+      "title": "BOM TABALHADOR",
+      "language": "en",
+      "section": "hinario",
+      "source_pages": [
+        14
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": "3x",
+      "stanzas": [
+        {
+          "verses": [
+            "Who wants to be well liked",
+            "Be a good worker",
+            "To live in this world",
+            "One must have love"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Trá, lá, lá, lá, rá, rá, rá...",
+            "Trá, lá, lá, lá, rá, rá, rá..."
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 14,
+          "vertical_segments": [
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 143.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 157.9,
+              "y_end": 186.5,
+              "length": 28.6
+            }
+          ]
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 7,
+      "title": "A CASA É ESTA",
+      "language": "en",
+      "section": "hinario",
+      "source_pages": [
+        16
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": "2x",
+      "stanzas": [
+        {
+          "verses": [
+            "This is the house",
+            "This is the house",
+            "This is the house",
+            "Of our celebration"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Who wants to see",
+            "Come here",
+            "But come ready",
+            "To dance"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Here they sing",
+            "And here they dance",
+            "But is important",
+            "For one to work"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 16,
+          "vertical_segments": [
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 143.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 157.9,
+              "y_end": 215.1,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 229.4,
+              "y_end": 286.6,
+              "length": 57.2
+            }
+          ]
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 8,
+      "title": "CHEGUEI NO SALÃO",
+      "language": "en",
+      "section": "hinario",
+      "source_pages": [
+        18
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": null,
+      "stanzas": [
+        {
+          "verses": [
+            "I arrived in the salão",
+            "Of our Father Creator",
+            "It was a great celebration",
+            "Giving viva and praise"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Francisco married",
+            "John married, Mary married",
+            "All within the kingdom",
+            "Of the Ever Virgin Mary"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "With all this",
+            "The celebration continued",
+            "All within the salão",
+            "Of our Father Creator"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Dad danced, mom danced",
+            "Son/daughter danced",
+            "All within the salão",
+            "Of the Ever Virgin Mary"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "With all this",
+            "The celebration continued",
+            "Everyone within the salão",
+            "Of the Father Creator"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 18,
+          "vertical_segments": [
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 143.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 157.9,
+              "y_end": 215.1,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 229.4,
+              "y_end": 286.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 300.9,
+              "y_end": 358.1,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 372.4,
+              "y_end": 429.6,
+              "length": 57.2
+            }
+          ]
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 9,
+      "title": "SÃO JOÃO",
+      "language": "en",
+      "section": "hinario",
+      "source_pages": [
+        20,
+        22
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": "2x",
+      "stanzas": [
+        {
+          "verses": [
+            "I arrived in the fire",
+            "Saint John approached",
+            "Ordered me to walk on the coals",
+            "The coals did not burn me"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "I took his hand",
+            "His hand warmed me",
+            "I asked what is this",
+            "It is the fire of love"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "I am here, I am there",
+            "I am there",
+            "These the June festivities",
+            "That come to make joyful"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Estindo lê lê",
+            "Estindo lá lá",
+            "These the June festivities",
+            "That come to make joyful"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "He put a hand on my shoulder",
+            "And then hugged me",
+            "I am very happy",
+            "Together with my brothers and sisters"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "I am here, I am there",
+            "I am there",
+            "These the June festivities",
+            "That come to make joyful"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Estindo lê lê",
+            "Estindo lá lá",
+            "These the June festivities",
+            "That come to make joyful"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 20,
+          "vertical_segments": []
+        },
+        {
+          "page": 22,
+          "vertical_segments": []
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 10,
+      "title": "ZIGUE-ZAGUE",
+      "language": "en",
+      "section": "hinario",
+      "source_pages": [
+        24
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": "2x",
+      "stanzas": [
+        {
+          "verses": [
+            "In the river of green waters",
+            "Very close to the forest",
+            "I was having fun",
+            "All in a right moment"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "The most perfect thing",
+            "One steps there and the other here",
+            "In swinging, I swing",
+            "The zig- zag zagueá"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Then I went dancing",
+            "Inside this little party",
+            "With everyone humming",
+            "In praise of our Queen"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "The most perfect thing",
+            "One steps there and the other here",
+            "In swinging, I swing",
+            "The zig- zag zagueá"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 24,
+          "vertical_segments": [
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 115,
+              "length": 28.6
+            },
+            {
+              "x": 43.3,
+              "y_start": 120,
+              "y_end": 148.5,
+              "length": 28.6
+            },
+            {
+              "x": 43.3,
+              "y_start": 162.9,
+              "y_end": 220.1,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 234.4,
+              "y_end": 291.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 305.9,
+              "y_end": 363.1,
+              "length": 57.2
+            }
+          ]
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    }
+  ],
+  "additional_songs_of_souls": []
+}

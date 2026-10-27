@@ -1,0 +1,1116 @@
+{
+  "schema_version": "1.0",
+  "source_pdf": "SANTA MISSA.pdf",
+  "collection": "santa",
+  "language_default_for_site": "pt",
+  "preserve_english_separately": true,
+  "status": "source_extracted_pending_visual_collation",
+  "hymns_portuguese": [
+    {
+      "number": 1,
+      "title": "SENHOR AMADO",
+      "language": "pt",
+      "section": "hinario",
+      "source_pages": [
+        3,
+        4
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Para os tempos que estavas no mundo",
+            "Mandaram te chamar",
+            "Na casa da Mãe Santíssima",
+            "Para ti, para ti apresentar"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Senhora Mãe Santíssima",
+            "Eu vim me apresentar",
+            "Atender Vosso chamado",
+            "Que Vós me, que Vós me mandou chamar"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Te apresenta ao Vosso Pai",
+            "Foi quem mandou te chamar",
+            "Teu tempo completou",
+            "Que é para ti, que é para ti te apresentar"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Oh meu Senhor amado",
+            "Eu vim me apresentar",
+            "Atender Vosso chamado",
+            "Que Vós me, que Vós me mandou chamar"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Confessa os teus crimes",
+            "Do mundo de ilusão",
+            "Que é para ver se eu posso",
+            "Para ver se eu posso,",
+            "para ver se eu posso dar o perdão"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Os tempos que eu estive no mundo",
+            "De Vós, Senhor, nada me faltou",
+            "Só eu tanto ofendi",
+            "Tanto ofendi,",
+            "tanto ofendi a Vós Senhor"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Os tempos que eu estive no mundo",
+            "Com a proteção de Vós, Senhor",
+            "Só eu tanto ofendi",
+            "Tanto ofendi,",
+            "tanto ofendi a Vós Senhor"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Oh meu Senhor amado",
+            "Soberanitíssimo Senhor",
+            "Só eu tanto ofendi",
+            "Tanto ofendi,",
+            "tanto ofendi a Vós Senhor",
+            "Só eu tanto ofendi",
+            "Tanto ofendi",
+            "e me perdoai, Senhor"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 3,
+          "vertical_segments": [
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 115,
+              "length": 28.6
+            },
+            {
+              "x": 43.3,
+              "y_start": 120,
+              "y_end": 148.5,
+              "length": 28.6
+            },
+            {
+              "x": 43.3,
+              "y_start": 162.9,
+              "y_end": 220.1,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 234.4,
+              "y_end": 291.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 305.9,
+              "y_end": 363.1,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 377.4,
+              "y_end": 448.9,
+              "length": 71.5
+            }
+          ]
+        },
+        {
+          "page": 4,
+          "vertical_segments": [
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 115,
+              "length": 28.6
+            },
+            {
+              "x": 43.3,
+              "y_start": 120,
+              "y_end": 162.9,
+              "length": 42.9
+            },
+            {
+              "x": 43.3,
+              "y_start": 177.2,
+              "y_end": 248.7,
+              "length": 71.5
+            },
+            {
+              "x": 43.3,
+              "y_start": 263,
+              "y_end": 377.4,
+              "length": 114.4
+            }
+          ]
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 2,
+      "title": "DOIS DE NOVEMBRO",
+      "language": "pt",
+      "section": "hinario",
+      "source_pages": [
+        5
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": null,
+      "stanzas": [
+        {
+          "verses": [
+            "A tua alma entrega a Deus",
+            "E o teu corpo à terra fria",
+            "Jesus te acompanhe",
+            "Junto com a Virgem Maria"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Tu pedes aos teus amigos",
+            "Pelo nome de Jesus",
+            "Que te rezem umas preces",
+            "Lá no pé da Santa Cruz"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Tanto anos que vivestes",
+            "Agora vai se retirar",
+            "Vai atender ao nosso Pai",
+            "Foi quem mandou te chamar"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Aqui achou, aqui deixou",
+            "Levas contigo o amor",
+            "As portas do céu se abrem",
+            "Para quem for merecedor"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 5,
+          "vertical_segments": [
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 143.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 157.9,
+              "y_end": 215.1,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 229.4,
+              "y_end": 286.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 300.9,
+              "y_end": 358.1,
+              "length": 57.2
+            }
+          ]
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 3,
+      "title": "ROGATIVO DOS MORTOS",
+      "language": "pt",
+      "section": "hinario",
+      "source_pages": [
+        6,
+        7
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": null,
+      "stanzas": [
+        {
+          "verses": [
+            "São doze horas da noite",
+            "Meu irmão se mudou",
+            "O sono da eternidade",
+            "Deus do Céu quem te chamou"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Uma hora da madrugada",
+            "Meu irmão se mudou",
+            "O sono da eternidade",
+            "Deus do Céu quem te chamou"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Duas Horas da madrugada...."
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "São três horas da madrugada..."
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Quatro horas da madrugada..."
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Cinco horas da manhã..."
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "São seis horas da manhã..."
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "São sete horas do dia..."
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "São oito horas do dia..."
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "São nove horas do dia",
+            "Meu irmão se mudou",
+            "O sono da eternidade",
+            "Deus do Céu quem te chamou"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Tantos anos que vivestes",
+            "No mundo da ilusão",
+            "Eu rogo a Deus do Céu",
+            "Que te dê o Santo perdão"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "A Divina Estrela vem",
+            "Para ir te alumiar",
+            "Eu rogo a Deus do Céu",
+            "Que te bote em bom lugar"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "A Virgem Senhora vem",
+            "Para ir te acompanhar",
+            "Eu rogo a Virgem Mãe",
+            "Que te bote em bom lugar"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 6,
+          "vertical_segments": [
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 143.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 157.9,
+              "y_end": 215.1,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 229.4,
+              "y_end": 243.7,
+              "length": 14.3
+            },
+            {
+              "x": 43.3,
+              "y_start": 258,
+              "y_end": 272.3,
+              "length": 14.3
+            },
+            {
+              "x": 43.3,
+              "y_start": 286.6,
+              "y_end": 300.9,
+              "length": 14.3
+            },
+            {
+              "x": 43.3,
+              "y_start": 315.2,
+              "y_end": 329.5,
+              "length": 14.3
+            },
+            {
+              "x": 43.3,
+              "y_start": 343.8,
+              "y_end": 358.1,
+              "length": 14.3
+            },
+            {
+              "x": 43.3,
+              "y_start": 372.4,
+              "y_end": 386.7,
+              "length": 14.3
+            },
+            {
+              "x": 43.3,
+              "y_start": 401,
+              "y_end": 415.3,
+              "length": 14.3
+            },
+            {
+              "x": 43.3,
+              "y_start": 429.6,
+              "y_end": 486.8,
+              "length": 57.2
+            }
+          ]
+        },
+        {
+          "page": 7,
+          "vertical_segments": [
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 143.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 157.9,
+              "y_end": 215.1,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 229.4,
+              "y_end": 286.6,
+              "length": 57.2
+            }
+          ]
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 4,
+      "title": "MÃE CELESTIAL",
+      "language": "pt",
+      "section": "hinario",
+      "source_pages": [
+        8
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Eu peço e rogo",
+            "Oh Mãe Celestial",
+            "Que tudo enquanto eu tenho",
+            "É Vós é quem me dá",
+            "Oh Mãe Celestial"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Eu peço e rogo",
+            "Oh Pai Celestial",
+            "Que tudo enquanto eu tenho",
+            "É Vós é quem me dá",
+            "Oh Pai Celestial"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Eu peço e rogo",
+            "Oh Mãe Celestial",
+            "Que te dê a salvação",
+            "E te bote em bom lugar",
+            "Oh Mãe Celestial"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 8,
+          "vertical_segments": [
+            {
+              "x": 47.8,
+              "y_start": 86.4,
+              "y_end": 157.9,
+              "length": 71.5
+            },
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 157.9,
+              "length": 71.5
+            },
+            {
+              "x": 47.8,
+              "y_start": 172.2,
+              "y_end": 243.7,
+              "length": 71.5
+            },
+            {
+              "x": 43.3,
+              "y_start": 172.2,
+              "y_end": 243.7,
+              "length": 71.5
+            },
+            {
+              "x": 47.8,
+              "y_start": 258,
+              "y_end": 329.5,
+              "length": 71.5
+            },
+            {
+              "x": 43.3,
+              "y_start": 258,
+              "y_end": 329.5,
+              "length": 71.5
+            }
+          ]
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 5,
+      "title": "EQUIÔR PAPAI ME CHAMA",
+      "language": "pt",
+      "section": "hinario",
+      "source_pages": [
+        9
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Equior Papai me chama",
+            "Equior perante a Si",
+            "Equior Papai me diz",
+            "Equior eu sou feliz"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Equior Mamãe me chama",
+            "Equior Mamãe me dá",
+            "Equior Mamãe me ensina",
+            "Amar a quem eu devo amar"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Eu vivo neste mundo",
+            "Com prazer e alegria",
+            "Viva Deus no céu",
+            "E a Sempre Virgem Maria"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Jesus Cristo é o nosso Pai",
+            "De grande consolação",
+            "Ajudai-me neste mundo",
+            "E no outro a salvação"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 9,
+          "vertical_segments": [
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 143.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 157.9,
+              "y_end": 215.1,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 229.4,
+              "y_end": 286.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 300.9,
+              "y_end": 358.1,
+              "length": 57.2
+            }
+          ]
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 6,
+      "title": "TODO MUNDO QUER SER FILHO",
+      "language": "pt",
+      "section": "hinario",
+      "source_pages": [
+        10
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Todo mundo quer ser filho",
+            "De Deus da criação",
+            "Por quê que tu te esquece",
+            "De rezar para o teu irmão"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Meu irmão que se mudou",
+            "Saiu com alegria",
+            "Eu rogo a Deus por ele",
+            "E a Sempre Virgem Maria"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Jesus Cristo Redentor",
+            "Eu peço o meu perdão",
+            "Que eu nunca mais hei de esquecer",
+            "De rezar para o meu irmão"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Meu irmão que já saiu",
+            "Do mundo do pecado",
+            "Eu rogo a Deus do céu",
+            "Que ele seja perdoado"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 10,
+          "vertical_segments": []
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 7,
+      "title": "SENHORA MÃE SANTÍSSIMA",
+      "language": "pt",
+      "section": "hinario",
+      "source_pages": [
+        11
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Senhora Mãe Santíssima",
+            "O Vosso Filho Ela mandou",
+            "Está na frente da estrada",
+            "Para quem lhe acompanhar"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Para quem lhe acompanhar",
+            "Com fé e alegria",
+            "Para a santíssima casa Dela",
+            "Ela espera todo dia"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Ela espera todo dia",
+            "O Divino Pai chamar",
+            "Para a santíssima casa Dela",
+            "Todos filhos lá chegar"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Todos filhos lá chegar",
+            "E Ela a todos receber",
+            "Para dar a Santa Glória",
+            "Àqueles que merecer"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 11,
+          "vertical_segments": []
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 8,
+      "title": "OH MEU PAI ETERNO",
+      "language": "pt",
+      "section": "hinario",
+      "source_pages": [
+        12
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Oh meu Pai Eterno",
+            "É Soberano Senhor",
+            "É Rei no céu e na terra",
+            "Um Pai Criador"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Oh Virgem Mãe",
+            "É Soberana Senhora",
+            "Rainha no céu e na terra",
+            "Oh Mãe Criadora"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Oh meu Pai Eterno",
+            "É Soberano Senhor",
+            "Me perdoai os meus pecados",
+            "Oh Pai Criador"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Oh Virgem Mãe",
+            "É Soberana Senhora",
+            "Me perdoai as minhas culpas",
+            "Oh Mãe Poderosa"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Oh meu Pai Eterno do céu",
+            "Jesus Cristo Salvador",
+            "Nasceu de Virgem Maria",
+            "Sofreu por Vosso amor"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 12,
+          "vertical_segments": []
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 9,
+      "title": "DESPEDIDA",
+      "language": "pt",
+      "section": "hinario",
+      "source_pages": [
+        13
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Me depeço meus irmãos",
+            "Porque vou me apresentar",
+            "Vou alegre e satisfeito",
+            "Para meu Pai me consolar"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Eu vou com muita alegria",
+            "Porque Mamãe me chamou",
+            "E quem me deu esta verdade",
+            "Foi o nosso Pai Criador"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Eu não posso vos levar",
+            "Porque não tenho poder",
+            "Para seguir a verdade",
+            "É preciso compreender"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Para não seguir a verdade",
+            "Não é preciso rezar",
+            "E todos nós temos a certeza",
+            "Deste mundo se ausentar"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 13,
+          "vertical_segments": []
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 10,
+      "title": "PISEI NA TERRA FRIA",
+      "language": "pt",
+      "section": "hinario",
+      "source_pages": [
+        14
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Pisei na terra fria",
+            "Nela eu senti calor",
+            "Ela é quem me dá o pão",
+            "A minha Mãe que nos criou"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "A minha Mãe que nos criou",
+            "E me dá todos ensinos",
+            "A matéria eu entrego a Ela",
+            "E o meu espírito ao Divino"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Do sangue das minhas veias",
+            "Eu fiz minha assinatura",
+            "O meu espírito eu entrego a Deus",
+            "E o meu corpo à sepultura"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "Meu corpo na sepultura",
+            "Desprezado no relento",
+            "Alguém fala em meu nome",
+            "Alguma vez em pensamento"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 14,
+          "vertical_segments": []
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    }
+  ],
+  "hymns_english": [],
+  "additional_songs_of_souls": [
+    {
+      "number": 1,
+      "title": "BENDITO LOUVADO SEJA",
+      "language": "pt",
+      "section": "almas",
+      "source_pages": [
+        16
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Bendito louvado seja",
+            "Nosso Senhor Jesus Cristo",
+            "Para sempre seja louvado",
+            "A Nossa Mãe Maria Santissima"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "O Minha Mãe, Minha Rainha",
+            "Tenha de nós compaixão",
+            "Para nós poder sairmos",
+            "De perto deste vulcão"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "O vulcão é o pecado",
+            "Deste mundo de ilusão",
+            "Eu rogo a Deus do Céu",
+            "Pela nossa salvação"
+          ],
+          "bar_status": "geometry_requires_review"
+        },
+        {
+          "verses": [
+            "A salvação é o amor",
+            "Do Senhor Rei Salomão",
+            "Do Patriarca São José",
+            "E do Mestre Juramidam"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 16,
+          "vertical_segments": [
+            {
+              "x": 43.3,
+              "y_start": 86.4,
+              "y_end": 143.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 157.9,
+              "y_end": 215.1,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 229.4,
+              "y_end": 286.6,
+              "length": 57.2
+            },
+            {
+              "x": 43.3,
+              "y_start": 300.9,
+              "y_end": 358.1,
+              "length": 57.2
+            }
+          ]
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 2,
+      "title": "EU VOU ILUMINAR AS ALMAS",
+      "language": "pt",
+      "section": "almas",
+      "source_pages": [
+        17
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Eu vou iluminar as almas",
+            "Que para as almas me adujar",
+            "Eu vou também pedir as almas",
+            "Que para elas me ajudar"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 17,
+          "vertical_segments": []
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 3,
+      "title": "LÁ NO CRUZEIRO DIVINO",
+      "language": "pt",
+      "section": "almas",
+      "source_pages": [
+        18
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Lá no cruzeiro divino",
+            "Aonde as almas vão rezar",
+            "As almas choram de alegria",
+            "Quando os filhos se combinam",
+            "E de tristeza quando não quer combinar"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 18,
+          "vertical_segments": []
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 4,
+      "title": "AS ALMAS QUE AQUI VEM BUSCAR",
+      "language": "pt",
+      "section": "almas",
+      "source_pages": [
+        19
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": null,
+      "stanzas": [
+        {
+          "verses": [
+            "As almas que aqui vem buscar",
+            "O amor e a luz do saber",
+            "Eu entrego a São Irineu",
+            "É ele é quem vem receber"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 19,
+          "vertical_segments": []
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    },
+    {
+      "number": 5,
+      "title": "CAJUEIRO SANTO",
+      "language": "pt",
+      "section": "almas",
+      "source_pages": [
+        20
+      ],
+      "rhythm": null,
+      "repeat_text_from_pdf": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Cajueiro santo",
+            "Aonde nasceu Jesus",
+            "Oh! Minhas almas",
+            "Dai-me a santa luz"
+          ],
+          "bar_status": "geometry_requires_review"
+        }
+      ],
+      "line_geometry_by_page": [
+        {
+          "page": 20,
+          "vertical_segments": []
+        }
+      ],
+      "editorial_status": "needs_visual_collation"
+    }
+  ]
+}

@@ -83,7 +83,7 @@
     },
     {
       "number": 17,
-      "title": "Meu Divino Pai (Confissão)",
+      "title": "Meu Divino Pai do Céu (Confissão)",
       "rhythm": null,
       "offeredTo": null,
       "stanzas": [],
@@ -128,6 +128,7 @@
   ],
   "reference": {
     "url": "https://hinarios.online/acervo/o-cruzeiro-universal",
-    "note": "sequence and rhythm metadata only; compare user's original PDF before full lyrics and repeat marks"
+    "secondary_url": "https://open.estudofino.org/hinario.php?h=o-cruzeiro",
+    "note": "Titles and stated rhythms compared in two public indexes; lyrics and exact repetition bars remain pending primary-source verification. 17 retains variant title in original reference."
   }
 }

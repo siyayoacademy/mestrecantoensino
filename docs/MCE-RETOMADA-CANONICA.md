@@ -43,3 +43,11 @@ GUIA DE CONTINUIDADE — Leia este arquivo ANTES de pesquisar novamente ou edita
 
 ## Comando de retomada para outro chat
 "Retome o projeto Mestre Canto Ensino, branch main, lendo PRIMEIRO docs/MCE-RETOMADA-CANONICA.md, MAPA-DE-REPETICOES.md e o registro de governança. Confira o UNAQUI como fonte textual pré-existente, investigue JSON integral existente, confira HEAD e produção Cloudflare. Preserve os hinos 01–10 homologados e prossiga no lote 11–20 com HOW TO DO/HOW TO SHOW, sem duplicar transcrições nem modificar outros projetos."
+
+## ELO HIN-20.1 — Atualização de produção (30/10/2026)
+
+- O leitor canônico busca `data/cruzeiro-hin-11-20-staging.json` por fetch same-origin e acrescenta os hinos 11–20 aos 01–10, preservando o Index e todos os módulos adjacentes.
+- Commits: `764bb823` (leitor) e `73426be` (texto do Index). Dez registros estão visíveis no JSON; publicação Cloudflare e auditoria visual ainda exigem conferência.
+- A fonte textual base é o UNAQUI (`https://unaqui.wordpress.com/`); evitar redigitar letras disponíveis. Rogativo dos Mortos mantém indicações abreviadas das horas em partes do texto, não declarar expansão integral. Distinguir apresentação completa de transcrição com abreviações.
+- Hino 17 mostra `Confissão` em itálico no campo da execução. Barras 11–20 e variantes devem ser conferidas pelo músico na produção; 01–10 permanecem preservados.
+- Próxima ação obrigatória: verificar renderização 01–20 no Cloudflare, barras e posição dos símbolos, sem voltar a pesquisar do zero nem avançar ao 21–30 antes da homologação.

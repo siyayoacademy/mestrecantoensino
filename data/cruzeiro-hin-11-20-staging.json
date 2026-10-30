@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "collection": "O Santo Cruzeiro Universal",
   "batch": "HIN-11-20",
-  "status": "partial_transcription_11_14_for_review_15_20_pending",
+  "status": "ten_hymns_prepared_for_live_reader",
   "reader": "estudo-repeticoes/hin-09-3-layout.html",
   "rules": {
     "order": "continuous_no_index",
@@ -57,9 +57,9 @@
         }
       ],
       "barIntervals": [],
-      "lyricsStatus": "pdf_transcription_draft_for_musician_review",
+      "lyricsStatus": "project_UNAQUI_and_original_PDF_review",
       "barsStatus": "requires_exact_documentary_cotejo",
-      "visible": false,
+      "visible": true,
       "barRule": "first stanza full-height bar only when shown in supplied image",
       "sourcePages": [
         106,
@@ -126,9 +126,9 @@
         }
       ],
       "barIntervals": [],
-      "lyricsStatus": "pdf_transcription_draft_for_musician_review",
+      "lyricsStatus": "project_UNAQUI_and_original_PDF_review",
       "barsStatus": "requires_exact_documentary_cotejo",
-      "visible": false,
+      "visible": true,
       "barRule": "first stanza full-height bar only when shown in supplied image",
       "sourcePages": [
         108,
@@ -176,9 +176,9 @@
         }
       ],
       "barIntervals": [],
-      "lyricsStatus": "pdf_transcription_draft_for_musician_review",
+      "lyricsStatus": "project_UNAQUI_and_original_PDF_review",
       "barsStatus": "requires_exact_documentary_cotejo",
-      "visible": false,
+      "visible": true,
       "barRule": "first stanza full-height bar only when shown in supplied image",
       "sourcePages": [
         110,
@@ -212,75 +212,59 @@
         },
         {
           "verses": [
-            "Duas horas da madrugada",
-            "Meu irmão se mudou",
-            "O sono da eternidade",
-            "Deus do Céu quem te chamou"
+            "Duas horas da madrugada…"
           ],
-          "bars": []
+          "bars": [],
+          "editorialNote": "abbreviated in original UNAQUI; not expanded"
         },
         {
           "verses": [
-            "São três horas da madrugada",
-            "Meu irmão se mudou",
-            "O sono da eternidade",
-            "Deus do Céu quem te chamou"
+            "São três horas da madrugada…"
           ],
-          "bars": []
+          "bars": [],
+          "editorialNote": "abbreviated in original UNAQUI; not expanded"
         },
         {
           "verses": [
-            "Quatro horas da madrugada",
-            "Meu irmão se mudou",
-            "O sono da eternidade",
-            "Deus do Céu quem te chamou"
+            "Quatro horas da madrugada…"
           ],
-          "bars": []
+          "bars": [],
+          "editorialNote": "abbreviated in original UNAQUI; not expanded"
         },
         {
           "verses": [
-            "Cinco horas da manhã",
-            "Meu irmão se mudou",
-            "O sono da eternidade",
-            "Deus do Céu quem te chamou"
+            "Cinco horas da manhã…"
           ],
-          "bars": []
+          "bars": [],
+          "editorialNote": "abbreviated in original UNAQUI; not expanded"
         },
         {
           "verses": [
-            "São seis horas da manhã",
-            "Meu irmão se mudou",
-            "O sono da eternidade",
-            "Deus do Céu quem te chamou"
+            "São seis horas da manhã…"
           ],
-          "bars": []
+          "bars": [],
+          "editorialNote": "abbreviated in original UNAQUI; not expanded"
         },
         {
           "verses": [
-            "São sete horas do dia",
-            "Meu irmão se mudou",
-            "O sono da eternidade",
-            "Deus do Céu quem te chamou"
+            "São sete horas do dia…"
           ],
-          "bars": []
+          "bars": [],
+          "editorialNote": "abbreviated in original UNAQUI; not expanded"
         },
         {
           "verses": [
-            "São oito horas do dia",
-            "Meu irmão se mudou",
-            "O sono da eternidade",
-            "Deus do Céu quem te chamou"
+            "São oito horas do dia…"
           ],
-          "bars": []
+          "bars": [],
+          "editorialNote": "abbreviated in original UNAQUI; not expanded"
         },
         {
           "verses": [
-            "São nove horas do dia",
-            "Meu irmão se mudou",
-            "O sono da eternidade",
-            "Deus do Céu quem te chamou"
+            "São nove horas do dia…"
           ],
-          "bars": []
+          "bars": [],
+          "editorialNote": "abbreviated in original UNAQUI; not expanded"
         },
         {
           "verses": [
@@ -329,9 +313,9 @@
         }
       ],
       "barIntervals": [],
-      "lyricsStatus": "pdf_transcription_draft_for_musician_review",
+      "lyricsStatus": "project_UNAQUI_and_original_PDF_review",
       "barsStatus": "user_reference_last_three_confirmed; first_pending_cotejo",
-      "visible": false,
+      "visible": true,
       "barRule": "first stanza no bar; last three complete stanzas each separate full-height bar",
       "specialHandling": {
         "lastThreeStanzas": "full_height_independent_bars",
@@ -365,11 +349,50 @@
       "title": "Eu Quero Ser",
       "rhythm": "MARCHA",
       "offeredTo": null,
-      "stanzas": [],
+      "stanzas": [
+        {
+          "verses": [
+            "Eu quero ser",
+            "Filho do meu Pai",
+            "Da minha Mãe com os meus irmãos",
+            "Que me acompanham amar a Ele",
+            "Dentro do meu coração",
+            "Seguindo nesta estrada",
+            "Com a verdade na mão"
+          ],
+          "bars": [
+            [
+              0,
+              7,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Oh Virgem Mãe",
+            "Oh Mãe de piedade",
+            "Eu quero ser filho de vós",
+            "Sigo sempre na verdade"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "O amor eterno",
+            "Eu devo consagrar",
+            "A lua e as estrelas",
+            "A terra e o mar",
+            "O sol lá nas alturas",
+            "Com sua luz de cristal"
+          ],
+          "bars": []
+        }
+      ],
       "barIntervals": [],
-      "lyricsStatus": "requires_full_stanza_visual_cotejo",
+      "lyricsStatus": "transcribed_from_project_UNAQUI",
       "barsStatus": "requires_exact_documentary_cotejo",
-      "visible": false,
+      "visible": true,
       "barRule": "first stanza full-height bar only when shown in supplied image",
       "sourcePages": [
         116,
@@ -382,11 +405,63 @@
       "title": "A Minha Mãe É a Santa Virgem",
       "rhythm": "MARCHA",
       "offeredTo": null,
-      "stanzas": [],
+      "stanzas": [
+        {
+          "verses": [
+            "A minha Mãe é a Santa Virgem",
+            "Ela é quem vem me ensinar",
+            "Não posso viver sem Ela",
+            "Só posso estar onde Ela está"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Ela é Mãe de todos nós",
+            "Daqueles que procurar",
+            "Seguindo neste caminho",
+            "Vai chegar onde Ela está"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Oh minha Virgem Mãe",
+            "Oh Mãe do coração",
+            "Eu vivo nesta escola",
+            "Para ensinar os meus irmãos"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "E eles pouco caso fazem",
+            "De aprender com alegria",
+            "Porque pensam que não é",
+            "Ensinos da Virgem Maria"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Ninguém trata de aprender",
+            "Só se leva na ilusão",
+            "Aqui mesmo neste mundo",
+            "Está no mar da escuridão"
+          ],
+          "bars": []
+        }
+      ],
       "barIntervals": [],
-      "lyricsStatus": "requires_full_stanza_visual_cotejo",
+      "lyricsStatus": "transcribed_from_project_UNAQUI",
       "barsStatus": "requires_exact_documentary_cotejo",
-      "visible": false,
+      "visible": true,
       "barRule": "first stanza full-height bar only when shown in supplied image",
       "sourcePages": [
         118,
@@ -399,11 +474,54 @@
       "title": "Meu Divino Pai do Céu",
       "rhythm": null,
       "offeredTo": null,
-      "stanzas": [],
+      "stanzas": [
+        {
+          "verses": [
+            "Meu Divino Pai do Céu",
+            "Soberano Criador",
+            "Eu sou um filho seu",
+            "Neste mundo pecador"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Meu Divino Pai do Céu",
+            "Meu Soberano Senhor",
+            "Perdoai as minhas culpas",
+            "Pelo vosso Santo Amor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Meu Divino Pai do Céu",
+            "Soberano Onipotente",
+            "Perdoai as minhas culpas",
+            "E vós perdoa os inocentes"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu confesso os meus pecados",
+            "E reconheço os crimes meus",
+            "Eu a vós peço perdão",
+            "Ao meu Divino Senhor Deus"
+          ],
+          "bars": []
+        }
+      ],
       "barIntervals": [],
-      "lyricsStatus": "requires_full_stanza_visual_cotejo",
+      "lyricsStatus": "transcribed_from_project_UNAQUI",
       "barsStatus": "requires_exact_documentary_cotejo",
-      "visible": false,
+      "visible": true,
       "barRule": "first stanza full-height bar only",
       "performanceNote": "Confissão",
       "performanceMeaning": "canto sem acompanhamento instrumental",
@@ -419,11 +537,54 @@
       "title": "Equiôr Papai Me Chama",
       "rhythm": "MARCHA",
       "offeredTo": null,
-      "stanzas": [],
+      "stanzas": [
+        {
+          "verses": [
+            "Equior Papai me chama",
+            "Equior perante a Si",
+            "Equior Papai me diz",
+            "Equior eu sou feliz"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Equior Mamãe me chama",
+            "Equior Mamãe me dá",
+            "Equior Mamãe me ensina",
+            "Amar a quem eu devo amar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu vivo neste mundo",
+            "Com prazer e alegria",
+            "Viva Deus no céu",
+            "E a Sempre Virgem Maria"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Jesus Cristo é o nosso Pai",
+            "De grande consolação",
+            "Ajudai-me neste mundo",
+            "E no outro a salvação"
+          ],
+          "bars": []
+        }
+      ],
       "barIntervals": [],
-      "lyricsStatus": "requires_full_stanza_visual_cotejo",
+      "lyricsStatus": "transcribed_from_project_UNAQUI",
       "barsStatus": "requires_exact_documentary_cotejo",
-      "visible": false,
+      "visible": true,
       "barRule": "first stanza full-height bar only when shown in supplied image",
       "sourcePages": [
         122,
@@ -436,11 +597,45 @@
       "title": "O Amor Eternamente",
       "rhythm": "MARCHA",
       "offeredTo": null,
-      "stanzas": [],
+      "stanzas": [
+        {
+          "verses": [
+            "O amor eternamente",
+            "Eu desejo publicar",
+            "Para ser um filho seu",
+            "Fazer bem, não fazer mal"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Estou na terra, estou na terra",
+            "Estou na terra, eu devo amar",
+            "Para ser um filho seu",
+            "Fazer bem, não fazer mal"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A Virgem Mãe que me ensinou",
+            "De vós não devo afastar-me",
+            "Para ser um filho seu",
+            "Fazer bem, não fazer mal"
+          ],
+          "bars": []
+        }
+      ],
       "barIntervals": [],
-      "lyricsStatus": "requires_full_stanza_visual_cotejo",
+      "lyricsStatus": "transcribed_from_project_UNAQUI",
       "barsStatus": "requires_exact_documentary_cotejo",
-      "visible": false,
+      "visible": true,
       "barRule": "first stanza full-height bar only when shown in supplied image",
       "sourcePages": [
         124,
@@ -453,11 +648,63 @@
       "title": "Sempre Assim",
       "rhythm": "MARCHA",
       "offeredTo": null,
-      "stanzas": [],
+      "stanzas": [
+        {
+          "verses": [
+            "Sempre assim eu vou dizer",
+            "Sempre assim eu quero ser",
+            "Amar a Eternidade",
+            "Ser fiel até morrer"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "A minha Mãe eternamente",
+            "Foi quem me mandou seguir",
+            "Não temer este caminho",
+            "Sempre assim eu sou feliz"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Jesus Cristo me mandou",
+            "Para sempre amém Jesus",
+            "Não temer este caminho",
+            "Deus foi quem deu esta luz"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Todos seres me arrodeiam",
+            "Foi quem me mandou seguir",
+            "Para ser eternamente",
+            "Sempre assim eu sou feliz"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Oh minha Virgem Mãe",
+            "Oh Mãe do Redentor",
+            "Enchei meu coração",
+            "De alegria com primor"
+          ],
+          "bars": []
+        }
+      ],
       "barIntervals": [],
-      "lyricsStatus": "requires_full_stanza_visual_cotejo",
+      "lyricsStatus": "transcribed_from_project_UNAQUI",
       "barsStatus": "requires_exact_documentary_cotejo",
-      "visible": false,
+      "visible": true,
       "barRule": "first stanza full-height bar only when shown in supplied image",
       "sourcePages": [
         126,
@@ -469,7 +716,9 @@
   "reference": {
     "url": "https://hinarios.online/acervo/o-cruzeiro-universal",
     "secondary_url": "https://open.estudofino.org/hinario.php?h=o-cruzeiro",
-    "note": "Titles and stated rhythms compared in two public indexes; lyrics and exact repetition bars remain pending primary-source verification. 17 retains variant title in original reference."
+    "note": "Titles and stated rhythms compared in two public indexes; lyrics and exact repetition bars remain pending primary-source verification. 17 retains variant title in original reference.",
+    "project_source_url": "https://unaqui.wordpress.com/",
+    "primary_text_source": "project-owned UNAQUI transcription"
   },
   "sourceDocument": {
     "file": "O SANTO CRUZEIRO Partituras.pdf",

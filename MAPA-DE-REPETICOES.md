@@ -55,3 +55,11 @@ HOW TO DO: definir um único token de espaço vertical de 36px para o fim da úl
 HOW TO SHOW: o bloco Sol · Lua · Estrela permanece dentro da borda; o respiro ACIMA e ABAIXO dos símbolos tem altura equivalente, sem linhas horizontais decorativas. Separação externa para o próximo hino é outra propriedade, independente deste respiro interno.
 
 HOW TO CHECK: conferir a distância visual entre último verso e símbolos e entre símbolos e borda inferior no mobile e desktop. Não alterar ritmo, letra, barras, título, oferta ou marcadores. Código: `estudo-repeticoes/hin-09-3-layout.html`.
+
+## MCE HIN-10.5 — Respiro SUPERIOR do módulo (30/10/2026)
+
+Falha observada no PORTRAIT: a borda dourada superior ainda estava próxima demais do número/título de Mãe Celestial. A HIN-10.4 corrigiu apenas o fim do módulo, sem modificar `padding-top` herdado de 18px.
+
+HOW TO DO: aplicar `padding-top:36px` a **cada** painel especializado `.panel`, mantendo o token 36px acima e abaixo do separador (`.separator { padding:36px 0; }`) e sem margin adicional ao final da última estrofe. Não confundir a separação ENTRE painéis com o respiro DENTRO de cada painel.
+
+HOW TO SHOW: borda superior dourada → 36px de respiro → número/título → espaço editorial da oferta/ritmo → primeira estrofe; última estrofe → 36px de respiro → Sol·Lua·Estrela → 36px de respiro → borda inferior. HOW TO CHECK: verificar todos os módulos 01–10 no PORTRAIT, AUTO e LANDSCAPE e preservar as barras homologadas. O SVG dedicado dos símbolos permanece item de verificação separado: o laboratório atual utiliza caracteres gráficos.

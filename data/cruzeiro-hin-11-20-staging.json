@@ -66,8 +66,21 @@
       "specialHandling": {
         "lastThreeStanzas": "full_height_independent_bars",
         "note": "Source screenshot also shows bars in the last 3 stanzas, no joining across gaps",
-        "crossCollection": "Santa Missa #3 — association only, no automatic duplication"
-      }
+        "crossCollection": "same hymn identity; Santa Missa #3 is a selection, not a separate original hymn"
+      },
+      "canonicalHymnId": "ris-rogativo-dos-mortos",
+      "appearances": [
+        {
+          "collection": "O Santo Cruzeiro Universal",
+          "number": 14,
+          "role": "source_collection"
+        },
+        {
+          "collection": "Santa Missa",
+          "number": 3,
+          "role": "selected_reuse"
+        }
+      ]
     },
     {
       "number": 15,

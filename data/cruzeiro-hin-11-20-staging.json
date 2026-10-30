@@ -12,7 +12,8 @@
     "bars": "per_stanza_verified_intervals_only",
     "separator": "gold_sun_moon_six_pointed_star",
     "breathing": "36px before and after separator; 36px from border top",
-    "publication": "do not render incomplete lyrics or invent bars"
+    "publication": "do not render incomplete lyrics or invent bars",
+    "performance_note": "display italic above first stanza in rhythm slot, without classifying as Valsa/Mazurca"
   },
   "hymns": [
     {
@@ -23,8 +24,9 @@
       "stanzas": [],
       "barIntervals": [],
       "lyricsStatus": "pending_source_cotejo",
-      "barsStatus": "pending_documentary_verification",
-      "visible": false
+      "barsStatus": "reference_visual_review",
+      "visible": false,
+      "barRule": "first stanza full-height bar only when shown in supplied image"
     },
     {
       "number": 12,
@@ -34,8 +36,9 @@
       "stanzas": [],
       "barIntervals": [],
       "lyricsStatus": "pending_source_cotejo",
-      "barsStatus": "pending_documentary_verification",
-      "visible": false
+      "barsStatus": "reference_visual_review",
+      "visible": false,
+      "barRule": "first stanza full-height bar only when shown in supplied image"
     },
     {
       "number": 13,
@@ -45,8 +48,9 @@
       "stanzas": [],
       "barIntervals": [],
       "lyricsStatus": "pending_source_cotejo",
-      "barsStatus": "pending_documentary_verification",
-      "visible": false
+      "barsStatus": "reference_visual_review",
+      "visible": false,
+      "barRule": "first stanza full-height bar only when shown in supplied image"
     },
     {
       "number": 14,
@@ -56,8 +60,14 @@
       "stanzas": [],
       "barIntervals": [],
       "lyricsStatus": "pending_source_cotejo",
-      "barsStatus": "pending_documentary_verification",
-      "visible": false
+      "barsStatus": "reference_visual_review",
+      "visible": false,
+      "barRule": "first stanza no bar; last three complete stanzas each separate full-height bar",
+      "specialHandling": {
+        "lastThreeStanzas": "full_height_independent_bars",
+        "note": "Source screenshot also shows bars in the last 3 stanzas, no joining across gaps",
+        "crossCollection": "Santa Missa #3 — association only, no automatic duplication"
+      }
     },
     {
       "number": 15,
@@ -67,8 +77,9 @@
       "stanzas": [],
       "barIntervals": [],
       "lyricsStatus": "pending_source_cotejo",
-      "barsStatus": "pending_documentary_verification",
-      "visible": false
+      "barsStatus": "reference_visual_review",
+      "visible": false,
+      "barRule": "first stanza full-height bar only when shown in supplied image"
     },
     {
       "number": 16,
@@ -78,19 +89,24 @@
       "stanzas": [],
       "barIntervals": [],
       "lyricsStatus": "pending_source_cotejo",
-      "barsStatus": "pending_documentary_verification",
-      "visible": false
+      "barsStatus": "reference_visual_review",
+      "visible": false,
+      "barRule": "first stanza full-height bar only when shown in supplied image"
     },
     {
       "number": 17,
-      "title": "Meu Divino Pai do Céu (Confissão)",
+      "title": "Meu Divino Pai do Céu",
       "rhythm": null,
       "offeredTo": null,
       "stanzas": [],
       "barIntervals": [],
       "lyricsStatus": "pending_source_cotejo",
-      "barsStatus": "pending_documentary_verification",
-      "visible": false
+      "barsStatus": "reference_visual_review",
+      "visible": false,
+      "barRule": "first stanza full-height bar only",
+      "performanceNote": "Confissão",
+      "performanceMeaning": "canto sem acompanhamento instrumental",
+      "performancePresentation": "italic right-aligned above first stanza"
     },
     {
       "number": 18,
@@ -100,8 +116,9 @@
       "stanzas": [],
       "barIntervals": [],
       "lyricsStatus": "pending_source_cotejo",
-      "barsStatus": "pending_documentary_verification",
-      "visible": false
+      "barsStatus": "reference_visual_review",
+      "visible": false,
+      "barRule": "first stanza full-height bar only when shown in supplied image"
     },
     {
       "number": 19,
@@ -111,8 +128,9 @@
       "stanzas": [],
       "barIntervals": [],
       "lyricsStatus": "pending_source_cotejo",
-      "barsStatus": "pending_documentary_verification",
-      "visible": false
+      "barsStatus": "reference_visual_review",
+      "visible": false,
+      "barRule": "first stanza full-height bar only when shown in supplied image"
     },
     {
       "number": 20,
@@ -122,8 +140,9 @@
       "stanzas": [],
       "barIntervals": [],
       "lyricsStatus": "pending_source_cotejo",
-      "barsStatus": "pending_documentary_verification",
-      "visible": false
+      "barsStatus": "reference_visual_review",
+      "visible": false,
+      "barRule": "first stanza full-height bar only when shown in supplied image"
     }
   ],
   "reference": {

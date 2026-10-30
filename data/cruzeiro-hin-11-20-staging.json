@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0.0",
+  "collection": "O Santo Cruzeiro Universal",
+  "batch": "HIN-11-20",
+  "status": "metadata_staged_not_rendered",
+  "reader": "estudo-repeticoes/hin-09-3-layout.html",
+  "rules": {
+    "order": "continuous_no_index",
+    "march": "implicit_not_rendered",
+    "special_rhythm": "italic_right_above_first_stanza",
+    "offered_to": "invisible_when_empty",
+    "bars": "per_stanza_verified_intervals_only",
+    "separator": "gold_sun_moon_six_pointed_star",
+    "breathing": "36px before and after separator; 36px from border top",
+    "publication": "do not render incomplete lyrics or invent bars"
+  },
+  "hymns": [
+    {
+      "number": 11,
+      "title": "Unaqui",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "stanzas": [],
+      "barIntervals": [],
+      "lyricsStatus": "pending_source_cotejo",
+      "barsStatus": "pending_documentary_verification",
+      "visible": false
+    },
+    {
+      "number": 12,
+      "title": "Meu Divino Pai",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "stanzas": [],
+      "barIntervals": [],
+      "lyricsStatus": "pending_source_cotejo",
+      "barsStatus": "pending_documentary_verification",
+      "visible": false
+    },
+    {
+      "number": 13,
+      "title": "Estrela Dalva",
+      "rhythm": "VALSA",
+      "offeredTo": null,
+      "stanzas": [],
+      "barIntervals": [],
+      "lyricsStatus": "pending_source_cotejo",
+      "barsStatus": "pending_documentary_verification",
+      "visible": false
+    },
+    {
+      "number": 14,
+      "title": "Rogativo dos Mortos",
+      "rhythm": null,
+      "offeredTo": null,
+      "stanzas": [],
+      "barIntervals": [],
+      "lyricsStatus": "pending_source_cotejo",
+      "barsStatus": "pending_documentary_verification",
+      "visible": false
+    },
+    {
+      "number": 15,
+      "title": "Eu Quero Ser",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "stanzas": [],
+      "barIntervals": [],
+      "lyricsStatus": "pending_source_cotejo",
+      "barsStatus": "pending_documentary_verification",
+      "visible": false
+    },
+    {
+      "number": 16,
+      "title": "A Minha Mãe É a Santa Virgem",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "stanzas": [],
+      "barIntervals": [],
+      "lyricsStatus": "pending_source_cotejo",
+      "barsStatus": "pending_documentary_verification",
+      "visible": false
+    },
+    {
+      "number": 17,
+      "title": "Meu Divino Pai (Confissão)",
+      "rhythm": null,
+      "offeredTo": null,
+      "stanzas": [],
+      "barIntervals": [],
+      "lyricsStatus": "pending_source_cotejo",
+      "barsStatus": "pending_documentary_verification",
+      "visible": false
+    },
+    {
+      "number": 18,
+      "title": "Equiôr Papai Me Chama",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "stanzas": [],
+      "barIntervals": [],
+      "lyricsStatus": "pending_source_cotejo",
+      "barsStatus": "pending_documentary_verification",
+      "visible": false
+    },
+    {
+      "number": 19,
+      "title": "O Amor Eternamente",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "stanzas": [],
+      "barIntervals": [],
+      "lyricsStatus": "pending_source_cotejo",
+      "barsStatus": "pending_documentary_verification",
+      "visible": false
+    },
+    {
+      "number": 20,
+      "title": "Sempre Assim",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "stanzas": [],
+      "barIntervals": [],
+      "lyricsStatus": "pending_source_cotejo",
+      "barsStatus": "pending_documentary_verification",
+      "visible": false
+    }
+  ],
+  "reference": {
+    "url": "https://hinarios.online/acervo/o-cruzeiro-universal",
+    "note": "sequence and rhythm metadata only; compare user's original PDF before full lyrics and repeat marks"
+  }
+}

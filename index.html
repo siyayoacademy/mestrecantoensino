@@ -150,25 +150,9 @@ background:var(--flag-color);overflow:hidden}
 <nav class="portal-shortcuts" aria-label="Acesso rápido às seções do Index">
 <span class="portal-shortcuts-label">Acesso rápido</span>
 <a href="#cruzeiro">O Santo Cruzeiro Universal</a><a href="#diversoes-do-mestre">Diversões do Mestre</a><a href="#santa-missa">Santa Missa</a><a href="#bandeiras">Bandeiras RIS</a><a href="#palco">Palco modular</a><a href="#paginas-internas">Páginas internas</a> <a href="fine-art/">Estúdio Fine Art RIS</a>
-</nav><div id="top" class="portal"><section class="portal-card portal-hero"><p class="kicker">15 de outubro · Dia dos Professores</p><h2>Um aniversário entre mestres, música e ensinamentos</h2><p>Celebramos a vida, o canto e o ensino. Nossa homenagem ao Mestre Raimundo Irineu Serra e a todos os mestres e professores que compartilham conhecimento, dedicação e sabedoria.</p><p>O Mestre canta. A música ensina. O coração aprende.</p></section><section class="portal-card" id="cruzeiro"><div class="hymn-head"><div><h2>O Santo Cruzeiro Universal</h2><p>Leitura contínua · prévia parcial do hinário em preparação.</p></div></div><div class="hymn-continuous" id="leitura-continua" aria-label="Leitura sequencial do Santo Cruzeiro Universal">
-
-<article class="hymn-entry" id="hino-001"><h3>01 · Lua Branca</h3>
-<p class="doc-meta">VALSA</p>
-<div class="hymn-stanza" data-source-page="85" data-bars="" data-bar-status="pending_documentary_verification" data-rhythm="VALSA" aria-label="Primeira estrofe de Lua Branca; três trilhos de repetição reservados, sem marcação confirmada">
-  <div class="stanza-tracks" aria-hidden="true"><span class="stanza-repeat-bar" data-slot="0"></span><span class="stanza-repeat-bar" data-slot="1"></span><span class="stanza-repeat-bar" data-slot="2"></span></div>
-  <div class="stanza-words"><span class="stanza-line">Deus te salve, oh! Lua Branca</span><span class="stanza-line">Da luz tão prateada</span><span class="stanza-line">Tu sois minha Protetora</span><span class="stanza-line">De Deus tu sois estimada</span></div>
-</div>
-</article>
-<div class="hymn-separator" role="img" aria-label="Sol, Lua e Estrela de seis pontas, todos dourados"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="9"/><path d="M24 2v9M24 37v9M2 24h9M37 24h9M8 8l7 7M33 33l7 7M40 8l-7 7M15 33l-7 7"/></svg><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M36 34A19 19 0 0 1 17 8 19 19 0 1 0 36 34Z"/></svg><svg viewBox="0 0 48 48" aria-hidden="true"><path class="star6" d="M24 4 41 34H7Z M24 44 7 14h34Z"/></svg></div>
-<article class="hymn-entry" id="hino-002"><h3>02 · Tuperci</h3>
-<p class="doc-meta">MARCHA</p>
-</article>
-<div class="hymn-separator" role="img" aria-label="Sol, Lua e Estrela de seis pontas, todos dourados"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="9"/><path d="M24 2v9M24 37v9M2 24h9M37 24h9M8 8l7 7M33 33l7 7M40 8l-7 7M15 33l-7 7"/></svg><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M36 34A19 19 0 0 1 17 8 19 19 0 1 0 36 34Z"/></svg><svg viewBox="0 0 48 48" aria-hidden="true"><path class="star6" d="M24 4 41 34H7Z M24 44 7 14h34Z"/></svg></div>
-<article class="hymn-entry" id="hino-003"><h3>03 · Ripi</h3>
-<p class="doc-meta">MARCHA</p>
-</article>
-
-</div></section><!-- JAGUAR ELO 1B: posição canônica imediatamente após O Santo Cruzeiro Universal -->
+</nav><div id="top" class="portal"><section class="portal-card portal-hero"><p class="kicker">15 de outubro · Dia dos Professores</p><h2>Um aniversário entre mestres, música e ensinamentos</h2><p>Celebramos a vida, o canto e o ensino. Nossa homenagem ao Mestre Raimundo Irineu Serra e a todos os mestres e professores que compartilham conhecimento, dedicação e sabedoria.</p><p>O Mestre canta. A música ensina. O coração aprende.</p></section><section class="portal-card" id="cruzeiro"><div class="hymn-head"><div><h2>O Santo Cruzeiro Universal</h2><p>Leitura contínua · hinos 01–10 · módulos especializados.</p></div></div><div class="hymn-continuous" id="leitura-continua" aria-label="Leitura sequencial do Santo Cruzeiro Universal">
+<iframe id="mce-cruzeiro-reader" title="O Santo Cruzeiro Universal — hinos 01 a 10" src="estudo-repeticoes/hin-09-3-layout.html?embed=1" loading="eager" scrolling="no" style="display:block;width:100%;min-height:800px;border:0;background:transparent;overflow:hidden" aria-label="Leitor integrado do Santo Cruzeiro Universal"></iframe>
+</div></div></section><!-- JAGUAR ELO 1B: posição canônica imediatamente após O Santo Cruzeiro Universal -->
 <section aria-label="Hinários complementares" id="hinarios-complementares">
 <details class="gold-hymn-module" id="diversoes-do-mestre">
   <summary><span class="gold-hymn-name">Diversões do Mestre</span><span class="gold-hymn-marker" aria-hidden="true">⌄</span></summary>
@@ -307,4 +291,24 @@ function layoutStanzaBars(){
 }
 window.addEventListener('load',layoutStanzaBars);
 window.addEventListener('resize',layoutStanzaBars);
-</script></div></div><script src="js/ris-responsive-preview.js"></script></body></html>
+</script></div></div><script src="js/ris-responsive-preview.js"></script><script>
+/* MCE HIN-10.6 — leitor único; altura responsiva sem scroll interno. */
+(function(){
+ const frame=document.getElementById('mce-cruzeiro-reader'); if(!frame)return;
+ let observer;
+ function size(){
+  try{const doc=frame.contentDocument;if(!doc)return;
+   const body=doc.body,root=doc.documentElement;
+   const height=Math.max(body.scrollHeight,root.scrollHeight,body.offsetHeight);
+   if(height>0)frame.style.height=(height+3)+'px';
+  }catch(e){/* iframe same-origin esperado; não alterar demais módulos */ }
+ }
+ frame.addEventListener('load',()=>{
+  try{const doc=frame.contentDocument;observer?.disconnect();observer=new ResizeObserver(size);
+   observer.observe(doc.body);observer.observe(doc.documentElement);
+   if(doc.fonts)doc.fonts.ready.then(size);
+  }catch(e){} size();
+ });
+ window.addEventListener('resize',size);
+})();
+</script></body></html>

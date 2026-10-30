@@ -63,3 +63,14 @@ Falha observada no PORTRAIT: a borda dourada superior ainda estava próxima dema
 HOW TO DO: aplicar `padding-top:36px` a **cada** painel especializado `.panel`, mantendo o token 36px acima e abaixo do separador (`.separator { padding:36px 0; }`) e sem margin adicional ao final da última estrofe. Não confundir a separação ENTRE painéis com o respiro DENTRO de cada painel.
 
 HOW TO SHOW: borda superior dourada → 36px de respiro → número/título → espaço editorial da oferta/ritmo → primeira estrofe; última estrofe → 36px de respiro → Sol·Lua·Estrela → 36px de respiro → borda inferior. HOW TO CHECK: verificar todos os módulos 01–10 no PORTRAIT, AUTO e LANDSCAPE e preservar as barras homologadas. O SVG dedicado dos símbolos permanece item de verificação separado: o laboratório atual utiliza caracteres gráficos.
+
+## MCE HIN-11–20 — Exceções de barras e Confissão (30/10/2026)
+
+Fonte: duas imagens comparativas apresentadas pelo autor; transcrição dos versos e intervalos ainda sujeita a cotejo com edição primária.
+
+- Padrão deste lote: barra esquerda ao longo da primeira estrofe quando indicada pela fonte, não replicar nas seguintes por padrão. Não inferir barra para estrofes sem marca.
+- Hino 14 — Rogativo dos Mortos: exceção nas três estrofes finais, com três barras verticais independentes, cada uma cobrindo **toda** sua estrofe. Os trechos intermediários sem marca continuam sem barra. Relação com Santa Missa nº 3 é metadado, não duplicação automática.
+- Hino 17 — Meu Divino Pai do Céu: `Confissão` é instrução de execução vocal sem instrumentos, não parte do título nem ritmo musical. Exibir em *itálico*, alinhada à direita da coluna de versos, acima da primeira estrofe, utilizando o campo de anotação especializado do hino.
+- HOW TO DO: armazenar anotação de execução em campo distinto do tipo rítmico e da oferta; manter barras por estrofe/intervalo, e registrar o status da fonte.
+- HOW TO SHOW: respeitar exceções sem copiar a regra do hino 01 para todos; preservar borda dourada, áreas de respiro, separador e títulos homologados.
+- HOW TO CHECK: antes de publicar hinos 11–20, cotejar versos e barras com a fonte completa. O arquivo staging não é automaticamente publicado no leitor.

@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "collection": "O Santo Cruzeiro Universal",
   "batch": "HIN-11-20",
-  "status": "pdf_located_pages_mapped_pending_full_transcription",
+  "status": "partial_transcription_11_14_for_review_15_20_pending",
   "reader": "estudo-repeticoes/hin-09-3-layout.html",
   "rules": {
     "order": "continuous_no_index",
@@ -12,7 +12,7 @@
     "bars": "per_stanza_verified_intervals_only",
     "separator": "gold_sun_moon_six_pointed_star",
     "breathing": "36px before and after separator; 36px from border top",
-    "publication": "do not render incomplete lyrics or invent bars",
+    "publication": "no incomplete hymn display; first validate all stanzas, editorial variants, bar geometry",
     "performance_note": "display italic above first stanza in rhythm slot, without classifying as Valsa/Mazurca"
   },
   "hymns": [
@@ -21,9 +21,43 @@
       "title": "Unaqui",
       "rhythm": "MARCHA",
       "offeredTo": null,
-      "stanzas": [],
+      "stanzas": [
+        {
+          "verses": [
+            "Eu estou aqui",
+            "Foi Deus do céu quem me mandou",
+            "Sou filho da Virgem Mãe",
+            "Lá no céu Jesus Cristo Salvador"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Sofreu na cruz",
+            "Foi preso e foi amarrado",
+            "Quem o matou foram os judeus",
+            "Na Judéia foram todos perdoados"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Estou aqui",
+            "Neste mundo de ilusão",
+            "Eu faço por agradar todos",
+            "Neste mundo, só me dão ingratidão"
+          ],
+          "bars": []
+        }
+      ],
       "barIntervals": [],
-      "lyricsStatus": "requires_full_stanza_visual_cotejo",
+      "lyricsStatus": "pdf_transcription_draft_for_musician_review",
       "barsStatus": "requires_exact_documentary_cotejo",
       "visible": false,
       "barRule": "first stanza full-height bar only when shown in supplied image",
@@ -31,16 +65,68 @@
         106,
         107
       ],
-      "sourceStatus": "original_pdf_located_pages_mapped"
+      "sourceStatus": "Portuguese PDF pages checked, including score-head first stanza"
     },
     {
       "number": 12,
       "title": "Meu Divino Pai",
       "rhythm": "MARCHA",
       "offeredTo": null,
-      "stanzas": [],
+      "stanzas": [
+        {
+          "verses": [
+            "Oh Meu Divino Pai",
+            "Só por vós devo chamar",
+            "Tantas vezes vos ofendi",
+            "E vós me queira perdoar"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Vós me queira perdoar",
+            "Que eu pequei por inocente",
+            "Porque não tinha certeza",
+            "Do nosso Deus Onipotente"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Oh! Meu Divino Pai",
+            "É Vós quem me dá a luz",
+            "Eu nunca mais hei de esquecer",
+            "Do santo nome de Jesus"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "O povo estão iludidos",
+            "Por completa ilusão",
+            "Porque não querem acreditar",
+            "Na Mãe de Deus da Criação"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A laranja é uma fruta",
+            "Redonda por Vossas mãos",
+            "Vós me entrega com certeza",
+            "E eu deixar cair no chão"
+          ],
+          "bars": []
+        }
+      ],
       "barIntervals": [],
-      "lyricsStatus": "requires_full_stanza_visual_cotejo",
+      "lyricsStatus": "pdf_transcription_draft_for_musician_review",
       "barsStatus": "requires_exact_documentary_cotejo",
       "visible": false,
       "barRule": "first stanza full-height bar only when shown in supplied image",
@@ -48,16 +134,49 @@
         108,
         109
       ],
-      "sourceStatus": "original_pdf_located_pages_mapped"
+      "sourceStatus": "Portuguese PDF pages checked, including score-head first stanza"
     },
     {
       "number": 13,
       "title": "Estrela Dalva",
       "rhythm": "VALSA",
       "offeredTo": null,
-      "stanzas": [],
+      "stanzas": [
+        {
+          "verses": [
+            "Estrela Dalva Vós me dá",
+            "Sois divina, sois divina",
+            "Sois divina em meu olhar"
+          ],
+          "bars": [
+            [
+              0,
+              3,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "São felizes os passos meus",
+            "Com certeza eu encontrar",
+            "Um dia, seu resplendor",
+            "É só quem eu devo amar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A minha Mãe que me ensinou",
+            "No mundo dos pecadores",
+            "Tirai-me da ilusão",
+            "Para eu ter outro valor"
+          ],
+          "bars": []
+        }
+      ],
       "barIntervals": [],
-      "lyricsStatus": "requires_full_stanza_visual_cotejo",
+      "lyricsStatus": "pdf_transcription_draft_for_musician_review",
       "barsStatus": "requires_exact_documentary_cotejo",
       "visible": false,
       "barRule": "first stanza full-height bar only when shown in supplied image",
@@ -65,23 +184,160 @@
         110,
         111
       ],
-      "sourceStatus": "original_pdf_located_pages_mapped"
+      "sourceStatus": "Portuguese PDF pages checked, including score-head first stanza"
     },
     {
       "number": 14,
       "title": "Rogativo dos Mortos",
       "rhythm": null,
       "offeredTo": null,
-      "stanzas": [],
+      "stanzas": [
+        {
+          "verses": [
+            "São doze horas da noite",
+            "Meu irmão se mudou",
+            "O sono da eternidade",
+            "Deus do Céu quem te chamou"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Uma hora da madrugada",
+            "Meu irmão se mudou",
+            "O sono da eternidade",
+            "Deus do Céu quem te chamou"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Duas horas da madrugada",
+            "Meu irmão se mudou",
+            "O sono da eternidade",
+            "Deus do Céu quem te chamou"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "São três horas da madrugada",
+            "Meu irmão se mudou",
+            "O sono da eternidade",
+            "Deus do Céu quem te chamou"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Quatro horas da madrugada",
+            "Meu irmão se mudou",
+            "O sono da eternidade",
+            "Deus do Céu quem te chamou"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Cinco horas da manhã",
+            "Meu irmão se mudou",
+            "O sono da eternidade",
+            "Deus do Céu quem te chamou"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "São seis horas da manhã",
+            "Meu irmão se mudou",
+            "O sono da eternidade",
+            "Deus do Céu quem te chamou"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "São sete horas do dia",
+            "Meu irmão se mudou",
+            "O sono da eternidade",
+            "Deus do Céu quem te chamou"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "São oito horas do dia",
+            "Meu irmão se mudou",
+            "O sono da eternidade",
+            "Deus do Céu quem te chamou"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "São nove horas do dia",
+            "Meu irmão se mudou",
+            "O sono da eternidade",
+            "Deus do Céu quem te chamou"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Tantos anos que vivestes",
+            "No mundo da ilusão",
+            "Eu rogo à Deus do Céu",
+            "Que te dê o Santo Perdão"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "A Divina Estrela vem",
+            "Para ir te alumiar",
+            "Eu rogo à Deus do Céu",
+            "Que te bote em bom lugar"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "A Virgem Senhora vem",
+            "Para ir te acompanhar",
+            "Eu rogo à Virgem Mãe",
+            "Que te bote em bom lugar"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        }
+      ],
       "barIntervals": [],
-      "lyricsStatus": "requires_full_stanza_visual_cotejo",
-      "barsStatus": "requires_exact_documentary_cotejo",
+      "lyricsStatus": "pdf_transcription_draft_for_musician_review",
+      "barsStatus": "user_reference_last_three_confirmed; first_pending_cotejo",
       "visible": false,
       "barRule": "first stanza no bar; last three complete stanzas each separate full-height bar",
       "specialHandling": {
         "lastThreeStanzas": "full_height_independent_bars",
         "note": "Source screenshot also shows bars in the last 3 stanzas, no joining across gaps",
-        "crossCollection": "same hymn identity; Santa Missa #3 is a selection, not a separate original hymn"
+        "crossCollection": "same hymn identity; Santa Missa #3 is a selection, not a separate original hymn",
+        "sourceNote": "first stanza also has printed left bar in PDF; status requires musical decision; last three independently marked per user"
       },
       "canonicalHymnId": "ris-rogativo-dos-mortos",
       "appearances": [
@@ -102,7 +358,7 @@
         114,
         115
       ],
-      "sourceStatus": "original_pdf_located_pages_mapped"
+      "sourceStatus": "Portuguese PDF pages checked, including score-head first stanza"
     },
     {
       "number": 15,

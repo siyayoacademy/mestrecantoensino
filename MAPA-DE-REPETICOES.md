@@ -47,3 +47,11 @@ Escopo: leitura consecutiva dos hinos 01–10 no módulo `estudo-repeticoes/hin-
 - HOW TO CHECK: verificar AUTO, PORTRAIT e LANDSCAPE; nomes/títulos, alinhamento do ritmo, ocultação do campo de oferta, altura das barras e respiro; não declarar Cloudflare atualizado somente por existir commit. A cada lote de dez, primeiro confrontar o mapa e preservar o que foi homologado.
 
 Nota: a disposição editorial foi implementada no laboratório em HIN-10.3; ainda requer inspeção visual no deploy para homologação de layout.
+
+## MCE HIN-10.4 — Simetria obrigatória do respiro (30/10/2026)
+
+HOW TO DO: definir um único token de espaço vertical de 36px para o fim da última estrofe até o símbolo de fechamento e deste até a borda dourada inferior. Retirar o margin-bottom extra da última estrofe e o padding-bottom adicional do painel, que produziam assimetria.
+
+HOW TO SHOW: o bloco Sol · Lua · Estrela permanece dentro da borda; o respiro ACIMA e ABAIXO dos símbolos tem altura equivalente, sem linhas horizontais decorativas. Separação externa para o próximo hino é outra propriedade, independente deste respiro interno.
+
+HOW TO CHECK: conferir a distância visual entre último verso e símbolos e entre símbolos e borda inferior no mobile e desktop. Não alterar ritmo, letra, barras, título, oferta ou marcadores. Código: `estudo-repeticoes/hin-09-3-layout.html`.

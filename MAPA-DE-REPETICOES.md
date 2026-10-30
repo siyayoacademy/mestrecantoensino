@@ -36,3 +36,14 @@ Fonte: recortes visuais fornecidos pelo autor do projeto. Não extrapolar a outr
 - 09 Mãe Celestial, primeira estrofe: HOW TO DO = dois intervalos [0,5) nos slots 9 e 17. HOW TO SHOW = duas barras paralelas com cinco versos de altura, afastadas 8px.
 
 HOW TO CHECK: dimensionar as barras pelas caixas reais dos versos em PORTRAIT, AUTO e LANDSCAPE; preservar Lua Branca e as demais estrofes; não confundir barras segmentadas com paralelas. Código: estudo-repeticoes/hin-09-3-layout.html. A verificação de deploy Cloudflare e homologação no dispositivo é independente do commit.
+
+## MCE HIN-10.3 — Contrato especializado HOW TO DO / HOW TO SHOW (30/10/2026)
+
+Escopo: leitura consecutiva dos hinos 01–10 no módulo `estudo-repeticoes/hin-09-3-layout.html`, publicado diretamente na `main`. Preservar registros homologados antes de lotes futuros de dez hinos.
+
+- HOW TO DO: cada hino contém número, título, atributo de oferta opcional, tipo rítmico opcional e estrofes com intervalos independentes de barras. `MARCHA` é valor implícito, não rótulo visível. Apenas `VALSA`, `MAZURCA` e formas mistas verificadas recebem texto de ritmo.
+- HOW TO SHOW: borda dourada individual; título central; linha de oferta invisível quando vazia (não mostrar placeholder); bloco de leitura centralizado com largura do conteúdo; ritmo em itálico, alinhado à direita DENTRO da mesma largura da primeira estrofe, acima dela; barras à esquerda seguindo intervalos por verso, jamais copiadas indiscriminadamente.
+- ÁREA DE RESPIRO: manter espaço entre última estrofe e separador Sol · Lua · Estrela, e espaço após o separador antes do próximo módulo. Não desenhar linha horizontal dourada entre hinos. O separador fica dentro do módulo do respectivo hino.
+- HOW TO CHECK: verificar AUTO, PORTRAIT e LANDSCAPE; nomes/títulos, alinhamento do ritmo, ocultação do campo de oferta, altura das barras e respiro; não declarar Cloudflare atualizado somente por existir commit. A cada lote de dez, primeiro confrontar o mapa e preservar o que foi homologado.
+
+Nota: a disposição editorial foi implementada no laboratório em HIN-10.3; ainda requer inspeção visual no deploy para homologação de layout.

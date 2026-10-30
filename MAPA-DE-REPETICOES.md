@@ -27,3 +27,12 @@ O usuário homologou a gramática visual observada nesta edição: **uma barra v
 A homologação é **do modelo gráfico**, não constitui verificação de todas as estrofes, da extensão exata de cada barra, nem equivalência universal entre edições. Antes de integrar ao leitor principal, confrontar estrofe a estrofe e preservar a formatação original.
 
 Futuro: componente `documentary-stanza` recebe `verses`, `slashBeforeVerse` e `barStart/barEnd` provenientes de transcrição comprovada, nunca inferidos da numeração do hino.
+
+## MCE HIN-10.2 — Papai Paxá e Mãe Celestial (30/10/2026)
+
+Fonte: recortes visuais fornecidos pelo autor do projeto. Não extrapolar a outras estrofes.
+
+- 06 Papai Paxá, primeira estrofe: HOW TO DO = intervalos [0,2) e [2,4), mesma posição horizontal (slot 9). HOW TO SHOW = duas barras segmentadas e separadas verticalmente, uma nos versos 1–2 e outra nos versos 3–4.
+- 09 Mãe Celestial, primeira estrofe: HOW TO DO = dois intervalos [0,5) nos slots 9 e 17. HOW TO SHOW = duas barras paralelas com cinco versos de altura, afastadas 8px.
+
+HOW TO CHECK: dimensionar as barras pelas caixas reais dos versos em PORTRAIT, AUTO e LANDSCAPE; preservar Lua Branca e as demais estrofes; não confundir barras segmentadas com paralelas. Código: estudo-repeticoes/hin-09-3-layout.html. A verificação de deploy Cloudflare e homologação no dispositivo é independente do commit.

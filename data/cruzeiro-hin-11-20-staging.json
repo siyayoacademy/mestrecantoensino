@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "collection": "O Santo Cruzeiro Universal",
   "batch": "HIN-11-20",
-  "status": "metadata_staged_not_rendered",
+  "status": "pdf_located_pages_mapped_pending_full_transcription",
   "reader": "estudo-repeticoes/hin-09-3-layout.html",
   "rules": {
     "order": "continuous_no_index",
@@ -23,10 +23,15 @@
       "offeredTo": null,
       "stanzas": [],
       "barIntervals": [],
-      "lyricsStatus": "pending_source_cotejo",
-      "barsStatus": "reference_visual_review",
+      "lyricsStatus": "requires_full_stanza_visual_cotejo",
+      "barsStatus": "requires_exact_documentary_cotejo",
       "visible": false,
-      "barRule": "first stanza full-height bar only when shown in supplied image"
+      "barRule": "first stanza full-height bar only when shown in supplied image",
+      "sourcePages": [
+        106,
+        107
+      ],
+      "sourceStatus": "original_pdf_located_pages_mapped"
     },
     {
       "number": 12,
@@ -35,10 +40,15 @@
       "offeredTo": null,
       "stanzas": [],
       "barIntervals": [],
-      "lyricsStatus": "pending_source_cotejo",
-      "barsStatus": "reference_visual_review",
+      "lyricsStatus": "requires_full_stanza_visual_cotejo",
+      "barsStatus": "requires_exact_documentary_cotejo",
       "visible": false,
-      "barRule": "first stanza full-height bar only when shown in supplied image"
+      "barRule": "first stanza full-height bar only when shown in supplied image",
+      "sourcePages": [
+        108,
+        109
+      ],
+      "sourceStatus": "original_pdf_located_pages_mapped"
     },
     {
       "number": 13,
@@ -47,10 +57,15 @@
       "offeredTo": null,
       "stanzas": [],
       "barIntervals": [],
-      "lyricsStatus": "pending_source_cotejo",
-      "barsStatus": "reference_visual_review",
+      "lyricsStatus": "requires_full_stanza_visual_cotejo",
+      "barsStatus": "requires_exact_documentary_cotejo",
       "visible": false,
-      "barRule": "first stanza full-height bar only when shown in supplied image"
+      "barRule": "first stanza full-height bar only when shown in supplied image",
+      "sourcePages": [
+        110,
+        111
+      ],
+      "sourceStatus": "original_pdf_located_pages_mapped"
     },
     {
       "number": 14,
@@ -59,8 +74,8 @@
       "offeredTo": null,
       "stanzas": [],
       "barIntervals": [],
-      "lyricsStatus": "pending_source_cotejo",
-      "barsStatus": "reference_visual_review",
+      "lyricsStatus": "requires_full_stanza_visual_cotejo",
+      "barsStatus": "requires_exact_documentary_cotejo",
       "visible": false,
       "barRule": "first stanza no bar; last three complete stanzas each separate full-height bar",
       "specialHandling": {
@@ -80,7 +95,14 @@
           "number": 3,
           "role": "selected_reuse"
         }
-      ]
+      ],
+      "sourcePages": [
+        112,
+        113,
+        114,
+        115
+      ],
+      "sourceStatus": "original_pdf_located_pages_mapped"
     },
     {
       "number": 15,
@@ -89,10 +111,15 @@
       "offeredTo": null,
       "stanzas": [],
       "barIntervals": [],
-      "lyricsStatus": "pending_source_cotejo",
-      "barsStatus": "reference_visual_review",
+      "lyricsStatus": "requires_full_stanza_visual_cotejo",
+      "barsStatus": "requires_exact_documentary_cotejo",
       "visible": false,
-      "barRule": "first stanza full-height bar only when shown in supplied image"
+      "barRule": "first stanza full-height bar only when shown in supplied image",
+      "sourcePages": [
+        116,
+        117
+      ],
+      "sourceStatus": "original_pdf_located_pages_mapped"
     },
     {
       "number": 16,
@@ -101,10 +128,15 @@
       "offeredTo": null,
       "stanzas": [],
       "barIntervals": [],
-      "lyricsStatus": "pending_source_cotejo",
-      "barsStatus": "reference_visual_review",
+      "lyricsStatus": "requires_full_stanza_visual_cotejo",
+      "barsStatus": "requires_exact_documentary_cotejo",
       "visible": false,
-      "barRule": "first stanza full-height bar only when shown in supplied image"
+      "barRule": "first stanza full-height bar only when shown in supplied image",
+      "sourcePages": [
+        118,
+        119
+      ],
+      "sourceStatus": "original_pdf_located_pages_mapped"
     },
     {
       "number": 17,
@@ -113,13 +145,18 @@
       "offeredTo": null,
       "stanzas": [],
       "barIntervals": [],
-      "lyricsStatus": "pending_source_cotejo",
-      "barsStatus": "reference_visual_review",
+      "lyricsStatus": "requires_full_stanza_visual_cotejo",
+      "barsStatus": "requires_exact_documentary_cotejo",
       "visible": false,
       "barRule": "first stanza full-height bar only",
       "performanceNote": "Confissão",
       "performanceMeaning": "canto sem acompanhamento instrumental",
-      "performancePresentation": "italic right-aligned above first stanza"
+      "performancePresentation": "italic right-aligned above first stanza",
+      "sourcePages": [
+        120,
+        121
+      ],
+      "sourceStatus": "original_pdf_located_pages_mapped"
     },
     {
       "number": 18,
@@ -128,10 +165,15 @@
       "offeredTo": null,
       "stanzas": [],
       "barIntervals": [],
-      "lyricsStatus": "pending_source_cotejo",
-      "barsStatus": "reference_visual_review",
+      "lyricsStatus": "requires_full_stanza_visual_cotejo",
+      "barsStatus": "requires_exact_documentary_cotejo",
       "visible": false,
-      "barRule": "first stanza full-height bar only when shown in supplied image"
+      "barRule": "first stanza full-height bar only when shown in supplied image",
+      "sourcePages": [
+        122,
+        123
+      ],
+      "sourceStatus": "original_pdf_located_pages_mapped"
     },
     {
       "number": 19,
@@ -140,10 +182,15 @@
       "offeredTo": null,
       "stanzas": [],
       "barIntervals": [],
-      "lyricsStatus": "pending_source_cotejo",
-      "barsStatus": "reference_visual_review",
+      "lyricsStatus": "requires_full_stanza_visual_cotejo",
+      "barsStatus": "requires_exact_documentary_cotejo",
       "visible": false,
-      "barRule": "first stanza full-height bar only when shown in supplied image"
+      "barRule": "first stanza full-height bar only when shown in supplied image",
+      "sourcePages": [
+        124,
+        125
+      ],
+      "sourceStatus": "original_pdf_located_pages_mapped"
     },
     {
       "number": 20,
@@ -152,15 +199,26 @@
       "offeredTo": null,
       "stanzas": [],
       "barIntervals": [],
-      "lyricsStatus": "pending_source_cotejo",
-      "barsStatus": "reference_visual_review",
+      "lyricsStatus": "requires_full_stanza_visual_cotejo",
+      "barsStatus": "requires_exact_documentary_cotejo",
       "visible": false,
-      "barRule": "first stanza full-height bar only when shown in supplied image"
+      "barRule": "first stanza full-height bar only when shown in supplied image",
+      "sourcePages": [
+        126,
+        127
+      ],
+      "sourceStatus": "original_pdf_located_pages_mapped"
     }
   ],
   "reference": {
     "url": "https://hinarios.online/acervo/o-cruzeiro-universal",
     "secondary_url": "https://open.estudofino.org/hinario.php?h=o-cruzeiro",
     "note": "Titles and stated rhythms compared in two public indexes; lyrics and exact repetition bars remain pending primary-source verification. 17 retains variant title in original reference."
+  },
+  "sourceDocument": {
+    "file": "O SANTO CRUZEIRO Partituras.pdf",
+    "origin": "user_supplied",
+    "language": "Portuguese pages mixed with English translation",
+    "notes": "The PDF extraction on some Portuguese pages starts mid-hymn; verify graphic/paginated first stanzas before claiming complete text."
   }
 }

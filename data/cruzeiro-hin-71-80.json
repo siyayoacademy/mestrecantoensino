@@ -1,0 +1,868 @@
+{
+  "schema_version": "1.0.0",
+  "collection": "O Santo Cruzeiro Universal",
+  "batch": "71-80",
+  "status": "PDF-vector-checked-ready-for-reader",
+  "rules": {
+    "pdf": "O CRUZEIRO UNIVERSAL.pdf uploaded, physical pages 82–91",
+    "bars": "PDF path geometry inspected; preserve per-stanza and segmented markings; optical inset 3px",
+    "exceptions": "71 doubled bars with segmented inner first stanza; 77 and 80 split first stanza"
+  },
+  "hymns": [
+    {
+      "number": 71,
+      "title": "Chamo o Tempo",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Chamo o Tempo, eu chamo o Tempo",
+            "Para ele vir me ensinar",
+            "Aprender com perfeição",
+            "Para poder ensinar"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ],
+            [
+              0,
+              2,
+              17
+            ],
+            [
+              2,
+              4,
+              17
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Os que forem obedientes",
+            "Tratar de aprender",
+            "Para ser eternamente",
+            "Para Deus lhe atender"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ],
+            [
+              0,
+              4,
+              17
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Depois que o Tempo chega",
+            "Ninguém quis aprender",
+            "Depois que refletir",
+            "É que vai se arrepender"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ],
+            [
+              0,
+              4,
+              17
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Firmeza no pensamento",
+            "Para seguir no caminho",
+            "Embora que não aprenda muito",
+            "Aprenda sempre um bocadinho"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ],
+            [
+              0,
+              4,
+              17
+            ]
+          ]
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_checked_PDF",
+      "barsStatus": "vector_bar_positions_read_from_uploaded_PDF",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 72,
+      "title": "Silencioso",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Silencioso",
+            "eu chego no jardim",
+            "Eu peço à Virgem Mãe",
+            "Que vós tenha pena de mim"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Oh Virgem Mãe",
+            "Vós sois Mãe do Redentor",
+            "Perdoai os vossos filhos",
+            "Pelo vosso Santo Amor"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Silencioso",
+            "eu chego no jardim",
+            "Eu peço à Virgem Mãe",
+            "Que vós tenha pena de mim"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Divino Pai",
+            "Soberano Criador",
+            "Perdoai os vossos filhos",
+            "Neste mundo pecador"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_checked_PDF",
+      "barsStatus": "vector_bar_positions_read_from_uploaded_PDF",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 73,
+      "title": "Eu vi a Virgem Mãe",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Eu vi a Virgem Mãe",
+            "Nas alturas onde Ela está",
+            "Me mandou que eu afirmasse",
+            "A firmeza eu afirmar"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "A lua é quem dá força",
+            "Para a terra criadora",
+            "Quero que vós me protejas",
+            "Vós como Mãe protetora"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "O Divino Pai Eterno",
+            "Soberano Onipotente",
+            "Quero que vós me dê forças",
+            "Para ensinar esta gente"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "A Sempre Virgem Maria",
+            "É na terra, é no astral",
+            "Aqueles que estão rebeldes",
+            "Precisam disciplinar"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Eu ensino é com amor",
+            "É com firmeza e lealdade",
+            "Mas quando vem falar comigo",
+            "Sempre trazem a falsidade"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Isto é deles, não é meu",
+            "Faço por não compreender",
+            "Depois eles saem dizendo",
+            "Que o Mestre não tem saber"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_checked_PDF",
+      "barsStatus": "vector_bar_positions_read_from_uploaded_PDF",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 74,
+      "title": "Só eu cantei na barra",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Só eu cantei na barra",
+            "Que fiz estremecer",
+            "Se tu queres vida eu te dou",
+            "Que ninguém não quer morrer"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "A morte é muito simples",
+            "Assim eu vou te dizer",
+            "Eu comparo a morte",
+            "É igualmente ao nascer"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Depois que desencarna",
+            "Firmeza no coração",
+            "Se Deus te der licença",
+            "Volta a outra encarnação"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Na terra como no céu",
+            "É o dizer de todo mundo",
+            "Se não preparar o terreno",
+            "Fica o espírito vagabundo"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_checked_PDF",
+      "barsStatus": "vector_bar_positions_read_from_uploaded_PDF",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 75,
+      "title": "As estrelas",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "As estrelas já chegaram",
+            "Para dizer o nome seu",
+            "Sou eu, sou eu, sou eu",
+            "Sou eu um filho de Deus"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "As estrelas me levaram",
+            "Para correr o mundo inteiro",
+            "Para conhecer esta verdade",
+            "Para poder ser verdadeiro"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Eu subi serra de espinhos",
+            "Pisando em pontas agudas",
+            "As estrelas me disseram",
+            "No mundo se cura tudo"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "As estrelas me disseram",
+            "Ouve muito e fala pouco",
+            "Para poder compreender",
+            "E conversar com meus caboclos"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Os caboclos já chegaram",
+            "De braços nus e pés no chão",
+            "Eles trazem remédios bons",
+            "Para curar os cristãos"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_checked_PDF",
+      "barsStatus": "vector_bar_positions_read_from_uploaded_PDF",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 76,
+      "title": "A Virgem Mãe é Soberana",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "A Virgem Mãe é Soberana",
+            "Nas alturas onde Ela está",
+            "Socorrei um filho seu",
+            "Que está no mundo a reclamar"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Chora, chora, chora, chora",
+            "E este choro tem razão",
+            "Tanto tempo que viveu",
+            "E nunca pediu o perdão"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Tanto tempo que viveu",
+            "No mundo de provação",
+            "De Deus tu te esqueceu",
+            "E só é bom a ilusão"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Eu estava dentro da mata",
+            "Debaixo de um arvoredo",
+            "Tudo tem, tudo tem",
+            "E no mundo não há segredo"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Eu digo de mim para ti",
+            "E para os outros que não estou vendo",
+            "Quando eu acabo de dizer",
+            "Todo mundo está sabendo"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_checked_PDF",
+      "barsStatus": "vector_bar_positions_read_from_uploaded_PDF",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 77,
+      "title": "Chamo e sei",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Chamo e sei, eu chamo e sei",
+            "Chamo e sei aonde está",
+            "Chamo e sei, eu chamo e sei",
+            "Eu chamo e sei e vou mostrar"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "A verdade é minha vida",
+            "A minha Mãe é quem me dá",
+            "Para eu conhecer esta verdade",
+            "Para saber aonde está"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Vou rezar as minhas preces",
+            "Cumprir minha obrigação",
+            "Oferece-las ao Pai Eterno",
+            "Que é o Senhor da Criação"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_checked_PDF",
+      "barsStatus": "vector_bar_positions_read_from_uploaded_PDF",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 78,
+      "title": "Das virtudes",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Das virtudes em que cheguei",
+            "Canto, ensino, vem comigo",
+            "O poder que Deus me dá",
+            "Para este mundo eu doutrinar"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Doutrinar o mundo inteiro",
+            "Para todos aprender",
+            "Castigar severamente",
+            "Quem não quiser obedecer"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Canto, ensino, é com amor",
+            "Com prazer e alegria",
+            "Obedecendo ao Pai Eterno",
+            "E a Sempre Virgem Maria"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "As palavras que eu disser",
+            "Aqui perante a este poder",
+            "Estão escritas no astral",
+            "Para todo mundo ver"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Sigo firme a minha linha",
+            "Sem a nada eu temer",
+            "Porque eu sou filho de Deus",
+            "E confio neste poder"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Dou licença e dou pancada",
+            "Aqui eu faço a minha justiça",
+            "Precisamos acabar",
+            "Com o correio da má notícia"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_checked_PDF",
+      "barsStatus": "vector_bar_positions_read_from_uploaded_PDF",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 79,
+      "title": "Jardineiro",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Minha Mãe, minha Rainha",
+            "Foi Ela que me ensinou",
+            "Para mim ser jardineiro",
+            "No Jardim de Belas Flores"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "No Jardim de Belas Flores",
+            "Tem tudo que eu procurar",
+            "Tem primor e tem beleza",
+            "Tem tudo que Deus me dá"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Todo mundo recebe",
+            "As flores que vêm de lá",
+            "Mas ninguém presta atenção",
+            "Ninguém sabe aproveitar"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Para zelar este jardim",
+            "Precisa muita atenção",
+            "Que as flores são muito finas",
+            "Não podem cair no chão"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "O Jardim de Belas Flores",
+            "Precisa sempre aguar",
+            "Com as preces e os carinhos",
+            "Ao nosso Pai Universal"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_checked_PDF",
+      "barsStatus": "vector_bar_positions_read_from_uploaded_PDF",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 80,
+      "title": "Chamo a força",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Chamo a força, eu chamo a força",
+            "A força vem me amostrar",
+            "Treme a terra e balanceia",
+            "E vós não sai do seu lugar"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Treme a terra, treme a terra",
+            "Treme a terra e geme o mar",
+            "Ainda tem gente que duvida",
+            "Do poder que vós me dá"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Aqui dentro da verdade",
+            "Tem uns certos mentirosos",
+            "Que caluniam os seus irmãos",
+            "Para se tornar muito viçosos"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Mas ninguém não se lembra",
+            "Chamou o Mestre mentiroso",
+            "Devagarinho vai chegando",
+            "E quem chamou é que vai ficando"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_checked_PDF",
+      "barsStatus": "vector_bar_positions_read_from_uploaded_PDF",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    }
+  ]
+}

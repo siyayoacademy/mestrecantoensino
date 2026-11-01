@@ -1,0 +1,630 @@
+{
+  "schema_version": "1.0.0",
+  "collection": "O Santo Cruzeiro Universal",
+  "batch": "81-90",
+  "status": "provisional_pdf_visual_music_review",
+  "rules": {
+    "pdf": "O CRUZEIRO UNIVERSAL.pdf physical pages 92–102",
+    "bars": "first stanza notation only per preceding batch convention; verify on Cloudflare",
+    "exceptions": "81,85,86,87,88,89 have separate half-stanza segments; 84 has continuous outer and split inner"
+  },
+  "hymns": [
+    {
+      "number": 81,
+      "title": "Professor",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Aqui tem um professor",
+            "Que vai deixar de ensinar",
+            "Que ele ensina e ninguém faz caso",
+            "E só leem de diante para trás"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Só leem de diante para trás",
+            "Mas ele não ensina assim",
+            "Ele ensina é direitinho",
+            "Mas ninguém não faz assim"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Se todos assim fizessem",
+            "Estavam um pouco adiantados",
+            "Eram servos de Deus",
+            "E do povo bem estimado"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu entrei em conferência",
+            "Para deixar de ensinar",
+            "A Virgem Mãe me disse",
+            "Ninguém não pode obrigar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Se ensina e ninguém faz caso",
+            "Ninguém trata de aprender",
+            "Depois não se admirem",
+            "De tudo que aparecer"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Todos mandam em sua casa",
+            "Eu também mando na minha",
+            "Todos ficam sem aprender",
+            "Eu fico com a minha Rainha"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_to_check_with_PDF",
+      "barsStatus": "PDF_first_stanza_musical_notation_prior_lot_rule",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 82,
+      "title": "Campineiro",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Sou jardineiro e sou campineiro",
+            "Tenho tudo que Mamãe me dá",
+            "No jardim eu tenho as flores",
+            "E nas Campinas eu andava atrás"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Sou campineiro e sou verdadeiro",
+            "E é preciso eu viajar",
+            "Que o poder de Deus é grande",
+            "E eu desejo alcançar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Me acho fraco e cansado",
+            "De lutar com rebeldia",
+            "Fazer gosto a quem não tem",
+            "Na esperança de um dia"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Digo adeus aos meus amigos",
+            "Até um dia afinal",
+            "Se Deus e a Virgem Mãe",
+            "Me der licença eu voltar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Digo adeus a todos e todas",
+            "E ninguém me respondeu",
+            "Todos ficam em seus lugares",
+            "E quem se retira sou eu"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_to_check_with_PDF",
+      "barsStatus": "PDF_first_stanza_musical_notation_prior_lot_rule",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 83,
+      "title": "O Divino Pai Eterno",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "O Divino Pai Eterno",
+            "Foi quem me mandou viver",
+            "Que eu avisasse aos meus irmãos",
+            "O que vai acontecer"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Firmeza no pensamento",
+            "Para seguir neste amor",
+            "Aqui dentro da verdade",
+            "Ela mostra o seu valor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A minha Mãe que me ensinou",
+            "Com o nome de Jesus",
+            "É quem nos mostra esta verdade",
+            "É quem nos dá a Santa Luz"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Vou seguir vou te deixar",
+            "Este mundo de ilusão",
+            "Vou para onde Deus quiser",
+            "Com a Virgem da Conceição"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_to_check_with_PDF",
+      "barsStatus": "PDF_first_stanza_musical_notation_prior_lot_rule",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 84,
+      "title": "Ia guiado pela lua",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Ia guiado pela lua",
+            "E as estrelas de uma banda",
+            "Quando eu cheguei em cima de um monte",
+            "Eu escutei um grande estrondo"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ],
+            [
+              0,
+              2,
+              17
+            ],
+            [
+              2,
+              4,
+              17
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Esse estrondo que eu ouvi",
+            "Foi Deus do Céu foi quem ralhou",
+            "Dizendo para todos nós",
+            "Que tem poder superior"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu estava passeando",
+            "Na praia do mar",
+            "Escutei uma voz",
+            "Mandaram me buscar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Aí eu botei os olhos",
+            "Aí vem uma canoa",
+            "Feita de ouro e prata",
+            "E uma Senhora na proa"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Quando Ela chegou",
+            "Mandou eu embarcar",
+            "Ela disse para mim",
+            "Nós vamos viajar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Nós vamos viajar",
+            "Para o ponto destinado",
+            "Deus e a Virgem Mãe",
+            "Quem vai ao nosso lado"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Quando nós chegamos",
+            "Nas Campinas desta flor",
+            "Esta é a riqueza",
+            "Do nosso Pai Criador"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_to_check_with_PDF",
+      "barsStatus": "PDF_first_stanza_musical_notation_prior_lot_rule",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 85,
+      "title": "Vou seguindo",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Vou seguindo, eu vou seguindo",
+            "Cantando as minhas doutrinas",
+            "A Virgem Mãe é soberana",
+            "Minha Mãe que me ensina"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Vou seguindo, eu vou seguindo",
+            "Vamos ver se nós acerta",
+            "O caminho de Jesus Cristo",
+            "Aonde andou com seus profetas"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Na casa da Virgem Mãe",
+            "De Jesus Cristo Redentor",
+            "Cantamos, manos cantamos",
+            "Consagrando este amor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Na casa de Jesus Cristo",
+            "Ele mandou para nós cantar",
+            "Para louvar ao Pai Eterno",
+            "É quem tem para nos dar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "É quem tem para nos dar",
+            "Para mim com os meus irmãos",
+            "É quem nos dá a todos nós",
+            "A eterna salvação"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_to_check_with_PDF",
+      "barsStatus": "PDF_first_stanza_musical_notation_prior_lot_rule",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 86,
+      "title": "Eu vim da minha armada",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Eu vim da minha armada",
+            "Trazer fé e amor",
+            "A minha Mãe que me mandou",
+            "Trazer fé e amor"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Vou seguindo os meus passos",
+            "Se eu achar firmeza eu vou",
+            "Não despreza os teus irmãos",
+            "Amostra tua luz de amor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Sou filho da verdade",
+            "E do poder superior",
+            "A minha Mãe que me mandou",
+            "Trazer fé e amor"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_to_check_with_PDF",
+      "barsStatus": "PDF_first_stanza_musical_notation_prior_lot_rule",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 87,
+      "title": "Deus, Divino Deus",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Deus, Divino Deus",
+            "Soberana luz de amor",
+            "É o Poder Universal",
+            "É a força superior"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Vamos, vamos meus irmãos",
+            "Vamos todos nós cantar",
+            "Para Deus dar a nossa saúde",
+            "A Virgem Mãe nos perdoar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu digo é com firmeza",
+            "Dentro do meu coração",
+            "Que Jesus Cristo está conosco",
+            "É quem nos dá as instruções"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_to_check_with_PDF",
+      "barsStatus": "PDF_first_stanza_musical_notation_prior_lot_rule",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 88,
+      "title": "Chamo Estrela",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Chamo Estrela, chamo Estrela",
+            "Chamo Estrela, Estrela vem",
+            "Ela vem os ensinar",
+            "O amor de quem quer bem"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "O amor de quem quer bem",
+            "É a saúde e o bem-estar",
+            "Consagrando este amor",
+            "Para sempre não faltar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Para sempre, para sempre",
+            "Amigo do meu irmão",
+            "Que ele é a minha luz",
+            "Neste mundo de ilusão"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_to_check_with_PDF",
+      "barsStatus": "PDF_first_stanza_musical_notation_prior_lot_rule",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 89,
+      "title": "Eu canto, eu digo",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Eu canto, eu digo",
+            "Dentro do poder divino",
+            "Porque Deus é quem me dá",
+            "Para trazer estes ensinos"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "A minha Mãe me mandou",
+            "Trazer fé e amor",
+            "Repartir com meus irmãos",
+            "Para ser a mesma flor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Jesus Cristo me mandou",
+            "Para mim vir ensinar",
+            "Replantar Santas Doutrinas",
+            "Deus te dá um bom lugar"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_to_check_with_PDF",
+      "barsStatus": "PDF_first_stanza_musical_notation_prior_lot_rule",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 90,
+      "title": "No jardim mimosa flor",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "No jardim mimosa flor",
+            "Para sempre eu estou aqui",
+            "Para ser filho de Deus",
+            "Não precisa ser ruim"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Todo mundo é muito bom",
+            "Mas não quer se condoer",
+            "Se fogem da caridade",
+            "E depois não quer sofrer"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "O caminho torto errado",
+            "E daqui ninguém quer ser",
+            "A verdade eu mostro a todos",
+            "Que souber me compreender"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Aqui dentro da verdade",
+            "A minha Mãe que me ensinou",
+            "Me dá força e me dá brilho",
+            "Para sempre eu ter valor"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_to_check_with_PDF",
+      "barsStatus": "PDF_first_stanza_musical_notation_prior_lot_rule",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    }
+  ]
+}

@@ -101,3 +101,7 @@ Print demonstrou regressão: somente a primeira estrofe tinha padding-left 70px 
 ## HIN-40.2.3 — Alinhamento superior dos caracteres 5x (2026-11-01)
 
 No hino 36, manter indicador dourado, itálico e posição já homologada à esquerda da barra, centralizado no par final de versos. Renderizar 5 e x em spans independentes, alinhados pelo topo com `inline-flex` e `align-items:flex-start`, respeitando diferença visual entre maiúscula numérica e x minúsculo. Não deslocar as estrofes ou outras barras. Conferir resultado no Cloudflare antes da homologação de impressão.
+
+## HIN-40.2.4 — Alinhamento óptico do 5x na interface (2026-11-01)
+
+O alinhamento flex-start não bastou porque a letra x minúscula possui altura visual menor. Ajuste local no componente do hino 36: aplicar deslocamento óptico `top:-0.22em` somente ao span do x; manter 5 e x dourados itálicos, a posição à esquerda da barra, a centralização do grupo nas últimas duas linhas, a coluna e todos os respiros. Não aplicar globalmente a outros hinos. Validar visualmente no site e na impressão antes de homologar.

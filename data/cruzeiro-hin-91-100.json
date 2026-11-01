@@ -30,11 +30,6 @@
               9
             ],
             [
-              0,
-              2,
-              17
-            ],
-            [
               2,
               4,
               17
@@ -93,11 +88,6 @@
               0,
               4,
               9
-            ],
-            [
-              0,
-              2,
-              17
             ],
             [
               2,
@@ -363,20 +353,20 @@
             "Traí, traí, traí, trai",
             "Trai, trai"
           ],
-          "bars": [
-            [
-              0,
-              3,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
             "Chamo e sei, chamo e sei",
             "Chamo e sei quem te mandou"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ]
+          ]
         },
         {
           "verses": [

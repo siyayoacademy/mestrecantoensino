@@ -2,10 +2,10 @@
   "schema_version": "1.0.0",
   "collection": "O Santo Cruzeiro Universal",
   "batch": "51-60",
-  "status": "staging_unpublished_pending_pdf_graphic_bar_review",
+  "status": "visual_PDF_checked_ready_for_reader",
   "rules": {
-    "bars": "No confirmed ranges; empty arrays indicate unverified, NOT confirmed absence",
-    "publication": "Do not wire into reader until visual comparison with approved PDF",
+    "bars": "Precisely marked from visually inspected attached PDF pages 61–70; unmarked stanzas have no bars in this edition",
+    "publication": "Ready to integrate into canonical reader",
     "source_pdf": "https://nossairmandade.com/hinario/14/OCruzeiro/pdf"
   },
   "hymns": [
@@ -22,7 +22,13 @@
             "A Virgem Mãe foi quem me deu",
             "Para eu amar ao Senhor Deus"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              3,
+              9
+            ]
+          ]
         },
         {
           "verses": [
@@ -41,9 +47,9 @@
           "bars": []
         }
       ],
-      "visible": false,
-      "lyricsStatus": "transcribed_from_UNAQUI_pending_cotejo",
-      "barsStatus": "not_verified_pdf_visual",
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_checked_PDF",
+      "barsStatus": "visually_checked_uploaded_PDF_pages_61_70",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -60,7 +66,13 @@
             "Trazer sempre na memória",
             "Este divino poder"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ]
+          ]
         },
         {
           "verses": [
@@ -81,9 +93,9 @@
           "bars": []
         }
       ],
-      "visible": false,
-      "lyricsStatus": "transcribed_from_UNAQUI_pending_cotejo",
-      "barsStatus": "not_verified_pdf_visual",
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_checked_PDF",
+      "barsStatus": "visually_checked_uploaded_PDF_pages_61_70",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -100,7 +112,13 @@
             "Com vós, com vós, com vós",
             "Com Deus"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
         },
         {
           "verses": [
@@ -121,9 +139,9 @@
           "bars": []
         }
       ],
-      "visible": false,
-      "lyricsStatus": "transcribed_from_UNAQUI_pending_cotejo",
-      "barsStatus": "not_verified_pdf_visual",
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_checked_PDF",
+      "barsStatus": "visually_checked_uploaded_PDF_pages_61_70",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -140,7 +158,13 @@
             "Para mim ensinar",
             "Neste mundo pecador"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
         },
         {
           "verses": [
@@ -161,9 +185,9 @@
           "bars": []
         }
       ],
-      "visible": false,
-      "lyricsStatus": "transcribed_from_UNAQUI_pending_cotejo",
-      "barsStatus": "not_verified_pdf_visual",
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_checked_PDF",
+      "barsStatus": "visually_checked_uploaded_PDF_pages_61_70",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -180,7 +204,13 @@
             "Se ficar firme apanha",
             "E se correr vai sofrer mais"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
         },
         {
           "verses": [
@@ -210,9 +240,9 @@
           "bars": []
         }
       ],
-      "visible": false,
-      "lyricsStatus": "transcribed_from_UNAQUI_pending_cotejo",
-      "barsStatus": "not_verified_pdf_visual",
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_checked_PDF",
+      "barsStatus": "visually_checked_uploaded_PDF_pages_61_70",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -229,7 +259,13 @@
             "Os três Reis do Oriente",
             "Que visitaram Jesus"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
         },
         {
           "verses": [
@@ -268,9 +304,9 @@
           "bars": []
         }
       ],
-      "visible": false,
-      "lyricsStatus": "transcribed_from_UNAQUI_pending_cotejo",
-      "barsStatus": "not_verified_pdf_visual",
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_checked_PDF",
+      "barsStatus": "visually_checked_uploaded_PDF_pages_61_70",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -287,7 +323,13 @@
             "Para nós cantar um pouco",
             "Nesta noite de natal"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
         },
         {
           "verses": [
@@ -335,9 +377,9 @@
           "bars": []
         }
       ],
-      "visible": false,
-      "lyricsStatus": "transcribed_from_UNAQUI_pending_cotejo",
-      "barsStatus": "not_verified_pdf_visual",
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_checked_PDF",
+      "barsStatus": "visually_checked_uploaded_PDF_pages_61_70",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -354,7 +396,13 @@
             "Por quê que tu te esquece",
             "De rezar para o teu irmão"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
         },
         {
           "verses": [
@@ -384,9 +432,9 @@
           "bars": []
         }
       ],
-      "visible": false,
-      "lyricsStatus": "transcribed_from_UNAQUI_pending_cotejo",
-      "barsStatus": "not_verified_pdf_visual",
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_checked_PDF",
+      "barsStatus": "visually_checked_uploaded_PDF_pages_61_70",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -403,7 +451,13 @@
             "Para eu ser um filho seu",
             "No jardim de Belas Flores"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
         },
         {
           "verses": [
@@ -433,9 +487,9 @@
           "bars": []
         }
       ],
-      "visible": false,
-      "lyricsStatus": "transcribed_from_UNAQUI_pending_cotejo",
-      "barsStatus": "not_verified_pdf_visual",
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_checked_PDF",
+      "barsStatus": "visually_checked_uploaded_PDF_pages_61_70",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -452,7 +506,18 @@
             "Para viver neste mundo",
             "É preciso procurar"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ],
+            [
+              2,
+              4,
+              17
+            ]
+          ]
         },
         {
           "verses": [
@@ -460,7 +525,23 @@
             "De laranja boa",
             "Assim é alguma pessoa"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              3,
+              9
+            ],
+            [
+              0,
+              3,
+              17
+            ],
+            [
+              0,
+              3,
+              25
+            ]
+          ]
         },
         {
           "verses": [
@@ -480,9 +561,9 @@
           "bars": []
         }
       ],
-      "visible": false,
-      "lyricsStatus": "transcribed_from_UNAQUI_pending_cotejo",
-      "barsStatus": "not_verified_pdf_visual",
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI_checked_PDF",
+      "barsStatus": "visually_checked_uploaded_PDF_pages_61_70",
       "sourceUrl": "https://unaqui.wordpress.com/"
     }
   ]

@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "collection": "O Santo Cruzeiro Universal",
   "batch": "HIN-31-40",
-  "status": "text_integrated_bars_pending",
+  "status": "HIN-40.2_bars_and_5X_implemented",
   "rules": {
     "reading": "continuous_no_index",
     "bars": "per_stanza_musician_review",
@@ -26,7 +26,18 @@
             "Para viver eternamente",
             "Junto à Virgem Maria"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
         },
         {
           "verses": [
@@ -58,7 +69,7 @@
       ],
       "visible": true,
       "lyricsStatus": "transcribed_from_project_UNAQUI",
-      "barsStatus": "pending_musician_review",
+      "barsStatus": "user_approved_HIN_40_2",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -75,7 +86,13 @@
             "Porque tenho uma esperança",
             "De ver a Virgem Maria"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
         },
         {
           "verses": [
@@ -107,7 +124,7 @@
       ],
       "visible": true,
       "lyricsStatus": "transcribed_from_project_UNAQUI",
-      "barsStatus": "pending_musician_review",
+      "barsStatus": "user_approved_HIN_40_2",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -124,7 +141,13 @@
             "Sou eu, sou eu, sou eu",
             "Com a minha caducação"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
         },
         {
           "verses": [
@@ -156,7 +179,7 @@
       ],
       "visible": true,
       "lyricsStatus": "transcribed_from_project_UNAQUI",
-      "barsStatus": "pending_musician_review",
+      "barsStatus": "user_approved_HIN_40_2",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -173,7 +196,13 @@
             "É a Virgem Maria",
             "E o Menino Jesus"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
         },
         {
           "verses": [
@@ -205,7 +234,7 @@
       ],
       "visible": true,
       "lyricsStatus": "transcribed_from_project_UNAQUI",
-      "barsStatus": "pending_musician_review",
+      "barsStatus": "user_approved_HIN_40_2",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -222,7 +251,13 @@
             "Iluminar meu pensamento",
             "O oceano e beira-mar"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
         },
         {
           "verses": [
@@ -254,7 +289,7 @@
       ],
       "visible": true,
       "lyricsStatus": "transcribed_from_project_UNAQUI",
-      "barsStatus": "pending_musician_review",
+      "barsStatus": "user_approved_HIN_40_2",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -271,7 +306,24 @@
             "Para sempre, amém Jesus",
             "Para sempre ser lembrado"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ]
+          ],
+          "repeatAnnotations": [
+            {
+              "label": "5X",
+              "from": 2,
+              "to": 4,
+              "position": "left_of_verses",
+              "color": "gold",
+              "verticalAlignment": "center_of_two_lines",
+              "fontAlignment": "top"
+            }
+          ]
         },
         {
           "verses": [
@@ -330,7 +382,7 @@
       ],
       "visible": true,
       "lyricsStatus": "transcribed_from_project_UNAQUI",
-      "barsStatus": "pending_musician_review",
+      "barsStatus": "user_approved_HIN_40_2",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -347,7 +399,13 @@
             "O azul do firmamento",
             "E as estrelas a me guiar"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
         },
         {
           "verses": [
@@ -379,7 +437,7 @@
       ],
       "visible": true,
       "lyricsStatus": "transcribed_from_project_UNAQUI",
-      "barsStatus": "pending_musician_review",
+      "barsStatus": "user_approved_HIN_40_2",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -396,7 +454,18 @@
             "Eu canto é com alegria",
             "A Minha Mãe que me mandou"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
         },
         {
           "verses": [
@@ -428,7 +497,7 @@
       ],
       "visible": true,
       "lyricsStatus": "transcribed_from_project_UNAQUI",
-      "barsStatus": "pending_musician_review",
+      "barsStatus": "user_approved_HIN_40_2",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -445,7 +514,18 @@
             "A minha Mãe que me mandou",
             "A minha Mãe que me mandou"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
         },
         {
           "verses": [
@@ -469,12 +549,18 @@
             "Eu devo chamar aqui",
             "Eu devo chamar aqui"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              3,
+              9
+            ]
+          ]
         }
       ],
       "visible": true,
       "lyricsStatus": "transcribed_from_project_UNAQUI",
-      "barsStatus": "pending_musician_review",
+      "barsStatus": "user_approved_HIN_40_2",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -491,7 +577,18 @@
             "Porque eu sou filho de Deus",
             "E tenho a minha Mãe querida"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ],
+            [
+              2,
+              4,
+              17
+            ]
+          ]
         },
         {
           "verses": [
@@ -532,7 +629,7 @@
       ],
       "visible": true,
       "lyricsStatus": "transcribed_from_project_UNAQUI",
-      "barsStatus": "pending_musician_review",
+      "barsStatus": "user_approved_HIN_40_2",
       "sourceUrl": "https://unaqui.wordpress.com/"
     }
   ]

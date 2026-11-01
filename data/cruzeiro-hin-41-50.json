@@ -1,0 +1,683 @@
+{
+  "schema_version": "1.0.0",
+  "collection": "O Santo Cruzeiro Universal",
+  "batch": "HIN-41-50",
+  "status": "HIN-50.2_approved_bars_recorded",
+  "rules": {
+    "geometry": "X=23px,Y=8px,X>Y",
+    "edition": "Portuguese UNAQUI",
+    "march": "implicit"
+  },
+  "hymns": [
+    {
+      "number": 41,
+      "title": "Estrela D’água",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Vou chamar a Estrela D’água",
+            "Para vir me iluminar",
+            "Para vir me iluminar",
+            "Para vir me iluminar"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Daí-me força e daí-me amor",
+            "Daí-me força e daí-me amor",
+            "Daí-me força e daí-me amor",
+            "Daí-me força e daí-me amor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Dá licença eu entrar",
+            "Dá licença eu entrar",
+            "Nas profundezas do mar",
+            "Nas profundezas do mar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Foi meu Pai quem me mandou",
+            "Foi meu Pai quem me mandou",
+            "Conhecer todos primores",
+            "Conhecer todos primores"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Daí-me força e daí-me amor",
+            "Daí-me força e daí-me amor",
+            "Daí-me força e daí-me amor",
+            "Daí-me força e daí-me amor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A minha Mãe que me ensinou",
+            "A minha Mãe que me ensinou",
+            "Conhecer todos primores",
+            "Conhecer todos primores"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Com amor no coração",
+            "Para cantar com os meus irmãos",
+            "Para cantar com os meus irmãos",
+            "Para cantar com os meus irmãos"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI",
+      "barsStatus": "approved_HIN_50_2",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 42,
+      "title": "A terra aonde estou",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "A terra aonde estou",
+            "Ninguém acreditou",
+            "Dai-me amor, dai-me amor",
+            "Dai-me o Pão do Criador"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ],
+            [
+              2,
+              4,
+              17
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "A minha Mãe que me ensinou",
+            "Quem me deu todo primor",
+            "Dai-me amor, dai-me amor",
+            "Dai-me o Pão do Criador"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A riqueza todos têm",
+            "Mas ninguém quer acreditar",
+            "Dai-me amor, dai-me amor",
+            "Livrai-me de todo mal"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI",
+      "barsStatus": "approved_HIN_50_2",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 43,
+      "title": "O Prensor",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "O Prensor que te aparece",
+            "A pátria vai abraçar",
+            "Vai pra guerra vai perder",
+            "A vida que Deus te dá"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Quem te fez não te mandou",
+            "O amor não empregou",
+            "O teu Pai não conheceu",
+            "Vais derramar o teu sangue",
+            "Que o Divino Pai te deu"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              5,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Meu Pai Divino do céu",
+            "Abrandai estes terrores",
+            "Vós tenha compaixão",
+            "Dos vossos filhos pecadores"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Sempre, sempre, sempre, sempre",
+            "Eu peço à Virgem Maria",
+            "Defendei os inocentes",
+            "De toda essa orfandia"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI",
+      "barsStatus": "approved_HIN_50_2",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 44,
+      "title": "A Virgem Mãe que me ensinou",
+      "rhythm": "Valsa",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "A Virgem Mãe que me ensinou",
+            "A Virgem Mãe foi quem me deu",
+            "Alegrai meu coração",
+            "Para eu amar ao Senhor Deus"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Meu Divino Senhor Deus",
+            "É Pai de toda nação",
+            "Defendei os vossos filhos",
+            "De toda escuridão"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A Escuridão é tão terrível",
+            "Que ninguém pode enxergar",
+            "Vós me dê a Santa Luz",
+            "Para eu poder navegar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A Virgem Mãe é soberana",
+            "Ela é Rainha do Mar",
+            "Quando vê nós na aflição",
+            "Ela vem nos consolar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Consolai, oh Mãe Divina",
+            "Jesus Cristo Redentor",
+            "É quem pode nos livrar",
+            "Deste mundo pecador"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI",
+      "barsStatus": "approved_HIN_50_2",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 45,
+      "title": "Eu estava em pé firmado",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Eu estava em pé firmado",
+            "Olhando para o firmamento",
+            "Uma luz me apareceu",
+            "Iluminou meu pensamento"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Iluminou meu pensamento",
+            "E perguntou se eu conhecia",
+            "Nos meus olhos eu enxerguei",
+            "A Sempre Virgem Maria"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Meu Pai é carinhoso",
+            "Ele não quer mal a ninguém",
+            "Devo amar com firmeza",
+            "A meu Pai que nos quer bem"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A minha Mãe é tão formosa",
+            "Me dá luz e o clarão",
+            "Devo amar eternamente",
+            "E consagrar no coração"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Sou filho do meu Pai",
+            "Eu devo ser atencioso",
+            "Abraçar a todo mundo",
+            "E não querer ser orgulhoso"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu vivo alegre sempre",
+            "O meu consolo é só cantar",
+            "Porque tenho uma esperança",
+            "De breve me separar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "De breve me separar",
+            "Com Deus e a Virgem Maria",
+            "Talvez vocês não achem",
+            "Outro irmão com alegria"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI",
+      "barsStatus": "approved_HIN_50_2",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 46,
+      "title": "Eu balanço",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Eu balanço, e eu balanço",
+            "E eu balanço tudo enquanto há"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Eu chamo o sol, chamo a lua",
+            "E chamo estrela",
+            "Para todos vir me acompanhar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu balanço, e eu balanço",
+            "E eu balanço tudo enquanto há"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Eu chamo o vento, chamo a terra",
+            "E chamo o mar",
+            "Para todos vir me acompanhar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu balanço, e eu balanço",
+            "E eu balanço tudo enquanto há"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Chamo o cipó, chamo a folha",
+            "E chamo a água",
+            "Para unir e vir me amostrar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu balanço, e eu balanço",
+            "E eu balanço tudo enquanto há"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Tenho prazer, tenho força",
+            "E tenho tudo",
+            "Porque Deus",
+            "Eterno é quem me dá"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI",
+      "barsStatus": "approved_HIN_50_2",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 47,
+      "title": "Sete Estrelas",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Eu vi no Sete-Estrelas",
+            "Um rosto superior",
+            "Eu digo é com certeza",
+            "Que a Rainha me mostrou"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "A Rainha me mostrou",
+            "Para mim reconhecer",
+            "O nome que tanto se fala",
+            "E ninguém sabe compreender"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Ninguém sabe compreender",
+            "Com amor, com alegria",
+            "A pessoa de Jesus Cristo",
+            "Jesus filho de Maria"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Jesus filho de Maria",
+            "Desde a hora que nasceu",
+            "Começou seu sofrimento",
+            "Até o dia que morreu"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Ele morreu neste mundo",
+            "Para nós acreditar",
+            "Para nós também sofrer",
+            "Para poder alcançar"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI",
+      "barsStatus": "approved_HIN_50_2",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 48,
+      "title": "A Rainha da Floresta",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "A Rainha da Floresta",
+            "Ela veio me acompanhar",
+            "Todo mundo ri e graceja",
+            "Para depois ir chorar"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Tu perdestes a tua luz",
+            "Que eu te dei com tanto amor",
+            "Não foi a falta de conselho",
+            "Tu mesmo nunca ligou"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Vai chorar de arrependido",
+            "Quando um dia se lembrar",
+            "Que eu perdi a minha fortuna",
+            "Que eu tinha para alcançar"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI",
+      "barsStatus": "approved_HIN_50_2",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 49,
+      "title": "Minha mãe é Mãe de todos",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "A Minha mãe é Mãe de todos",
+            "Que quiser ser filho Dela",
+            "Ela roga por nós todos",
+            "Mas ninguém roga por Ela"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "O Divino Pai Eterno",
+            "Me deu um grande poder",
+            "Eu como filho de vós",
+            "Vou eterno agradecer"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Vou eterno agradecer",
+            "Para sempre eu quero estar",
+            "Encostado a minha Mãe",
+            "Para sempre eu vos amar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Para sempre eu vos amar",
+            "E eterno agradecer",
+            "Vós me dê a Eterna Glória",
+            "Conforme eu merecer"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI",
+      "barsStatus": "approved_HIN_50_2",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 50,
+      "title": "Salomão",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Salomão disse para mim",
+            "Nesta eu vou me assinar",
+            "Que esta é a verdade pura",
+            "No mundo não tem igual"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ],
+            [
+              0,
+              2,
+              17
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "A professora que te ensina",
+            "Tu soubestes aprender",
+            "Trabalhastes muitos anos",
+            "Para hoje receber"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Sois filho das Águas Brancas",
+            "E é preciso trabalhar",
+            "Segue sempre o teu destino",
+            "E deixa quem quiser falar"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI",
+      "barsStatus": "approved_HIN_50_2",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    }
+  ]
+}

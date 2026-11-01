@@ -2,10 +2,10 @@
   "schema_version": "1.0.0",
   "collection": "O Santo Cruzeiro Universal",
   "batch": "71-80",
-  "status": "PDF-vector-checked-ready-for-reader",
+  "status": "HIN-80.3_first_stanza_only_author_correction",
   "rules": {
     "pdf": "O CRUZEIRO UNIVERSAL.pdf uploaded, physical pages 82–91",
-    "bars": "PDF path geometry inspected; preserve per-stanza and segmented markings; optical inset 3px",
+    "bars": "As barras de repetição são indicadas apenas na primeira estrofe de cada hino 71–80, segundo homologação orientada pelo autor; não replicar nas seguintes.",
     "exceptions": "71 doubled bars with segmented inner first stanza; 77 and 80 split first stanza"
   },
   "hymns": [
@@ -30,11 +30,6 @@
               9
             ],
             [
-              0,
-              2,
-              17
-            ],
-            [
               2,
               4,
               17
@@ -48,18 +43,7 @@
             "Para ser eternamente",
             "Para Deus lhe atender"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ],
-            [
-              0,
-              4,
-              17
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -68,18 +52,7 @@
             "Depois que refletir",
             "É que vai se arrepender"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ],
-            [
-              0,
-              4,
-              17
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -88,18 +61,7 @@
             "Embora que não aprenda muito",
             "Aprenda sempre um bocadinho"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ],
-            [
-              0,
-              4,
-              17
-            ]
-          ]
+          "bars": []
         }
       ],
       "visible": true,
@@ -136,13 +98,7 @@
             "Perdoai os vossos filhos",
             "Pelo vosso Santo Amor"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -151,13 +107,7 @@
             "Eu peço à Virgem Mãe",
             "Que vós tenha pena de mim"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -166,13 +116,7 @@
             "Perdoai os vossos filhos",
             "Neste mundo pecador"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         }
       ],
       "visible": true,
@@ -209,13 +153,7 @@
             "Quero que vós me protejas",
             "Vós como Mãe protetora"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -224,13 +162,7 @@
             "Quero que vós me dê forças",
             "Para ensinar esta gente"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -239,13 +171,7 @@
             "Aqueles que estão rebeldes",
             "Precisam disciplinar"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -254,13 +180,7 @@
             "Mas quando vem falar comigo",
             "Sempre trazem a falsidade"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -269,13 +189,7 @@
             "Depois eles saem dizendo",
             "Que o Mestre não tem saber"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         }
       ],
       "visible": true,
@@ -312,13 +226,7 @@
             "Eu comparo a morte",
             "É igualmente ao nascer"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -327,13 +235,7 @@
             "Se Deus te der licença",
             "Volta a outra encarnação"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -342,13 +244,7 @@
             "Se não preparar o terreno",
             "Fica o espírito vagabundo"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         }
       ],
       "visible": true,
@@ -385,13 +281,7 @@
             "Para conhecer esta verdade",
             "Para poder ser verdadeiro"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -400,13 +290,7 @@
             "As estrelas me disseram",
             "No mundo se cura tudo"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -415,13 +299,7 @@
             "Para poder compreender",
             "E conversar com meus caboclos"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -430,13 +308,7 @@
             "Eles trazem remédios bons",
             "Para curar os cristãos"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         }
       ],
       "visible": true,
@@ -473,13 +345,7 @@
             "Tanto tempo que viveu",
             "E nunca pediu o perdão"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -488,13 +354,7 @@
             "De Deus tu te esqueceu",
             "E só é bom a ilusão"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -503,13 +363,7 @@
             "Tudo tem, tudo tem",
             "E no mundo não há segredo"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -518,13 +372,7 @@
             "Quando eu acabo de dizer",
             "Todo mundo está sabendo"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         }
       ],
       "visible": true,
@@ -566,13 +414,7 @@
             "Para eu conhecer esta verdade",
             "Para saber aonde está"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -581,13 +423,7 @@
             "Oferece-las ao Pai Eterno",
             "Que é o Senhor da Criação"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         }
       ],
       "visible": true,
@@ -624,13 +460,7 @@
             "Castigar severamente",
             "Quem não quiser obedecer"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -639,13 +469,7 @@
             "Obedecendo ao Pai Eterno",
             "E a Sempre Virgem Maria"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -654,13 +478,7 @@
             "Estão escritas no astral",
             "Para todo mundo ver"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -669,13 +487,7 @@
             "Porque eu sou filho de Deus",
             "E confio neste poder"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -684,13 +496,7 @@
             "Precisamos acabar",
             "Com o correio da má notícia"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         }
       ],
       "visible": true,
@@ -727,13 +533,7 @@
             "Tem primor e tem beleza",
             "Tem tudo que Deus me dá"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -742,13 +542,7 @@
             "Mas ninguém presta atenção",
             "Ninguém sabe aproveitar"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -757,13 +551,7 @@
             "Que as flores são muito finas",
             "Não podem cair no chão"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -772,13 +560,7 @@
             "Com as preces e os carinhos",
             "Ao nosso Pai Universal"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         }
       ],
       "visible": true,
@@ -820,13 +602,7 @@
             "Ainda tem gente que duvida",
             "Do poder que vós me dá"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -835,13 +611,7 @@
             "Que caluniam os seus irmãos",
             "Para se tornar muito viçosos"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -850,13 +620,7 @@
             "Devagarinho vai chegando",
             "E quem chamou é que vai ficando"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         }
       ],
       "visible": true,

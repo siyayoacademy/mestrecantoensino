@@ -21,6 +21,11 @@ fetch('../data/cruzeiro-hin-11-20-staging.json',{cache:'no-store'}).then(r=>{if(
  const batch=(data.hymns||[]).filter(h=>h.visible&&h.number>=11&&h.number<=20&&h.stanzas?.length).sort((a,b)=>a.number-b.number);
  if(batch.length!==10||batch.some((h,i)=>h.number!==11+i))throw Error('Lote 11-20 incompleto');
  followingHymns.push(...batch);renderFollowing();measure();
+ return fetch('../data/cruzeiro-hin-21-30.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('lote 21-30 indisponível');return r.json()}).then(data=>{
+  const next=(data.hymns||[]).filter(h=>h.visible&&h.number>=21&&h.number<=30&&h.stanzas?.length).sort((a,b)=>a.number-b.number);
+  if(next.length!==10||next.some((h,i)=>h.number!==21+i))throw Error('Lote 21-30 incompleto');
+  followingHymns.push(...next);renderFollowing();measure();
+ });
 }).catch(error=>{console.error('MCE HIN-11-20:',error)});
 document.querySelector('#toggle').onclick=()=>{partial=!partial;render();renderFollowing();measure()};let frame=0;const observer=new ResizeObserver(()=>{cancelAnimationFrame(frame);frame=requestAnimationFrame(measure)});observer.observe(document.querySelector('main'));document.fonts.ready.then(measure);render();measure();
 </script></html>

@@ -55,3 +55,7 @@ GUIA DE CONTINUIDADE — Leia este arquivo ANTES de pesquisar novamente ou edita
 ## Checkpoint 2026-11-01 — lote 01–20 homologado
 
 O autor confirmou no site real o hino 20 Sempre Assim com barras e leitor integrado ao Index, e autorizou seguir para 21–30 na `main`. A diretriz anterior de não avançar antes de homologação está satisfeita para esta etapa. Fonte de texto: UNAQUI já existente; não reconstruir manualmente por buscas genéricas. Consultar relato histórico em `docs/MCE-CONTEXTO-HISTORICO-E-RAMIFICACOES.md`, distinguindo edições Alto Santo e CEFLURIS. Preservar módulos e regras homologados. Próximo elo HIN-21–30.
+
+## Checkpoint HIN-30.1 — 2026-11-01
+
+Relato histórico do idealizador guardado em docs/MCE-CONTEXTO-HISTORICO-E-RAMIFICACOES.md. Após aprovação do lote 01–20, hinos 21–30 incorporados na branch main a partir do UNAQUI em data/cruzeiro-hin-21-30.json (38 estrofes, todos os dez hinos), consumidos pelo leitor canônico estudo-repeticoes/hin-09-3-layout.html e mostrados no Index com legenda 01–30. NÃO reiniciar transcrição. Barras musicais de 21–30 foram intencionalmente deixadas vazias para revisão do músico; evitar inferência ou marcação indiscriminada. Testar publicação Cloudflare, visualização de 21–30 em AUTO/PORTRAIT/LANDSCAPE, e em seguida registrar precisamente as barras e variantes segundo os apontamentos do autor. Hinos 01–20 e demais módulos do Index foram preservados.

@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "collection": "O Santo Cruzeiro Universal",
   "batch": "HIN-21-30",
-  "status": "texts_from_UNAQUI_review_bars_pending",
+  "status": "HIN-30.2_bars_recorded",
   "rules": {
     "reading": "continuous_no_index",
     "bars": "only insert after per-stanza visual approval",
@@ -25,7 +25,13 @@
             "Eu vim me apresentar",
             "Por ser um filho seu"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
         },
         {
           "verses": [
@@ -57,7 +63,7 @@
       ],
       "visible": true,
       "lyricsStatus": "transcribed_from_project_UNAQUI",
-      "barsStatus": "pending_musician_review",
+      "barsStatus": "user_approved_HIN_30_2",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -74,7 +80,13 @@
             "Conhecer esta verdade",
             "Para chamar meu irmão"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
         },
         {
           "verses": [
@@ -117,7 +129,7 @@
       ],
       "visible": true,
       "lyricsStatus": "transcribed_from_project_UNAQUI",
-      "barsStatus": "pending_musician_review",
+      "barsStatus": "user_approved_HIN_30_2",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -134,7 +146,13 @@
             "B.G. quem te mandou",
             "Foi o nosso Salvador"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
         },
         {
           "verses": [
@@ -157,7 +175,7 @@
       ],
       "visible": true,
       "lyricsStatus": "transcribed_from_project_UNAQUI",
-      "barsStatus": "pending_musician_review",
+      "barsStatus": "user_approved_HIN_30_2",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -176,7 +194,13 @@
             "Conhecer este poder",
             "Que me traz as coisas boas"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              6,
+              9
+            ]
+          ]
         },
         {
           "verses": [
@@ -199,7 +223,7 @@
       ],
       "visible": true,
       "lyricsStatus": "transcribed_from_project_UNAQUI",
-      "barsStatus": "pending_musician_review",
+      "barsStatus": "user_approved_HIN_30_2",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -216,7 +240,18 @@
             "Olhai para mim",
             "Que sou um filho seu"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ],
+            [
+              2,
+              4,
+              17
+            ]
+          ]
         },
         {
           "verses": [
@@ -257,7 +292,7 @@
       ],
       "visible": true,
       "lyricsStatus": "transcribed_from_project_UNAQUI",
-      "barsStatus": "pending_musician_review",
+      "barsStatus": "user_approved_HIN_30_2",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -274,7 +309,13 @@
             "Sou filho do meu Pai",
             "Feliz eu devo ser"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
         },
         {
           "verses": [
@@ -297,7 +338,7 @@
       ],
       "visible": true,
       "lyricsStatus": "transcribed_from_project_UNAQUI",
-      "barsStatus": "pending_musician_review",
+      "barsStatus": "user_approved_HIN_30_2",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -314,7 +355,13 @@
             "Para receber",
             "A meu Pai Divinal"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
         },
         {
           "verses": [
@@ -346,7 +393,7 @@
       ],
       "visible": true,
       "lyricsStatus": "transcribed_from_project_UNAQUI",
-      "barsStatus": "pending_musician_review",
+      "barsStatus": "user_approved_HIN_30_2",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -363,7 +410,18 @@
             "Sou eu, sou eu, sou eu",
             "Sou eu, sou bem feliz"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ],
+            [
+              2,
+              4,
+              17
+            ]
+          ]
         },
         {
           "verses": [
@@ -395,7 +453,7 @@
       ],
       "visible": true,
       "lyricsStatus": "transcribed_from_project_UNAQUI",
-      "barsStatus": "pending_musician_review",
+      "barsStatus": "user_approved_HIN_30_2",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -412,7 +470,13 @@
             "É a Luz do Firmamento",
             "É só quem eu devo amar"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
         },
         {
           "verses": [
@@ -444,8 +508,9 @@
       ],
       "visible": true,
       "lyricsStatus": "transcribed_from_project_UNAQUI",
-      "barsStatus": "pending_musician_review",
-      "sourceUrl": "https://unaqui.wordpress.com/"
+      "barsStatus": "user_approved_HIN_30_2",
+      "sourceUrl": "https://unaqui.wordpress.com/",
+      "repeatLabel": "bis"
     },
     {
       "number": 30,
@@ -462,7 +527,13 @@
             "No coração eu devo amar",
             "No coração eu devo amar a luz"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              5,
+              9
+            ]
+          ]
         },
         {
           "verses": [
@@ -485,8 +556,9 @@
       ],
       "visible": true,
       "lyricsStatus": "transcribed_from_project_UNAQUI",
-      "barsStatus": "pending_musician_review",
-      "sourceUrl": "https://unaqui.wordpress.com/"
+      "barsStatus": "user_approved_HIN_30_2",
+      "sourceUrl": "https://unaqui.wordpress.com/",
+      "repeatLabel": "bis"
     }
   ]
 }

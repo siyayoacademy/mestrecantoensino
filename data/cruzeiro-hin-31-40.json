@@ -1,0 +1,539 @@
+{
+  "schema_version": "1.0.0",
+  "collection": "O Santo Cruzeiro Universal",
+  "batch": "HIN-31-40",
+  "status": "text_integrated_bars_pending",
+  "rules": {
+    "reading": "continuous_no_index",
+    "bars": "per_stanza_musician_review",
+    "march": "implicit",
+    "offeredTo": "hidden_when_empty",
+    "geometry": "X=23px Y=8px X>Y",
+    "separator": "gold_sun_moon_six_point_star"
+  },
+  "hymns": [
+    {
+      "number": 31,
+      "title": "Papai Samuel",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Papai Samuel me chama",
+            "Para dizer o que queria",
+            "Para viver eternamente",
+            "Junto à Virgem Maria"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Junto à Virgem Maria",
+            "O santo nome de Jesus",
+            "Olho para o firmamento",
+            "O Cruzeiro, e a Santa Luz"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Pisei no primeiro degrau",
+            "Para seguir com firmeza",
+            "Dentro do meu coração",
+            "O primor, tanta beleza"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Convidei os meus irmãos",
+            "Para seguir com alegria",
+            "Todos me responderam",
+            "Que ficavam e lá não iam"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_project_UNAQUI",
+      "barsStatus": "pending_musician_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 32,
+      "title": "Cantei hoje",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Cantei hoje, eu cantei hoje",
+            "Cantei hoje com alegria",
+            "Porque tenho uma esperança",
+            "De ver a Virgem Maria"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A Rainha me chamou",
+            "Para mim seguir com Ela",
+            "Para eu amar com firmeza",
+            "Para eu ser um filho Dela"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Para eu ser um filho Dela",
+            "Ter força para ensinar",
+            "O Divino Pai do Céu",
+            "O que eu pedir Ele me dá"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "O que eu pedir Ele me dá",
+            "Eu recebo com alegria",
+            "Porque tenho a minha Mãe",
+            "É a Sempre Virgem Maria"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_project_UNAQUI",
+      "barsStatus": "pending_musician_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 33,
+      "title": "Papai Velho",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Papai Velho e Mamãe Velha",
+            "Vós me dê o meu bastão",
+            "Sou eu, sou eu, sou eu",
+            "Com a minha caducação"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Até que enfim, até que enfim, até que enfim",
+            "Eu recebi o meu bastão",
+            "Pude me levantar",
+            "Com a minha caducação"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Reduzi meu corpo em pó",
+            "O meu espírito entre flores",
+            "Sou eu, sou eu, sou eu",
+            "Filho do Rei de Amor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Mamãe Velha sempre dá",
+            "Papai a carinhar",
+            "Sou eu, eu sempre digo",
+            "Eu nasci em Natal"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_project_UNAQUI",
+      "barsStatus": "pending_musician_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 34,
+      "title": "Estrela brilhante",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Estrela brilhante",
+            "Vós sois a minha luz",
+            "É a Virgem Maria",
+            "E o Menino Jesus"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "O Menino Jesus",
+            "Nasceu para ensinar",
+            "Cumprir vossa missão",
+            "Para remir e salvar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Para remir e salvar",
+            "Ninguém vos conheceu",
+            "Ganhou o vosso nome",
+            "Depois que vós morreu"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Depois que vós morreu",
+            "Todo mundo tem amor",
+            "Depois que assassinaram",
+            "O Mestre ensinador"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_project_UNAQUI",
+      "barsStatus": "pending_musician_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 35,
+      "title": "Santa estrela",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Vou chamar a Santa estrela",
+            "Para vós vir me guiar",
+            "Iluminar meu pensamento",
+            "O oceano e beira-mar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A profundeza que vós tendes",
+            "Consenti-me eu entrar",
+            "Para eu ver tanta beleza",
+            "Para mim acreditar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "O Divino Pai Eterno",
+            "Senhor de todo primor",
+            "Daí a luz ao vosso filho",
+            "Aquele que procurou"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A Rainha minha Mãe",
+            "Que me mandou eu cantar",
+            "E ensinar os meus irmãos",
+            "Aqueles que procurar"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_project_UNAQUI",
+      "barsStatus": "pending_musician_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 36,
+      "title": "Amigo Velho",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Chegou seu Amigo Velho",
+            "Chegou sem ser chamado",
+            "Para sempre, amém Jesus",
+            "Para sempre ser lembrado"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A minha Mãe que me mandou",
+            "Eu sou filho estimado",
+            "Quem seguir na minha linha",
+            "Segue limpo e não errado"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "O Patriarca São José",
+            "Todo mundo se esqueceu",
+            "Jesus filho de Maria",
+            "Com o Divino Senhor Deus"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "O Patriarca São José",
+            "Vós esposo de Maria",
+            "Que o Divino Pai lhe deu",
+            "Para vossa companhia"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Viveram honestamente",
+            "Dentro da soberania",
+            "Jesus quando nasceu",
+            "Foi na vossa companhia"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Aconselho a todo mundo",
+            "Para seguir na verdade",
+            "Saindo desta linha",
+            "Não espere ser chamado"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "O Divino Senhor Deus",
+            "Foi quem me mandou dizer",
+            "Nós somos filhos eternos",
+            "Somos, somos e deve ser"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_project_UNAQUI",
+      "barsStatus": "pending_musician_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 37,
+      "title": "Marizia",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Marizia, minha vida",
+            "Para mim acreditar",
+            "O azul do firmamento",
+            "E as estrelas a me guiar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Soberano Pai Eterno",
+            "Que me mandou eu cantar",
+            "Para eu ter toda firmeza",
+            "Para sempre eu vos amar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A minha Mãe que me ensinou",
+            "Que me mandou eu seguir",
+            "Para sempre, amém Jesus",
+            "Para sempre eu ser feliz"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Tu não deves esquecer",
+            "O amor que recebeu",
+            "Quando chegou nesta casa",
+            "A verdade conheceu"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_project_UNAQUI",
+      "barsStatus": "pending_musician_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 38,
+      "title": "Flor de Jagube",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Eu venho da floresta",
+            "Com meu cantar de amor",
+            "Eu canto é com alegria",
+            "A Minha Mãe que me mandou"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A Minha Mãe que me mandou",
+            "Trazer Santas Doutrinas",
+            "Meus irmãos todos que vêm",
+            "Todos trazem este ensino"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Todos trazem este ensino",
+            "Para aqueles que merecer",
+            "Não estando nesta linha",
+            "Nunca há de conhecer"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Estando nesta linha",
+            "Deve ter amor",
+            "Amar a Deus no céu",
+            "E a Virgem que nos mandou"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_project_UNAQUI",
+      "barsStatus": "pending_musician_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 39,
+      "title": "Centro livre",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Centro livre, Centro livre",
+            "É preciso ter amor",
+            "A minha Mãe que me mandou",
+            "A minha Mãe que me mandou"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Minha Mãe prenda querida",
+            "Minha Mãe prenda querida",
+            "Minha Mãe prenda querida"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Estou com vós, eterna vida",
+            "Estou com vós, eterna vida",
+            "Estou com vós, eterna vida"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Currupipipiraguá",
+            "Eu devo chamar aqui",
+            "Eu devo chamar aqui"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_project_UNAQUI",
+      "barsStatus": "pending_musician_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 40,
+      "title": "Eu canto nas alturas",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Eu canto nas alturas",
+            "A minha voz é retinida",
+            "Porque eu sou filho de Deus",
+            "E tenho a minha Mãe querida"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A minha Mãe que me ensinou",
+            "A minha Mãe que me mandou",
+            "Eu sou filho de vós",
+            "Eu devo ter amor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Com amor tudo é verdade",
+            "Com amor tudo é certeza",
+            "Eu vivo neste mundo",
+            "Sou dono da riqueza"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A minha Mãe é a Lua Cheia",
+            "É a estrela que me guia",
+            "Estando bem perto de mim",
+            "Junto a mim é prenda minha"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A riqueza todos têm",
+            "Mas é preciso compreender",
+            "Não é com fingimento",
+            "Todos querem merecer"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_project_UNAQUI",
+      "barsStatus": "pending_musician_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "collection": "O Santo Cruzeiro Universal",
   "batch": "HIN-41-50",
-  "status": "HIN-50.2_approved_bars_recorded",
+  "status": "HIN-50.3.1_corrected_43_46",
   "rules": {
     "geometry": "X=23px,Y=8px,X>Y",
     "edition": "Portuguese UNAQUI",
@@ -184,7 +184,7 @@
               9
             ],
             [
-              2,
+              3,
               5,
               9
             ]
@@ -393,13 +393,7 @@
             "Eu balanço, e eu balanço",
             "E eu balanço tudo enquanto há"
           ],
-          "bars": [
-            [
-              0,
-              2,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -414,13 +408,7 @@
             "Eu balanço, e eu balanço",
             "E eu balanço tudo enquanto há"
           ],
-          "bars": [
-            [
-              0,
-              2,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -435,13 +423,7 @@
             "Eu balanço, e eu balanço",
             "E eu balanço tudo enquanto há"
           ],
-          "bars": [
-            [
-              0,
-              2,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [

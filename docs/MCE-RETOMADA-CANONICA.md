@@ -93,3 +93,7 @@ Autor autorizou produção na branch main: 31 Papai Samuel (pares segmentados), 
 ## HIN-40.2.1 — 5x de Amigo Velho (2026-11-01)
 
 Refinamento autorizado do hino 36: `5x` dourado, negrito e itálico, com x minúsculo; situado à ESQUERDA da barra externa da primeira estrofe, num vão reservado por recuo de 70px somente nessa estrofe. Posição vertical centralizada em relação às linhas 3 e 4, sem invadir a distância à primeira barra, com folga mínima de 5px. O texto e a barra mantêm uma distância calculada pelos parâmetros homologados X/Y. Implementação pontual no leitor canônico, a verificar visualmente na produção antes de homologar. Não alterar os demais hinos.
+
+## HIN-40.2.2 — alinhamento Amigo Velho (2026-11-01)
+
+Print demonstrou regressão: somente a primeira estrofe tinha padding-left 70px por causa do 5x, deslocando-a em relação às demais. Correção pontual: todas as estrofes do hino 36 compartilham o mesmo padding-left de 70px, mantendo o 5x dourado, itálico, à esquerda da barra, centralizado verticalmente nas linhas 3–4. Preservar todas as barras e outros hinos. Conferência de produção ainda necessária.

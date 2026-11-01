@@ -51,3 +51,7 @@ GUIA DE CONTINUIDADE — Leia este arquivo ANTES de pesquisar novamente ou edita
 - A fonte textual base é o UNAQUI (`https://unaqui.wordpress.com/`); evitar redigitar letras disponíveis. Rogativo dos Mortos mantém indicações abreviadas das horas em partes do texto, não declarar expansão integral. Distinguir apresentação completa de transcrição com abreviações.
 - Hino 17 mostra `Confissão` em itálico no campo da execução. Barras 11–20 e variantes devem ser conferidas pelo músico na produção; 01–10 permanecem preservados.
 - Próxima ação obrigatória: verificar renderização 01–20 no Cloudflare, barras e posição dos símbolos, sem voltar a pesquisar do zero nem avançar ao 21–30 antes da homologação.
+
+## Checkpoint 2026-11-01 — lote 01–20 homologado
+
+O autor confirmou no site real o hino 20 Sempre Assim com barras e leitor integrado ao Index, e autorizou seguir para 21–30 na `main`. A diretriz anterior de não avançar antes de homologação está satisfeita para esta etapa. Fonte de texto: UNAQUI já existente; não reconstruir manualmente por buscas genéricas. Consultar relato histórico em `docs/MCE-CONTEXTO-HISTORICO-E-RAMIFICACOES.md`, distinguindo edições Alto Santo e CEFLURIS. Preservar módulos e regras homologados. Próximo elo HIN-21–30.

@@ -109,3 +109,7 @@ O alinhamento flex-start não bastou porque a letra x minúscula possui altura v
 ## HIN-50.2 — 2026-11-01 · lote 41–50 integrado na main
 
 Arquivo `data/cruzeiro-hin-41-50.json` contém os dez hinos em português provenientes do UNAQUI e intervalos de barras conforme orientação visual do autor: 41,44,45,47,49 contínua na primeira; 42 barra externa integral e interna nos versos 3–4; 43 dois segmentos na primeira e dois na segunda (versos 1–2 / 3–5); 46 barra nos quatro refrões de dois versos; 48 dois segmentos na primeira; 50 barra externa integral e interna nos versos 1–2. Hino 44 exibe Valsa. O leitor canônico busca o novo arquivo após 31–40 e o Index anuncia 01–50. Padrão X=23px, Y=8px (X>Y) e os lotes 01–40 preservados. Validação de código GitHub separada da homologação visual na Cloudflare. Na próxima conferência revisar 43 e 46 com especial cuidado.
+
+## HIN-50.3 — Salomão, correção confirmada pelo autor (2026-11-01)
+
+Hino 50, primeira estrofe: barra contínua externa cobrindo versos 1–4 (`[0,4,9]`); barra segmentada interna cobrindo apenas versos 3–4 (`[2,4,17]`). Não aplicar a segmentada aos versos 1–2. Hino 43 O Prensor confirmado; hino 46 Eu Balanço com barra somente nos refrões repetidos de dois versos (estrofes 1, 3, 5 e 7). Preservar X>Y e os hinos anteriores. Validar visualmente no Cloudflare.

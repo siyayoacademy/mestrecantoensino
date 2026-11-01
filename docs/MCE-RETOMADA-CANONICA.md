@@ -105,3 +105,7 @@ No hino 36, manter indicador dourado, itálico e posição já homologada à esq
 ## HIN-40.2.4 — Alinhamento óptico do 5x na interface (2026-11-01)
 
 O alinhamento flex-start não bastou porque a letra x minúscula possui altura visual menor. Ajuste local no componente do hino 36: aplicar deslocamento óptico `top:-0.22em` somente ao span do x; manter 5 e x dourados itálicos, a posição à esquerda da barra, a centralização do grupo nas últimas duas linhas, a coluna e todos os respiros. Não aplicar globalmente a outros hinos. Validar visualmente no site e na impressão antes de homologar.
+
+## HIN-50.2 — 2026-11-01 · lote 41–50 integrado na main
+
+Arquivo `data/cruzeiro-hin-41-50.json` contém os dez hinos em português provenientes do UNAQUI e intervalos de barras conforme orientação visual do autor: 41,44,45,47,49 contínua na primeira; 42 barra externa integral e interna nos versos 3–4; 43 dois segmentos na primeira e dois na segunda (versos 1–2 / 3–5); 46 barra nos quatro refrões de dois versos; 48 dois segmentos na primeira; 50 barra externa integral e interna nos versos 1–2. Hino 44 exibe Valsa. O leitor canônico busca o novo arquivo após 31–40 e o Index anuncia 01–50. Padrão X=23px, Y=8px (X>Y) e os lotes 01–40 preservados. Validação de código GitHub separada da homologação visual na Cloudflare. Na próxima conferência revisar 43 e 46 com especial cuidado.

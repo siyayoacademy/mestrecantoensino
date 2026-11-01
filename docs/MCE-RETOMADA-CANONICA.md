@@ -81,3 +81,7 @@ Anexo do autor confirma o diagrama das barras, lidas do texto para a esquerda: 1
 ## HIN-30.5 — Auditoria 01–30 da geometria X > Y (2026-11-01)
 
 Conferidos o mapa embutido 02–10 e os JSON 11–20 e 21–30. As barras existentes usam identificadores 9 (contínua/externa) e 17 (interna), com X=23px e Y=8px; os intervalos originais foram preservados. O componente agora admite terceiro trilho identificado como 25, situado a X+2Y=39px antes do texto, sem criar marcação nova onde não há indicação musical. Lua Branca preservada como referência. Hino 08 permanece marcado do primeiro ao quarto verso. Exceções confirmadas: Papai Paxá com dois segmentos verticais, Mãe Celestial com duas barras, Rogativo dos Mortos com barras nas três últimas estrofes, Oferecimento e Cantar Ir com barra integral + parcial nos dois versos finais. CHECK pendente: renderização responsiva em Cloudflare, não homologar só pelo commit.
+
+## HIN-40.1 — 2026-11-01
+
+O lote 31–40 foi transcrito do UNAQUI para `data/cruzeiro-hin-31-40.json` (10 hinos, 44 estrofes), incorporado no leitor canônico, e a legenda do Index alterada para 01–40. Preserve todas as homologações 01–30, incluindo X=23px, Y=8px (X>Y), barras por estrofe, bis/tris e respiros. Todas as barras de 31–40 estão vazias de propósito: aguardar marcações musicais apontadas pelo autor, sem inferi-las. Conferir deploy e responsividade, depois marcar o próximo ELO HIN-40.2 para revisão das barras. Não confundir commit com homologação visual.

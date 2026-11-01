@@ -97,3 +97,7 @@ Refinamento autorizado do hino 36: `5x` dourado, negrito e itálico, com x minú
 ## HIN-40.2.2 — alinhamento Amigo Velho (2026-11-01)
 
 Print demonstrou regressão: somente a primeira estrofe tinha padding-left 70px por causa do 5x, deslocando-a em relação às demais. Correção pontual: todas as estrofes do hino 36 compartilham o mesmo padding-left de 70px, mantendo o 5x dourado, itálico, à esquerda da barra, centralizado verticalmente nas linhas 3–4. Preservar todas as barras e outros hinos. Conferência de produção ainda necessária.
+
+## HIN-40.2.3 — Alinhamento superior dos caracteres 5x (2026-11-01)
+
+No hino 36, manter indicador dourado, itálico e posição já homologada à esquerda da barra, centralizado no par final de versos. Renderizar 5 e x em spans independentes, alinhados pelo topo com `inline-flex` e `align-items:flex-start`, respeitando diferença visual entre maiúscula numérica e x minúsculo. Não deslocar as estrofes ou outras barras. Conferir resultado no Cloudflare antes da homologação de impressão.

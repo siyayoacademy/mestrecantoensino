@@ -33,6 +33,11 @@ fetch('../data/cruzeiro-hin-11-20-staging.json',{cache:'no-store'}).then(r=>{if(
     const extra=(data.hymns||[]).filter(h=>h.visible&&h.number>=41&&h.number<=50&&h.stanzas?.length).sort((a,b)=>a.number-b.number);
     if(extra.length!==10||extra.some((h,i)=>h.number!==41+i))throw Error('Lote 41-50 incompleto');
     followingHymns.push(...extra);renderFollowing();measure();
+    return fetch('../data/cruzeiro-hin-51-60-staging.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('lote 51-60 indisponível');return r.json()}).then(data=>{
+     const last=(data.hymns||[]).filter(h=>h.visible&&h.number>=51&&h.number<=60&&h.stanzas?.length).sort((a,b)=>a.number-b.number);
+     if(last.length!==10||last.some((h,i)=>h.number!==51+i))throw Error('Lote 51-60 incompleto');
+     followingHymns.push(...last);renderFollowing();measure();
+    });
    });
   });
  });

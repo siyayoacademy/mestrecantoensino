@@ -1,0 +1,678 @@
+{
+  "schema_version": "1.0.0",
+  "collection": "O Santo Cruzeiro Universal",
+  "batch": "61-70",
+  "status": "staging_pending_visual_coherence_of_cross_stanza_bar_h63",
+  "rules": {
+    "pdf": "uploaded O CRUZEIRO UNIVERSAL.pdf pages 71–81",
+    "exception": "63 cross-stanza outer bar extends from stanza 1 through stanza 2; requires visual joining/verification before live integration",
+    "publication": "not wired until exact visual treatment decided"
+  },
+  "hymns": [
+    {
+      "number": 61,
+      "title": "A Rainha da Floresta",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "A Rainha da Floresta",
+            "Vós venha receber",
+            "Estes cânticos aqui na mata",
+            "Que eu venho oferecer"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Vós mandou para mim",
+            "Ensinar os meus irmãos",
+            "Estamos todos reunidos",
+            "Com amor no coração"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu apresento os meus ensinos",
+            "Conforme eu aprendi",
+            "Estamos todos reunidos",
+            "Vós faça todos feliz"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": false,
+      "lyricsStatus": "transcribed_from_UNAQUI_pending_visual_cotejo",
+      "barsStatus": "PDF_inspected_pending_cross_stanza_rule",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 62,
+      "title": "Quem quiser seguir comigo",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Quem quiser seguir comigo",
+            "É preciso me ouvir",
+            "Para seguir neste caminho",
+            "Para adiante ser feliz"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "A minha Mãe que vai na frente",
+            "Com a luz do resplendor",
+            "Para ensinar os meus irmãos",
+            "Para todos ter amor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Jesus Cristo me mandou",
+            "Para mim vir ensinar",
+            "Para seguir neste caminho",
+            "Para remir e salvar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "O poder está comigo",
+            "E a verdade eu vou mostrar",
+            "Para ensinar os meus irmãos",
+            "Para todos enxergar"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": false,
+      "lyricsStatus": "transcribed_from_UNAQUI_pending_visual_cotejo",
+      "barsStatus": "PDF_inspected_pending_cross_stanza_rule",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 63,
+      "title": "Princesa Soloína",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Eu peço a Jesus Cristo",
+            "Que abra este caminho",
+            "Para mim seguir meus passos",
+            "Com amor, com alegria"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Com amor, com alegria",
+            "Aprender o que vós me ensina",
+            "Para todos compreenderem",
+            "Que existe um poder divino"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ],
+            [
+              0,
+              4,
+              17
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Segui neste caminho",
+            "Tomei uma direção",
+            "Adiante eu encontrei",
+            "A Virgem da Conceição"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Mais adiante uma princesa",
+            "Chamada Soloína",
+            "Ela foi disse para mim",
+            "É nessa estrada é que se ensina"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Segui minha jornada",
+            "Adiante eu encontrei",
+            "Um poder divino",
+            "Aí aonde eu fiquei"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Aí aonde eu fiquei",
+            "E pude compreender",
+            "Quem seguir neste caminho",
+            "Todos têm que aprender"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": false,
+      "lyricsStatus": "transcribed_from_UNAQUI_pending_visual_cotejo",
+      "barsStatus": "PDF_inspected_pending_cross_stanza_rule",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 64,
+      "title": "Eu peço a Jesus Cristo",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Eu peço a Jesus Cristo",
+            "Eu peço à Virgem Maria",
+            "Eu peço a meu Pai Eterno",
+            "Vós me dê a Santa Luz"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Eu sigo na verdade",
+            "Eu sigo o meu caminho",
+            "Eu sigo é com alegria",
+            "Que eu sou filho da Rainha"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A força da floresta",
+            "A força do astral",
+            "A força está comigo",
+            "A minha Mãe é quem me dá"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu chamo o Rei Titango",
+            "Eu chamo o Rei Agarrube",
+            "Eu chamo o Rei Tintuma",
+            "E eles Vêm lá do astral"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A força é divina",
+            "A força tem poder",
+            "A força neste mundo",
+            "Ela faz estremecer"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Sempre eu vivo neste mundo",
+            "Viva todos que quiser",
+            "Viva Deus lá nas alturas",
+            "E o Patriarca São José"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu dou viva à Virgem Mãe",
+            "Viva suas companheiras",
+            "Nos proteja neste mundo",
+            "Vós como Mãe verdadeira"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "O sol que veio à terra",
+            "Para todos iluminar",
+            "Não tem bonito e nem feio",
+            "Ele ilumina todos iguais"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A lua tem três passagens",
+            "Todas três nela se encerra",
+            "É preciso compreender",
+            "Que ela é quem domina a terra"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": false,
+      "lyricsStatus": "transcribed_from_UNAQUI_pending_visual_cotejo",
+      "barsStatus": "PDF_inspected_pending_cross_stanza_rule",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 65,
+      "title": "Eu vou cantar",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Eu vou cantar, eu vou cantar",
+            "De joelhos em uma cruz",
+            "Eu vou louvar ao Senhor Deus",
+            "Foi quem me deu esta luz"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Esta luz é da Floresta",
+            "Que ninguém não conhecia",
+            "Quem veio me entregar",
+            "Foi a Sempre Virgem Maria"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Quando Ela me entregou",
+            "Eu gravei no coração",
+            "Para replantar Santas Doutrinas",
+            "E ensinar os meus irmãos"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu agora recebi",
+            "Este prêmio de valor",
+            "De São José e da Virgem Mãe",
+            "De Jesus Cristo Redentor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Tenho fé de vencer",
+            "E de ganhar com os meus ensinos",
+            "Porque Deus é soberano",
+            "E Ele é quem nos determina"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": false,
+      "lyricsStatus": "transcribed_from_UNAQUI_pending_visual_cotejo",
+      "barsStatus": "PDF_inspected_pending_cross_stanza_rule",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 66,
+      "title": "São João",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "São João era menino",
+            "Só vivia nas Campinas",
+            "Pastorando as suas ovelhas",
+            "Pregando as Santas Doutrinas"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Pregando as Santas Doutrinas",
+            "O amor Ele empregou",
+            "Atrás dele veio Jesus",
+            "Toda verdade afirmou"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Toda verdade afirmou",
+            "Gravou no coração",
+            "Ambos foram batizados",
+            "No Rio de Jordão"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "No Rio de Jordão",
+            "Ambos tiveram em pé",
+            "Um é filho de Maria",
+            "E o outro é filho de Isabel"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Jesus estava vestido",
+            "Com sua roupa cor de cana",
+            "Dando viva ao Pai Eterno",
+            "Viva a Senhora Santana"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": false,
+      "lyricsStatus": "transcribed_from_UNAQUI_pending_visual_cotejo",
+      "barsStatus": "PDF_inspected_pending_cross_stanza_rule",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 67,
+      "title": "Olhei para o firmamento",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Olhei para o firmamento",
+            "Vi as estrelas brilhar",
+            "Tinha uma mais bonita",
+            "De um trono imperial"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Este trono imperial",
+            "Foi Deus quem me mostrou",
+            "Para eu amar a Virgem Mãe",
+            "E a Jesus Cristo Redentor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Todo dia eu canto e peço",
+            "Para limpar meu coração",
+            "Para eu seguir neste caminho",
+            "E deixar a ilusão"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Sempre eu digo aos meus irmãos",
+            "Que tratem o tempo mais sério",
+            "Que o tempo não engana",
+            "E não tem dó desta matéria"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": false,
+      "lyricsStatus": "transcribed_from_UNAQUI_pending_visual_cotejo",
+      "barsStatus": "PDF_inspected_pending_cross_stanza_rule",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 68,
+      "title": "Chamei lá nas alturas",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Chamei lá nas alturas",
+            "Para o Divino vir à terra",
+            "Trazer a Santa Paz",
+            "Que não precisamos de guerra"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Eu vou louvar bendito é o fruto",
+            "Do vosso ventre Jesus",
+            "Foi quem veio a este mundo",
+            "Nos trazer a Santa Luz"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Vós nos dê o vosso pão",
+            "O vosso ensino divino",
+            "Vós nos dê a Santa Luz",
+            "Para eu seguir o meu destino"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Para eu seguir o meu destino",
+            "Neste mundo com certeza",
+            "Que Deus não abandona",
+            "Quem ama com firmeza"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": false,
+      "lyricsStatus": "transcribed_from_UNAQUI_pending_visual_cotejo",
+      "barsStatus": "PDF_inspected_pending_cross_stanza_rule",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 69,
+      "title": "Passarinho",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Passarinho está cantando",
+            "Discorrendo o ABC",
+            "E eu discorro a tua vida",
+            "Para todo mundo ver"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Passarinho está cantando",
+            "Canta na mata deserta",
+            "Dizendo para o caçador",
+            "Você atira e não acerta"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Passarinho Verde canta",
+            "Bem pertinho para tu ver",
+            "Sou Passarinho e tenho dono",
+            "E o meu dono tem poder"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Passarinho Verde canta",
+            "Com alegria e com amor",
+            "Sou Passarinho e canto certo",
+            "E com certeza aqui estou"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": false,
+      "lyricsStatus": "transcribed_from_UNAQUI_pending_visual_cotejo",
+      "barsStatus": "PDF_inspected_pending_cross_stanza_rule",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 70,
+      "title": "Firmeza",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Firmeza, firmeza, firmeza",
+            "Eu peço a Deus",
+            "Aplanai meu coração",
+            "Eu quero ser um filho seu"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Firmeza, firmeza",
+            "Eu recebo com alegria",
+            "A quem eu peço firmeza",
+            "É a Sempre Virgem Maria"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Firmeza, firmeza",
+            "Eu recebo é com amor",
+            "A quem eu peço firmeza",
+            "É a Jesus Cristo Redentor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Firmeza, firmeza",
+            "Para seguir na Santa Luz",
+            "A quem eu peço firmeza",
+            "É ao coração de Jesus"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Firmeza, firmeza",
+            "Firmeza no pensamento",
+            "A quem eu peço firmeza",
+            "É ao nosso Deus Onipotente",
+            "A quem eu peço firmeza",
+            "Para ser feliz eternamente"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": false,
+      "lyricsStatus": "transcribed_from_UNAQUI_pending_visual_cotejo",
+      "barsStatus": "PDF_inspected_pending_cross_stanza_rule",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    }
+  ]
+}

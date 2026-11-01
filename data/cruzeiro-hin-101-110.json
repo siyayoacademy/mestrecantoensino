@@ -1,1 +1,539 @@
-{"schema_version":"1.0.0","batch":"101-110","hymns":[]}
+{
+  "schema_version": "1.0.0",
+  "collection": "O Santo Cruzeiro Universal",
+  "batch": "101-110",
+  "status": "pending_visual_homologation",
+  "rules": {
+    "pdf": "O CRUZEIRO UNIVERSAL.pdf supplied by author",
+    "bars": "First stanza marks from prior double reading; do not copy bars to later stanzas",
+    "opticalInset": "3px"
+  },
+  "hymns": [
+    {
+      "number": 101,
+      "title": "No brilho da Lua Branca",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "No brilho da Lua Branca",
+            "Foi quem me trouxe aqui",
+            "Doutrinar a quem quiser",
+            "Neste caminho a seguir"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Sou filho desta verdade",
+            "Eu devo caprichar assim",
+            "Caprichar eternamente",
+            "Para nunca ser ruim"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Lua Branca quem me trouxe",
+            "Confiou-me este lugar",
+            "Para ser filho legítimo",
+            "É preciso doutrinar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A minha Mãe que me ensina",
+            "Tudo quanto eu quiser",
+            "Peço força, peço força",
+            "A meu Pai que tem poder"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A minha Mãe foi quem me deu",
+            "Neste mundo este lugar",
+            "Peço força e dou força",
+            "E não saio do meu lugar"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI",
+      "barsStatus": "double_checked_pdf_pending_author_visual_homologation",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 102,
+      "title": "Sou filho desta verdade",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Sou filho desta verdade",
+            "E neste mundo estou aqui",
+            "Dou conselho e dou conselho",
+            "Para aqueles que me ouvir"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "O saber de todo mundo",
+            "É um saber universal",
+            "Aqui tem muita ciência",
+            "Que é preciso se estudar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Estudo fino, estudo fino",
+            "Que é preciso conhecer",
+            "Para ser bom professor",
+            "Apresentar o seu saber"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI",
+      "barsStatus": "double_checked_pdf_pending_author_visual_homologation",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 103,
+      "title": "Todos querem",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Todos querem, todos querem",
+            "Todos querem, eu vou dizer",
+            "Todos querem, todos querem",
+            "É preciso compreender"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Vou seguir na minha linha",
+            "Vou deixar recordação",
+            "Todos querem, todos querem",
+            "Todos querem ser irmão"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Para ser irmão legítimo",
+            "É preciso um juramento",
+            "Não brigar com seu irmão",
+            "E nem trocar seu pensamento"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI",
+      "barsStatus": "double_checked_pdf_pending_author_visual_homologation",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 104,
+      "title": "Sexta-feira Santa",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Sou filho, sou filho,",
+            "Sou filho do Poder",
+            "A minha Mãe me trouxe aqui",
+            "Quem quiser venha aprender"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Vou seguindo, vou seguindo",
+            "Os passos que Deus me dá",
+            "A minha memória divina",
+            "Eu tenho que apresentar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A minha Mãe que me ensina",
+            "Me diz tudo que eu quiser",
+            "Sou filho desta verdade",
+            "E meu Pai é São José"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A Sexta-feira Santa",
+            "Guardemos com obediência",
+            "Três antes e três depois",
+            "Para afastar toda doença"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI",
+      "barsStatus": "double_checked_pdf_pending_author_visual_homologation",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 105,
+      "title": "Sou Filho Deste Poder",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Sou filho deste poder",
+            "Vivo na terra e no mar",
+            "Implorando ao meu Pai Eterno",
+            "Nas alturas onde Ele está"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Eu vivo aqui cantando",
+            "Para quem tiver amor",
+            "Consagrando a minha Rainha",
+            "Foi Ela que me ensinou"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Todos santos e todas santas",
+            "Roguem a Deus no coração",
+            "Para os filhos da terra",
+            "Se esquecer da ilusão"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI",
+      "barsStatus": "double_checked_pdf_pending_author_visual_homologation",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 106,
+      "title": "Fortaleza",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Estando nesta fortaleza",
+            "Onde me radéia o sol",
+            "Encostado a meu Império",
+            "Dono da força maior"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Dono de todo poder",
+            "Dono da força maior",
+            "É Ele é quem me ensina",
+            "Para eu ensinar os menores"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Para eu ensinar os menores",
+            "Para todos aprender",
+            "Para sempre louvar a Deus",
+            "E saber agradecer"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI",
+      "barsStatus": "double_checked_pdf_pending_author_visual_homologation",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 107,
+      "title": "Chamei lá nas alturas",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Chamei lá nas alturas",
+            "Para o Divino me ouvir",
+            "A minha Mãe me respondeu",
+            "Ôh filho meu, estou aqui"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Minha Mãe, vamos comigo",
+            "Para sempre, eterna luz",
+            "Para eu poder afirmar",
+            "Para sempre a Santa Cruz"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Esta cruz do firmamento",
+            "Que radéia a Santa luz",
+            "Todos que nela firmar",
+            "É para sempre amém Jesus"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI",
+      "barsStatus": "double_checked_pdf_pending_author_visual_homologation",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 108,
+      "title": "Linha Do Tucum  ",
+      "rhythm": "VALSA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Eu canto aqui na terra",
+            "O amor que Deus me dá",
+            "Para sempre, para sempre",
+            "Para sempre, para sempre"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "A minha Mãe que vem comigo",
+            "Que me deu esta lição",
+            "Para sempre, para sempre",
+            "Para sempre eu ser irmão"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Enxotando os malfazejos",
+            "Que não querem me ouvir",
+            "Que escurecem o pensamento",
+            "E nunca podem ser feliz"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Esta é a Linha do Tucum",
+            "Que traz toda lealdade",
+            "Castigando os mentirosos",
+            "Aqui dentro desta verdade"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI",
+      "barsStatus": "double_checked_pdf_pending_author_visual_homologation",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 109,
+      "title": "Tudo, tudo",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Tudo, tudo Deus me mostra",
+            "Para mim reconhecer",
+            "Tudo, tudo é verdade",
+            "E eu não posso me esquecer"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "A minha Mãe que me ensina",
+            "Que me entrega este poder",
+            "Tomo conta e dou conta",
+            "E eu não posso me esquecer"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Sigo a minha viagem",
+            "Dentro desta primozía",
+            "Tudo, tudo é verdade",
+            "No reino da soberania"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI",
+      "barsStatus": "double_checked_pdf_pending_author_visual_homologation",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 110,
+      "title": "De longe  ",
+      "rhythm": "VALSA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "De longe, eu venho de longe",
+            "Das ondas do mar sagrado",
+            "Para eu conhecer os poderes",
+            "Da floresta e Deus amar"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Eu sigo neste caminho",
+            "Ando nele dias inteiros",
+            "Para eu conhecer o poder",
+            "E a santa luz de Deus verdadeiro"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "O poder de Deus verdadeiro",
+            "É preciso nós ter amor",
+            "Nas estrelas do firmamento",
+            "E em tudo que Deus criou"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_UNAQUI",
+      "barsStatus": "double_checked_pdf_pending_author_visual_homologation",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    }
+  ]
+}

@@ -113,3 +113,7 @@ Arquivo `data/cruzeiro-hin-41-50.json` contém os dez hinos em português proven
 ## HIN-50.3 — Salomão, correção confirmada pelo autor (2026-11-01)
 
 Hino 50, primeira estrofe: barra contínua externa cobrindo versos 1–4 (`[0,4,9]`); barra segmentada interna cobrindo apenas versos 3–4 (`[2,4,17]`). Não aplicar a segmentada aos versos 1–2. Hino 43 O Prensor confirmado; hino 46 Eu Balanço com barra somente nos refrões repetidos de dois versos (estrofes 1, 3, 5 e 7). Preservar X>Y e os hinos anteriores. Validar visualmente no Cloudflare.
+
+## HIN-50.3.1 — 2026-11-01 · Correções finais 43 e 46
+
+Confirmado pelo autor e aplicado diretamente em `data/cruzeiro-hin-41-50.json`: hino 43 O Prensor: estrofe 1 barras independentes nos versos 1–2 e 3–4; estrofe 2 barras nos versos 1–2 e 4–5, verso 3 'O teu Pai não conheceu' EXPLICITAMENTE SEM BARRA; demais estrofes sem barras. Hino 46 Eu Balanço: barra somente na PRIMEIRA ocorrência do refrão (estrofe 1, versos 1–2), sem barras em qualquer ocorrência posterior. Hino 50 Salomão preservado com barra externa integral e interna nos dois últimos versos. Não inferir barras por igualdade de texto em outras estrofes. A publicação Cloudflare e a conferência visual ainda devem ser verificadas separadamente.

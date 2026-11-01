@@ -1,0 +1,489 @@
+{
+  "schema_version": "1.0.0",
+  "collection": "O Santo Cruzeiro Universal",
+  "batch": "51-60",
+  "status": "staging_unpublished_pending_pdf_graphic_bar_review",
+  "rules": {
+    "bars": "No confirmed ranges; empty arrays indicate unverified, NOT confirmed absence",
+    "publication": "Do not wire into reader until visual comparison with approved PDF",
+    "source_pdf": "https://nossairmandade.com/hinario/14/OCruzeiro/pdf"
+  },
+  "hymns": [
+    {
+      "number": 51,
+      "title": "Eu devo amar",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Eu devo amar no coração",
+            "A Virgem Mãe foi quem me deu",
+            "Para eu amar ao Senhor Deus"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Oh Virgem Mãe, Divina Mãe",
+            "Vós nos perdoe os filhos seus",
+            "Para nós amar ao Senhor Deus"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Divino Pai, Rei Criador",
+            "Vós nos perdoe nós pecadores",
+            "Para nós amar com grande amor"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": false,
+      "lyricsStatus": "transcribed_from_UNAQUI_pending_cotejo",
+      "barsStatus": "not_verified_pdf_visual",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 52,
+      "title": "A febre do amor",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "A febre do amor",
+            "É preciso compreender",
+            "Trazer sempre na memória",
+            "Este divino poder"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Minha Mãe, minha Mãezinha",
+            "Vós me dá todo valor",
+            "Não sei se eu mereço",
+            "Para sempre eu ter amor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Completei o meu Cruzeiro",
+            "Com cento e trinta e duas flores",
+            "Se tiver alguma a mais",
+            "Vós acrescente o meu amor"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": false,
+      "lyricsStatus": "transcribed_from_UNAQUI_pending_cotejo",
+      "barsStatus": "not_verified_pdf_visual",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 53,
+      "title": "Virgem Mãe Divina",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Oh Virgem Mãe Divina",
+            "Eu peço um conforto seu",
+            "Com vós, com vós, com vós",
+            "Com Deus"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Meu Divino Pai Eterno",
+            "Eu peço um conforto seu",
+            "Com vós, com vós,",
+            "Sou filho seu"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Jesus Cristo Redentor",
+            "Eu peço um conforto seu",
+            "Com vós, com vós,",
+            "O ensino seu"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": false,
+      "lyricsStatus": "transcribed_from_UNAQUI_pending_cotejo",
+      "barsStatus": "not_verified_pdf_visual",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 54,
+      "title": "Pedi força a meu Pai",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Pedi força a meu Pai",
+            "Ele me deu com amor",
+            "Para mim ensinar",
+            "Neste mundo pecador"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A minha mãe que me ensinou",
+            "Manou eu ensinar",
+            "A todos meus irmãos",
+            "Aqueles que acreditar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Surubina, minha flor",
+            "Jardim da minha infância",
+            "A base deste mundo",
+            "É o verde, minha esperança"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": false,
+      "lyricsStatus": "transcribed_from_UNAQUI_pending_cotejo",
+      "barsStatus": "not_verified_pdf_visual",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 55,
+      "title": "Disciplina",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Vou chamar os meus irmãos",
+            "Quem quiser venha escutar",
+            "Se ficar firme apanha",
+            "E se correr vai sofrer mais"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Minha Mãe, minha Rainha",
+            "Com amor ninguém não quis",
+            "Apanhar para obedecer",
+            "Na estrada para seguir"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Mestre bom ninguém não quis",
+            "Não souberam aproveitar",
+            "Apanhar para obedecer",
+            "Para poder acreditar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Fica assim a disciplina",
+            "Quem quiser pode correr",
+            "Se eu falar do meu irmão",
+            "Estou sujeito a morrer"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": false,
+      "lyricsStatus": "transcribed_from_UNAQUI_pending_cotejo",
+      "barsStatus": "not_verified_pdf_visual",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 56,
+      "title": "Santa estrela que me guia",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Santa estrela que me guia",
+            "Vós me dê a Santa Luz",
+            "Os três Reis do Oriente",
+            "Que visitaram Jesus"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Viva Deus lá nas alturas",
+            "Viva a noite de Natal",
+            "Viva o dono deste dia",
+            "Que nós vamos festejar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Já fazem muitos anos",
+            "Que meu Jesus nasceu",
+            "Vamos todos com alegria",
+            "Festejar ao Senhor Deus"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Meu Divino Senhor Deus",
+            "A vós eu vou pedir",
+            "Vós nos dê o vosso conforto",
+            "Para todos nós seguir"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A Sempre Virgem Maria",
+            "É quem vem nos ensinar",
+            "Para nós cantar com amor",
+            "Nesta noite de natal"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": false,
+      "lyricsStatus": "transcribed_from_UNAQUI_pending_cotejo",
+      "barsStatus": "not_verified_pdf_visual",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 57,
+      "title": "Eu convido os meus irmãos",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Eu convido os meus irmãos",
+            "Que queiram me acompanhar",
+            "Para nós cantar um pouco",
+            "Nesta noite de natal"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu convido os meus irmãos",
+            "Para cantar com alegria",
+            "Para nós ir festejar",
+            "A Jesus filho de Maria"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu convido os meus irmãos",
+            "Todo aquele que quiser",
+            "Para nós ir festejar",
+            "A Jesus, Maria e José"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Minha Sempre Virgem Maria",
+            "Vós só pode é se alegrar",
+            "Porque todos nós pedimos",
+            "Para vós nos ajudar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "O sonhar é uma verdade",
+            "Igualmente à luz do dia",
+            "Reparem neste mundo",
+            "O sonho da Virgem Maria"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Meu Divino Senhor Deus",
+            "Vós nos dê a Santa Luz",
+            "Para sempre eu festejar",
+            "O dia que nasceu Jesus"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": false,
+      "lyricsStatus": "transcribed_from_UNAQUI_pending_cotejo",
+      "barsStatus": "not_verified_pdf_visual",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 58,
+      "title": "Todo mundo quer ser filho",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Todo mundo quer ser filho",
+            "De Deus da criação",
+            "Por quê que tu te esquece",
+            "De rezar para o teu irmão"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Meu irmão que se mudou",
+            "Saiu com alegria",
+            "Eu rogo a Deus por ele",
+            "E a Sempre Virgem Maria"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Jesus Cristo Redentor",
+            "Eu peço o meu perdão",
+            "Que eu nunca mais hei de esquecer",
+            "De rezar para o meu irmão"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Meu irmão que já saiu",
+            "Do mundo do pecado",
+            "Eu rogo a Deus do céu",
+            "Que ele seja perdoado"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": false,
+      "lyricsStatus": "transcribed_from_UNAQUI_pending_cotejo",
+      "barsStatus": "not_verified_pdf_visual",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 59,
+      "title": "O Divino Pai Eterno",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "O Divino Pai Eterno",
+            "Quem me fez, quem me criou",
+            "Para eu ser um filho seu",
+            "No jardim de Belas Flores"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A minha Mãe que me ensinou",
+            "Mandou eu ensinar",
+            "Para eu ser um filho seu",
+            "É preciso eu vos amar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Jesus Cristo veio ao mundo",
+            "Replantar Santas Doutrinas",
+            "Os descrentes assassinaram",
+            "E ainda hoje é quem ensina"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A luz da flor mimosa",
+            "Deste jardim perfumoso",
+            "Havendo força de vontade",
+            "Nada para nós é custoso"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": false,
+      "lyricsStatus": "transcribed_from_UNAQUI_pending_cotejo",
+      "barsStatus": "not_verified_pdf_visual",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 60,
+      "title": "Laranjeira  \n(VALSA)",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Cada um tem um cabedal",
+            "De acordo que Deus lhe dá",
+            "Para viver neste mundo",
+            "É preciso procurar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Laranjeira carregada",
+            "De laranja boa",
+            "Assim é alguma pessoa"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Vou vivendo e vou dizendo",
+            "De acordo que vai chegar",
+            "O ouro que tem na terra",
+            "É a luz que brilha mais"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Laranjeira carregada",
+            "De laranja boa",
+            "Assim é alguma pessoa"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": false,
+      "lyricsStatus": "transcribed_from_UNAQUI_pending_cotejo",
+      "barsStatus": "not_verified_pdf_visual",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    }
+  ]
+}

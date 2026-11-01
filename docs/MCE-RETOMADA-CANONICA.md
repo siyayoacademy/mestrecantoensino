@@ -85,3 +85,7 @@ Conferidos o mapa embutido 02–10 e os JSON 11–20 e 21–30. As barras existe
 ## HIN-40.1 — 2026-11-01
 
 O lote 31–40 foi transcrito do UNAQUI para `data/cruzeiro-hin-31-40.json` (10 hinos, 44 estrofes), incorporado no leitor canônico, e a legenda do Index alterada para 01–40. Preserve todas as homologações 01–30, incluindo X=23px, Y=8px (X>Y), barras por estrofe, bis/tris e respiros. Todas as barras de 31–40 estão vazias de propósito: aguardar marcações musicais apontadas pelo autor, sem inferi-las. Conferir deploy e responsividade, depois marcar o próximo ELO HIN-40.2 para revisão das barras. Não confundir commit com homologação visual.
+
+## HIN-40.2 — barras 31–40 e anotação especial 5X (2026-11-01)
+
+Autor autorizou produção na branch main: 31 Papai Samuel (pares segmentados), 32 Cantei Hoje (barra integral na primeira estrofe), 33 Papai Velho (integral), 34 Estrela Brilhante (integral), 35 Santa Estrela (integral), 36 Amigo Velho (barra nos dois primeiros versos + indicador dourado 5X alinhado entre as duas últimas linhas da primeira estrofe), 37 Marizia (integral), 38 Flor de Jagube (dois segmentos), 39 Centro Livre (dois segmentos de dois versos na primeira estrofe e barra integral na última de três versos), 40 Eu Canto nas Alturas (contínua externa e segmentada interna nos últimos dois versos como Lua Branca). Preservado contrato X>Y. `data/cruzeiro-hin-31-40.json` contém intervalos e `repeatAnnotations`; leitor HIN-09.3 incorpora a marcação relativa à posição dos versos. Verificação no GitHub não substitui homologação visual no Cloudflare.

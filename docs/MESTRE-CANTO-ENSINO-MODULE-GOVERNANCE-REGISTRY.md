@@ -372,3 +372,32 @@ O Registry da SIYAYO é uma **fonte de contratos e arquitetura**, não uma permi
 **HOW TO RECORD:** armazenar cada configuração de intervalo, oferta, ritmo e elemento do hino vinculada ao seu identificador imutável, com fonte editorial; contratos de captura/exportação futuros devem referenciar esse mesmo ID, sem misturar conteúdo de hinos adjacentes.
 
 **HOW TO CHECK:** confirmar com URL pública `/index.html#cruzeiro` e leitor isolado `/estudo-repeticoes/hin-09-3-layout.html`; conferir hinos 01–10, barras 06 segmentadas, 09 paralelas, respiro HIN-10.5, ritmos, ausência de índice, carregamento/altura do iframe sem segunda barra de rolagem; testar AUTO, PORTRAIT e LANDSCAPE, e preservar homenagem, Diversões do Mestre, Santa Missa, bandeiras, palco e páginas internas. Commit GitHub não substitui homologação do Cloudflare.
+
+
+## MCE-HYM-REUSABLE-01 — Contrato mestre de hinário especializado · homologado 01–50 (2026-11-01)
+
+**Status:** padrão editorial e visual homologado pelo idealizador após conferência dos hinos 01–50 de O Santo Cruzeiro Universal. Reutilizável em outros hinários somente com seus próprios dados, numerações e exceções. Não pressupor que a marcação de um hino sirva a outro.
+
+### HOW TO DO — comportamento e grade invisível
+- Cada hino é um módulo autônomo com ID de composição, ID de ocorrência na coleção, número/título, oferta facultativa, ritmo ou nota de execução, estrofes e intervalos de barras *por verso* (índices `[from,to)`).
+- A grade invisível separa coluna(s) de barras, coluna dos versos, área de notas e respiros. Calcular alturas a partir das caixas efetivas dos versos após quebras responsivas, sem barras presumidas por padrão ou texto repetido.
+- Geometria horizontal homologada: distância **X = 23px** do texto à barra mais próxima; distância **Y = 8px** entre barras adjacentes; **X > Y**. Barra interna mais próxima dos versos; trilhos externos avançam para a esquerda. Cuidado: o identificador de slot nos JSON legados não é unidade física, e a barra contínua pode ocupar o trilho externo.
+- Acabamento vertical homologado **HIN-FINE-BARS.1**: calcular metade da entrelinha excedente `max(0,(line-height-font-size)/2)`, somar **3px de respiro óptico no topo e na base**, e centralizar verticalmente em relação ao primeiro/último verso afetado. A regra vale tanto para barras contínuas quanto segmentadas; preservar lacunas entre segmentos e nunca marcar versos não designados.
+- A rotina compartilhada do leitor em `estudo-repeticoes/hin-09-3-layout.html` implementa o acabamento. Cada hinário futuro deve herdar o *contrato*, sem acoplar texto, autoria, ordem ou interface de uma coleção a outra.
+
+### HOW TO SHOW — apresentação do módulo
+- Contêiner especializado com borda dourada; numeração e título; posição semântica de oferta/dedicatória (oculta se vazia); indicação de Valsa/Mazurca/Confissão e outros tipos excepcionais em dourado e itálico, acima e à direita da primeira estrofe; MARCHA implícita não se imprime.
+- Marcadores de repetição bis/tris em branco, negrito e itálico, sem parênteses, conforme fonte. Exceções, como 5x dourado e sua composição de glifos no hino 36, são por ocorrência e não impostas a todas.
+- Respiro superior interno homologado e respiros simétricos de referência **36px** entre última estrofe → Sol/Lua/Estrela dourados → borda inferior; preserve independência entre o respiro do módulo e o espaço externo até o próximo hino.
+- Leitura contínua no Cruzeiro; páginas internas podem pesquisar por autor, coleção, linhagem, tipo e edição sem interromper a leitura de canto. Sol/Lua/Estrela mantêm-se dourados; captura do módulo e compartilhamento continuam habilidades futuras, não já publicadas.
+
+### HOW TO RECORD — proveniência e variantes
+- Armazenar fonte (UNAQUI, edição PDF ou outra), variante editorial, ritmos, ofertas e intervalos por estrofe, com estado de revisão musical. Diferenciar `Hymn`, `Collection` e `CollectionEntry`; o mesmo hino pode integrar várias coletâneas com posições distintas (ex.: Rogativo dos Mortos em Cruzeiro 14 e Santa Missa 3).
+- Manter separadas as apresentações e convenções das tradições Alto Santo e CEFLURIS; não atribuir status de "oficial" sem indicar a instituição/edição.
+- Checkpoint de execução: `docs/MCE-RETOMADA-CANONICA.md`; este registro é contrato transversal para os muitos hinários futuros.
+
+### HOW TO CHECK — homologação e regressão
+- Validar cada lote de dez hinos em smartphone PORTRAIT primeiro, depois AUTO/LANDSCAPE e impressão. Comparar alinhamento, X/Y, barras contínuas/segmentadas, pequenas lacunas, anotação de execução, ofertas e respiros.
+- Confirmar no GitHub e separadamente no Cloudflare; commit/deploy não equivalem à aprovação visual. Preservar hinos 01–50 já homologados e os módulos vizinhos do Index.
+- Exceções documentadas têm prioridade sobre padrões de lote. Nunca alongar uma barra até versos excluídos nem replicar automaticamente barra de refrão por semelhança textual.
+- Qualquer novo componente ou hinário que use este contrato deve declarar quais parâmetros herda, o que diverge por edição e qual foi a homologação correspondente.

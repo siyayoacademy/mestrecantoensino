@@ -38,7 +38,7 @@ fetch('../data/cruzeiro-hin-11-20-staging.json',{cache:'no-store'}).then(r=>{if(
      const last=(data.hymns||[]).filter(h=>h.visible&&h.number>=51&&h.number<=60&&h.stanzas?.length).sort((a,b)=>a.number-b.number);
      if(last.length!==10||last.some((h,i)=>h.number!==51+i))throw Error('Lote 51-60 incompleto');
      followingHymns.push(...last);renderFollowing();measure();
-     return fetch('../data/cruzeiro-hin-61-70-staging.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('lote 61-70 indisponível');return r.json()}).then(data=>{const batch=(data.hymns||[]).filter(h=>h.visible&&h.number>=61&&h.number<=70&&h.stanzas?.length).sort((a,b)=>a.number-b.number);if(batch.length!==10||batch.some((h,i)=>h.number!==61+i))throw Error('Lote 61-70 incompleto');followingHymns.push(...batch);renderFollowing();measure();});
+     return fetch('../data/cruzeiro-hin-61-70-staging.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('lote 61-70 indisponível');return r.json()}).then(data=>{const batch=(data.hymns||[]).filter(h=>h.visible&&h.number>=61&&h.number<=70&&h.stanzas?.length).sort((a,b)=>a.number-b.number);if(batch.length!==10||batch.some((h,i)=>h.number!==61+i))throw Error('Lote 61-70 incompleto');followingHymns.push(...batch);renderFollowing();measure();return fetch('../data/cruzeiro-hin-71-80.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('lote 71-80 indisponível');return r.json()}).then(data=>{const finalBatch=(data.hymns||[]).filter(h=>h.visible&&h.number>=71&&h.number<=80&&h.stanzas?.length).sort((a,b)=>a.number-b.number);if(finalBatch.length!==10||finalBatch.some((h,i)=>h.number!==71+i))throw Error('Lote 71-80 incompleto');followingHymns.push(...finalBatch);renderFollowing();measure();});});
     });
    });
   });

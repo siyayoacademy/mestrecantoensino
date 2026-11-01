@@ -29,6 +29,11 @@ fetch('../data/cruzeiro-hin-11-20-staging.json',{cache:'no-store'}).then(r=>{if(
    const more=(data.hymns||[]).filter(h=>h.visible&&h.number>=31&&h.number<=40&&h.stanzas?.length).sort((a,b)=>a.number-b.number);
    if(more.length!==10||more.some((h,i)=>h.number!==31+i))throw Error('Lote 31-40 incompleto');
    followingHymns.push(...more);renderFollowing();measure();
+   return fetch('../data/cruzeiro-hin-41-50.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('lote 41-50 indisponível');return r.json()}).then(data=>{
+    const extra=(data.hymns||[]).filter(h=>h.visible&&h.number>=41&&h.number<=50&&h.stanzas?.length).sort((a,b)=>a.number-b.number);
+    if(extra.length!==10||extra.some((h,i)=>h.number!==41+i))throw Error('Lote 41-50 incompleto');
+    followingHymns.push(...extra);renderFollowing();measure();
+   });
   });
  });
 }).catch(error=>{console.error('MCE HIN-11-20:',error)});

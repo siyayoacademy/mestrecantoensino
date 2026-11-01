@@ -2,10 +2,10 @@
   "schema_version": "1.0.0",
   "collection": "O Santo Cruzeiro Universal",
   "batch": "61-70",
-  "status": "staging_pending_visual_coherence_of_cross_stanza_bar_h63",
+  "status": "pdf_visual_checked_cross_stanza_renderer_ready",
   "rules": {
     "pdf": "uploaded O CRUZEIRO UNIVERSAL.pdf pages 71–81",
-    "exception": "63 cross-stanza outer bar extends from stanza 1 through stanza 2; requires visual joining/verification before live integration",
+    "exception": "Hymn 63 outer continuous bar across stanzas 1–2 plus inner full bar on stanza 2 only",
     "publication": "not wired until exact visual treatment decided"
   },
   "hymns": [
@@ -42,7 +42,7 @@
         },
         {
           "verses": [
-            "Eu apresento os meus ensinos",
+            "Eu apresento os meus trabalhos",
             "Conforme eu aprendi",
             "Estamos todos reunidos",
             "Vós faça todos feliz"
@@ -50,9 +50,9 @@
           "bars": []
         }
       ],
-      "visible": false,
-      "lyricsStatus": "transcribed_from_UNAQUI_pending_visual_cotejo",
-      "barsStatus": "PDF_inspected_pending_cross_stanza_rule",
+      "visible": true,
+      "lyricsStatus": "PDF_reading_preferred_for_variant_in_stanza_3",
+      "barsStatus": "visually_inspected_PDF_hin_61_70",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -105,9 +105,9 @@
           "bars": []
         }
       ],
-      "visible": false,
+      "visible": true,
       "lyricsStatus": "transcribed_from_UNAQUI_pending_visual_cotejo",
-      "barsStatus": "PDF_inspected_pending_cross_stanza_rule",
+      "barsStatus": "visually_inspected_PDF_hin_61_70",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -124,13 +124,7 @@
             "Para mim seguir meus passos",
             "Com amor, com alegria"
           ],
-          "bars": [
-            [
-              0,
-              4,
-              9
-            ]
-          ]
+          "bars": []
         },
         {
           "verses": [
@@ -140,11 +134,6 @@
             "Que existe um poder divino"
           ],
           "bars": [
-            [
-              0,
-              4,
-              9
-            ],
             [
               0,
               4,
@@ -189,10 +178,17 @@
           "bars": []
         }
       ],
-      "visible": false,
+      "visible": true,
       "lyricsStatus": "transcribed_from_UNAQUI_pending_visual_cotejo",
-      "barsStatus": "PDF_inspected_pending_cross_stanza_rule",
-      "sourceUrl": "https://unaqui.wordpress.com/"
+      "barsStatus": "visually_inspected_PDF_hin_61_70",
+      "sourceUrl": "https://unaqui.wordpress.com/",
+      "crossStanzaBars": [
+        {
+          "fromStanza": 0,
+          "toStanza": 1,
+          "slot": 9
+        }
+      ]
     },
     {
       "number": 64,
@@ -295,9 +291,9 @@
           "bars": []
         }
       ],
-      "visible": false,
+      "visible": true,
       "lyricsStatus": "transcribed_from_UNAQUI_pending_visual_cotejo",
-      "barsStatus": "PDF_inspected_pending_cross_stanza_rule",
+      "barsStatus": "visually_inspected_PDF_hin_61_70",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -364,9 +360,9 @@
           "bars": []
         }
       ],
-      "visible": false,
+      "visible": true,
       "lyricsStatus": "transcribed_from_UNAQUI_pending_visual_cotejo",
-      "barsStatus": "PDF_inspected_pending_cross_stanza_rule",
+      "barsStatus": "visually_inspected_PDF_hin_61_70",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -428,9 +424,9 @@
           "bars": []
         }
       ],
-      "visible": false,
+      "visible": true,
       "lyricsStatus": "transcribed_from_UNAQUI_pending_visual_cotejo",
-      "barsStatus": "PDF_inspected_pending_cross_stanza_rule",
+      "barsStatus": "visually_inspected_PDF_hin_61_70",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -488,9 +484,9 @@
           "bars": []
         }
       ],
-      "visible": false,
+      "visible": true,
       "lyricsStatus": "transcribed_from_UNAQUI_pending_visual_cotejo",
-      "barsStatus": "PDF_inspected_pending_cross_stanza_rule",
+      "barsStatus": "visually_inspected_PDF_hin_61_70",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -543,9 +539,9 @@
           "bars": []
         }
       ],
-      "visible": false,
+      "visible": true,
       "lyricsStatus": "transcribed_from_UNAQUI_pending_visual_cotejo",
-      "barsStatus": "PDF_inspected_pending_cross_stanza_rule",
+      "barsStatus": "visually_inspected_PDF_hin_61_70",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -603,9 +599,9 @@
           "bars": []
         }
       ],
-      "visible": false,
+      "visible": true,
       "lyricsStatus": "transcribed_from_UNAQUI_pending_visual_cotejo",
-      "barsStatus": "PDF_inspected_pending_cross_stanza_rule",
+      "barsStatus": "visually_inspected_PDF_hin_61_70",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -669,9 +665,9 @@
           "bars": []
         }
       ],
-      "visible": false,
+      "visible": true,
       "lyricsStatus": "transcribed_from_UNAQUI_pending_visual_cotejo",
-      "barsStatus": "PDF_inspected_pending_cross_stanza_rule",
+      "barsStatus": "visually_inspected_PDF_hin_61_70",
       "sourceUrl": "https://unaqui.wordpress.com/"
     }
   ]

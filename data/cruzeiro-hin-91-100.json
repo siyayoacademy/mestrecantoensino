@@ -1,0 +1,577 @@
+{
+  "schema_version": "1.0.0",
+  "collection": "O Santo Cruzeiro Universal",
+  "batch": "91-100",
+  "status": "pending_visual_homologation",
+  "rules": {
+    "pdf": "O CRUZEIRO UNIVERSAL.pdf supplied by author, physical pages 103-112",
+    "bars": "First stanza only; PDF vector line shapes, preserve special segmented and parallel cases",
+    "optical": "3px top and bottom"
+  },
+  "hymns": [
+    {
+      "number": 91,
+      "title": "Choro muito",
+      "rhythm": "VALSA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Choro muito e lamento",
+            "Tudo que já se passou",
+            "Deixo tudo saudosamente",
+            "E vou viver no meio das flores"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ],
+            [
+              0,
+              2,
+              17
+            ],
+            [
+              2,
+              4,
+              17
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Vou viver no meio das flores",
+            "Junto com a Virgem Maria",
+            "Os terrores que aparecem",
+            "É essa grande rebeldia"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Vamos todos meus irmãos",
+            "Vamos cantar com amor",
+            "Para Deus e a Virgem Mãe",
+            "Nos defender destes terrores"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Sou filho da Virgem Mãe",
+            "Reconheço este poder",
+            "Chamo a força, eu chamo a força",
+            "Para vir nos defender"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "UNAQUI_transcription_PDF_comparison_pending",
+      "barsStatus": "PDF_vector_first_stanza_author_convention_pending_homologation",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 92,
+      "title": "Sou humilde",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Chamei lá nas alturas",
+            "A minha Mãe me respondeu",
+            "Sou humilde, sou humilde",
+            "Sou humilde um filho seu"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ],
+            [
+              0,
+              2,
+              17
+            ],
+            [
+              2,
+              4,
+              17
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "A minha Mãe que me ensinou",
+            "Para sempre a Deus louvar",
+            "Para sempre, para sempre",
+            "Para sempre aonde está"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Sou filho da verdade",
+            "E do poder universal",
+            "Para sempre, para sempre",
+            "Para sempre acreditar"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "UNAQUI_transcription_PDF_comparison_pending",
+      "barsStatus": "PDF_vector_first_stanza_author_convention_pending_homologation",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 93,
+      "title": "No Cruzeiro",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "No Cruzeiro tem rosário",
+            "Para quem quiser rezar",
+            "Também tem a Santa Luz",
+            "Para quem quiser viajar"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Vamos todos nós louvar",
+            "O Divino Espírito Santo",
+            "A Virgem Nossa Senhora",
+            "Nos cobrir com o vosso manto"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu digo é com firmeza",
+            "Dentro do meu coração",
+            "Vamos todos nós louvar",
+            "A Virgem da Conceição"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A Virgem da Conceição",
+            "É a nossa protetora",
+            "É quem nos dá vida e saúde",
+            "E é a nossa defensora"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Vamos todos meus irmãos",
+            "Vamos cantar com amor",
+            "Vamos todos nós louvar",
+            "A Jesus Cristo Redentor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Jesus Cristo Redentor",
+            "Filho da Virgem Maria",
+            "É quem nos dá a Santa Luz",
+            "E o nosso pão de cada dia"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "UNAQUI_transcription_PDF_comparison_pending",
+      "barsStatus": "PDF_vector_first_stanza_author_convention_pending_homologation",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 94,
+      "title": "Perguntei a todo mundo",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Perguntei a todo mundo",
+            "Por onde vai o caminho",
+            "E ninguém me respondeu",
+            "Vou viajando sozinho"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Deus na frente, Deus na paz",
+            "Nas alturas onde Ele está",
+            "Vou viajando com Deus",
+            "Um dia eu tenho que chegar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Jesus Cristo vai comigo",
+            "Vai na minha companhia",
+            "Para um dia eu entrar",
+            "Dentro da soberania"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Todo mundo quer ser grande",
+            "Me deixaram eu ficar só",
+            "Vou viajando com Deus",
+            "Estou com a força maior"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "UNAQUI_transcription_PDF_comparison_pending",
+      "barsStatus": "PDF_vector_first_stanza_author_convention_pending_homologation",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 95,
+      "title": "Mensageiro",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Te levanta, te levanta",
+            "Levanta quem está sentado",
+            "Para receber o Mensageiro",
+            "Dentro do Jardim Dourado"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Vai seguindo, vai seguindo",
+            "Dentro do jardim de amor",
+            "Para receber o Mensageiro",
+            "Do nosso Pai Criador"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A mensagem que ele traz",
+            "É com prazer e alegria",
+            "Jesus Cristo e São José",
+            "E a Sempre Virgem Maria"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "UNAQUI_transcription_PDF_comparison_pending",
+      "barsStatus": "PDF_vector_first_stanza_author_convention_pending_homologation",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 96,
+      "title": "As Campinas",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Quando eu cheguei numa campina",
+            "Vi um formoso batalhão",
+            "Também vi uma Senhora",
+            "Com uma bandeira na mão"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Quando esta Senhora me viu",
+            "Veio comigo falar",
+            "Há tempo eu estou te esperando",
+            "Para tudo isto eu te entregar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Você me zele esta campina",
+            "De brilhantes pedras finas",
+            "Conservando a Santa Luz",
+            "No caminho que eu destino"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "UNAQUI_transcription_PDF_comparison_pending",
+      "barsStatus": "PDF_vector_first_stanza_author_convention_pending_homologation",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 97,
+      "title": "Centenário",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Traí, traí, traí, trai",
+            "Traí, traí, traí, trai",
+            "Trai, trai"
+          ],
+          "bars": [
+            [
+              0,
+              3,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Chamo e sei, chamo e sei",
+            "Chamo e sei quem te mandou"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Te recebo, te recebo",
+            "Te recebo é com amor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Com as forças do meu Pai",
+            "E do poder superior"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Completei um centenário",
+            "No Cruzeiro universal"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Cada um que está comigo",
+            "Capriche e venha se apresentar"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "UNAQUI_transcription_PDF_comparison_pending",
+      "barsStatus": "PDF_vector_first_stanza_author_convention_pending_homologation",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 98,
+      "title": "Sou filho desta verdade",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Sou filho desta verdade",
+            "Sou dono deste poder",
+            "Deus me entrega com firmeza",
+            "Eu não devo esmorecer"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Vou seguindo nesta verdade",
+            "Para sempre, sempre outra vez",
+            "A minha mãe sempre comigo",
+            "Que me ensina eu compreender"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu estou aqui nesta verdade",
+            "Só ensino é coisas boas",
+            "Alguns que estão comigo",
+            "Só pensam é coisa à-toa"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A ruína que se faz",
+            "É só para sofrer",
+            "Cada um dá o que tem",
+            "Não precisa ninguém dizer"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Agora eu volto para o meu lugar",
+            "Sigo em frente, vamos trabalhar",
+            "Não pense em fazer o que tu queres",
+            "Que Deus é o nosso Pai"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "UNAQUI_transcription_PDF_comparison_pending",
+      "barsStatus": "PDF_vector_first_stanza_author_convention_pending_homologation",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 99,
+      "title": "Sei aonde está meu Pai",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Sei aonde está meu Pai",
+            "Sei que Ele está me vendo",
+            "Reconheço a minha Mãe",
+            "Eu sei o que estou dizendo"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Todos façam por saber",
+            "Conhecer o seu valor",
+            "Receber a Santa Luz",
+            "Encher seu culto de amor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Todos chegam no salão",
+            "Com alegria para cantar",
+            "Quando chega os dias próximos",
+            "Suspira para não voltar"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "UNAQUI_transcription_PDF_comparison_pending",
+      "barsStatus": "PDF_vector_first_stanza_author_convention_pending_homologation",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 100,
+      "title": "Sou filho da terra",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Eu sou filho da terra",
+            "Vivo nas matas sombrias",
+            "Implorando ao Pai Eterno",
+            "E a Sempre Virgem Maria"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Aqui eu toco o meu tambor",
+            "E nas matas eu rufo caixa",
+            "Todo mundo vai atrás",
+            "Procurando mas não acha"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Todo mundo é sabido",
+            "E o saber Deus é quem dá",
+            "Seguindo na linha direita",
+            "É muito fácil de encontrar"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "UNAQUI_transcription_PDF_comparison_pending",
+      "barsStatus": "PDF_vector_first_stanza_author_convention_pending_homologation",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    }
+  ]
+}

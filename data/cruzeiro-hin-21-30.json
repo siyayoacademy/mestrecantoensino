@@ -1,0 +1,552 @@
+{
+  "schema_version": "1.0.0",
+  "collection": "O Santo Cruzeiro Universal",
+  "batch": "HIN-21-30",
+  "status": "texts_from_UNAQUI_review_bars_pending",
+  "rules": {
+    "reading": "continuous_no_index",
+    "bars": "only insert after per-stanza visual approval",
+    "march": "implicit",
+    "offeredTo": "hidden_when_empty",
+    "separator": "gold_sun_moon_six_point_star"
+  },
+  "hymns": [
+    {
+      "number": 21,
+      "title": "Oh meu Divino Pai",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Oh meu Divino Pai",
+            "Foi vós foi quem me deu",
+            "Eu vim me apresentar",
+            "Por ser um filho seu"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A minha mãe que me ensinou",
+            "Dentro do meu coração",
+            "É quem me dá esta verdade",
+            "Para expor aos meus irmãos"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Piso firme e sigo em frente",
+            "Não devemos esmorecer",
+            "Para ser eternamente",
+            "Sou filho de todos seres"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Seguindo neste caminho",
+            "Que minha Mãe me ensinou",
+            "Piso firme com alegria",
+            "Sou filho do Redentor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "\\*\\*\\*"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_project_UNAQUI",
+      "barsStatus": "pending_musician_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 22,
+      "title": "Palmatória",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Porque todos não cumprem",
+            "Com dever e obrigação",
+            "Conhecer esta verdade",
+            "Para chamar meu irmão"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Na presença todos são",
+            "Na ausência aqui deixou",
+            "Não se lembram da firmeza",
+            "E da palavra que jurou"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Não cumprindo este dever",
+            "Está fora da união",
+            "Não são firme a meu Deus",
+            "E nem leal ao meu irmão"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Só existe é fingimento",
+            "Fraqueza no coração",
+            "Não são firme a meu Deus",
+            "E nem unido ao meu irmão"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Não cumprindo este dever",
+            "É melhor se retirar",
+            "Que não é traço de baralho",
+            "É melhor não vir pra cá",
+            "Que aqui é muito sério",
+            "E é preciso respeitar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "\\*\\*\\*"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_project_UNAQUI",
+      "barsStatus": "pending_musician_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 23,
+      "title": "B.G.",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "B.G. eu vou chamar",
+            "B.G. aqui chegou",
+            "B.G. quem te mandou",
+            "Foi o nosso Salvador"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "B.G. vós veio à terra",
+            "Para ensinar a verdade",
+            "B.G. quem te mandou",
+            "A nossa Mãe de piedade"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "B.G. vós nos quer bem",
+            "B.G. vós tem amor",
+            "B.G. vós nos defenda",
+            "De todos esses terrores"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "\\*\\*\\*"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_project_UNAQUI",
+      "barsStatus": "pending_musician_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 24,
+      "title": "Canta Praia",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Canta praia, Canta praia",
+            "Canta praia, quem me ensina",
+            "Eu sou um filho eterno",
+            "Não devo pensar à toa",
+            "Conhecer este poder",
+            "Que me traz as coisas boas"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Não devo te desprezar",
+            "Para ir atrás da ilusão",
+            "Que me traz tanta riqueza",
+            "E me derriba pelo chão"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Devo ser eternamente",
+            "Para sempre, amém Jesus",
+            "Eu sou um filho eterno",
+            "De joelhos em uma cruz"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "\\*\\*\\*"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_project_UNAQUI",
+      "barsStatus": "pending_musician_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 25,
+      "title": "Oferecimento",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Oh minha Virgem Mãe",
+            "Oh Virgem Mãe de Deus",
+            "Olhai para mim",
+            "Que sou um filho seu"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Perdoai as minhas culpas",
+            "Pelo vosso santo amor",
+            "Olhai para mim",
+            "Neste mundo pecador"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Oh minha Virgem Mãe",
+            "Botai-me a santa bênção",
+            "Olhai para mim",
+            "Neste mundo de ilusão"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Oh minha Virgem Mãe",
+            "É vós quem me dá a luz",
+            "Me daí a salvação",
+            "Para sempre, amém Jesus"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu ofereço estes cânticos",
+            "Que agora se cantou",
+            "Ao Rei a à Rainha",
+            "Do universo é o Criador"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "\\*\\*\\*"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_project_UNAQUI",
+      "barsStatus": "pending_musician_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 26,
+      "title": "Leão Branco",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Meu Pai foi quem me fez",
+            "Eu devo ter amor",
+            "Sou filho do meu Pai",
+            "Feliz eu devo ser"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Sou filho do meu Pai",
+            "Eu devo ter amor",
+            "Sou filho do meu Pai",
+            "A minha Mãe me acompanhou"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A minha Mãe me acompanhou",
+            "Mandou eu ensinar",
+            "Os que forem filhos dela",
+            "Aprender ao menos a rezar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "\\*\\*\\*"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_project_UNAQUI",
+      "barsStatus": "pending_musician_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 27,
+      "title": "Seis horas da manhã",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Seis horas da manhã",
+            "Eu devo cantar",
+            "Para receber",
+            "A meu Pai Divinal"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "O pino do meio-dia",
+            "A luz do resplendor",
+            "Eu devo cantar",
+            "A meu Pai Criador"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Seis horas da tarde",
+            "O sol vai se pôr",
+            "Eu devo cantar",
+            "A meu Pai Salvador"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A terra é quem gira",
+            "Para mostrar",
+            "Toda criação",
+            "A meu Pai Divinal"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "\\*\\*\\*"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_project_UNAQUI",
+      "barsStatus": "pending_musician_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 28,
+      "title": "Cantar ir",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Eu quero cantar ir",
+            "Que me ensina eu seguir",
+            "Sou eu, sou eu, sou eu",
+            "Sou eu, sou bem feliz"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "O Divino Pai Eterno",
+            "Quem me deu este poder",
+            "De ensinar as criaturas",
+            "Conhecer e compreender"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A Virgem Mãe me deu",
+            "O lugar de professor",
+            "Para ensinar as criaturas",
+            "Conhecer e ter amor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Jesus Cristo me mandou",
+            "Para mim viver aqui",
+            "Sou eu, sou eu, sou eu",
+            "Sou eu, sou bem feliz"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "\\*\\*\\*"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_project_UNAQUI",
+      "barsStatus": "pending_musician_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 29,
+      "title": "Sol, Lua, Estrela",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Sol, Lua, Estrela",
+            "A Terra o Vento e o Mar",
+            "É a Luz do Firmamento",
+            "É só quem eu devo amar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "É só quem eu devo amar",
+            "Trago sempre na lembrança",
+            "É Deus que está no Céu",
+            "Aonde está minha esperança"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A Virgem Mãe mandou",
+            "Para mim esta lição",
+            "Me lembrar de Jesus Cristo",
+            "E esquecer a ilusão"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Trilhar este caminho",
+            "Toda hora e todo dia",
+            "O Divino está no Céu",
+            "Jesus filho de Maria"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "\\*\\*\\*"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_project_UNAQUI",
+      "barsStatus": "pending_musician_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 30,
+      "title": "Devo amar aquela luz",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Devo amar aquela luz",
+            "O Divino aonde está",
+            "Para ser um filho seu",
+            "No coração eu devo amar",
+            "No coração eu devo amar a luz"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A Virgem Mãe foi quem me deu",
+            "Para ensinar os meus irmãos",
+            "Para ser um filho seu",
+            "Para ser um filho seu de amor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "No coração este primor",
+            "Conhecer esta verdade",
+            "Deus do Céu foi quem mandou",
+            "Deus do Céu foi quem mandou a luz"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "\\*\\*\\*"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "transcribed_from_project_UNAQUI",
+      "barsStatus": "pending_musician_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    }
+  ]
+}

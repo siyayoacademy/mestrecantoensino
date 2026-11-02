@@ -1,0 +1,534 @@
+{
+  "schema_version": "1.0.0",
+  "collection": "O Santo Cruzeiro Universal",
+  "batch": "121-130",
+  "status": "pending_author_visual_homologation",
+  "rules": {
+    "pdf": "O CRUZEIRO UNIVERSAL.pdf physical pages 138-154 Portuguese hymn pages",
+    "numbering_gap": "127 absent from both PDF and UNAQUI; never fabricate",
+    "bar_measure": "read twice in PDF path vectors for respective Portuguese page; first stanza only per reader convention"
+  },
+  "hymns": [
+    {
+      "number": 121,
+      "title": "Esta Força",
+      "rhythm": "VALSA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Esta Força, este Poder",
+            "Eu deve amar no meu coração",
+            "Trabalhar no mundo Terra",
+            "A benefício dos meus irmãos"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Estou aqui, neste lugar",
+            "Foi minha Mãe que me mandou",
+            "Estamos dentro desta casa",
+            "Onde afirmamos a fé e o amor"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "Portuguese_UNAQUI_PDF_cotejo",
+      "barsStatus": "twice_verified_PDF_vertical_geometry_first_stanza",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 122,
+      "title": "Quem Procurar Esta Casa",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Quem procurar esta casa",
+            "Que aqui nela chegar",
+            "Encontra com a Virgem Maria",
+            "Sua saúde Ela dá"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ],
+            [
+              0,
+              2,
+              17
+            ],
+            [
+              2,
+              4,
+              17
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Minha Sempre Virgem Maria",
+            "Perdoai os filhos Seus",
+            "Vós como Mãe Soberana",
+            "A Divina Mãe de Deus"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu peço a Vós bem contrito",
+            "Fazendo as minhas orações",
+            "Peço a Vós a Santa Luz",
+            "Para iluminar o me perdão"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Aqui dentro desta casa",
+            "Tem tudo que procurar",
+            "Seguindo o bom caminho",
+            "Fazer bem, não fazer mal"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "Portuguese_UNAQUI_PDF_cotejo",
+      "barsStatus": "twice_verified_PDF_vertical_geometry_first_stanza",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 123,
+      "title": "Eu Andei Na Casa Santa",
+      "rhythm": "VALSA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Eu andei na Casa Santa",
+            "Trouxe muitas coisas boas",
+            "Tudo vive neste mundo",
+            "Parece uma coisa à toa"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Pedi licença ao Divino",
+            "Para estas palavras eu narrar",
+            "Perante os meus irmãos",
+            "Para todos escutarem"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Depois que todos escutarem",
+            "É que vão reconhecer",
+            "Tudo vive neste mundo",
+            "Muito longe do Poder"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Para estar junto ao Poder",
+            "Da Virgem da Conceição",
+            "É ter fé e ter amor",
+            "Dar valor aos seus irmãos"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "Portuguese_UNAQUI_PDF_cotejo",
+      "barsStatus": "twice_verified_PDF_vertical_geometry_first_stanza",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 124,
+      "title": "Eu Tomo Esta Bebida",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Eu tomo esta bebida",
+            "Que tem poder inacreditável",
+            "Ela mostra a todos nós",
+            "Aqui dentro desta verdade"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ],
+            [
+              0,
+              2,
+              17
+            ],
+            [
+              2,
+              4,
+              17
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Subi, subi, subi",
+            "Subi foi com alegria",
+            "Quando eu chequei nas alturas",
+            "Encontrei com a Virgem Maria"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Subi, subi, subi",
+            "Subi foi com amor",
+            "Encontrei com o Pai Eterno",
+            "E Jesus Cristo Redentor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Subi, subi, subi",
+            "Conforme os meus ensinos",
+            "Viva o Pai Eterno",
+            "E viva todo Ser Divino"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "Portuguese_UNAQUI_PDF_cotejo",
+      "barsStatus": "twice_verified_PDF_vertical_geometry_first_stanza",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 125,
+      "title": "Aqui Estou Dizendo",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Aqui estou dizendo",
+            "Aqui estou cantando",
+            "Eu digo para todos",
+            "E os hinos estão ensinando"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ],
+            [
+              0,
+              2,
+              17
+            ],
+            [
+              2,
+              4,
+              17
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Aqueles que compreenderem",
+            "Os que quiser seguir comigo",
+            "Tendo fé e tendo amor",
+            "Não devem encarar perigo"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Sigo os meus passos em frente",
+            "Com alegria e com amor",
+            "Porque Deus é Soberano",
+            "E nesta firmeza estou"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A Virgem Mãe é Soberano",
+            "Foi Ela quem me ensinou",
+            "Ela me mandou pra cá",
+            "Para ser um Professor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Vamos seguir, vamos seguir",
+            "Vamos seguir, vamos embora",
+            "Que nós somos Filhos Eternos",
+            "Filhos de Nossa Senhora"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "Portuguese_UNAQUI_PDF_cotejo",
+      "barsStatus": "twice_verified_PDF_vertical_geometry_first_stanza",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 126,
+      "title": "Flor Das Águas",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Flor das águas",
+            "da onde vens, para onde vais",
+            "Vou fazer minha limpeza",
+            "No coração está meu Pai"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "A morada do meu Pai",
+            "É no coração do mundo",
+            "Aonde existe todo amor",
+            "E tem um segredo profundo"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Este segredo profundo",
+            "Está em toda humanidade",
+            "Se todos se conhecerem",
+            "Aqui dentro da verdade"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "Portuguese_UNAQUI_PDF_cotejo",
+      "barsStatus": "twice_verified_PDF_vertical_geometry_first_stanza",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 128,
+      "title": "Eu Pedi",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Eu pedi, eu pedi, eu pedi",
+            "Eu pedi Mamãe me deu",
+            "Para me apresentar",
+            "Ao Divino Senhor Deus"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Meu Divino Senhor Deus",
+            "É Pai de todo amor",
+            "Perdoai os Vossos filhos",
+            "Neste mundo pecador"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Jesus Cristo Redentor",
+            "Senhor do meu coração",
+            "Defendei os Vossos filhos",
+            "Neste mundo de ilusão"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "Portuguese_UNAQUI_PDF_cotejo",
+      "barsStatus": "twice_verified_PDF_vertical_geometry_first_stanza",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 129,
+      "title": "Eu Cheguei Nesta Casa",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Eu cheguei nesta casa",
+            "Eu entrei por esta porta",
+            "Eu venho dar os agradecimentos",
+            "A quem rogou por minha volta"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Eu estou dentro desta casa",
+            "Aqui no meio deste salão",
+            "Estou alegre e satisfeito",
+            "Junto aqui com os meus irmãos"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Ia fazendo uma viagem",
+            "Ia pensando em não voltar",
+            "Os pedidos foram tantos",
+            "Me mandaram eu voltar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Me mandaram eu voltar",
+            "Eu estou firme, vou trabalhar",
+            "Ensinar os meus irmãos",
+            "Aqueles que me escutar"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "Portuguese_UNAQUI_PDF_cotejo",
+      "barsStatus": "twice_verified_PDF_vertical_geometry_first_stanza",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 130,
+      "title": "Pisei Na Terra Fria",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Pisei na terra fria,",
+            "Nela eu senti calor.",
+            "Ela é quem me dá o pão",
+            "A minha Mãe que nos criou."
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "A minha Mãe que nos criou",
+            "E me dá todos ensinos,",
+            "A matéria eu entrego a Ela",
+            "E o meu espírito ao Divino."
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Do sangue das minhas veias",
+            "Eu fiz minha assinatura.",
+            "O meu espírito, eu entrego a Deus",
+            "E o meu corpo, à sepultura."
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Meu corpo na sepultura",
+            "Desprezado no relento",
+            "Alguém fala em meu nome",
+            "Alguma vez em pensamento"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "O SANTO CRUZEIRO UNIVERSAL",
+            "Raimundo Irineu Serra"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Hinário da Soberana Mãe Rainha Universal, a Santa Virgem da Conceição. Maria Mãe de Jesus Cristo Redentor nosso Senhor e Salvador, amém."
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "Portuguese_UNAQUI_PDF_cotejo",
+      "barsStatus": "twice_verified_PDF_vertical_geometry_first_stanza",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    }
+  ]
+}

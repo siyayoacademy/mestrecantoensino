@@ -1,0 +1,579 @@
+{
+  "schema_version": "1.0.0",
+  "collection": "O Santo Cruzeiro Universal",
+  "batch": "111-120",
+  "status": "pending_author_visual_homologation",
+  "rules": {
+    "source_pdf": "O CRUZEIRO UNIVERSAL.pdf physical pages 123-136 Portuguese pages chosen",
+    "bar_principle": "first-stanza exemplar; PDF double-checked, no copying to later stanzas",
+    "optical_inset_px": 3
+  },
+  "hymns": [
+    {
+      "number": 111,
+      "title": "Estou aqui",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Estou aqui",
+            "E eu não estando como é",
+            "Eu penso na verdade",
+            "Me vem tudo que eu quiser"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "A minha Mãe me trouxe",
+            "Ela deseja me levar",
+            "Todos nós temos a certeza",
+            "Deste mundo se ausentar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu vou contente",
+            "Com esperança de voltar",
+            "Nem que seja em pensamento",
+            "Tudo eu hei de me lembrar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Aqui findei",
+            "Faço a minha narração",
+            "Para sempre se lembrarem",
+            "Do velho Juramidam"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "Portuguese_UNAQUI_with_approved_PDF",
+      "barsStatus": "checked_PDF_twice_first_stanza_only_pending_author_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 112,
+      "title": "Meu Pai",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Meu Pai, meu Pai",
+            "Me dá o teu amor",
+            "Para eu ser filho de vós",
+            "Aqui na terra aonde estou"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Minha Mãe, minha Mãe,",
+            "Que tudo que vós me dá",
+            "Para eu viver neste mundo",
+            "E meus irmãos todos eu abraçar"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "Portuguese_UNAQUI_with_approved_PDF",
+      "barsStatus": "checked_PDF_twice_first_stanza_only_pending_author_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 113,
+      "title": "Sigo nesta verdade",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Sigo nesta verdade",
+            "Nunca pensei em voltar",
+            "Sigo neste caminho",
+            "Para um dia eu alcançar"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ],
+            [
+              2,
+              4,
+              17
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Eu como filho de vós",
+            "Se um dia eu merecer",
+            "Quero que vós me conceda",
+            "Para eu ter o mesmo poder"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A minha mãe que me diz",
+            "Que tudo eu tenho que vencer",
+            "Sigo neste caminho",
+            "Nada eu tenho a temer"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu canto e torno a cantar",
+            "Para seguir o meu destino",
+            "Recebendo a Santa Luz",
+            "Da Santíssima Mãe Divina"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Quando eu cheguei nesta Casa",
+            "Estrondo de palmas me deram",
+            "Meu Chefe me recebeu",
+            "O dono de todo Império"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "Portuguese_UNAQUI_with_approved_PDF",
+      "barsStatus": "checked_PDF_twice_first_stanza_only_pending_author_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 114,
+      "title": "Encostado a Minha Mãe",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Encostado a minha Mãe",
+            "E meu Papai lá no astral",
+            "Para sempre eu quero estar",
+            "Para sempre eu quero estar"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ],
+            [
+              2,
+              4,
+              17
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Minha flor minha esperança",
+            "Minha rosa do jardim",
+            "Para sempre eu quero estar",
+            "Com minha Mãe juntinho a mim"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu moro nesta casa",
+            "Que minha Mãe me entregou",
+            "Eu estando junto com Ela",
+            "Sempre dando o seu valor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Fazendo algumas curas",
+            "Que minha Mãe me ordenou",
+            "De brilhantes pedras finas",
+            "Para sempre aqui estou"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "Portuguese_UNAQUI_with_approved_PDF",
+      "barsStatus": "checked_PDF_twice_first_stanza_only_pending_author_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 115,
+      "title": "Batalha",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Entrei numa batalha",
+            "Vi meu povo esmorecer",
+            "Temos que vencer",
+            "Com o poder do Senhor Deus"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "A Virgem Mãe",
+            "Com o poder que vós me dá",
+            "Me dá força, me dá luz",
+            "E não me deixa derribar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "O Divino Pai Eterno",
+            "E a Virgem da Conceição",
+            "Todo mundo levantou",
+            "Com suas armas na mão"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A Virgem Mãe",
+            "Com o poder que vós me dá",
+            "Me dá força, me dá luz",
+            "E não me deixa derribar"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "Portuguese_UNAQUI_with_approved_PDF",
+      "barsStatus": "checked_PDF_twice_first_stanza_only_pending_author_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 116,
+      "title": "Sou Filho Do Poder",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Sou filho do Poder",
+            "E dentro desta casa estou",
+            "Fazendo os meus trabalhos",
+            "Que minha Mãe me ordenou"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Eu pedi a meu Pai",
+            "Me deu o consentimento",
+            "Trabalhar para os meus irmãos",
+            "Aqueles que estão doentes"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Confessa a consciência",
+            "E alegra teu coração",
+            "Que esta é a verdade",
+            "Que eu apresento aos meus irmãos"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "Portuguese_UNAQUI_with_approved_PDF",
+      "barsStatus": "checked_PDF_twice_first_stanza_only_pending_author_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 117,
+      "title": "Dou Viva a Deus Nas Alturas",
+      "rhythm": "VALSA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Dou viva a Deus nas alturas",
+            "E a Virgem Mãe nosso amor",
+            "Viva todo Ser Divino",
+            "E Jesus Cristo Redentor"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Eu peço a Deus nas alturas",
+            "Para Vós me iluminar",
+            "Botai-me no bom caminho",
+            "E livrai-me de todo mal"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu vivo aqui neste mundo",
+            "Encostado a este Cruzeiro",
+            "Vejo tanta iluminaria",
+            "Do nosso Deus Verdadeiro"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Esta luminária que eu vejo",
+            "Alegra o meu coração",
+            "Estas flores que recebemos",
+            "Para nossa Salvação"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "Portuguese_UNAQUI_with_approved_PDF",
+      "barsStatus": "checked_PDF_twice_first_stanza_only_pending_author_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 118,
+      "title": "Todos Querem Ser Irmão",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Todos querem ser irmãos",
+            "Mas não têm a lealdade",
+            "Para seguir na Vida Espírita",
+            "Que é o Reino da Verdade"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "É o Reino da Verdade",
+            "É a Estrada do Amor",
+            "É todos prestar atenção",
+            "Os ensinos do professor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Os ensinos do professor",
+            "É quem nos traz belas lições",
+            "Para todos se unir",
+            "E respeitar os seus irmãos"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Respeitar os seus irmãos",
+            "Com alegria e com amor",
+            "Para todos conhecer",
+            "E saber dar o seu valor"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "Portuguese_UNAQUI_with_approved_PDF",
+      "barsStatus": "checked_PDF_twice_first_stanza_only_pending_author_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 119,
+      "title": "Confia",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Confia, confia, confia no Poder",
+            "Confia no saber",
+            "Confia na força",
+            "Aonde pode ser"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Esta força é muito simples",
+            "Todo mundo vê",
+            "Mas passa por ela",
+            "E não procura compreender"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Estamos todos reunidos",
+            "Com a nossa chave na mão",
+            "A limpar mentalidade",
+            "Para entrar neste salão"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Este é o Salão Dourado",
+            "Do nosso Pai Verdadeiro",
+            "Todos nós somos filhos",
+            "E todos nós somos herdeiros"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Nós todos somos filhos",
+            "E é preciso trabalhar",
+            "Amar o Pai Eterno",
+            "É quem tem para nos dar"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "Portuguese_UNAQUI_with_approved_PDF",
+      "barsStatus": "checked_PDF_twice_first_stanza_only_pending_author_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 120,
+      "title": "Eu Peço",
+      "rhythm": "MARCHA",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Eu peço, eu peço",
+            "Eu peço ao Pai Divino",
+            "Que me dê a Santa Luz",
+            "Para iluminar o meu caminho"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Eu peço à Virgem Mãe",
+            "E a Jesus Cristo Redentor",
+            "Iluminai o meu caminho",
+            "Nessa Estrada do Amor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Essa Estrada do Amor",
+            "Dentro do meu coração",
+            "Eu peço a Jesus Cristo",
+            "Que nos dê a Salvação"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu peço a Salvação",
+            "Que só Vós pode no dar",
+            "Perdoai-nos neste mundo",
+            "E na vida espiritual"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "lyricsStatus": "Portuguese_UNAQUI_with_approved_PDF",
+      "barsStatus": "checked_PDF_twice_first_stanza_only_pending_author_review",
+      "sourceUrl": "https://unaqui.wordpress.com/"
+    }
+  ]
+}

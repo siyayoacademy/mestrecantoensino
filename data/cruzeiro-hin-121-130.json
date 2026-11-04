@@ -515,23 +515,10 @@
             "Alguma vez em pensamento"
           ],
           "bars": []
-        },
-        {
-          "verses": [
-            "O SANTO CRUZEIRO UNIVERSAL",
-            "Raimundo Irineu Serra"
-          ],
-          "bars": []
-        },
-        {
-          "verses": [
-            "Hinário da Soberana Mãe Rainha Universal, a Santa Virgem da Conceição. Maria Mãe de Jesus Cristo Redentor nosso Senhor e Salvador, amém."
-          ],
-          "bars": []
         }
       ],
       "visible": true,
-      "lyricsStatus": "Portuguese_UNAQUI_PDF_cotejo",
+      "lyricsStatus": "Portuguese_four_stanzas_cleaned_editorial_tail_removed",
       "barsStatus": "twice_verified_PDF_vertical_geometry_first_stanza",
       "sourceUrl": "https://unaqui.wordpress.com/"
     }

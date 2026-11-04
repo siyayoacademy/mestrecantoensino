@@ -157,9 +157,10 @@ background:var(--flag-color);overflow:hidden}
 <details class="gold-hymn-module" id="diversoes-do-mestre">
   <summary><span class="gold-hymn-name">Diversões do Mestre</span><span class="gold-hymn-marker" aria-hidden="true">⌄</span></summary>
   <div class="gold-hymn-content">
-    <p><strong>Diversões do Mestre</strong> — área de leitura expansível preparada para o hinário por extenso, com numeração, ritmo e barras de repetição.</p>
-    <p>O texto integral será inserido após a conferência das fontes e da organização musical. Não apresentamos versos provisórios como se fossem a versão oficial.</p>
-    <p class="gold-source">Status: estrutura homologável; transcrição documental pendente.</p>
+    <div class="hymn-continuous" aria-label="Leitura contínua de Diversões do Mestre">
+      <iframe id="mce-diversoes-reader" title="Diversões do Mestre — hinos 01 a 10 em português" src="estudo-repeticoes/diversoes-do-mestre-layout.html?embed=1" loading="lazy" scrolling="no" style="display:block;width:100%;min-height:660px;border:0;background:transparent;overflow:hidden"></iframe>
+    </div>
+    <p class="gold-source">Hinos 01–10 · português · conferência musical e visual pendente de homologação.</p>
   </div>
 </details>
 <details class="gold-hymn-module" id="santa-missa">
@@ -309,6 +310,14 @@ window.addEventListener('resize',layoutStanzaBars);
    if(doc.fonts)doc.fonts.ready.then(size);
   }catch(e){} size();
  });
+ window.addEventListener('resize',size);
+})();
+/* MCE DIV-10.2 — altura do leitor independente quando a aba for expandida */
+(function(){
+ const frame=document.getElementById('mce-diversoes-reader'),details=document.getElementById('diversoes-do-mestre');if(!frame||!details)return;
+ let observer;function size(){if(!details.open)return;try{const doc=frame.contentDocument;if(!doc)return;const height=Math.max(doc.body.scrollHeight,doc.documentElement.scrollHeight,doc.body.offsetHeight);if(height>0)frame.style.height=(height+5)+'px'}catch(e){}}
+ frame.addEventListener('load',()=>{try{const doc=frame.contentDocument;observer?.disconnect();observer=new ResizeObserver(size);observer.observe(doc.body);observer.observe(doc.documentElement);if(doc.fonts)doc.fonts.ready.then(size)}catch(e){}size()});
+ details.addEventListener('toggle',()=>{if(details.open){size();requestAnimationFrame(size)}});
  window.addEventListener('resize',size);
 })();
 </script></body></html>

@@ -2,11 +2,11 @@
   "schema_version": "1.0.0",
   "collection": "O Santo Cruzeiro Universal",
   "batch": "121-130",
-  "status": "pending_author_visual_homologation",
+  "status": "HIN-130.3_editorial_update_pending_visual_confirmation",
   "rules": {
     "pdf": "O CRUZEIRO UNIVERSAL.pdf physical pages 138-154 Portuguese hymn pages",
-    "numbering_gap": "127 absent from both PDF and UNAQUI; never fabricate",
-    "bar_measure": "read twice in PDF path vectors for respective Portuguese page; first stanza only per reader convention"
+    "numbering_gap": "127 é hino exclusivamente instrumental; módulo especial com imagem provisória, sem estrofes",
+    "bar_measure": "122, 124 e 125: externa contínua e interna apenas nos versos 3–4; demais hinos preservados"
   },
   "hymns": [
     {
@@ -72,11 +72,6 @@
               9
             ],
             [
-              0,
-              2,
-              17
-            ],
-            [
               2,
               4,
               17
@@ -113,7 +108,7 @@
       ],
       "visible": true,
       "lyricsStatus": "Portuguese_UNAQUI_PDF_cotejo",
-      "barsStatus": "twice_verified_PDF_vertical_geometry_first_stanza",
+      "barsStatus": "author_screenshot_approved_outer_full_inner_last_two",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -192,11 +187,6 @@
               9
             ],
             [
-              0,
-              2,
-              17
-            ],
-            [
               2,
               4,
               17
@@ -233,7 +223,7 @@
       ],
       "visible": true,
       "lyricsStatus": "Portuguese_UNAQUI_PDF_cotejo",
-      "barsStatus": "twice_verified_PDF_vertical_geometry_first_stanza",
+      "barsStatus": "author_screenshot_approved_outer_full_inner_last_two",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -255,11 +245,6 @@
               0,
               4,
               9
-            ],
-            [
-              0,
-              2,
-              17
             ],
             [
               2,
@@ -307,7 +292,7 @@
       ],
       "visible": true,
       "lyricsStatus": "Portuguese_UNAQUI_PDF_cotejo",
-      "barsStatus": "twice_verified_PDF_vertical_geometry_first_stanza",
+      "barsStatus": "author_screenshot_approved_outer_full_inner_last_two",
       "sourceUrl": "https://unaqui.wordpress.com/"
     },
     {
@@ -355,6 +340,26 @@
       "lyricsStatus": "Portuguese_UNAQUI_PDF_cotejo",
       "barsStatus": "twice_verified_PDF_vertical_geometry_first_stanza",
       "sourceUrl": "https://unaqui.wordpress.com/"
+    },
+    {
+      "number": 127,
+      "title": "Hino Instrumental",
+      "kind": "instrumental",
+      "rhythm": "",
+      "offeredTo": null,
+      "performanceNote": null,
+      "stanzas": [],
+      "imageBlock": {
+        "src": "../eagle-white.png",
+        "alt": "Emblema branco de ave e Lua sobre fundo verde, imagem provisória do hino instrumental",
+        "presentation": "green-field",
+        "provisional": true,
+        "futureReplacement": "Partitura para piano do hino 127"
+      },
+      "footerMarkers": true,
+      "visible": true,
+      "lyricsStatus": "instrumental_no_lyrics",
+      "barsStatus": "not_applicable"
     },
     {
       "number": 128,

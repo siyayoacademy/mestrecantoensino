@@ -1,0 +1,586 @@
+{
+  "schema_version": "1.0.0",
+  "collection": "Diversões do Mestre",
+  "language": "pt",
+  "source_pdf": "DIVERSÕES DO MESTRE.pdf",
+  "status": "pending_author_visual_homologation",
+  "bar_policy": "First stanza musical example unless documented exceptions; reviewed PDF page images and vector segments",
+  "note": "PDF has English pages interspersed; Portuguese pages exclusively used",
+  "hymns": [
+    {
+      "number": 1,
+      "title": "PRA PILAR",
+      "rhythm": "",
+      "repeatLabel": null,
+      "offeredTo": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Dessa estrada de onde eu venho, pra pilar",
+            "Venho das terras do cigano, pra pilar",
+            "A Rainha me mandou, pra pilar",
+            "Eu passar aqui cantando, pra pilar"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "É pra pilar",
+            "Estou pilando",
+            "Estou pilando",
+            "É pra pilar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Passando por entre as flores, pra pilar",
+            "Vejo um retrato ornado, pra pilar",
+            "Me parece ser um rei, pra pilar",
+            "Que estará ali encantado, pra pilar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "É pra pilar",
+            "Estou pilando",
+            "Estou pilando",
+            "É pra pilar"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "language": "pt",
+      "sourcePages": [
+        3
+      ],
+      "source": "DIVERSÕES DO MESTRE.pdf"
+    },
+    {
+      "number": 2,
+      "title": "CACHIADO",
+      "rhythm": "",
+      "repeatLabel": "3x",
+      "offeredTo": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Cachiado venha cá",
+            "Carracá carra cá cá",
+            "Carracá carra cá cá",
+            "Carracá carra cá cá"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        }
+      ],
+      "visible": true,
+      "language": "pt",
+      "sourcePages": [
+        5
+      ],
+      "source": "DIVERSÕES DO MESTRE.pdf"
+    },
+    {
+      "number": 3,
+      "title": "CANTAR ME APARECEU",
+      "rhythm": "",
+      "repeatLabel": "2x",
+      "offeredTo": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Cantar me apareceu",
+            "E tu não me conheceu",
+            "Feliz feliz, feliz adeus",
+            "Feliz, feliz, feliz adeus"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ],
+            [
+              0,
+              2,
+              17
+            ],
+            [
+              2,
+              4,
+              17
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Depois tornamos a se encontrar",
+            "E começamos a conversar",
+            "Eu não te disse quem era",
+            "Para ti me perguntar"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "language": "pt",
+      "sourcePages": [
+        7
+      ],
+      "source": "DIVERSÕES DO MESTRE.pdf"
+    },
+    {
+      "number": 4,
+      "title": "DEVO ACOCHAR O NÓ",
+      "rhythm": "",
+      "repeatLabel": null,
+      "offeredTo": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Devo acochar o nó",
+            "De quem quer se desatar",
+            "Viver eternamente",
+            "Só Deus pode separar"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Os pensamentos se conversam",
+            "Nos corações têm amor",
+            "Viver eternamente",
+            "Filhos e Deus Criador"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A Rainha nos ensina",
+            "E manda nós cantar",
+            "Porque Ela é nossa Mãe",
+            "E não quer ver nós separar"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "language": "pt",
+      "sourcePages": [
+        9
+      ],
+      "source": "DIVERSÕES DO MESTRE.pdf"
+    },
+    {
+      "number": 5,
+      "title": "SINOS QUE TANGEM",
+      "rhythm": "VALSA",
+      "repeatLabel": null,
+      "offeredTo": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Se eu soubesse, eu não tinha nascido",
+            "Para hoje eu andar sofrendo",
+            "A piedade me disse",
+            "O que que tu andas fazendo"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Sinos que tangem com mágoas doridas",
+            "Recordando o sonho da aurora da vida",
+            "Mil aventura é suave alegria",
+            "Em minh’alma o som da Ave Maria"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Me sentei, recostei sobre as mãos",
+            "Logo me pus a pensar",
+            "Abandonei meus direitos",
+            "Joguei nas ondas do mar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Sinos que tangem com mágoas doridas",
+            "Recordando o sonho da aurora da vida",
+            "Mil aventura é suave alegria",
+            "Em minh’alma o som da Ave Maria"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Banhando-me em águas brancas",
+            "Por não ouvir o que disseram",
+            "Não foi falta de conselho",
+            "Que meus amigos me deram"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Sinos que tangem com mágoas doridas",
+            "Recordando o sonho da aurora da vida",
+            "Mil aventura é suave alegria",
+            "Em minh’alma o som da Ave Maria"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Meu Deus perdoai-me",
+            "O que que eu vou fazer?",
+            "Vivo cumprindo esta sina",
+            "Só deixo quando eu morrer"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Sinos que tangem com mágoas doridas",
+            "Recordando o sonho da aurora da vida",
+            "Mil aventura é suave alegria",
+            "Em minh’alma o som da Ave Maria"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "language": "pt",
+      "sourcePages": [
+        11,
+        13
+      ],
+      "source": "DIVERSÕES DO MESTRE.pdf"
+    },
+    {
+      "number": 6,
+      "title": "BOM TABALHADOR",
+      "rhythm": "",
+      "repeatLabel": "3x",
+      "offeredTo": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Quem quiser ser bem querido",
+            "Seja bom trabalhador",
+            "Para viver neste mundo",
+            "É preciso ter amor"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Trá, lá, lá, lá, lá, lá, lá...",
+            "Trá, lá, lá, lá, lá, lá, lá..."
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "language": "pt",
+      "sourcePages": [
+        15
+      ],
+      "source": "DIVERSÕES DO MESTRE.pdf"
+    },
+    {
+      "number": 7,
+      "title": "A CASA É ESTA",
+      "rhythm": "",
+      "repeatLabel": "2x",
+      "offeredTo": null,
+      "stanzas": [
+        {
+          "verses": [
+            "A casa é esta",
+            "A casa é esta",
+            "Esta é a casa",
+            "Da nossa festa"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Quem quiser ver",
+            "Venha pra cá",
+            "Mas venha pronto",
+            "Para dançar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Aqui se canta",
+            "E aqui se dança",
+            "Mas é preciso",
+            "Se trabalhar"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "language": "pt",
+      "sourcePages": [
+        17
+      ],
+      "source": "DIVERSÕES DO MESTRE.pdf"
+    },
+    {
+      "number": 8,
+      "title": "CHEGUEI NO SALÃO",
+      "rhythm": "",
+      "repeatLabel": null,
+      "offeredTo": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Cheguei no salão",
+            "Do nosso Pai Criador",
+            "Tava uma grande festa",
+            "Dando viva e louvor"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Casou Francisco",
+            "Casou João, casou Maria",
+            "Todos dentro do reinado",
+            "Da Sempre Virgem Maria"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Com tudo isso",
+            "A festa continuou",
+            "Todos dentro do salão",
+            "Do nosso Pai Criador"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Dançava pai, dançava mãe",
+            "Dançava filho",
+            "Todos dentro do salão",
+            "Da Sempre Virgem Maria"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Com tudo isso",
+            "A festa continuou",
+            "Todos dentro do salão",
+            "Do nosso Pai Criador"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "language": "pt",
+      "sourcePages": [
+        19
+      ],
+      "source": "DIVERSÕES DO MESTRE.pdf"
+    },
+    {
+      "number": 9,
+      "title": "SÃO JOÃO",
+      "rhythm": "",
+      "repeatLabel": "2x",
+      "offeredTo": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Eu cheguei na fogueira",
+            "São João se aproximou",
+            "Mandou eu pisar na brasa",
+            "A brasa não me queimou"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Peguei na sua mão",
+            "Sua mão me esquentou",
+            "Perguntei o que é isso",
+            "É o fogo do amor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu estou aqui, estou ali",
+            "Estou acolá",
+            "São as festa juninas",
+            "Que vêm para alegrar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Estindo lê lê",
+            "Estindo lá lá",
+            "São as festa juninas",
+            "Que vêm para alegrar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Botou a mão no meu ombro",
+            "E depois me abraçou",
+            "Estou muito satisfeito",
+            "Junto com os meus irmãos"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu estou aqui, estou ali",
+            "Estou acolá",
+            "São as festa juninas",
+            "Que vêm para alegrar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Estindo lê lê",
+            "Estindo lá lá",
+            "São as festa juninas",
+            "Que vêm para alegrar"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "language": "pt",
+      "sourcePages": [
+        21,
+        23
+      ],
+      "source": "DIVERSÕES DO MESTRE.pdf"
+    },
+    {
+      "number": 10,
+      "title": "ZIGUE-ZAGUE",
+      "rhythm": "",
+      "repeatLabel": "2x",
+      "offeredTo": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Num rio de águas verdes",
+            "Bem juntinho da floresta",
+            "Eu entrei me divertindo",
+            "Tudo em uma hora certa"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "O que coisa perfeitíssima",
+            "Um passo lá e outro cá",
+            "No balanço, eu balanceio",
+            "O zigue-zague zagueá"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Ai eu saí dançando",
+            "Dentro daquela festinha",
+            "Com todos cantarolando",
+            "Em louvor á nossa Rainha"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "O que coisa perfeitíssima",
+            "Um passo lá e outro cá",
+            "No balanço, eu balanceio",
+            "O zigue-zague zagueá"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "language": "pt",
+      "sourcePages": [
+        25
+      ],
+      "source": "DIVERSÕES DO MESTRE.pdf"
+    }
+  ]
+}

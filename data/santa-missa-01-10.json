@@ -1,0 +1,653 @@
+{
+  "schema_version": "1.0.0",
+  "collection": "A Santa Missa",
+  "language": "pt",
+  "source_pdf": "SANTA MISSA.pdf",
+  "status": "pending_author_visual_homologation",
+  "bar_policy": "First stanza exemplar; visual PDF and vector double check; where no marks appear no bar is created",
+  "notes": "Cantos das Almas is a distinct section in the PDF; not integrated into Santa Missa hymn numbering",
+  "hymns": [
+    {
+      "number": 1,
+      "title": "Senhor Amado",
+      "rhythm": "",
+      "repeatLabel": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Para os tempos que estavas no mundo",
+            "Mandaram te chamar",
+            "Na casa da Mãe Santíssima",
+            "Para ti, para ti apresentar"
+          ],
+          "bars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              2,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Senhora Mãe Santíssima",
+            "Eu vim me apresentar",
+            "Atender Vosso chamado",
+            "Que Vós me, que Vós me mandou chamar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Te apresenta ao Vosso Pai",
+            "Foi quem mandou te chamar",
+            "Teu tempo completou",
+            "Que é para ti, que é para ti te apresentar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Oh meu Senhor amado",
+            "Eu vim me apresentar",
+            "Atender Vosso chamado",
+            "Que Vós me, que Vós me mandou chamar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Confessa os teus crimes",
+            "Do mundo de ilusão",
+            "Que é para ver se eu posso",
+            "Para ver se eu posso,",
+            "para ver se eu posso dar o perdão"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Os tempos que eu estive no mundo",
+            "De Vós, Senhor, nada me faltou",
+            "Só eu tanto ofendi",
+            "Tanto ofendi,",
+            "tanto ofendi a Vós Senhor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Os tempos que eu estive no mundo",
+            "Com a proteção de Vós, Senhor",
+            "Só eu tanto ofendi",
+            "Tanto ofendi,",
+            "tanto ofendi a Vós Senhor"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Oh meu Senhor amado",
+            "Soberanitíssimo Senhor",
+            "Só eu tanto ofendi",
+            "Tanto ofendi,",
+            "tanto ofendi a Vós Senhor",
+            "Só eu tanto ofendi",
+            "Tanto ofendi",
+            "e me perdoai, Senhor"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "language": "pt",
+      "sourcePages": [
+        3,
+        4
+      ],
+      "source": "SANTA MISSA.pdf"
+    },
+    {
+      "number": 2,
+      "title": "Dois De Novembro",
+      "rhythm": "",
+      "repeatLabel": null,
+      "stanzas": [
+        {
+          "verses": [
+            "A tua alma entrega a Deus",
+            "E o teu corpo à terra fria",
+            "Jesus te acompanhe",
+            "Junto com a Virgem Maria"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Tu pedes aos teus amigos",
+            "Pelo nome de Jesus",
+            "Que te rezem umas preces",
+            "Lá no pé da Santa Cruz"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Tanto anos que vivestes",
+            "Agora vai se retirar",
+            "Vai atender ao nosso Pai",
+            "Foi quem mandou te chamar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Aqui achou, aqui deixou",
+            "Levas contigo o amor",
+            "As portas do céu se abrem",
+            "Para quem for merecedor"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "language": "pt",
+      "sourcePages": [
+        5
+      ],
+      "source": "SANTA MISSA.pdf"
+    },
+    {
+      "number": 3,
+      "title": "Rogativo Dos Mortos",
+      "rhythm": "",
+      "repeatLabel": null,
+      "stanzas": [
+        {
+          "verses": [
+            "São doze horas da noite",
+            "Meu irmão se mudou",
+            "O sono da eternidade",
+            "Deus do Céu quem te chamou"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Uma hora da madrugada",
+            "Meu irmão se mudou",
+            "O sono da eternidade",
+            "Deus do Céu quem te chamou"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Duas Horas da madrugada...."
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "São três horas da madrugada..."
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Quatro horas da madrugada..."
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Cinco horas da manhã..."
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "São seis horas da manhã..."
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "São sete horas do dia..."
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "São oito horas do dia..."
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "São nove horas do dia",
+            "Meu irmão se mudou",
+            "O sono da eternidade",
+            "Deus do Céu quem te chamou"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Tantos anos que vivestes",
+            "No mundo da ilusão",
+            "Eu rogo a Deus do Céu",
+            "Que te dê o Santo perdão"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A Divina Estrela vem",
+            "Para ir te alumiar",
+            "Eu rogo a Deus do Céu",
+            "Que te bote em bom lugar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A Virgem Senhora vem",
+            "Para ir te acompanhar",
+            "Eu rogo a Virgem Mãe",
+            "Que te bote em bom lugar"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "language": "pt",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "source": "SANTA MISSA.pdf"
+    },
+    {
+      "number": 4,
+      "title": "Mãe Celestial",
+      "rhythm": "",
+      "repeatLabel": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Eu peço e rogo",
+            "Oh Mãe Celestial",
+            "Que tudo enquanto eu tenho",
+            "É Vós é quem me dá",
+            "Oh Mãe Celestial"
+          ],
+          "bars": [
+            [
+              0,
+              5,
+              9
+            ],
+            [
+              0,
+              5,
+              17
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Eu peço e rogo",
+            "Oh Pai Celestial",
+            "Que tudo enquanto eu tenho",
+            "É Vós é quem me dá",
+            "Oh Pai Celestial"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu peço e rogo",
+            "Oh Mãe Celestial",
+            "Que te dê a salvação",
+            "E te bote em bom lugar",
+            "Oh Mãe Celestial"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "language": "pt",
+      "sourcePages": [
+        8
+      ],
+      "source": "SANTA MISSA.pdf"
+    },
+    {
+      "number": 5,
+      "title": "Equiôr Papai Me Chama",
+      "rhythm": "",
+      "repeatLabel": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Equior Papai me chama",
+            "Equior perante a Si",
+            "Equior Papai me diz",
+            "Equior eu sou feliz"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "Equior Mamãe me chama",
+            "Equior Mamãe me dá",
+            "Equior Mamãe me ensina",
+            "Amar a quem eu devo amar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu vivo neste mundo",
+            "Com prazer e alegria",
+            "Viva Deus no céu",
+            "E a Sempre Virgem Maria"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Jesus Cristo é o nosso Pai",
+            "De grande consolação",
+            "Ajudai-me neste mundo",
+            "E no outro a salvação"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "language": "pt",
+      "sourcePages": [
+        9
+      ],
+      "source": "SANTA MISSA.pdf"
+    },
+    {
+      "number": 6,
+      "title": "Todo Mundo Quer Ser Filho",
+      "rhythm": "",
+      "repeatLabel": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Todo mundo quer ser filho",
+            "De Deus da criação",
+            "Por quê que tu te esquece",
+            "De rezar para o teu irmão"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Meu irmão que se mudou",
+            "Saiu com alegria",
+            "Eu rogo a Deus por ele",
+            "E a Sempre Virgem Maria"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Jesus Cristo Redentor",
+            "Eu peço o meu perdão",
+            "Que eu nunca mais hei de esquecer",
+            "De rezar para o meu irmão"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Meu irmão que já saiu",
+            "Do mundo do pecado",
+            "Eu rogo a Deus do céu",
+            "Que ele seja perdoado"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "language": "pt",
+      "sourcePages": [
+        10
+      ],
+      "source": "SANTA MISSA.pdf"
+    },
+    {
+      "number": 7,
+      "title": "Senhora Mãe Santíssima",
+      "rhythm": "",
+      "repeatLabel": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Senhora Mãe Santíssima",
+            "O Vosso Filho Ela mandou",
+            "Está na frente da estrada",
+            "Para quem lhe acompanhar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Para quem lhe acompanhar",
+            "Com fé e alegria",
+            "Para a santíssima casa Dela",
+            "Ela espera todo dia"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Ela espera todo dia",
+            "O Divino Pai chamar",
+            "Para a santíssima casa Dela",
+            "Todos filhos lá chegar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Todos filhos lá chegar",
+            "E Ela a todos receber",
+            "Para dar a Santa Glória",
+            "Àqueles que merecer"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "language": "pt",
+      "sourcePages": [
+        11
+      ],
+      "source": "SANTA MISSA.pdf"
+    },
+    {
+      "number": 8,
+      "title": "Oh Meu Pai Eterno",
+      "rhythm": "",
+      "repeatLabel": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Oh meu Pai Eterno",
+            "É Soberano Senhor",
+            "É Rei no céu e na terra",
+            "Um Pai Criador"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Oh Virgem Mãe",
+            "É Soberana Senhora",
+            "Rainha no céu e na terra",
+            "Oh Mãe Criadora"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Oh meu Pai Eterno",
+            "É Soberano Senhor",
+            "Me perdoai os meus pecados",
+            "Oh Pai Criador"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Oh Virgem Mãe",
+            "É Soberana Senhora",
+            "Me perdoai as minhas culpas",
+            "Oh Mãe Poderosa"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Oh meu Pai Eterno do céu",
+            "Jesus Cristo Salvador",
+            "Nasceu de Virgem Maria",
+            "Sofreu por Vosso amor"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "language": "pt",
+      "sourcePages": [
+        12
+      ],
+      "source": "SANTA MISSA.pdf"
+    },
+    {
+      "number": 9,
+      "title": "Despedida",
+      "rhythm": "",
+      "repeatLabel": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Me depeço meus irmãos",
+            "Porque vou me apresentar",
+            "Vou alegre e satisfeito",
+            "Para meu Pai me consolar"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu vou com muita alegria",
+            "Porque Mamãe me chamou",
+            "E quem me deu esta verdade",
+            "Foi o nosso Pai Criador"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Eu não posso vos levar",
+            "Porque não tenho poder",
+            "Para seguir a verdade",
+            "É preciso compreender"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Para não seguir a verdade",
+            "Não é preciso rezar",
+            "E todos nós temos a certeza",
+            "Deste mundo se ausentar"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "language": "pt",
+      "sourcePages": [
+        13
+      ],
+      "source": "SANTA MISSA.pdf"
+    },
+    {
+      "number": 10,
+      "title": "Pisei Na Terra Fria",
+      "rhythm": "",
+      "repeatLabel": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Pisei na terra fria",
+            "Nela eu senti calor",
+            "Ela é quem me dá o pão",
+            "A minha Mãe que nos criou"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A minha Mãe que nos criou",
+            "E me dá todos ensinos",
+            "A matéria eu entrego a Ela",
+            "E o meu espírito ao Divino"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Do sangue das minhas veias",
+            "Eu fiz minha assinatura",
+            "O meu espírito eu entrego a Deus",
+            "E o meu corpo à sepultura"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "Meu corpo na sepultura",
+            "Desprezado no relento",
+            "Alguém fala em meu nome",
+            "Alguma vez em pensamento"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "language": "pt",
+      "sourcePages": [
+        14
+      ],
+      "source": "SANTA MISSA.pdf"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Santa Missa · Leitura contínua</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Quicksand:wght@600&display=swap" rel="stylesheet">
+<style>
+:root{--gold:#f2d88a}*{box-sizing:border-box}html,body{margin:0;background:transparent;color:white;font:18px/1.55 "Nunito Sans",sans-serif}
+main{max-width:680px;margin:auto;padding:0 8px 20px}
+.panel{border:1px solid #b9944c;background:#07172f;border-radius:18px;padding:32px 12px 0;margin:20px auto;max-width:650px}
+.title{font:600 24px/1.25 Georgia,serif;text-align:center;color:var(--gold);margin:0 6px 18px}
+.reading{width:max-content;max-width:100%;margin:0 auto}
+.rhythm{font-size:14px;color:var(--gold);font-style:italic;text-align:right;min-height:1.5em;padding:0 3px 0 40px}
+.rhythm:empty{visibility:hidden}
+.stanzas{width:100%}
+.stanza{position:relative;padding:0 3px 0 42px;margin:16px 0 24px;max-width:100%}
+.line{position:relative;overflow-wrap:break-word}
+.bar{position:absolute;width:1px;background:var(--gold);pointer-events:none;border-radius:2px}
+.annotation{font-weight:700;font-style:italic;font-size:14px;color:var(--gold);margin:4px 0 0;text-align:right}
+.separator{text-align:center;color:var(--gold);font-size:26px;line-height:1.3;padding:34px 0 33px}
+.loading,.error{text-align:center;color:#e5e3d8;padding:28px}
+@media(max-width:380px){body{font-size:16px}.title{font-size:20px}.stanza{padding-left:35px}}
+</style></head><body><main id="reader"><p class="loading">Carregando Santa Missa…</p></main>
+<script>
+const host=document.querySelector('#reader');
+function render(d){host.replaceChildren(...d.hymns.map(h=>{
+ const section=document.createElement('section');section.className='panel';section.setAttribute('aria-label','Hino '+h.number+' '+h.title);
+ const title=document.createElement('h2');title.className='title';title.textContent=String(h.number).padStart(2,'0')+'　'+h.title;section.append(title);
+ const reading=document.createElement('div');reading.className='reading';
+ const rhythm=document.createElement('div');rhythm.className='rhythm';rhythm.textContent=h.rhythm?.toUpperCase()==='VALSA'?'Valsa':'';reading.append(rhythm);
+ const group=document.createElement('div');group.className='stanzas';
+ h.stanzas.forEach(st=>{const stanza=document.createElement('div');stanza.className='stanza';stanza.dataset.bars=JSON.stringify(st.bars||[]);
+ st.verses.forEach(v=>{const line=document.createElement('div');line.className='line';line.textContent=v;stanza.append(line)});group.append(stanza)});
+ reading.append(group);section.append(reading);
+ if(h.repeatLabel){const label=document.createElement('div');label.className='annotation';label.textContent=h.repeatLabel;reading.append(label)}
+ const sep=document.createElement('div');sep.className='separator';sep.setAttribute('aria-label','Sol Lua Estrela');sep.textContent='☼　☾　✡';section.append(sep);return section
+}));measure()}
+function measure(){document.querySelectorAll('.stanza').forEach(stanza=>{stanza.querySelectorAll('.bar').forEach(x=>x.remove());const lines=[...stanza.querySelectorAll('.line')];const bars=JSON.parse(stanza.dataset.bars||'[]');for(const [from,to,slot] of bars){if(!lines[from]||!lines[to-1])continue;const first=lines[from],last=lines[to-1],computed=getComputedStyle(first);const font=parseFloat(computed.fontSize)||18,leading=Math.max(0,((parseFloat(computed.lineHeight)||font*1.55)-font)/2);const top=first.offsetTop+leading+3,bottom=last.offsetTop+last.offsetHeight-leading-3;const pad=parseFloat(getComputedStyle(stanza).paddingLeft)||42,gap=slot===17?23:slot===25?39:31;const b=document.createElement('span');b.className='bar';b.style.left=Math.max(0,pad-gap)+'px';b.style.top=top+'px';b.style.height=Math.max(2,bottom-top)+'px';stanza.append(b)}})}
+fetch('../data/santa-missa-01-10.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Fonte indisponível');return r.json()}).then(d=>{if(d.language!=='pt'||d.hymns.length!==10||d.hymns.some((h,i)=>h.number!==i+1))throw Error('Lote inválido');render(d)}).catch(err=>{host.textContent='Não foi possível carregar o hinário.';console.error(err)});
+const observer=new ResizeObserver(()=>requestAnimationFrame(measure));observer.observe(host);document.fonts.ready.then(measure);
+</script></body></html>

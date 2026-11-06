@@ -166,9 +166,10 @@ background:var(--flag-color);overflow:hidden}
 <details class="gold-hymn-module" id="santa-missa">
   <summary><span class="gold-hymn-name">Santa Missa</span><span class="gold-hymn-marker" aria-hidden="true">⌄</span></summary>
   <div class="gold-hymn-content">
-    <p><strong>A Santa Missa</strong> — segundo módulo dourado expansível, com a mesma estrutura do leitor de hinários.</p>
-    <p>Conteúdo integral reservado para inserção após cotejo de fontes, preservando estrofes, tipo musical e marcações de repetição.</p>
-    <p class="gold-source">Status: estrutura homologável; transcrição documental pendente.</p>
+    <div class="hymn-continuous" aria-label="Leitura contínua de Santa Missa">
+      <iframe id="mce-missa-reader" title="Santa Missa — hinos 01 a 10 em português" src="estudo-repeticoes/santa-missa-layout.html?embed=1" loading="lazy" scrolling="no" style="display:block;width:100%;min-height:660px;border:0;background:transparent;overflow:hidden"></iframe>
+    </div>
+    <p class="gold-source">Hinos 01–10 · português · conferência musical e visual pendente de homologação. Cantos das Almas: seção documental independente.</p>
   </div>
 </details>
 </section>
@@ -315,6 +316,14 @@ window.addEventListener('resize',layoutStanzaBars);
 /* MCE DIV-10.2 — altura do leitor independente quando a aba for expandida */
 (function(){
  const frame=document.getElementById('mce-diversoes-reader'),details=document.getElementById('diversoes-do-mestre');if(!frame||!details)return;
+ let observer;function size(){if(!details.open)return;try{const doc=frame.contentDocument;if(!doc)return;const height=Math.max(doc.body.scrollHeight,doc.documentElement.scrollHeight,doc.body.offsetHeight);if(height>0)frame.style.height=(height+5)+'px'}catch(e){}}
+ frame.addEventListener('load',()=>{try{const doc=frame.contentDocument;observer?.disconnect();observer=new ResizeObserver(size);observer.observe(doc.body);observer.observe(doc.documentElement);if(doc.fonts)doc.fonts.ready.then(size)}catch(e){}size()});
+ details.addEventListener('toggle',()=>{if(details.open){size();requestAnimationFrame(size)}});
+ window.addEventListener('resize',size);
+})();
+/* MCE MISSA-10.2 — altura do leitor Santa Missa somente ao expandir seu contêiner */
+(function(){
+ const frame=document.getElementById('mce-missa-reader'),details=document.getElementById('santa-missa');if(!frame||!details)return;
  let observer;function size(){if(!details.open)return;try{const doc=frame.contentDocument;if(!doc)return;const height=Math.max(doc.body.scrollHeight,doc.documentElement.scrollHeight,doc.body.offsetHeight);if(height>0)frame.style.height=(height+5)+'px'}catch(e){}}
  frame.addEventListener('load',()=>{try{const doc=frame.contentDocument;observer?.disconnect();observer=new ResizeObserver(size);observer.observe(doc.body);observer.observe(doc.documentElement);if(doc.fonts)doc.fonts.ready.then(size)}catch(e){}size()});
  details.addEventListener('toggle',()=>{if(details.open){size();requestAnimationFrame(size)}});

@@ -250,7 +250,13 @@
             "Eu rogo a Deus do Céu",
             "Que te dê o Santo perdão"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
         },
         {
           "verses": [
@@ -259,7 +265,13 @@
             "Eu rogo a Deus do Céu",
             "Que te bote em bom lugar"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
         },
         {
           "verses": [
@@ -268,7 +280,13 @@
             "Eu rogo a Virgem Mãe",
             "Que te bote em bom lugar"
           ],
-          "bars": []
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
         }
       ],
       "visible": true,
@@ -277,7 +295,8 @@
         6,
         7
       ],
-      "source": "SANTA MISSA.pdf"
+      "source": "SANTA MISSA.pdf",
+      "barsStatus": "Author screenshot 2026-11-06: only last three stanzas full continuous bars"
     },
     {
       "number": 4,

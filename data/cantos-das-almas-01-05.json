@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0.0",
+  "collection": "Cantos das Almas",
+  "language": "pt",
+  "section": "santa-missa-after-hymn-10",
+  "source_pdf": "SANTA MISSA.pdf",
+  "status": "pending_author_visual_homologation",
+  "reference_urls": [
+    "https://nossairmandade.com/hymn/4215/BenditoLouvadoSeja",
+    "https://nossairmandade.com/hymn/4216/EuVouIluminarAsAlmas",
+    "https://nossairmandade.com/hymn/4217/L%C3%A1NoCruzeiroDivino",
+    "https://nossairmandade.com/hymn/4218/AsAlmasQueAquiVemBuscar",
+    "https://nossairmandade.com/hymn/4219/CajueiroSanto"
+  ],
+  "bar_policy": "PDF page-image review: first Canto first stanza has full bar; Cantos 2–5 have no vertical bars",
+  "hymns": [
+    {
+      "number": 1,
+      "title": "Bendito Louvado Seja",
+      "rhythm": "",
+      "repeatLabel": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Bendito louvado seja",
+            "Nosso Senhor Jesus Cristo",
+            "Para sempre seja louvado",
+            "A Nossa Mãe Maria Santissima"
+          ],
+          "bars": [
+            [
+              0,
+              4,
+              9
+            ]
+          ]
+        },
+        {
+          "verses": [
+            "O Minha Mãe, Minha Rainha",
+            "Tenha de nós compaixão",
+            "Para nós poder sairmos",
+            "De perto deste vulcão"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "O vulcão é o pecado",
+            "Deste mundo de ilusão",
+            "Eu rogo a Deus do Céu",
+            "Pela nossa salvação"
+          ],
+          "bars": []
+        },
+        {
+          "verses": [
+            "A salvação é o amor",
+            "Do Senhor Rei Salomão",
+            "Do Patriarca São José",
+            "E do Mestre Juramidam"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "language": "pt",
+      "sourcePages": [
+        16
+      ],
+      "source": "SANTA MISSA.pdf · Cantos das Almas"
+    },
+    {
+      "number": 2,
+      "title": "Eu Vou Iluminar As Almas",
+      "rhythm": "",
+      "repeatLabel": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Eu vou iluminar as almas",
+            "Que para as almas me adujar",
+            "Eu vou também pedir as almas",
+            "Que para elas me ajudar"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "language": "pt",
+      "sourcePages": [
+        17
+      ],
+      "source": "SANTA MISSA.pdf · Cantos das Almas"
+    },
+    {
+      "number": 3,
+      "title": "Lá No Cruzeiro Divino",
+      "rhythm": "",
+      "repeatLabel": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Lá no cruzeiro divino",
+            "Aonde as almas vão rezar",
+            "As almas choram de alegria",
+            "Quando os filhos se combinam",
+            "E de tristeza quando não quer combinar"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "language": "pt",
+      "sourcePages": [
+        18
+      ],
+      "source": "SANTA MISSA.pdf · Cantos das Almas"
+    },
+    {
+      "number": 4,
+      "title": "As Almas Que Aqui Vem Buscar",
+      "rhythm": "",
+      "repeatLabel": null,
+      "stanzas": [
+        {
+          "verses": [
+            "As almas que aqui vem buscar",
+            "O amor e a luz do saber",
+            "Eu entrego a São Irineu",
+            "É ele é quem vem receber"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "language": "pt",
+      "sourcePages": [
+        19
+      ],
+      "source": "SANTA MISSA.pdf · Cantos das Almas"
+    },
+    {
+      "number": 5,
+      "title": "Cajueiro Santo",
+      "rhythm": "",
+      "repeatLabel": null,
+      "stanzas": [
+        {
+          "verses": [
+            "Cajueiro santo",
+            "Aonde nasceu Jesus",
+            "Oh! Minhas almas",
+            "Dai-me a santa luz"
+          ],
+          "bars": []
+        }
+      ],
+      "visible": true,
+      "language": "pt",
+      "sourcePages": [
+        20
+      ],
+      "source": "SANTA MISSA.pdf · Cantos das Almas"
+    }
+  ]
+}

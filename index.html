@@ -329,4 +329,17 @@ window.addEventListener('resize',layoutStanzaBars);
  details.addEventListener('toggle',()=>{if(details.open){size();requestAnimationFrame(size)}});
  window.addEventListener('resize',size);
 })();
+</script><script>
+/* MCE CAL-02 · Abrir contêiner de destino ao seguir um link do calendário. */
+(function(){
+ function openLinkedModule(){
+  if(location.hash!=='#santa-missa')return;
+  const module=document.getElementById('santa-missa');
+  if(!module)return;
+  module.open=true;
+  requestAnimationFrame(()=>module.scrollIntoView({block:'start'}));
+ }
+ window.addEventListener('hashchange',openLinkedModule);
+ openLinkedModule();
+})();
 </script></body></html>
